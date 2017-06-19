@@ -1,0 +1,24 @@
+{
+  extends: [
+    "airbnb"
+  ],
+  parser: "babel-eslint",
+  plugins: [
+    "babel",
+    "react",
+    "react-native",
+    "jsx-a11y"
+  ],
+
+  globals: {
+    // Flow "known-globals" annotations:
+    "ReactElement": false,
+    "ReactClass": false,
+    "Class": false
+  },
+
+  rules: {
+    "semi": ["error", "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
