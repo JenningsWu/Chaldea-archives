@@ -1,46 +1,72 @@
 /**
- * @flow
- */
+* @flow
+*/
 
- import React from 'react'
- import {
-   StyleSheet,
-   Text,
-   View,
- } from 'react-native'
+import React from 'react'
+import {
+ StyleSheet,
+ Text,
+ View,
+} from 'react-native'
+import { TabNavigator } from 'react-navigation'
 
- const styles = StyleSheet.create({
-   container: {
-     flex: 1,
-     justifyContent: 'center',
-     alignItems: 'center',
-     backgroundColor: '#F5FCFF',
-   },
-   welcome: {
-     fontSize: 20,
-     textAlign: 'center',
-     margin: 10,
-   },
-   instructions: {
-     textAlign: 'center',
-     color: '#333333',
-     marginBottom: 5,
-   },
- })
+import FgoIndex from './fgoIndex'
+import FutureSight from './futureSight'
+import Event from './event'
+import About from './about'
 
- export default function ChaldeaArchives() {
-   return (
-     <View style={styles.container}>
-       <Text style={styles.welcome}>
-         hello
-       </Text>
-       <Text style={styles.instructions}>
-         To get started, edit index.ios.jsbb
-       </Text>
-       <Text style={styles.instructions}>
-         Press Cmd+R to reload,{'\n'}
-         Cmd+D or shake for dev menu
-       </Text>
-     </View>
-   )
- }
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+})
+
+export default TabNavigator({
+  FgoIndex: {
+    screen: FgoIndex,
+  },
+  FutureSight: {
+    screen: FutureSight,
+  },
+  Event: {
+    screen: Event,
+  },
+  About: {
+    screen: About,
+  },
+}, {
+  tabBarOptions: {
+    activeTintColor: '#e91e63',
+  },
+})
+
+
+// export default function ChaldeaArchives() {
+//   return (
+//     <View style={styles.container}>
+//       <Text style={styles.welcome}>
+//         hello worlda
+//       </Text>
+//       <Text style={styles.instructions}>
+//         To get started, edit index.ios.jsbb
+//       </Text>
+//       <Text style={styles.instructions}>
+//         Press Cmd+R to reload,{'\n'}
+//         Cmd+D or shake for dev menu
+//       </Text>
+//     </View>
+//   )
+// }
