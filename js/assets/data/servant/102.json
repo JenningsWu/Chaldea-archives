@@ -1,0 +1,376 @@
+{
+  "id": "102",
+  "name": "神枪 李书文",
+  "nameJP": "神槍 李書文",
+  "nameEN": "Li Shu Wen",
+  "fuzzyKeywords": [
+    "神枪 李书文",
+    "Li Shu Wen",
+    "神槍 李書文"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 3,
+  "startATK": 1608,
+  "endATK": 9653,
+  "startHP": 1817,
+  "endHP": 11360,
+  "grailATK": 11688,
+  "grailHP": 13774,
+  "illustrator": "ワダアルコ",
+  "cv": "安井邦彦",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "12",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    3,
+    5
+  ],
+  "charge": [
+    0.0052,
+    0.0052,
+    0.0052,
+    0.0052
+  ],
+  "starAbsorption": 87,
+  "starGeneration": 0.122,
+  "npChargeATK": 0.0052,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "中国武术（六合大枪）",
+      "condition": 0,
+      "lv": "A+++",
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "圈境",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004007",
+          "value": [
+            300,
+            320,
+            340,
+            360,
+            380,
+            400,
+            420,
+            440,
+            460,
+            500
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "绝招",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001002",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "神枪无二打",
+      "type": 4,
+      "condition": 0,
+      "value": [
+        "900",
+        "1200",
+        "1350",
+        "1425",
+        "1500"
+      ],
+      "card": 0,
+      "lv": "-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            140
+          ],
+          "type": 2
+        },
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

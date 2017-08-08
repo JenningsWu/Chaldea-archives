@@ -1,0 +1,324 @@
+{
+  "id": "068",
+  "name": "冲田总司",
+  "nameJP": "沖田総司",
+  "nameEN": "Okita Souji",
+  "fuzzyKeywords": [
+    "冲田总司",
+    "Okita Souji",
+    "沖田総司"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 1,
+  "startATK": 1865,
+  "endATK": 12068,
+  "startHP": 1939,
+  "endHP": 13225,
+  "grailATK": 13210,
+  "grailHP": 14489,
+  "illustrator": "武内崇",
+  "cv": "悠木碧",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    5,
+    3
+  ],
+  "charge": [
+    0.0109,
+    0.0109,
+    0.0109,
+    0.0109
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.102,
+  "npChargeATK": 0.0109,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "缩地",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "病弱",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800,
+            850,
+            900,
+            1000
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "心眼（伪）",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "无明三段突刺",
+      "type": 4,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

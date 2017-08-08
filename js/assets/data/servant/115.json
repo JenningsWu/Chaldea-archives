@@ -1,0 +1,318 @@
+{
+  "id": "115",
+  "name": "坂田金时",
+  "nameJP": "坂田金時",
+  "nameEN": "Sakata Kintoki",
+  "fuzzyKeywords": [
+    "坂田金时",
+    "Sakata Kintoki",
+    "坂田金時"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 4,
+  "startATK": 1636,
+  "endATK": 9819,
+  "startHP": 1728,
+  "endHP": 10800,
+  "grailATK": 11889,
+  "grailHP": 13095,
+  "illustrator": "本庄雷太",
+  "cv": "游佐浩二",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    4,
+    5
+  ],
+  "charge": [
+    0.0115,
+    0.0115,
+    0.0115,
+    0.0115
+  ],
+  "starAbsorption": 198,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0115,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "千里疾走",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "动物会话",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "天性的肉体",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000002",
+          "value": [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            96,
+            102,
+            108,
+            120
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2200,
+            2400,
+            2600,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "夜狼死九・黄金疾走",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "B",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            30,
+            50,
+            70,
+            90
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "4"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "神性",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "id": "103",
+  "name": "托马斯・爱迪生",
+  "nameJP": "トーマス・エジソン",
+  "nameEN": "Thomas Edison",
+  "fuzzyKeywords": [
+    "托马斯・爱迪生",
+    "Thomas Edison",
+    "トーマス・エジソン"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 5,
+  "startATK": 1325,
+  "endATK": 7952,
+  "startHP": 1901,
+  "endHP": 11882,
+  "grailATK": 9628,
+  "grailHP": 14407,
+  "illustrator": "pako",
+  "cv": "寺岛拓笃",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    3,
+    5
+  ],
+  "charge": [
+    0.0051,
+    0.0051,
+    0.0051,
+    0.0051
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.106,
+  "npChargeATK": 0.0051,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "变化",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000002000",
+          "value": [
+            16,
+            16.8,
+            17.6,
+            18.4,
+            19.2,
+            20,
+            20.8,
+            21.6,
+            22.4,
+            24
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "大量生产",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000014006",
+          "value": [
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004002",
+          "value": [
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.5,
+            9,
+            10
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 12
+    }
+  ],
+  "skill3": [
+    {
+      "name": "概念改良",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "010000015017",
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "010000000017",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "W・F・D（World Faith Domination）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "120000020015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "W・F・D（World Faith Domination）",
+      "type": 1,
+      "condition": 2,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "120000020015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "EX（相当于D)",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "EX（相当于D)",
+      "effect": [
+        {
+          "id": "000000000000",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

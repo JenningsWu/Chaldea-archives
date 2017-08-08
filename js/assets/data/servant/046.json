@@ -1,0 +1,372 @@
+{
+  "id": "046",
+  "name": "卡米拉",
+  "nameJP": "カーミラ",
+  "nameEN": "Carmilla",
+  "fuzzyKeywords": [
+    "卡米拉",
+    "Carmilla",
+    "カーミラ"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 6,
+  "startATK": 1568,
+  "endATK": 9408,
+  "startHP": 1675,
+  "endHP": 10473,
+  "grailATK": 11391,
+  "grailHP": 12698,
+  "illustrator": "okojo",
+  "cv": "田中敦子",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0215,
+    0.0215,
+    0.0215,
+    0.0215
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.252,
+  "npChargeATK": 0.0215,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "吸血",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            80
+          ]
+        },
+        {
+          "id": "000000004000",
+          "value": [
+            18,
+            18.9,
+            19.8,
+            20.7,
+            21.6,
+            22.5,
+            23.4,
+            24.3,
+            25.2,
+            27
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "拷问技术",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "沐浴鲜血",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "110000024005",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004006",
+          "value": [
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "幻想的铁处女（Phantom Maiden）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "600",
+        "800",
+        "900",
+        "950",
+        "1000"
+      ],
+      "card": 1,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007012",
+          "value": [
+            120,
+            132.5,
+            145,
+            157.5,
+            170
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000014009",
+          "value": [
+            2000,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000001000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

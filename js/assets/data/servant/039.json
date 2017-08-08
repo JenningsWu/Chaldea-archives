@@ -1,0 +1,450 @@
+{
+  "id": "039",
+  "name": "佐佐木小次郎",
+  "nameJP": "佐々木小次郎",
+  "nameEN": "Sasaki Koujirou",
+  "fuzzyKeywords": [
+    "佐佐木小次郎",
+    "Sasaki Koujirou",
+    "佐々木小次郎"
+  ],
+  "exactKeywords": [],
+  "rarity": 1,
+  "class": 6,
+  "startATK": 1042,
+  "endATK": 5735,
+  "startHP": 1244,
+  "endHP": 6220,
+  "grailATK": 8912,
+  "grailHP": 9588,
+  "illustrator": "また",
+  "cv": "三木真一郎",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "12",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0105,
+    0.0105,
+    0.0105,
+    0.0105
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.253,
+  "npChargeATK": 0.0105,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "心眼（伪）",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "透化",
+      "condition": 0,
+      "lv": "B+",
+      "effect": [
+        {
+          "id": "000000005010",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000014005",
+          "value": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 6
+    }
+  ],
+  "skill3": [
+    {
+      "name": "宗和的心得",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            30,
+            36,
+            42,
+            48,
+            54,
+            60,
+            66,
+            72,
+            78,
+            90
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "宗和的心得",
+      "condition": 2,
+      "lv": "B++",
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            30,
+            36,
+            42,
+            48,
+            54,
+            60,
+            66,
+            72,
+            78,
+            90
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004007",
+          "value": [
+            200,
+            230,
+            260,
+            290,
+            320,
+            350,
+            380,
+            410,
+            440,
+            500
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "燕返",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "—",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "032",
+  "name": "吉尔・德・雷",
+  "nameJP": "ジル・ド・レエ",
+  "nameEN": "Gilles de Rais",
+  "fuzzyKeywords": [
+    "吉尔・德・雷",
+    "Gilles de Rais",
+    "ジル・ド・レエ"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 5,
+  "startATK": 1209,
+  "endATK": 6514,
+  "startHP": 1711,
+  "endHP": 9506,
+  "grailATK": 8816,
+  "grailHP": 12889,
+  "illustrator": "Azusa",
+  "cv": "鹤冈聪",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0158,
+    0.0158,
+    0.0158,
+    0.0158
+  ],
+  "starAbsorption": 48,
+  "starGeneration": 0.10800000000000001,
+  "npChargeATK": 0.0158,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "精神污染",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000022",
+          "value": [
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            25
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000004",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "艺术审美",
+      "condition": 0,
+      "lv": "E-",
+      "effect": [
+        {
+          "id": "110100021005",
+          "value": [
+            5.5,
+            6.1,
+            6.6,
+            7.2,
+            7.7,
+            8.3,
+            8.8,
+            9.4,
+            9.9,
+            11
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "深渊的邪视",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "120000020014",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            40
+          ]
+        }
+      ],
+      "initialCD": 10
+    }
+  ],
+  "np": [
+    {
+      "name": "螺湮城教本（Prelati's・spellbook）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

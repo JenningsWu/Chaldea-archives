@@ -1,0 +1,446 @@
+{
+  "id": "104",
+  "name": "杰罗尼莫",
+  "nameJP": "ジェロニモ",
+  "nameEN": "Geronimo",
+  "fuzzyKeywords": [
+    "杰罗尼莫",
+    "Geronimo",
+    "ジェロニモ"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 5,
+  "startATK": 1273,
+  "endATK": 6857,
+  "startHP": 1642,
+  "endHP": 9123,
+  "grailATK": 9280,
+  "grailHP": 12369,
+  "illustrator": "坂本みねぢ",
+  "cv": "江川央生",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    4
+  ],
+  "charge": [
+    0.009000000000000001,
+    0.009000000000000001,
+    0.009000000000000001,
+    0.009000000000000001
+  ],
+  "starAbsorption": 49,
+  "starGeneration": 0.11,
+  "npChargeATK": 0.009000000000000001,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "血染的恶魔",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "萨满教",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "守护之兽",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "大地之创立者（Tsavo Dej Nareya）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.6",
+        "900"
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000024005",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000014008",
+          "value": [
+            1000,
+            1250,
+            1500,
+            1750,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000000001",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "大地之创立者（Tsavo Dej Nareya）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.6",
+        "900"
+      ],
+      "card": 0,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000024005",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000014008",
+          "value": [
+            1000,
+            1250,
+            1500,
+            1750,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000000001",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "083",
+  "name": "所罗门",
+  "nameJP": "ソロモン",
+  "nameEN": "Solomon",
+  "fuzzyKeywords": [
+    "所罗门",
+    "Solomon",
+    "ソロモン"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 15,
+  "startATK": 0,
+  "endATK": 0,
+  "startHP": 0,
+  "endHP": 0,
+  "grailATK": 0,
+  "grailHP": 0,
+  "illustrator": "武内崇",
+  "cv": "——",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "00",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0166,
+    0.0167,
+    0.0165,
+    0.0168
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.11,
+  "npChargeATK": 0.016399999999999998,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "",
+      "lv": "",
+      "initialCD": null
+    }
+  ],
+  "skill2": [
+    {
+      "name": "",
+      "lv": "",
+      "initialCD": null
+    }
+  ],
+  "np": [
+    {
+      "name": "",
+      "lv": ""
+    }
+  ],
+  "classSkill": []
+}

@@ -1,0 +1,466 @@
+{
+  "id": "012",
+  "name": "吉尔伽美什",
+  "nameJP": "ギルガメッシュ",
+  "nameEN": "Gilgamesh",
+  "fuzzyKeywords": [
+    "吉尔伽美什",
+    "Gilgamesh",
+    "ギルガメッシュ"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 2,
+  "startATK": 1897,
+  "endATK": 12280,
+  "startHP": 1920,
+  "endHP": 13097,
+  "grailATK": 13442,
+  "grailHP": 14348,
+  "illustrator": "武内崇",
+  "cv": "关智一",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "20",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    5,
+    5,
+    5,
+    8
+  ],
+  "charge": [
+    0.0034000000000000002,
+    0.0034000000000000002,
+    0.0034000000000000002,
+    0.0034000000000000002
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.079,
+  "npChargeATK": 0.0034000000000000002,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "领导力",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            10.5,
+            11.6,
+            12.6,
+            13.7,
+            14.7,
+            15.8,
+            16.8,
+            17.9,
+            18.9,
+            21
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "黄金律",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004001",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "收藏家",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            600
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "巴比伦的宝藏",
+      "condition": 1,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            600
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004000",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "天地乖离开辟之星（Enuma Elish）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007030",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "天地乖离开辟之星（Enuma Elish）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "000000007030",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000001005",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "单独行动",
+      "lv": "A+",
+      "effect": {
+        "id": "000000001004",
+        "value": [
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": {
+        "id": "000000011000",
+        "value": [
+          175,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

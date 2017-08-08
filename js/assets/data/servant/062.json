@@ -1,0 +1,547 @@
+{
+  "id": "062",
+  "name": "玉藻前",
+  "nameJP": "玉藻の前",
+  "nameEN": "Tamamo no Mae",
+  "fuzzyKeywords": [
+    "玉藻前",
+    "Tamamo no Mae",
+    "玉藻の前"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 5,
+  "startATK": 1629,
+  "endATK": 10546,
+  "startHP": 2091,
+  "endHP": 14259,
+  "grailATK": 11544,
+  "grailHP": 15621,
+  "illustrator": "ワダアルコ",
+  "cv": "斋藤千和",
+  "gender": 1,
+  "attribute": 1,
+  "alignment": "12",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    5,
+    1,
+    3,
+    4
+  ],
+  "charge": [
+    0.0032,
+    0.0032,
+    0.0032,
+    0.0032
+  ],
+  "starAbsorption": 49,
+  "starGeneration": 0.11,
+  "npChargeATK": 0.0032,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "咒术",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92,
+            94,
+            96,
+            100
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "变化",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000002000",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "狐嫁女",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "010000001002",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "狐嫁女",
+      "condition": 1,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "010000001002",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "010000014008",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "水天日光天照八野镇石",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "D-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000015016",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000014008",
+          "value": [
+            2000,
+            2500,
+            2750,
+            2875,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000004000",
+          "value": [
+            25,
+            31.25,
+            37.5,
+            43.75,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    },
+    {
+      "name": "水天日光天照八野镇石",
+      "type": 0,
+      "condition": 1,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "D",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000015016",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000014008",
+          "value": [
+            2000,
+            2500,
+            2750,
+            2875,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000004000",
+          "value": [
+            25,
+            31.25,
+            37.5,
+            43.75,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

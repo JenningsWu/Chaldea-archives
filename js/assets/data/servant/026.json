@@ -1,0 +1,419 @@
+{
+  "id": "026",
+  "name": "布狄卡",
+  "nameJP": "ブーディカ",
+  "nameEN": "Boudica",
+  "fuzzyKeywords": [
+    "布狄卡",
+    "Boudica",
+    "ブーディカ"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 4,
+  "startATK": 1168,
+  "endATK": 6289,
+  "startHP": 1823,
+  "endHP": 10130,
+  "grailATK": 8511,
+  "grailHP": 13735,
+  "illustrator": "苍月タカオ",
+  "cv": "斋藤千和",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0085,
+    0.0085,
+    0.0085,
+    0.0085
+  ],
+  "starAbsorption": 196,
+  "starGeneration": 0.089,
+  "npChargeATK": 0.0085,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "对女神的誓约",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000007025",
+          "value": [
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "战斗续行",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "安德拉斯塔的加护",
+      "condition": 2,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "无以约定守护的车轮（Chariot of Boudica）",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            10,
+            15,
+            17.5,
+            18.8,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    },
+    {
+      "name": "无以约定守护的车轮（Chariot of Boudica）",
+      "type": 0,
+      "condition": 2,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "B++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            10,
+            15,
+            17.5,
+            18.8,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000001000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

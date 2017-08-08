@@ -1,0 +1,535 @@
+{
+  "id": "010",
+  "name": "骑士迪昂",
+  "nameJP": "シュヴァリエ・デオン",
+  "nameEN": "Chevalier D'Eon",
+  "fuzzyKeywords": [
+    "骑士迪昂",
+    "Chevalier D'Eon",
+    "シュヴァリエ・デオン"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 1,
+  "startATK": 1460,
+  "endATK": 8765,
+  "startHP": 2121,
+  "endHP": 13256,
+  "grailATK": 10613,
+  "grailHP": 16073,
+  "illustrator": "森山大辅",
+  "cv": "斋藤千和",
+  "gender": -1,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "心眼（真）C",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            8,
+            8.8,
+            9.6,
+            10.4,
+            11.2,
+            12,
+            12.8,
+            13.6,
+            14.4,
+            16
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "自我暗示",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000001",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "美丽的风貌",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000004004",
+          "value": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220,
+            240,
+            260,
+            300
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "绚烂绽放的百合花（Fleur de Lys）",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000023000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            130
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            20,
+            25,
+            27.5,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            20,
+            25,
+            27.5,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        }
+      ],
+      "hits": 0
+    },
+    {
+      "name": "绚烂绽放的百合花（Fleur de Lys）",
+      "type": 0,
+      "condition": 2,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000023000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            130
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            20,
+            25,
+            27.5,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            20,
+            25,
+            27.5,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": {
+        "id": "000000001003",
+        "value": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

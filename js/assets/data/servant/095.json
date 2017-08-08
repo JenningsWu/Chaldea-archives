@@ -1,0 +1,484 @@
+{
+  "id": "095",
+  "name": "幼吉尔",
+  "nameJP": "子ギル",
+  "nameEN": "Child Gil",
+  "fuzzyKeywords": [
+    "幼吉尔",
+    "Child Gil",
+    "子ギル"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 2,
+  "startATK": 1429,
+  "endATK": 7696,
+  "startHP": 1571,
+  "endHP": 8731,
+  "grailATK": 10415,
+  "grailHP": 11838,
+  "illustrator": "天空すふぃあ",
+  "cv": "远藤绫",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "20",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "charge": [
+    0.0062,
+    0.0062,
+    0.0062,
+    0.0062
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.079,
+  "npChargeATK": 0.0062,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "领导力",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            10.5,
+            11.6,
+            12.6,
+            13.7,
+            14.7,
+            15.8,
+            16.8,
+            17.9,
+            18.9,
+            21
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "红颜的美少年",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110230023000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            75
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "黄金律",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004001",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "王之财宝（Gate Of Babylon）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021005",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000021004",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000020001",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    },
+    {
+      "name": "王之财宝（Gate Of Babylon）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "B++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021005",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000021004",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000020001",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

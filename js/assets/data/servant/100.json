@@ -1,0 +1,539 @@
+{
+  "id": "100",
+  "name": "海伦娜・布拉瓦茨基",
+  "nameJP": "エレナ・ブラヴァツキー",
+  "nameEN": "Helena Blavatsky",
+  "fuzzyKeywords": [
+    "海伦娜・布拉瓦茨基",
+    "Helena Blavatsky",
+    "エレナ・ブラヴァツキー"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 5,
+  "startATK": 1438,
+  "endATK": 8629,
+  "startHP": 1901,
+  "endHP": 11882,
+  "grailATK": 10448,
+  "grailHP": 14407,
+  "illustrator": "松竜",
+  "cv": "金元寿子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    6,
+    3
+  ],
+  "charge": [
+    0.0045000000000000005,
+    0.0045000000000000005,
+    0.0045000000000000005,
+    0.0045000000000000005
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.107,
+  "npChargeATK": 0.0045000000000000005,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "魔力同调",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "020000004000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill2": [
+    {
+      "name": "圣雄",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000014006",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001005",
+          "value": [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            80
+          ]
+        }
+      ],
+      "initialCD": 10
+    }
+  ],
+  "skill3": [
+    {
+      "name": "对未知的探求",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "020000001002",
+          "value": [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18,
+            18.5,
+            19,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000001001",
+          "value": [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18,
+            18.5,
+            19,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000001003",
+          "value": [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18,
+            18.5,
+            19,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "np": [
+    {
+      "name": "金星神・火炎天主（Sanat Kumāra）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000020001",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    },
+    {
+      "name": "金星神・火炎天主（Sanat Kumāra）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000020001",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

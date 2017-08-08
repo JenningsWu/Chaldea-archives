@@ -1,0 +1,413 @@
+{
+  "id": "109",
+  "name": "卫宫〔Assassin〕",
+  "nameJP": "エミヤ〔アサシン〕",
+  "nameEN": "Emiya （Assassin)",
+  "fuzzyKeywords": [
+    "卫宫〔Assassin〕",
+    "Emiya （Assassin)",
+    "エミヤ〔アサシン〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 6,
+  "startATK": 1493,
+  "endATK": 8958,
+  "startHP": 1783,
+  "endHP": 11168,
+  "grailATK": 10846,
+  "grailHP": 13541,
+  "illustrator": "AKIRA",
+  "cv": "小山力也",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    6,
+    4,
+    8
+  ],
+  "charge": [
+    0.0046,
+    0.0046,
+    0.0046,
+    0.0046
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.0028000000000000004,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "魔术",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            33.6,
+            35.2,
+            36.8,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "圣杯的宠爱",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "040000020001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "替罪羊",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "010000004004",
+          "value": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220,
+            240,
+            260,
+            300
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000014005",
+          "value": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "有花堪折直须折（Khronos Rose）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "900",
+        "1200",
+        "1350",
+        "1425",
+        "1500"
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "15"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

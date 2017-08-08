@@ -1,0 +1,386 @@
+{
+  "id": "071",
+  "name": "迪尔姆德・奥迪纳",
+  "nameJP": "ディルムッド・オディナ",
+  "nameEN": "Diarmuid Ua Duibhne",
+  "fuzzyKeywords": [
+    "迪尔姆德・奥迪纳",
+    "Diarmuid Ua Duibhne",
+    "ディルムッド・オディナ"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 3,
+  "startATK": 1277,
+  "endATK": 6877,
+  "startHP": 1877,
+  "endHP": 10098,
+  "grailATK": 9307,
+  "grailHP": 13691,
+  "illustrator": "また",
+  "cv": "绿川光",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "01",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    2,
+    2,
+    4
+  ],
+  "charge": [
+    0.0079,
+    0.0079,
+    0.0079,
+    0.0079
+  ],
+  "starAbsorption": 87,
+  "starGeneration": 0.12300000000000001,
+  "npChargeATK": 0.0079,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "心眼（真）",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            9,
+            9.9,
+            10.8,
+            11.7,
+            12.6,
+            13.5,
+            14.4,
+            15.3,
+            16.2,
+            18
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "爱之黑痣",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "120120021000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "骑士的武略",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "破魔的红蔷薇、必灭的黄蔷薇（Gae Dearg&Gae Buidhe）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1600",
+        "2000",
+        "2200",
+        "2300",
+        "2400"
+      ],
+      "card": 2,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000025009",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030008",
+          "value": [
+            500,
+            750,
+            1000,
+            1250,
+            1500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "2"
+    },
+    {
+      "name": "破魔的红蔷薇、必灭的黄蔷薇（Gae Dearg&Gae Buidhe）",
+      "type": 2,
+      "condition": 1,
+      "value": [
+        "1600",
+        "2000",
+        "2200",
+        "2300",
+        "2400"
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000025009",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030008",
+          "value": [
+            500,
+            750,
+            1000,
+            1250,
+            1500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "2"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "161",
+  "name": "土方岁三",
+  "nameJP": "土方歳三",
+  "nameEN": "Hijikata Toshizou",
+  "fuzzyKeywords": [
+    "土方岁三",
+    "Hijikata Toshizou",
+    "土方歳三"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 7,
+  "startATK": 1868,
+  "endATK": 12089,
+  "startHP": 1764,
+  "endHP": 12028,
+  "grailATK": 13234,
+  "grailHP": 13178,
+  "illustrator": "余湖裕輝",
+  "cv": "星野贵纪",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "02",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "charge": [
+    0.0108,
+    0.0108,
+    0.0108,
+    0.0108
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.049,
+  "npChargeATK": 0.0108,
+  "npChargeDEF": 0.05,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "战场之鬼",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "020000001001",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000000017",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "回归初始",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            500,
+            600,
+            700,
+            800,
+            900,
+            1000,
+            1100,
+            1200,
+            1300,
+            1500
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "局中法度",
+      "condition": 0,
+      "lv": "EX",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            2000,
+            2200,
+            2400,
+            2600,
+            2800,
+            3000,
+            3200,
+            3400,
+            3600,
+            4000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000034008",
+          "value": [
+            1000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "不灭之诚",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "600",
+        "800",
+        "900",
+        "950",
+        "1000"
+      ],
+      "card": 1,
+      "lv": "C+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000005020",
+          "value": [
+            600,
+            700,
+            800,
+            900,
+            1000
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "5"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "D+",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

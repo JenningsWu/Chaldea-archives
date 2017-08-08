@@ -1,0 +1,382 @@
+{
+  "id": "098",
+  "name": "库・丘林〔Alter〕",
+  "nameJP": "クー・フーリン〔オルタ〕",
+  "nameEN": "Cu Chulainn （Alter)",
+  "fuzzyKeywords": [
+    "库・丘林〔Alter〕",
+    "Cu Chulainn （Alter)",
+    "クー・フーリン〔オルタ〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 7,
+  "startATK": 1979,
+  "endATK": 12805,
+  "startHP": 1790,
+  "endHP": 12210,
+  "grailATK": 14017,
+  "grailHP": 13377,
+  "illustrator": "しまどりる",
+  "cv": "神奈延年",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.0069,
+    0.0069,
+    0.0069,
+    0.0069
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.051,
+  "npChargeATK": 0.0069,
+  "npChargeDEF": 0.05,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "精灵的狂骚",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "120000024000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "避矢的加护",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 2,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            7,
+            7.7,
+            8.4,
+            9.1,
+            9.8,
+            10.5,
+            11.2,
+            11.9,
+            12.6,
+            14
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "战斗续行",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "np": [
+    {
+      "name": "啮碎死牙之兽（Curruid Coinchenn）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "600",
+        "800",
+        "900",
+        "950",
+        "1000"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "12"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "EX（相当于C)",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

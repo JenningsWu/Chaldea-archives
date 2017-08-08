@@ -1,0 +1,389 @@
+{
+  "id": "172",
+  "name": "克里斯托弗·哥伦布",
+  "nameJP": "クリストファー・コロンブス",
+  "nameEN": "Cristoforo Colombo",
+  "fuzzyKeywords": [
+    "克里斯托弗·哥伦布",
+    "Cristoforo Colombo",
+    "クリストファー・コロンブス"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 4,
+  "startATK": 1216,
+  "endATK": 6552,
+  "startHP": 1728,
+  "endHP": 9600,
+  "grailATK": 8867,
+  "grailHP": 13016,
+  "illustrator": "元村人",
+  "cv": "大塚芳忠",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "12",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    4,
+    3,
+    5
+  ],
+  "charge": [
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005
+  ],
+  "starAbsorption": 208,
+  "starGeneration": 0.08900000000000001,
+  "npChargeATK": 0.0055000000000000005,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "暴风航海者",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "020000001005",
+          "value": [
+            7,
+            7.7,
+            8.4,
+            9.1,
+            9.8,
+            10.5,
+            11.2,
+            11.9,
+            12.6,
+            14
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000001000",
+          "value": [
+            7,
+            7.7,
+            8.4,
+            9.1,
+            9.8,
+            10.5,
+            11.2,
+            11.9,
+            12.6,
+            14
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "不屈的意志",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004000",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "征服者",
+      "condition": 0,
+      "lv": "EX",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014005",
+          "value": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "新天地探索航（Santa Maria·Drop Anchor）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000024005",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "5"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

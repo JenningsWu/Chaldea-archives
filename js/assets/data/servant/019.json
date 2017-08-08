@@ -1,0 +1,275 @@
+{
+  "id": "019",
+  "name": "武藏坊弁庆",
+  "nameJP": "武蔵坊弁慶",
+  "nameEN": "Musashibou Benkei",
+  "fuzzyKeywords": [
+    "武藏坊弁庆",
+    "Musashibou Benkei",
+    "武蔵坊弁慶"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 3,
+  "startATK": 1029,
+  "endATK": 5801,
+  "startHP": 1722,
+  "endHP": 9149,
+  "grailATK": 8406,
+  "grailHP": 13204,
+  "illustrator": "真じろう",
+  "cv": "稻田彻",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0079,
+    0.0079,
+    0.0079,
+    0.0079
+  ],
+  "starAbsorption": 89,
+  "starGeneration": 0.11900000000000001,
+  "npChargeATK": 0.0079,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "怨灵调伏",
+      "condition": 0,
+      "lv": "A",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110000020015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ]
+        }
+      ],
+      "initialCD": "7"
+    }
+  ],
+  "skill2": [
+    {
+      "name": "仁王立",
+      "lv": "B",
+      "initialCD": "7",
+      "condition": 0,
+      "effect": [
+        {
+          "id": "000000004004",
+          "value": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220,
+            240,
+            260,
+            300
+          ],
+          "duration": 1,
+          "effectiveTime": -1,
+          "phaseID": 0
+        },
+        {
+          "id": "000000000000",
+          "value": [
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            54,
+            60
+          ],
+          "duration": 1,
+          "effectiveTime": -1,
+          "phaseID": 0
+        }
+      ]
+    }
+  ],
+  "skill3": [
+    {
+      "name": "白纸的劝进帐",
+      "condition": 2,
+      "lv": "",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "120000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            80
+          ]
+        }
+      ],
+      "initialCD": "10"
+    }
+  ],
+  "np": [
+    {
+      "name": "五百罗汉补陀落渡海",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            50,
+            65,
+            72.5,
+            76.3,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "120000030008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C+",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          16.25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "effectiveTime": -1,
+        "phaseID": 0
+      }
+    }
+  ]
+}

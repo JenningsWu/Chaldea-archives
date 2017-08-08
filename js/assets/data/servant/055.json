@@ -1,0 +1,386 @@
+{
+  "id": "055",
+  "name": "大流士三世",
+  "nameJP": "ダレイオス三世",
+  "nameEN": "Darius III",
+  "fuzzyKeywords": [
+    "大流士三世",
+    "Darius III",
+    "ダレイオス三世"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 7,
+  "startATK": 1412,
+  "endATK": 7608,
+  "startHP": 1577,
+  "endHP": 8763,
+  "grailATK": 10297,
+  "grailHP": 11881,
+  "illustrator": "PFALZ",
+  "cv": "安井邦彦",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0067,
+    0.0067,
+    0.0067,
+    0.0067
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.05,
+  "npChargeATK": 0.0067,
+  "npChargeDEF": 0.05,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "黄金律",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000004001",
+          "value": [
+            18,
+            20.7,
+            23.4,
+            26.1,
+            28.8,
+            31.5,
+            34.2,
+            36.9,
+            39.6,
+            45
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "回归初始",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "战斗续行",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "np": [
+    {
+      "name": "不死的一万骑兵（Athánatoi Ten Thousand）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    },
+    {
+      "name": "不死的一万骑兵（Athánatoi Ten Thousand）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

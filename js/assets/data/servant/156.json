@@ -1,0 +1,419 @@
+{
+  "id": "156",
+  "name": "詹姆斯·莫里亚蒂",
+  "nameJP": "ジェームズ・モリアーティ",
+  "nameEN": "James Moriarty",
+  "fuzzyKeywords": [
+    "詹姆斯·莫里亚蒂",
+    "James Moriarty",
+    "ジェームズ・モリアーティ"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 2,
+  "startATK": 1820,
+  "endATK": 11781,
+  "startHP": 2007,
+  "endHP": 13685,
+  "grailATK": 12896,
+  "grailHP": 14992,
+  "illustrator": "本庄雷太",
+  "cv": "土师孝也",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    4,
+    5,
+    3,
+    6
+  ],
+  "charge": [
+    0.0038,
+    0.0038,
+    0.0038,
+    0.0038
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0038,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "魔弹射手",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004007",
+          "value": [
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            600
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "蜘蛛丝的终点",
+      "condition": 0,
+      "lv": "A++",
+      "requirement": "01010",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001005",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000034005",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "邪智的领导力",
+      "condition": 0,
+      "lv": "A",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "040170001000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "终局的犯罪（The Dynamics Of An Asteroid）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "600",
+        "800",
+        "900",
+        "950",
+        "1000"
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "12"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "单独行动",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

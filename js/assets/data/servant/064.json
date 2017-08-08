@@ -1,0 +1,400 @@
+{
+  "id": "064",
+  "name": "赫克托耳",
+  "nameJP": "ヘクトール",
+  "nameEN": "Hector",
+  "fuzzyKeywords": [
+    "赫克托耳",
+    "Hector",
+    "ヘクトール"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 3,
+  "startATK": 1286,
+  "endATK": 6928,
+  "startHP": 1836,
+  "endHP": 10200,
+  "grailATK": 9376,
+  "grailHP": 13829,
+  "illustrator": "BLACK",
+  "cv": "安井邦彦",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0108,
+    0.0108,
+    0.0108,
+    0.0108
+  ],
+  "starAbsorption": 90,
+  "starGeneration": 0.122,
+  "npChargeATK": 0.0108,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "军略",
+      "condition": 0,
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "020000001005",
+          "value": [
+            8.5,
+            9.4,
+            10.2,
+            11.1,
+            11.9,
+            12.8,
+            13.6,
+            14.5,
+            15.3,
+            17
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "友谊的证明",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "110000020012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            80
+          ]
+        },
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            80
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "回归初始",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            800,
+            920,
+            1040,
+            1160,
+            1280,
+            1400,
+            1520,
+            1640,
+            1760,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "不毁的极枪（Durindana）",
+      "type": 3,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "A-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "不毁的极枪（Durindana）",
+      "type": 3,
+      "condition": 1,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

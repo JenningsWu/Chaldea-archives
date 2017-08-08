@@ -1,0 +1,425 @@
+{
+  "id": "155",
+  "name": "谜之女主角X〔Alter〕",
+  "nameJP": "謎のヒロインX〔オルタ〕",
+  "nameEN": "Mysterious Heroine X 〔Alter〕",
+  "fuzzyKeywords": [
+    "谜之女主角X〔Alter〕",
+    "Mysterious Heroine X 〔Alter〕",
+    "謎のヒロインX〔オルタ〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 7,
+  "startATK": 1717,
+  "endATK": 11113,
+  "startHP": 2079,
+  "endHP": 14175,
+  "grailATK": 12165,
+  "grailHP": 15529,
+  "illustrator": " BUNBUN",
+  "cv": "川澄绫子",
+  "gender": 1,
+  "attribute": 3,
+  "alignment": "12",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    4,
+    3,
+    5
+  ],
+  "charge": [
+    0.010700000000000001,
+    0.010700000000000001,
+    0.010700000000000001,
+    0.010700000000000001
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.05,
+  "npChargeATK": 0.010700000000000001,
+  "npChargeDEF": 0.05,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "∞黑豆沙",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000004009",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1100,
+            1200,
+            1300,
+            1400,
+            1500,
+            1600,
+            1700,
+            1800,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "直感",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "刹那無影剣",
+      "condition": 2,
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001003",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "不可见的王之手",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "010000024007",
+          "value": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000001000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "黑龙双克胜利剑",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007001",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "9"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "自动反应堆",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "id": "033",
+  "name": "汉斯・克里斯蒂安・安徒生",
+  "nameJP": "ハンス・クリスチャン・アンデルセン",
+  "nameEN": "Hans Christian Andersen",
+  "fuzzyKeywords": [
+    "汉斯・克里斯蒂安・安徒生",
+    "Hans Christian Andersen",
+    "ハンス・クリスチャン・アンデルセン"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 5,
+  "startATK": 1021,
+  "endATK": 5758,
+  "startHP": 1597,
+  "endHP": 8484,
+  "grailATK": 8344,
+  "grailHP": 12244,
+  "illustrator": "ワダアルコ",
+  "cv": "子安武人",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0166,
+    0.0166,
+    0.0166,
+    0.0166
+  ],
+  "starAbsorption": 48,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0166,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "人类观察",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000001004",
+          "value": [
+            10,
+            13,
+            16,
+            19,
+            22,
+            25,
+            28,
+            31,
+            34,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "高速咏唱",
+      "condition": 0,
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            50,
+            52.5,
+            55,
+            57.5,
+            60,
+            62.5,
+            65,
+            67.5,
+            70,
+            75
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "无辜的怪物",
+      "condition": 0,
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000004006",
+          "value": [
+            3,
+            4,
+            5,
+            5,
+            6,
+            6,
+            7,
+            8,
+            8,
+            9
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": 0,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000022000",
+          "value": [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "为你写的故事（Marchen meines Lebens）",
+      "type": 5,
+      "condition": 0,
+      "value": [
+        "60",
+        "70",
+        "75",
+        "77.5",
+        "80"
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000014011",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": 0,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    },
+    {
+      "name": "为你写的故事（Marchen meines Lebens）",
+      "type": 5,
+      "condition": 1,
+      "value": [
+        "60",
+        "70",
+        "75",
+        "77.5",
+        "80"
+      ],
+      "card": 0,
+      "lv": "C+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000014011",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": 0,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000000017",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "id": "157",
+  "name": "卫宫〔Alter〕",
+  "nameJP": "エミヤ〔オルタ〕",
+  "nameEN": "Emiya〔Alter〕",
+  "fuzzyKeywords": [
+    "卫宫〔Alter〕",
+    "Emiya〔Alter〕",
+    "エミヤ〔オルタ〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 2,
+  "startATK": 1499,
+  "endATK": 8996,
+  "startHP": 1960,
+  "endHP": 12250,
+  "grailATK": 10892,
+  "grailHP": 14853,
+  "illustrator": "佐々木少年",
+  "cv": "诹访部顺一",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "charge": [
+    0.0043,
+    0.0043,
+    0.0043,
+    0.0043
+  ],
+  "starAbsorption": 145,
+  "starGeneration": 0.079,
+  "npChargeATK": 0.0043,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "防弹加工",
+      "condition": 0,
+      "lv": "A",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000002000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 5,
+          "durationTime": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000012000",
+          "value": [
+            300,
+            320,
+            340,
+            360,
+            380,
+            400,
+            420,
+            440,
+            460,
+            500
+          ],
+          "duration": 0,
+          "durationTime": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "投影魔术",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24,
+            25.5,
+            27,
+            30
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001003",
+          "value": [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24,
+            25.5,
+            27,
+            30
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001001",
+          "value": [
+            15,
+            16.5,
+            18,
+            19.5,
+            21,
+            22.5,
+            24,
+            25.5,
+            27,
+            30
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "嗤笑的铁心",
+      "condition": 0,
+      "lv": "A",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 5,
+          "durationTime": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "无限剑制（Unlimited Lost Works）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "900",
+        "1200",
+        "1350",
+        "1425",
+        "1500"
+      ],
+      "card": 0,
+      "lv": "E~A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            130,
+            140,
+            160
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

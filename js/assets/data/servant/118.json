@@ -1,0 +1,417 @@
+{
+  "id": "118",
+  "name": "奥兹曼迪亚斯",
+  "nameJP": "オジマンディアス",
+  "nameEN": "Ozymandias",
+  "fuzzyKeywords": [
+    "奥兹曼迪亚斯",
+    "Ozymandias",
+    "オジマンディアス"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 4,
+  "startATK": 1850,
+  "endATK": 11971,
+  "startHP": 1881,
+  "endHP": 12830,
+  "grailATK": 13104,
+  "grailHP": 14056,
+  "illustrator": "中原",
+  "cv": "子安武人",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "21",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    5,
+    5
+  ],
+  "charge": [
+    0.0059,
+    0.0059,
+    0.0059,
+    0.0059
+  ],
+  "starAbsorption": 205,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0059,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "领导力",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            9,
+            9.9,
+            10.8,
+            11.7,
+            12.6,
+            13.5,
+            14.4,
+            15.3,
+            16.2,
+            18
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "皇帝特权",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2200,
+            2400,
+            2600,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "太阳神的加护",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000004000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000000020",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "光辉的大复合神殿（Ramesseum Tentyris）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "600",
+        "800",
+        "900",
+        "950",
+        "1000"
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "5"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B"
+    },
+    {
+      "name": "骑乘",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

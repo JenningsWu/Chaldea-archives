@@ -1,0 +1,369 @@
+{
+  "id": "027",
+  "name": "牛若丸",
+  "nameJP": "牛若丸",
+  "nameEN": "Ushiwakamaru",
+  "fuzzyKeywords": [
+    "牛若丸",
+    "Ushiwakamaru",
+    "牛若丸"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 4,
+  "startATK": 1314,
+  "endATK": 7076,
+  "startHP": 1625,
+  "endHP": 9028,
+  "grailATK": 9576,
+  "grailHP": 12240,
+  "illustrator": "坂本みねぢ",
+  "cv": "早见沙织",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "21",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0087,
+    0.0087,
+    0.0087,
+    0.0087
+  ],
+  "starAbsorption": 204,
+  "starGeneration": 0.091,
+  "npChargeATK": 0.0087,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "天狗的兵法",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000004001",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "领导力",
+      "condition": 0,
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            8.5,
+            9.4,
+            10.2,
+            11.1,
+            11.9,
+            12.8,
+            13.6,
+            14.5,
+            15.3,
+            17
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "燕之神技",
+      "condition": 2,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "坛之浦・八艘跳",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "D",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "坛之浦・八艘跳",
+      "type": 2,
+      "condition": 1,
+      "value": [
+        "1600",
+        "2000",
+        "2200",
+        "2300",
+        "2400"
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            50,
+            60,
+            70,
+            80,
+            90
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

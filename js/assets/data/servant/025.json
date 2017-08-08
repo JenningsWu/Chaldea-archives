@@ -1,0 +1,405 @@
+{
+  "id": "025",
+  "name": "爱德华・蒂奇",
+  "nameJP": "エドワード･ティーチ",
+  "nameEN": "Edward Teach",
+  "fuzzyKeywords": [
+    "爱德华・蒂奇",
+    "Edward Teach",
+    "エドワード･ティーチ"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 4,
+  "startATK": 1097,
+  "endATK": 6188,
+  "startHP": 1488,
+  "endHP": 7907,
+  "grailATK": 8967,
+  "grailHP": 11411,
+  "illustrator": "Bすけ",
+  "cv": "西前忠久",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0056,
+    0.0056,
+    0.0056,
+    0.0056
+  ],
+  "starAbsorption": 198,
+  "starGeneration": 0.088,
+  "npChargeATK": 0.0056,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "暴风航海者",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000001005",
+          "value": [
+            8,
+            8.8,
+            9.6,
+            10.4,
+            11.2,
+            12,
+            12.8,
+            13.6,
+            14.4,
+            16
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000001000",
+          "value": [
+            8,
+            8.8,
+            9.6,
+            10.4,
+            11.2,
+            12,
+            12.8,
+            13.6,
+            14.4,
+            16
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "海贼的荣誉",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            9,
+            10.8,
+            12.6,
+            14.4,
+            16.2,
+            18,
+            19.8,
+            21.6,
+            23.4,
+            27
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000015002",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000020001",
+          "value": [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "绅士般的爱",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "020000014008",
+          "value": [
+            1000,
+            1100,
+            1200,
+            1300,
+            1400,
+            1500,
+            1600,
+            1700,
+            1800,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "043030014008",
+          "value": [
+            1000,
+            1100,
+            1200,
+            1300,
+            1400,
+            1500,
+            1600,
+            1700,
+            1800,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "安妮女王的复仇（Queen Anne's Revenge）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "C++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            130
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000014005",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "5"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "id": "024",
+  "name": "圣乔治",
+  "nameJP": "ゲオルギウス",
+  "nameEN": "Georgius",
+  "fuzzyKeywords": [
+    "圣乔治",
+    "Georgius",
+    "ゲオルギウス"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 4,
+  "startATK": 1029,
+  "endATK": 5236,
+  "startHP": 1722,
+  "endHP": 9200,
+  "grailATK": 7587,
+  "grailHP": 13278,
+  "illustrator": "中央东口",
+  "cv": "西前忠久",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0085,
+    0.0085,
+    0.0085,
+    0.0085
+  ],
+  "starAbsorption": 205,
+  "starGeneration": 0.08900000000000001,
+  "npChargeATK": 0.0085,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "守护骑士",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000004004",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "殉教者之魂",
+      "condition": 0,
+      "lv": "B+",
+      "effect": [
+        {
+          "id": "000000000004",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            750,
+            875,
+            1000,
+            1125,
+            1250,
+            1375,
+            1500,
+            1625,
+            1750,
+            2000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "战斗续行",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "np": [
+    {
+      "name": "力绝的祝福之剑（Ascalon）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "900",
+        "1200",
+        "1350",
+        "1425",
+        "1500"
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "110000029024",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "4"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

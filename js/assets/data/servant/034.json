@@ -1,0 +1,363 @@
+{
+  "id": "034",
+  "name": "威廉・莎士比亚",
+  "nameJP": "ウィリアム・シェイクスピア",
+  "nameEN": "William Shakespeare",
+  "fuzzyKeywords": [
+    "威廉・莎士比亚",
+    "William Shakespeare",
+    "ウィリアム・シェイクスピア"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 5,
+  "startATK": 1028,
+  "endATK": 5798,
+  "startHP": 1520,
+  "endHP": 8080,
+  "grailATK": 8402,
+  "grailHP": 11661,
+  "illustrator": "近卫乙嗣",
+  "cv": "稻田彻",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0159,
+    0.0159,
+    0.0159,
+    0.0159
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.10800000000000001,
+  "npChargeATK": 0.0159,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "附魔",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000001001",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "自我保存",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            500,
+            600,
+            700,
+            800,
+            900,
+            1000,
+            1100,
+            1200,
+            1300,
+            1500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "国王一座",
+      "condition": 2,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "开演之时已到，献上如雷的喝彩（First Folio）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            140
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "4"
+    },
+    {
+      "name": "开演之时已到，献上如雷的喝彩（First Folio）",
+      "type": 1,
+      "condition": 2,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            140
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "4"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

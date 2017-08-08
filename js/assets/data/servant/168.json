@@ -1,0 +1,68 @@
+{
+  "id": "168",
+  "name": "BeastⅢ／R",
+  "nameJP": "ビーストⅢ／R",
+  "nameEN": "BeastⅢ／R",
+  "fuzzyKeywords": [
+    "BeastⅢ／R",
+    "BeastⅢ／R",
+    "ビーストⅢ／R"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 14,
+  "startATK": 0,
+  "endATK": 0,
+  "startHP": 0,
+  "endHP": 0,
+  "grailATK": 0,
+  "grailHP": 0,
+  "illustrator": "ワダアルコ",
+  "cv": "田中理惠",
+  "gender": 1,
+  "attribute": 4,
+  "alignment": "22",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "charge": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "starAbsorption": null,
+  "starGeneration": null,
+  "npChargeATK": null,
+  "npChargeDEF": null,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "",
+      "lv": "",
+      "initialCD": null
+    }
+  ],
+  "skill2": [
+    {
+      "name": "",
+      "lv": "",
+      "initialCD": null
+    }
+  ],
+  "np": [
+    {
+      "name": "",
+      "lv": ""
+    }
+  ],
+  "classSkill": []
+}

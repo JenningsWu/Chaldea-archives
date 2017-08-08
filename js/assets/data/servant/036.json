@@ -1,0 +1,310 @@
+{
+  "id": "036",
+  "name": "沃尔夫冈・阿马多伊斯・莫扎特",
+  "nameJP": "ヴォルフガング・アマデウス・モーツァルト",
+  "nameEN": "Wolfgang Amadeus Mozart",
+  "fuzzyKeywords": [
+    "沃尔夫冈・阿马多伊斯・莫扎特",
+    "Wolfgang Amadeus Mozart",
+    "ヴォルフガング・アマデウス・モーツァルト"
+  ],
+  "exactKeywords": [],
+  "rarity": 1,
+  "class": 5,
+  "startATK": 944,
+  "endATK": 5195,
+  "startHP": 1425,
+  "endHP": 7129,
+  "grailATK": 8072,
+  "grailHP": 10990,
+  "illustrator": "PFALZ",
+  "cv": "关智一",
+  "gender": 0,
+  "attribute": 3,
+  "alignment": "10",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.016,
+    0.016,
+    0.016,
+    0.016
+  ],
+  "starAbsorption": 49,
+  "starGeneration": 0.11,
+  "npChargeATK": 0.016,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "音乐神的加护（伪）",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "020000001002",
+          "value": [
+            22,
+            24.2,
+            26.4,
+            28.6,
+            30.8,
+            33,
+            35.2,
+            37.4,
+            39.6,
+            44
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "艺术审美",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "110100021005",
+          "value": [
+            9,
+            9.9,
+            10.8,
+            11.7,
+            12.6,
+            13.5,
+            14.4,
+            15.3,
+            16.2,
+            18
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "小小的夜之曲",
+      "condition": 2,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "为死神奏响的葬送曲（Requiem for Death）",
+      "type": 5,
+      "condition": 0,
+      "value": [
+        "60",
+        "70",
+        "75",
+        "77.5",
+        "80"
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000030008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

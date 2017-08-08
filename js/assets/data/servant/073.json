@@ -1,0 +1,324 @@
+{
+  "id": "073",
+  "name": "阿尔托莉雅・潘德拉贡〔Santa Alter〕",
+  "nameJP": "アルトリア・ペンドラゴン〔サンタオルタ〕",
+  "nameEN": "Altria Pendragon （Santa Alter)",
+  "fuzzyKeywords": [
+    "阿尔托莉雅・潘德拉贡〔Santa Alter〕",
+    "Altria Pendragon （Santa Alter)",
+    "アルトリア・ペンドラゴン〔サンタオルタ〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 4,
+  "startATK": 1543,
+  "endATK": 9258,
+  "startHP": 1805,
+  "endHP": 11286,
+  "grailATK": 11209,
+  "grailHP": 13684,
+  "illustrator": "武内崇",
+  "cv": "川澄绫子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0087,
+    0.0087,
+    0.0087,
+    0.0087
+  ],
+  "starAbsorption": 204,
+  "starGeneration": 0.08900000000000001,
+  "npChargeATK": 0.0087,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "圣者的礼物",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "010000014008",
+          "value": [
+            1500,
+            1700,
+            1900,
+            2100,
+            2300,
+            2500,
+            2700,
+            2900,
+            3100,
+            3500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "010000000017",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "直感",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "魔力放出",
+      "condition": 0,
+      "lv": "A-",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            41,
+            45
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "誓约胜利之剑（Excalibur・Morgan）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "450",
+        "550",
+        "600",
+        "625",
+        "650"
+      ],
+      "card": 1,
+      "lv": "A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

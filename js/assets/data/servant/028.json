@@ -1,0 +1,376 @@
+{
+  "id": "028",
+  "name": "亚历山大",
+  "nameJP": "アレキサンダー",
+  "nameEN": "Alexander",
+  "fuzzyKeywords": [
+    "亚历山大",
+    "Alexander",
+    "アレキサンダー"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 4,
+  "startATK": 1366,
+  "endATK": 7356,
+  "startHP": 1555,
+  "endHP": 8640,
+  "grailATK": 9955,
+  "grailHP": 11714,
+  "illustrator": "BUNBUN",
+  "cv": "坂本真绫",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0086,
+    0.0086,
+    0.0086,
+    0.0086
+  ],
+  "starAbsorption": 205,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0086,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "领导力",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "020000001000",
+          "value": [
+            8,
+            8.8,
+            9.6,
+            10.4,
+            11.2,
+            12,
+            12.8,
+            13.6,
+            14.4,
+            16
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "红颜的美少年",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110230023000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            80
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "霸王之兆",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000001003",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "起始的蹂躏制霸（Bucephalus）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "800",
+        "1000",
+        "1100",
+        "1150",
+        "1200"
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "起始的蹂躏制霸（Bucephalus）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "800",
+        "1000",
+        "1100",
+        "1150",
+        "1200"
+      ],
+      "card": 2,
+      "lv": "B++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

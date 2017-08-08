@@ -1,0 +1,419 @@
+{
+  "id": "147",
+  "name": "戈尔贡",
+  "nameJP": "ゴルゴーン",
+  "nameEN": "Gorgon",
+  "fuzzyKeywords": [
+    "戈尔贡",
+    "Gorgon",
+    "ゴルゴーン"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 9,
+  "startATK": 1784,
+  "endATK": 10706,
+  "startHP": 1631,
+  "endHP": 10197,
+  "grailATK": 12963,
+  "grailHP": 12364,
+  "illustrator": "下越 ",
+  "cv": "浅川悠",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    5,
+    3,
+    3,
+    5
+  ],
+  "charge": [
+    0.0037,
+    0.0037,
+    0.0037,
+    0.0037
+  ],
+  "starAbsorption": 29,
+  "starGeneration": 0.06,
+  "npChargeATK": 0.0037,
+  "npChargeDEF": 0.05,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "怪力",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "变转之魔",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000015002",
+          "value": [
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2200,
+            2400,
+            2600,
+            3000
+          ],
+          "duration": 5,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "魔眼",
+      "condition": 0,
+      "lv": "A++",
+      "effect": [
+        {
+          "id": "110000020010",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            95,
+            105
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "强制封印·万魔神殿（Pandemonium·Cetus）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000030008",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000004000",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "复仇者",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000004003",
+          "value": [
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "050000020001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "忘却补正",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "自我回复（魔力)",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004002",
+          "value": [
+            3.8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

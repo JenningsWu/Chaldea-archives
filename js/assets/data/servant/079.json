@@ -1,0 +1,338 @@
+{
+  "id": "079",
+  "name": "冯・霍恩海姆・帕拉塞尔苏斯",
+  "nameJP": "ヴァン・ホーエンハイム・パラケルスス",
+  "nameEN": "Von Hohenheim Paracelsus",
+  "fuzzyKeywords": [
+    "冯・霍恩海姆・帕拉塞尔苏斯",
+    "Von Hohenheim Paracelsus",
+    "ヴァン・ホーエンハイム・パラケルスス"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 5,
+  "startATK": 1246,
+  "endATK": 6711,
+  "startHP": 1711,
+  "endHP": 9506,
+  "grailATK": 9082,
+  "grailHP": 12889,
+  "illustrator": "中原",
+  "cv": "三木真一郎",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.10800000000000001,
+  "npChargeATK": 0.0055000000000000005,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "高速咏唱",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            55,
+            57.5,
+            60,
+            62.5,
+            65,
+            67.5,
+            70,
+            72.5,
+            75,
+            80
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 10
+    }
+  ],
+  "skill2": [
+    {
+      "name": "元素说",
+      "condition": 0,
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "020000001002",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "贤者之石",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "010000015002",
+          "value": [
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2200,
+            2400,
+            2600,
+            3000
+          ],
+          "duration": 3,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 10
+    }
+  ],
+  "np": [
+    {
+      "name": "元素使的魔剑（Sword of Paracelsus）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 0,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    },
+    {
+      "name": "元素使的魔剑（Sword of Paracelsus）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 0,
+      "lv": "A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

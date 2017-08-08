@@ -1,0 +1,464 @@
+{
+  "id": "120",
+  "name": "尼托克丽丝",
+  "nameJP": "ニトクリス",
+  "nameEN": "Nitocris",
+  "fuzzyKeywords": [
+    "尼托克丽丝",
+    "Nitocris",
+    "ニトクリス"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 5,
+  "startATK": 1510,
+  "endATK": 9060,
+  "startHP": 1806,
+  "endHP": 11288,
+  "grailATK": 10970,
+  "grailHP": 13686,
+  "illustrator": "縞うどん",
+  "cv": "田中美海",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.0054,
+    0.0054,
+    0.0054,
+    0.0054
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.10800000000000001,
+  "npChargeATK": 0.0054,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "埃及魔术",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000004014",
+          "value": [
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2200,
+            2400,
+            2600,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "高速神言",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            60,
+            66,
+            72,
+            78,
+            84,
+            90,
+            96,
+            102,
+            108,
+            120
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "天空神的宠爱",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000005002",
+          "value": [
+            1000,
+            1100,
+            1200,
+            1300,
+            1400,
+            1500,
+            1600,
+            1700,
+            1800,
+            2000
+          ],
+          "duration": 3,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "冥镜宝典（Anpu Neb-Ta-）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "B+",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "120000024012",
+          "value": [
+            0,
+            0,
+            -50,
+            -100,
+            -150
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100,
+            112.5,
+            125,
+            137.5,
+            150,
+            175
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "3"
+    },
+    {
+      "name": "冥镜宝典（Anpu Neb-Ta-）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "B++",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "120000024012",
+          "value": [
+            0,
+            0,
+            -50,
+            -100,
+            -150
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100,
+            112.5,
+            125,
+            137.5,
+            150,
+            175
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成",
+      "lv": "B+",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

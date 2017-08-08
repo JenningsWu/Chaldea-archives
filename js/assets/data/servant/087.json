@@ -1,0 +1,454 @@
+{
+  "id": "087",
+  "name": "芬恩・麦克库尔",
+  "nameJP": "フィン・マックール",
+  "nameEN": "Fionn mac Cumhaill",
+  "fuzzyKeywords": [
+    "芬恩・麦克库尔",
+    "Fionn mac Cumhaill",
+    "フィン・マックール"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 3,
+  "startATK": 1488,
+  "endATK": 8930,
+  "startHP": 2040,
+  "endHP": 12750,
+  "grailATK": 10812,
+  "grailHP": 15459,
+  "illustrator": "森山大輔",
+  "cv": "三木真一郎",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "11",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    4
+  ],
+  "charge": [
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005,
+    0.0055000000000000005
+  ],
+  "starAbsorption": 89,
+  "starGeneration": 0.12300000000000001,
+  "npChargeATK": 0.0055000000000000005,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "千里眼",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            19,
+            20.9,
+            22.8,
+            24.7,
+            26.6,
+            28.5,
+            30.4,
+            32.3,
+            34.2,
+            38
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "女难之相",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005023",
+          "value": [
+            60,
+            64,
+            68,
+            72,
+            76,
+            80,
+            84,
+            88,
+            92,
+            100
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004004",
+          "value": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220,
+            240,
+            260,
+            300
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000025024",
+          "value": [
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 12
+    }
+  ],
+  "skill3": [
+    {
+      "name": "魔术",
+      "condition": 0,
+      "lv": "C-",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            24,
+            25.6,
+            27.2,
+            28.8,
+            30.4,
+            32,
+            33.6,
+            35.2,
+            36.8,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "无败的紫靫草（Mac-a-Luin）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000005025",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "3"
+    },
+    {
+      "name": "无败的紫靫草（Mac-a-Luin）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "600",
+        "750",
+        "825",
+        "862.5",
+        "900"
+      ],
+      "card": 0,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000005025",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "3"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "神性",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            125,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "id": "001",
+  "name": "玛修・基列莱特",
+  "nameJP": "マシュ・キリエライト",
+  "nameEN": "Matthew Kyrielite",
+  "fuzzyKeywords": [
+    "玛修・基列莱特",
+    "Matthew Kyrielite",
+    "マシュ・キリエライト"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 0,
+  "startATK": 1455,
+  "endATK": 8730,
+  "startHP": 2060,
+  "endHP": 12877,
+  "grailATK": 10575,
+  "grailHP": 15619,
+  "illustrator": "武内崇",
+  "cv": "种田梨沙（变更前)&高桥李依（变更后)",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0084,
+    0.0084,
+    0.0084,
+    0.0084
+  ],
+  "starAbsorption": 99,
+  "starGeneration": 0.099,
+  "npChargeATK": 0.0084,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "今は脆き雪花の壁",
+      "condition": 0,
+      "lv": "",
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            10,
+            10.5,
+            11,
+            11.5,
+            12,
+            12.5,
+            13,
+            13.5,
+            14,
+            15
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "荣光不败的雪花之壁",
+      "condition": 0,
+      "lv": "",
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            15,
+            15.5,
+            16,
+            16.5,
+            17,
+            17.5,
+            18,
+            18.5,
+            19,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "020000012000",
+          "value": [
+            2000,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "时为朦胧的白亚之壁",
+      "condition": 0,
+      "lv": "？",
+      "effect": [
+        {
+          "id": "010000005000",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "010000004000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "skill3": [
+    {
+      "name": "意为奋进的决断之盾",
+      "condition": 3,
+      "lv": "？",
+      "effect": [
+        {
+          "id": "000000004004",
+          "value": [
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            220,
+            240,
+            260,
+            300
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004001",
+          "value": [
+            200,
+            220,
+            240,
+            260,
+            280,
+            300,
+            320,
+            340,
+            360,
+            400
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "？？？",
+      "type": 0,
+      "condition": -1,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "？",
+      "attackPhaseID": 0,
+      "effect": [],
+      "hits": 0
+    },
+    {
+      "name": "仮想宝具 疑似展開／人理の礎",
+      "type": 0,
+      "condition": 3,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "D",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000012000",
+          "value": [
+            100,
+            550,
+            775,
+            888,
+            1000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        }
+      ],
+      "hits": 0
+    },
+    {
+      "name": "如今仍是遥远的理想之城（Lord·Camelot）",
+      "type": 0,
+      "condition": 3,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "B+++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000012000",
+          "value": [
+            100,
+            550,
+            775,
+            888,
+            1000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "040000001000",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "骑乘",
+      "lv": "C",
+      "effect": {
+        "id": "000000001003",
+        "value": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

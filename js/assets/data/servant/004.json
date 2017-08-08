@@ -1,0 +1,289 @@
+{
+  "id": "004",
+  "name": "阿尔托莉雅・潘德拉贡〔Lily〕",
+  "nameJP": "アルトリア・ペンドラゴン〔リリィ〕",
+  "nameEN": "Altria Pendragon （Lily)",
+  "fuzzyKeywords": [
+    "阿尔托莉雅・潘德拉贡〔Lily〕",
+    "Altria Pendragon （Lily)",
+    "アルトリア・ペンドラゴン〔リリィ〕"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 1,
+  "startATK": 1486,
+  "endATK": 7726,
+  "startHP": 1975,
+  "endHP": 10623,
+  "grailATK": 9355,
+  "grailHP": 12880,
+  "illustrator": "武内崇",
+  "cv": "川澄绫子",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0086,
+    0.0086,
+    0.0086,
+    0.0086
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0086,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "直感",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "魔力放出",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "花之旅途",
+      "condition": 0,
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "020000004001",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "必胜黄金之剑（Caliburn）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "450",
+        "525",
+        "562.5",
+        "600"
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            2000,
+            3000,
+            4000,
+            5000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "8"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          17.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "骑乘",
+      "lv": "C",
+      "effect": {
+        "id": "000000001003",
+        "value": [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "040",
+  "name": "咒腕的哈桑",
+  "nameJP": "呪腕のハサン",
+  "nameEN": "Hassan of the Cursed Arm",
+  "fuzzyKeywords": [
+    "咒腕的哈桑",
+    "Hassan of the Cursed Arm",
+    "呪腕のハサン"
+  ],
+  "exactKeywords": [],
+  "rarity": 2,
+  "class": 6,
+  "startATK": 1114,
+  "endATK": 6280,
+  "startHP": 1429,
+  "endHP": 7594,
+  "grailATK": 9100,
+  "grailHP": 10960,
+  "illustrator": "タスクオーナ",
+  "cv": "稻田彻",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "02",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "charge": [
+    0.010700000000000001,
+    0.010700000000000001,
+    0.010700000000000001,
+    0.010700000000000001
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.252,
+  "npChargeATK": 0.010700000000000001,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "投掷（短刀）",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 6
+    }
+  ],
+  "skill2": [
+    {
+      "name": "自我改造",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            20,
+            23,
+            26,
+            29,
+            32,
+            35,
+            38,
+            41,
+            44,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "除风的加护",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "妄想心音（Zabaniya）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "1200",
+        "1600",
+        "1800",
+        "1900",
+        "2000"
+      ],
+      "card": 2,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            80,
+            90,
+            100,
+            110,
+            120,
+            130,
+            140,
+            150,
+            160,
+            180
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

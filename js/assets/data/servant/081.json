@@ -1,0 +1,81 @@
+{
+  "id": "081",
+  "name": "亨利・杰基尔&海德",
+  "nameJP": "ヘンリー・ジキル＆ハイド",
+  "nameEN": "Henry Jekyll & Hyde",
+  "fuzzyKeywords": [
+    "亨利・杰基尔&海德",
+    "Henry Jekyll & Hyde",
+    "ヘンリー・ジキル＆ハイド"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 6,
+  "startATK": 1173,
+  "endATK": 6320,
+  "startHP": 1741,
+  "endHP": 9675,
+  "grailATK": 8553,
+  "grailHP": 13118,
+  "illustrator": "中原",
+  "cv": "宫野真守",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00,22",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0105,
+    0.0105,
+    0.0105,
+    0.0105
+  ],
+  "starAbsorption": 99,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.0105,
+  "npChargeDEF": 0.04,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "怪力",
+      "lv": "B",
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "恐慌之声",
+      "lv": "A",
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "自我改造",
+      "lv": "D",
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "暗中的罪孽游戏（Dangerous Game）",
+      "lv": "C",
+      "card": 1
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A"
+    }
+  ]
+}

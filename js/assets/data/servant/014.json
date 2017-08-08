@@ -1,0 +1,404 @@
+{
+  "id": "014",
+  "name": "阿塔兰忒",
+  "nameJP": "アタランテ",
+  "nameEN": "Atalanta",
+  "fuzzyKeywords": [
+    "阿塔兰忒",
+    "Atalanta",
+    "アタランテ"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 2,
+  "startATK": 1438,
+  "endATK": 8633,
+  "startHP": 1996,
+  "endHP": 12476,
+  "grailATK": 10453,
+  "grailHP": 15127,
+  "illustrator": "轮くすさが",
+  "cv": "早见沙织",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "12",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "charge": [
+    0.005,
+    0.005,
+    0.005,
+    0.005
+  ],
+  "starAbsorption": 148,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.005,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "跨越阿卡迪亚",
+      "condition": 0,
+      "lv": "B",
+      "effect": [
+        {
+          "id": "020000001003",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    },
+    {
+      "name": "跨越阿卡迪亚",
+      "condition": 1,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "020000001003",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "追猎的美学",
+      "condition": 0,
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800,
+            850,
+            900,
+            1000
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 6
+    }
+  ],
+  "skill3": [
+    {
+      "name": "狩猎卡莱敦的野猪",
+      "condition": 2,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000004001",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "诉状的箭书（Phoibos Catastrophe）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "800",
+        "1000",
+        "1100",
+        "1150",
+        "1200"
+      ],
+      "card": 2,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    },
+    {
+      "name": "诉状的箭书（Phoibos Catastrophe）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        "800",
+        "1000",
+        "1100",
+        "1150",
+        "1200"
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "10"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": {
+        "id": "000000000001",
+        "value": [
+          12.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": {
+        "id": "000000001004",
+        "value": [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "durationTime": 0,
+        "effectiveTime": -1,
+        "phaseID": 0,
+        "probability": [
+          100,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "id": "006",
+  "name": "齐格弗里德",
+  "nameJP": "ジークフリート",
+  "nameEN": "Siegfried",
+  "fuzzyKeywords": [
+    "齐格弗里德",
+    "Siegfried",
+    "ジークフリート"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 1,
+  "startATK": 1363,
+  "endATK": 8181,
+  "startHP": 2266,
+  "endHP": 14165,
+  "grailATK": 9905,
+  "grailHP": 17175,
+  "illustrator": "近卫乙嗣",
+  "cv": "诹访部顺一",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "20",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.03,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "黄金律",
+      "lv": "C-",
+      "initialCD": "8",
+      "condition": 0,
+      "effect": [
+        {
+          "id": "000000004001",
+          "value": [
+            15,
+            17.3,
+            19.5,
+            21.8,
+            24,
+            26.3,
+            28.5,
+            30.8,
+            33,
+            37.5
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0
+        }
+      ]
+    }
+  ],
+  "skill2": [
+    {
+      "name": "回归初始",
+      "condition": 0,
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600,
+            1750,
+            1900,
+            2050,
+            2200,
+            2500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": "7"
+    }
+  ],
+  "skill3": [
+    {
+      "name": "屠龙者",
+      "lv": "A",
+      "initialCD": 0,
+      "condition": 0,
+      "effect": [
+        {
+          "id": "000000007024",
+          "value": [
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            80
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0
+        },
+        {
+          "id": "000000008024",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0
+        }
+      ]
+    },
+    {
+      "name": "屠龙者",
+      "condition": 2,
+      "lv": "A++",
+      "effect": [
+        {
+          "id": "000000007024",
+          "value": [
+            50,
+            53,
+            56,
+            59,
+            62,
+            65,
+            68,
+            71,
+            74,
+            80
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0
+        },
+        {
+          "id": "000000008024",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0
+        },
+        {
+          "id": "000000001001",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "effectiveTime": -1,
+          "phaseID": 0
+        }
+      ],
+      "initialCD": "7"
+    }
+  ],
+  "np": [
+    {
+      "name": "幻想大剑・天魔失坠",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007024",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "1"
+    },
+    {
+      "name": "幻想大剑・天魔失坠",
+      "type": 1,
+      "condition": 2,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007024",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "type": 2
+        },
+        {
+          "id": "000000004001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "type": 0
+        }
+      ],
+      "hits": "1"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": {
+        "id": "000000001003",
+        "value": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration": 99999,
+        "effectiveTime": -1,
+        "phaseID": 0
+      }
+    }
+  ]
+}
