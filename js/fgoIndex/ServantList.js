@@ -11,20 +11,20 @@ import {
 } from 'react-native'
 import { ListItem } from 'react-native-elements'
 
+
+import avatars from '../assets/img/avatars'
 const source = require('../assets/img/Tamamoicon.png')
 
 export default class ServantList extends PureComponent {
-  _keyExtractor = (item) => item.id
-
-  _onPressItem = (id: string) => {
-    // this.props.navigation.navigate()
-  }
+  _keyExtractor = item => item.id
 
   _renderItem = ({ item }) => (
     <ListItem
       title={item.name}
-      avatar={<Image source={source} style={{ flex: 1, alignSelf: 'stretch', aspectRatio: 0.914 }} />}
-      // avatarStyle={{ height: 38, width: 34, alignSelf: 'stretch' }}
+      avatar={<Image source={avatars[parseInt(item.id, 10)]} style={{ flex: 1, alignSelf: 'stretch', aspectRatio: 0.914 }} />}
+      subtitle={`${item.classDesc} ${item.rarityDesc}`}
+      onPress={() => this.props.navigation.navigate('Item', { servant: item })}
+      // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
     />
   )
 

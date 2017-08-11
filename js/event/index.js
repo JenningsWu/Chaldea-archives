@@ -29,7 +29,6 @@ export default class EventTab extends Component {
         </Text>
         <Button
           onPress={() => {
-            this.props.navigation.navigate('Item', { t: 'a' })
             this.setState({ hello: 'agian' })
           }}
           title="Jump"

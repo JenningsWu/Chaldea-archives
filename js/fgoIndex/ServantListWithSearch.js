@@ -4,14 +4,13 @@
 
 import React, { Component, PureComponent } from 'react'
 import {
-  Text,
   View,
-  FlatList,
 } from 'react-native'
 import { SearchBar, Icon } from 'react-native-elements'
 
 import ServantList from './ServantList'
 
+import servants from '../assets/data/servants'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -20,19 +19,33 @@ const noBorderStyle = {
   borderBottomWidth: 0,
 }
 
-export default class ServantListWithSearch extends Component {
+export default class ServantListWithSearch extends PureComponent {
   constructor() {
     super()
+    this.servants = servants.slice(1)
     this.state = {
       keyword: '',
       up: true,
+      list: this.servants,
     }
   }
 
   state: {
     keyword: string;
     up: boolean;
+    list: Array<Object>;
   }
+
+  onSearchChange = (keyword: string) => {
+    this.setState({
+      keyword,
+      list: keyword === '' ? this.servants : this.servants.filter(servant =>
+        servant.checkKeyWord(keyword)),
+    })
+  }
+
+  servants: Array<Object>
+
 //
 // const testStyle = {
 //   flex: 1,
@@ -49,9 +62,10 @@ export default class ServantListWithSearch extends Component {
         >
           <SearchBar
             containerStyle={{ flex: 1, justifyContent: 'center', backgroundColor: 'transparent', ...noBorderStyle }}
-            onChangeText={keyword => this.setState({ keyword })}
+            onChangeText={keyword => this.onSearchChange(keyword)}
             placeholder="输入关键字"
             lightTheme
+            clearIcon
           />
           <Icon
             name="settings"
@@ -68,10 +82,9 @@ export default class ServantListWithSearch extends Component {
           flex: 1,
         }}
         >
-          <Text>{ this.state.keyword }</Text>
           <ServantList
             navigation={this.props.navigation}
-            data={[{ id: 5, name: "玉藻喵" }, { id: 6 }]}
+            data={this.state.up ? this.state.list : this.state.list.slice().reverse()}
           />
         </View>
       </View>

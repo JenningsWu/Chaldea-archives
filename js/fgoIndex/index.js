@@ -8,10 +8,12 @@ import {
   View,
   Button,
 } from 'react-native'
+import PropTypes from 'prop-types'
 import { StackNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 import ServantList from './ServantListWithSearch'
+import ServantPage from './ServantPage'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{
@@ -34,7 +36,7 @@ const TabBarIcon = ({ tintColor }) => (
 )
 
 TabBarIcon.propTypes = {
-  tintColor: React.PropTypes.string.isRequired,
+  tintColor: PropTypes.string.isRequired,
 }
 
 const indexNavigationOptions = {
@@ -47,17 +49,11 @@ FgoIndex.navigationOptions = {
   title: '图鉴',
 }
 
-const Test = () => (
-  <Text>hello</Text>
-)
-
-Test.navigationOptions = indexNavigationOptions
-
 export default StackNavigator({
   Index: {
     screen: FgoIndex,
   },
   Item: {
-    screen: Test,
+    screen: ServantPage,
   },
 })
