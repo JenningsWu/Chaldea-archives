@@ -74,9 +74,6 @@ export default class ServantListWithSearch extends PureComponent {
               hideChevron
             />
             <ListItem
-              title="图鉴"
-            />
-            <ListItem
               title="数值"
               subtitle={`${servant.endATK} / ${servant.endHP}`}
             />
@@ -135,6 +132,10 @@ export default class ServantListWithSearch extends PureComponent {
               title="阵营"
               rightTitle={servant.alignmentDesc}
               hideChevron
+            />
+            <ListItem
+              title="图鉴"
+              rightTitle={'暂无'}
             />
           </ScrollView>
         </Card>
