@@ -64,5 +64,19 @@
       "lv": ""
     }
   ],
-  "classSkill": []
+  "classSkill": [],
+  "skillResource": [
+    [
+      {
+        "num": null
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "num": null
+      }
+    ]
+  ]
 }
