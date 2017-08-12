@@ -36,6 +36,11 @@ export default class ServantListWithSearch extends PureComponent {
     list: Array<Object>;
   }
 
+  componentDidMount() {
+    this.props.navigation.navigate('Item', { servant: servants[2] })
+  }
+
+
   onSearchChange = (keyword: string) => {
     this.setState({
       keyword,

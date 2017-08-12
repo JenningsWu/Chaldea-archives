@@ -4,16 +4,13 @@
 
 import React from 'react'
 import {
-  Text,
   View,
-  Button,
 } from 'react-native'
-import PropTypes from 'prop-types'
 import { StackNavigator } from 'react-navigation'
-import Icon from 'react-native-vector-icons/FontAwesome'
 
 import ServantList from './ServantListWithSearch'
 import ServantPage from './ServantPage'
+import indexNavigationOptions from './navigationOptions'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{
@@ -26,23 +23,6 @@ const FgoIndex = ({ navigation }) => (
     <ServantList navigation={navigation} />
   </View>
 )
-
-const TabBarIcon = ({ tintColor }) => (
-  <Icon
-    name="book"
-    size={20}
-    style={{ color: tintColor }}
-  />
-)
-
-TabBarIcon.propTypes = {
-  tintColor: PropTypes.string.isRequired,
-}
-
-const indexNavigationOptions = {
-  tabBarLabel: '图鉴',
-  tabBarIcon: TabBarIcon,
-}
 
 FgoIndex.navigationOptions = {
   ...indexNavigationOptions,

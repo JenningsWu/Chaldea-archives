@@ -13,7 +13,6 @@ import { ListItem } from 'react-native-elements'
 
 
 import avatars from '../assets/img/avatars'
-const source = require('../assets/img/Tamamoicon.png')
 
 export default class ServantList extends PureComponent {
   _keyExtractor = item => item.id
