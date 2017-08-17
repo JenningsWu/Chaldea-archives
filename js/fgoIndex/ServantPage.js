@@ -2,21 +2,16 @@
  * @flow
  */
 
-import React, { Component, PureComponent } from 'react'
+import React, { PureComponent } from 'react'
 import {
   View,
-  Text,
   ScrollView,
   Image,
 } from 'react-native'
 import {
   Card,
-  List,
   ListItem,
   Divider,
-  Grid,
-  Row,
-  Col,
 } from 'react-native-elements'
 import _ from 'lodash'
 
@@ -61,7 +56,7 @@ export default class ServantListWithSearch extends PureComponent {
     const { servant } = this.props.navigation.state.params
     return (
       <View style={{ flex: 1 }}>
-        <Card containerStyle={{ margin: 0 }}>
+        <Card containerStyle={{ margin: 0, height: '100%' }}>
           <ScrollView>
             <ListItem
               title={servant.name}
@@ -98,7 +93,7 @@ export default class ServantListWithSearch extends PureComponent {
                     key={key}
                     source={cardImg[idx]}
                     resizeMode="stretch"
-                    style={{ height: 40, width: 40, marginLeft: 5, marginRight: 5 }}
+                    style={{ width: '15%', aspectRatio: 1, marginLeft: 5, marginRight: '2%' }}
                   />
                 )))
               }
@@ -135,11 +130,11 @@ export default class ServantListWithSearch extends PureComponent {
             />
             <ListItem
               title="图鉴"
-              rightTitle={'暂无'}
+              rightTitle={'被芙芙吃掉了！'}
+              // hideChevron
             />
           </ScrollView>
         </Card>
-        <Text>{servant.alignmentDesc}</Text>
       </View>
     )
   }

@@ -41,9 +41,9 @@ export default TabNavigator({
   FutureSight: {
     screen: FutureSight,
   },
-  Event: {
-    screen: Event,
-  },
+  // Event: {
+  //   screen: Event,
+  // },
   About: {
     screen: About,
   },
