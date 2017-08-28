@@ -14,7 +14,7 @@ import {
 import materialList from '../assets/data/materialList'
 import indexNavigationOptions from './navigationOptions'
 
-import MaterialFlatList from './MaterialFlatList'
+import MaterialFlatList from './materialFlatList'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -26,7 +26,7 @@ const noBorderStyle = {
 export default class ServantListWithSearch extends PureComponent {
 
   static navigationOptions = ({ navigation }) => ({
-    title: '素材需求',
+    title: '素材规划',
     ...indexNavigationOptions,
   })
 
@@ -34,7 +34,7 @@ export default class ServantListWithSearch extends PureComponent {
     super()
     this.materialList = Object.keys(materialList).map(k => ({
       key: k,
-      name: materialList[k],
+      name: materialList[k].name,
     }))
     this.state = {
       keyword: '',

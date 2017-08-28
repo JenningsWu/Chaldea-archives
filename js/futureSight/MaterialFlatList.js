@@ -13,10 +13,13 @@ import {
 import {
   ListItem,
 } from 'react-native-elements'
+import { connect } from 'react-redux'
 
+import materialList from '../assets/data/materialList'
 import materialImg from '../assets/img/material'
+import { setMaterialNum } from '../actions/material'
 
-function MaterialFlatList({ data }) {
+function MaterialFlatList({ data, setMaterialNum }) {
   const styles = StyleSheet.create({
     subtitleView: {
       flexDirection: 'row',
@@ -43,28 +46,38 @@ function MaterialFlatList({ data }) {
     >
       <FlatList
         data={data}
-        keyExtractor={({ key }) => key}
-        renderItem={({ item }) => (
+        keyExtractor={({ id }) => id}
+        renderItem={({ item: { id, name, current, needs, future } }) => (
           <ListItem
-            title={item.name}
+            title={name}
             avatar={
               <Image
                 resizeMode="stretch"
-                source={materialImg[item.key]}
+                source={materialImg[id]}
                 style={{ height: '100%', aspectRatio: 1 }}
               />}
             subtitle={
               <View style={styles.subtitleView}>
-                <Text style={styles.needsText}>所需：412</Text>
-                <Text style={styles.futureText}>活动：325</Text>
+                <Text
+                  style={[
+                    styles.needsText,
+                    { color: needs > future + current ? 'red' : 'green' },
+                  ]}
+                >
+                  所需：{needs}
+                </Text>
+                <Text style={styles.futureText}>活动：{future}</Text>
                 <Text style={styles.storageText}>库存：</Text>
               </View>
             }
             textInput
-            textInputValue={'0'}
+            textInputValue={`${current}`}
             textInputKeyboardType="numeric"
             textInputSelectTextOnFocus
             textInputStyle={{ color: '#444444' }}
+            textInputOnChangeText={(num) => {
+              setMaterialNum(id, parseInt(num, 10) || 0)
+            }}
             hideChevron
             // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
             // underlayColor="#ddd"
@@ -76,4 +89,21 @@ function MaterialFlatList({ data }) {
   )
 }
 
-export default MaterialFlatList
+function materialToList(data) {
+  return Object.keys(data).map(id => (
+    {
+      id,
+      ...data[id],
+      ...materialList[id],
+    }
+  ))
+}
+
+export default connect(
+  ({ account, accountData }) => ({ data: materialToList(accountData[account].material) }),
+  dispatch => ({
+    setMaterialNum: (id, num) => {
+      dispatch(setMaterialNum(id, num))
+    },
+  }),
+)(MaterialFlatList)

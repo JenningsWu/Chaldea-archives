@@ -5,19 +5,20 @@
 import React from 'react'
 import {
   View,
-  Text,
-  Button,
   ScrollView,
 } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 import {
   Card,
   ListItem,
+  Icon,
 } from 'react-native-elements'
 
 import indexNavigationOptions from './navigationOptions'
 
-import materialList from './MaterialList'
+import MaterialList from './materialList'
+import ServantList from './servantList'
+import AddServant from './addServant'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{ flex: 1 }}>
@@ -29,6 +30,7 @@ const FgoIndex = ({ navigation }) => (
         />
         <ListItem
           title="从者一览"
+          onPress={() => navigation.navigate('ServantList')}
         />
         <ListItem
           title="活动情况"
@@ -47,14 +49,24 @@ FgoIndex.navigationOptions = {
 }
 
 export default StackNavigator({
+  ServantList: {
+    screen: ServantList,
+    navigationOptions: ({ navigation }) => ({
+      headerRight: <Icon
+        name="add"
+        iconStyle={{ paddingRight: 10 }}
+        onPress={() => navigation.navigate('AddServant')}
+      />,
+    }),
+  },
   Index: {
-    // screen: FgoIndex,
-    screen: materialList,
+    screen: FgoIndex,
+    // screen: materialList,
   },
   MaterialList: {
-    screen: materialList,
+    screen: MaterialList,
   },
   AddServant: {
-    screen: FgoIndex,
+    screen: AddServant,
   },
 })

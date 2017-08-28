@@ -37,7 +37,7 @@ export default class ServantListWithSearch extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('FutureSight', { servant: servants[2] })
+    this.props.navigation.navigate('ServantList')
   }
 
 
