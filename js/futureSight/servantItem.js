@@ -53,12 +53,12 @@ export default class ServantItem extends PureComponent {
         avatar={
           <Image
             resizeMode="stretch"
-            style={{ height: bigAvatar ? '125%' : '100%', aspectRatio: 1 }}
+            style={{ height: bigAvatar ? '125%' : '100%', aspectRatio: 0.914 }}
             source={avatars[parseInt(servant.id, 10)]}
           />}
         subtitle={this.getSubtitle()}
-        titleContainerStyle={{ marginLeft: bigAvatar ? 10 : 0 }}
-        subtitleContainerStyle={{ marginLeft: bigAvatar ? 10 : 0 }}
+        titleContainerStyle={{ marginLeft: bigAvatar ? 4 : 0 }}
+        subtitleContainerStyle={{ marginLeft: bigAvatar ? 4 : 0 }}
         onPress={() => {
           if (!extend) {
             this.setState({ extend: true })

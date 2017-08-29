@@ -22,7 +22,7 @@ import AddServant from './addServant'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{ flex: 1 }}>
-    <Card containerStyle={{ margin: 0, height: '100%' }}>
+    <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
       <ScrollView>
         <ListItem
           title="素材规划"
@@ -49,6 +49,10 @@ FgoIndex.navigationOptions = {
 }
 
 export default StackNavigator({
+  Index: {
+    screen: FgoIndex,
+    // screen: materialList,
+  },
   ServantList: {
     screen: ServantList,
     navigationOptions: ({ navigation }) => ({
@@ -58,10 +62,6 @@ export default StackNavigator({
         onPress={() => navigation.navigate('AddServant')}
       />,
     }),
-  },
-  Index: {
-    screen: FgoIndex,
-    // screen: materialList,
   },
   MaterialList: {
     screen: MaterialList,

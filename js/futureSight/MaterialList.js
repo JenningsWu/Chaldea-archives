@@ -25,7 +25,7 @@ const noBorderStyle = {
 
 export default class ServantListWithSearch extends PureComponent {
 
-  static navigationOptions = ({ navigation }) => ({
+  static navigationOptions = () => ({
     title: '素材规划',
     ...indexNavigationOptions,
   })
@@ -33,7 +33,7 @@ export default class ServantListWithSearch extends PureComponent {
   constructor() {
     super()
     this.materialList = Object.keys(materialList).map(k => ({
-      key: k,
+      id: k,
       name: materialList[k].name,
     }))
     this.state = {

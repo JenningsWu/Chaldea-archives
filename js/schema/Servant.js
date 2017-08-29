@@ -96,6 +96,9 @@ export default class ClassName {
     this.skill3 = obj.skill3
     this.np = obj.np
     this.classSkill = obj.classSkill
+
+    // resource
+    this.skillResource = obj.skillResource
   }
 
   get rarityDesc() {

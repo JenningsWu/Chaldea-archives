@@ -158,7 +158,7 @@ export default class ServantForm extends PureComponent {
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2 }}
+                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, borderWidth: 1, borderColor: "red" }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.curr}`}
