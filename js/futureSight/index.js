@@ -56,11 +56,19 @@ export default StackNavigator({
   ServantList: {
     screen: ServantList,
     navigationOptions: ({ navigation }) => ({
-      headerRight: <Icon
-        name="add"
-        iconStyle={{ paddingRight: 10 }}
-        onPress={() => navigation.navigate('AddServant')}
-      />,
+      headerRight: <View style={{ flexDirection: 'row' }}>
+        <Icon
+          name="adjust"
+          iconStyle={{ paddingRight: 10 }}
+          onPress={() => navigation.navigate('AddServant')}
+        />
+        <Icon
+          name="add"
+          iconStyle={{ paddingRight: 10 }}
+          onPress={() => navigation.navigate('AddServant')}
+        />
+      </View>
+      ,
     }),
   },
   MaterialList: {

@@ -56,7 +56,7 @@ export default class ServantListWithSearch extends PureComponent {
     const { servant } = this.props.navigation.state.params
     return (
       <View style={{ flex: 1 }}>
-        <Card containerStyle={{ margin: 0, height: '100%' }}>
+        <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
           <ScrollView>
             <ListItem
               title={servant.name}
@@ -130,7 +130,7 @@ export default class ServantListWithSearch extends PureComponent {
             />
             <ListItem
               title="图鉴"
-              rightTitle={'被芙芙吃掉了！'}
+              rightTitle={'被芙芙吃掉了!'}
               // hideChevron
             />
           </ScrollView>

@@ -1,3 +1,13 @@
+const rarityAscensionLevel = {
+  [-1]: [],
+  0: [25, 35, 45, 55],
+  1: [20, 30, 40, 50],
+  2: [25, 35, 45, 55],
+  3: [30, 40, 50, 60],
+  4: [40, 50, 60, 70],
+  5: [50, 60, 70, 80],
+}
+
 const rarityToStr = {
   [-1]: '未定义',
   0: '零星',
@@ -99,6 +109,7 @@ export default class ClassName {
 
     // resource
     this.skillResource = obj.skillResource
+    this.ascensionResource = obj.ascensionResource
   }
 
   get rarityDesc() {
@@ -128,3 +139,5 @@ export default class ClassName {
   }
 
 }
+
+export { rarityAscensionLevel }

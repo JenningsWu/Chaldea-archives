@@ -51,15 +51,9 @@ const styles = StyleSheet.create({
 })
 
 class ServantListWithSearch extends PureComponent {
-  static navigationOptions = ({ navigation }) => ({
+  static navigationOptions = () => ({
     title: '从者一览',
     ...navigationOptions,
-    // headerRight: () => (
-    //   <Icon
-    //     name="settings"
-    //     onPress={() => navigation.navigate('MaterialList')}
-    //   />
-    // ),
   })
 
   constructor(props) {

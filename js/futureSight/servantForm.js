@@ -16,21 +16,12 @@ import {
   List,
   CheckBox,
 } from 'react-native-elements'
+import { rarityAscensionLevel } from '../schema/Servant'
 
 const CURR = 'next'
 const NEXT = 'level_next'
 const CURR_ASCENSION = 'curr_ascension'
 const NEXT_ASCENSION = 'next_ascension'
-
-const rarityAscensionLevel = {
-  [-1]: [],
-  0: [25, 35, 45, 55],
-  1: [20, 30, 40, 50],
-  2: [25, 35, 45, 55],
-  3: [30, 40, 50, 60],
-  4: [40, 50, 60, 70],
-  5: [50, 60, 70, 80],
-}
 
 function constrainInt(value, min, max) {
   const ret = parseInt(value, 10) || 0
@@ -158,7 +149,7 @@ export default class ServantForm extends PureComponent {
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, borderWidth: 1, borderColor: "red" }}
+                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2 }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.curr}`}

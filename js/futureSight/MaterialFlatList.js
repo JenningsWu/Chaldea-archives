@@ -21,6 +21,7 @@ import servants from '../assets/data/servants'
 import materialList from '../assets/data/materialList'
 import materialImg from '../assets/img/material'
 import { setMaterialNum } from '../actions/material'
+import { rarityAscensionLevel } from '../schema/Servant'
 
 function MaterialFlatList({ data, extraData, setMaterialNum }) {
   const styles = StyleSheet.create({
@@ -116,6 +117,15 @@ const materialNeedsCalculator = createSelector(
       skills.forEach((skill) => {
         for (let i = skill.curr; i < skill.next; i += 1) {
           servant.skillResource[i - 1].forEach((cost) => {
+            ret[cost.id] += cost.num
+          })
+        }
+      })
+      rarityAscensionLevel[servant.rarity].forEach((checkLevel, index) => {
+        if ((level.curr < checkLevel && checkLevel < level.next) ||
+            (level.curr === checkLevel && !level.currAscension) ||
+            (level.next === checkLevel && level.currAscension)) {
+          servant.ascensionResource[index].forEach((cost) => {
             ret[cost.id] += cost.num
           })
         }
