@@ -33,8 +33,8 @@ export default class ServantListWithSearch extends PureComponent {
   constructor() {
     super()
     this.materialList = Object.keys(materialList).map(k => ({
+      ...materialList[k],
       id: k,
-      name: materialList[k].name,
     }))
     this.state = {
       keyword: '',

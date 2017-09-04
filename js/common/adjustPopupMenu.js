@@ -18,32 +18,35 @@ import _ from 'lodash'
 
 import { clickConfig as clickConfigAction } from '../actions/config'
 
-const AdjustPopupMenu = ({ list, config = {}, clickConfig }) => (
+const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
   <Menu onSelect={() => {}}>
     <MenuTrigger>
       <Icon
-        name="adjust"
+        name={icon || 'adjust'}
         iconStyle={{ paddingRight: 10 }}
         // onPress={() => navigation.navigate('AddServant')}
       />
     </MenuTrigger>
     <MenuOptions>
       {
-        _.flatMap(list, (obj, name) => _.map(obj, (label, key) => (
-          <MenuOption style={{ padding: 0 }} key={`${name}:${key}`}>
-            <CheckBox
-              containerStyle={{
-                margin: 0,
-                marginLeft: 0,
-                marginRight: 0,
-              }}
-              title={label}
-              checked={_.get(config, [name, key], false)}
-              renderTouchable={View}
-              onPress={() => clickConfig(name, key)}
-            />
-          </MenuOption>
-        )))
+        _.flatMap(list, (obj, name) => _.map(obj, (label, key) => {
+          const value = _.get(config, [name, key], true)
+          return (
+            <MenuOption style={{ padding: 0 }} key={`${name}:${key}`}>
+              <CheckBox
+                containerStyle={{
+                  margin: 0,
+                  marginLeft: 0,
+                  marginRight: 0,
+                }}
+                title={label}
+                checked={value}
+                renderTouchable={View}
+                onPress={() => clickConfig(name, key, !value)}
+              />
+            </MenuOption>
+          )
+        }))
       }
     </MenuOptions>
   </Menu>
@@ -54,8 +57,8 @@ export default connect(
     config: accountData[account].config[parentName],
   }),
   (dispatch, { parentName }) => ({
-    clickConfig: (name, key) => {
-      dispatch(clickConfigAction(parentName, name, key))
+    clickConfig: (name, key, value) => {
+      dispatch(clickConfigAction(parentName, name, key, value))
     },
   }),
 )(AdjustPopupMenu)

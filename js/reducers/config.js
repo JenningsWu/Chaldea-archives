@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { CLICK_CONFIG } from '../actions/config'
+import { CLICK_CONFIG, SWITCH_FUTURE_INSIGHT_VIEW } from '../actions/config'
 
 function getConfig(state = {}, action) {
   // if (action.type === REHYDRATE) {
@@ -7,13 +7,13 @@ function getConfig(state = {}, action) {
   // }
   switch (action.type) {
     case CLICK_CONFIG: {
-      const { name, key } = action
+      const { name, key, value } = action
       const subState = state[name] || {}
       return {
         ...state,
         [name]: {
           ...subState,
-          [key]: !subState[key],
+          [key]: value,
         },
       }
     }
@@ -30,6 +30,11 @@ export default function config(state = {}, action) {
       return {
         ...state,
         [action.parentName]: getConfig(state[action.parentName], action),
+      }
+    case SWITCH_FUTURE_INSIGHT_VIEW:
+      return {
+        ...state,
+        futureInsightView: action.value,
       }
     default: {
       return state
