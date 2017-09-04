@@ -4,6 +4,7 @@
 
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
+import { MenuContext } from 'react-native-menu'
 
 import configureStore from './store/configureStore'
 import App from './app'
@@ -31,7 +32,9 @@ export default function setup(): ReactClass<{}> {
       }
       return (
         <Provider store={this.state.store}>
-          <App />
+          <MenuContext style={{ flex: 1 }}>
+            <App />
+          </MenuContext>
         </Provider>
       )
     }

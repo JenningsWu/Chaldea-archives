@@ -6,19 +6,23 @@ import React from 'react'
 import {
   View,
   ScrollView,
+  Text,
 } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 import {
   Card,
   ListItem,
   Icon,
+  CheckBox,
 } from 'react-native-elements'
+import Menu, { MenuContext, MenuOptions, MenuOption, MenuTrigger } from 'react-native-menu'
 
 import indexNavigationOptions from './navigationOptions'
 
 import MaterialList from './materialList'
 import ServantList from './servantList'
 import AddServant from './addServant'
+import AdjustPopupMenu from '../common/adjustPopupMenu'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{ flex: 1 }}>
@@ -57,10 +61,17 @@ export default StackNavigator({
     screen: ServantList,
     navigationOptions: ({ navigation }) => ({
       headerRight: <View style={{ flexDirection: 'row' }}>
-        <Icon
-          name="adjust"
-          iconStyle={{ paddingRight: 10 }}
-          onPress={() => navigation.navigate('AddServant')}
+        <AdjustPopupMenu
+          parentName={'futureSightServantList'}
+          list={{
+            priority: {
+              1: '第一优先级',
+              2: '第二优先级',
+              3: '第三优先级',
+              4: '第四优先级',
+              5: '第五优先级',
+            },
+          }}
         />
         <Icon
           name="add"

@@ -3,11 +3,10 @@
  */
 
 import { compose, applyMiddleware, createStore } from 'redux'
-import { persistStore, autoRehydrate } from 'redux-persist'
-import { AsyncStorage } from 'react-native'
-import createLogger from 'redux-logger'
+import { persistStore, persistReducer, createMigrate } from 'redux-persist'
+import storage from 'redux-persist/es/storage'
 
-import reducers from '../reducers'
+import rootReducer from '../reducers'
 import addAccountID from './addAccountID'
 
 const middlewares = [addAccountID]
@@ -17,20 +16,39 @@ if (__DEV__ && !!window.navigator.userAgent) {
   middlewares.push(logger)
 }
 
+const migrations = {
+  1: (state) => {
+    const ids = Object.keys(state.accountData)
+    let next = state
+    ids.forEach((id) => {
+      const action = {
+        currentAccountID: id,
+        type: 'MIGRATION',
+      }
+      next = rootReducer(state, action)
+    })
+    return next
+  },
+}
+
+const config = {
+  key: 'root',
+  version: 1,
+  storage,
+  migrate: createMigrate(migrations, { debug: true }),
+}
+
+const reducer = persistReducer(config, rootReducer)
+
 function configureStore(onComplete: Function) {
- // TODO(frantic): reconsider usage of redux-persist, maybe add cache breaker
   const store = createStore(
-    reducers,
+    reducer,
     undefined,
     compose(
       applyMiddleware(...middlewares),
-      autoRehydrate({ log: true }),
     ),
   )
-  persistStore(store, {
-    storage: AsyncStorage,
-    // blacklist: ['accountData'],
-  }, onComplete)
+  persistStore(store, {}, onComplete)
   // if (isDebuggingInChrome) {
   //   window.store = store;
   // }

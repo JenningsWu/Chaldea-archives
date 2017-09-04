@@ -20,7 +20,7 @@ import { createSelector, createStructuredSelector } from 'reselect'
 import servants from '../assets/data/servants'
 import materialList from '../assets/data/materialList'
 import materialImg from '../assets/img/material'
-import { setMaterialNum } from '../actions/material'
+import { setMaterialNum as setMaterialNumAction } from '../actions/material'
 import { rarityAscensionLevel } from '../schema/Servant'
 
 function MaterialFlatList({ data, extraData, setMaterialNum }) {
@@ -153,7 +153,7 @@ export default connect(
   }),
   dispatch => ({
     setMaterialNum: (id, num) => {
-      dispatch(setMaterialNum(id, num))
+      dispatch(setMaterialNumAction(id, num))
     },
   }),
 )(MaterialFlatList)

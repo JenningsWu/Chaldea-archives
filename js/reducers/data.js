@@ -1,14 +1,30 @@
 import _ from 'lodash'
-import { REHYDRATE } from 'redux-persist/constants'
+import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
 import { SET_SERVANT_INFO, REMOVE_SERVANT } from '../actions/servant'
 import materialList from '../assets/data/materialList'
+import config from './config'
 
 const initialMaterialData = _.mapValues(materialList, () => ({
   current: 0,
 }))
 
-function getMaterialData(state = initialMaterialData, action) {
+function name(state = '', action) {
+  switch (action.type) {
+    // case SET_MATERIAL_NUM:
+    //   return {
+    //     ...state,
+    //     [action.id]: {
+    //       ...state[action.id],
+    //       current: action.num,
+    //     },
+    //   }
+    default:
+      return state
+  }
+}
+
+function material(state = initialMaterialData, action) {
   switch (action.type) {
     case SET_MATERIAL_NUM:
       return {
@@ -23,7 +39,7 @@ function getMaterialData(state = initialMaterialData, action) {
   }
 }
 
-function getServantData(state = {}, action) {
+function servant(state = {}, action) {
   switch (action.type) {
     case SET_SERVANT_INFO:
       return {
@@ -37,29 +53,12 @@ function getServantData(state = {}, action) {
   }
 }
 
-
-function getAccountData(state = { name: '' }, action) {
-  // if (action.type === REHYDRATE) {
-  //   const {in}
-  // }
-  switch (action.type) {
-    // case SET_MATERIAL_NUM:
-    //   return
-    //   break;
-    default: {
-      const materialData = getMaterialData(state.material, action)
-      const servantData = getServantData(state.servant, action)
-      if (materialData === state.material && servantData === state.servant) {
-        return state
-      }
-      return {
-        ...state,
-        servant: servantData,
-        material: materialData,
-      }
-    }
-  }
-}
+const getAccountData = combineReducers({
+  name,
+  material,
+  servant,
+  config,
+})
 
 export default function data(state = { 0: undefined }, action) {
   switch (action.type) {

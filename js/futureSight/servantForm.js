@@ -15,6 +15,7 @@ import {
   Button,
   List,
   CheckBox,
+  Rating,
 } from 'react-native-elements'
 import { rarityAscensionLevel } from '../schema/Servant'
 
@@ -53,6 +54,7 @@ export default class ServantForm extends PureComponent {
         },
       ],
       npLevel: 1,
+      priority: 1,
     }
   }
 
@@ -102,6 +104,11 @@ export default class ServantForm extends PureComponent {
     }
   }
 
+  setSingleNum = (name, value) => {
+    const num = (parseInt(value, 10) || 0) % 10
+    this.setState({ [name]: constrainInt(num, 1, 5) })
+  }
+
   handleSkillChange = (index, type, value) => {
     const skill = {
       ...this.state.skills[index],
@@ -135,6 +142,7 @@ export default class ServantForm extends PureComponent {
       level,
       skills,
       npLevel,
+      priority,
     } = this.state
     return (
       <List containerStyle={{
@@ -228,9 +236,26 @@ export default class ServantForm extends PureComponent {
                 value={`${npLevel}`}
                 keyboardType="numeric"
                 returnKeyType="done"
-                onChangeText={text => this.setState({ npLevel: constrainInt(text, 1, 5) })}
+                onChangeText={text => this.setSingleNum('npLevel', text)}
               />
             </View>
+          }
+          hideChevron
+        />
+
+        <ListItem
+          title="优先级"
+          subtitle={
+            <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
+              <TextInput
+                style={{ height: 20, flex: 1, textAlign: 'center' }}
+                selectTextOnFocus
+                value={`${priority}`}
+                keyboardType="numeric"
+                returnKeyType="done"
+                onChangeText={text => this.setSingleNum('priority', text)}
+              />
+          </View>
           }
           hideChevron
         />

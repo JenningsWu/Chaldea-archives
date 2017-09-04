@@ -15,6 +15,8 @@ import {
   Icon,
 } from 'react-native-elements'
 import { connect } from 'react-redux'
+import { createSelector } from 'reselect'
+import _ from 'lodash'
 
 import navigationOptions from './navigationOptions'
 
@@ -165,15 +167,19 @@ class ServantListWithSearch extends PureComponent {
   }
 }
 
-function servantToList(data) {
-  return Object.keys(data).map(id => ({
-    id,
-    ...data[id],
-  }))
-}
+const getServantList = createSelector(
+  ({ account, accountData }) => accountData[account].servant,
+  ({ account, accountData }) => accountData[account].config.futureSightServantList,
+  (servant, config) => (
+    _.map(servant, (data, id) => ({
+      id,
+      ...data,
+    })).filter(({ priority }) => _.get(config, ['priority', priority], true))
+  ),
+)
 
 export default connect(
-  ({ account, accountData }) => ({ data: servantToList(accountData[account].servant) }),
+  state => ({ data: getServantList(state) }),
   dispatch => ({
     setServantInfo: (id, value) => {
       dispatch(setServantInfo(id, value))
