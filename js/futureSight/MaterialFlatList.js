@@ -3,7 +3,6 @@
  */
 
 import React, { PureComponent } from 'react'
-import _ from 'lodash'
 import {
   StyleSheet,
   View,
@@ -14,14 +13,8 @@ import {
 import {
   ListItem,
 } from 'react-native-elements'
-import { connect } from 'react-redux'
-import { createSelector, createStructuredSelector } from 'reselect'
 
-import servants from '../assets/data/servants'
-import materialList from '../assets/data/materialList'
 import materialImg from '../assets/img/material'
-import { setMaterialNum as setMaterialNumAction } from '../actions/material'
-import { rarityAscensionLevel } from '../schema/Servant'
 
 const styles = StyleSheet.create({
   subtitleView: {
@@ -47,6 +40,13 @@ const styles = StyleSheet.create({
 })
 
 class MaterialItem extends PureComponent {
+  constructor() {
+    super()
+    this.state = {
+      showInput: false,
+    }
+  }
+
   render() {
     const { id, name, needs, future, current, setMaterialNum } = this.props
     return (
@@ -72,12 +72,17 @@ class MaterialItem extends PureComponent {
             <Text style={styles.storageText}>库存：</Text>
           </View>
         }
-        textInput
+        rightTitle={`${current}`}
+        onPress={() => { this.setState({ showInput: true }) }}
+        textInput={this.state.showInput}
+        textInputAutoFocus
+        textInputOnBlur={() => { this.setState({ showInput: false }) }}
         textInputValue={`${current}`}
         textInputKeyboardType="numeric"
         textInputReturnKeyType="done"
         textInputSelectTextOnFocus
         textInputStyle={{ color: '#444444', width: '100%', flex: 1, textAlignVertical: 'bottom', paddingTop: 10 }}
+        rightTitleStyle={{ color: '#444444' }}
         textInputOnChangeText={(num) => {
           setMaterialNum(id, parseInt(num, 10) || 0)
         }}
@@ -90,116 +95,30 @@ class MaterialItem extends PureComponent {
   }
 }
 
-function MaterialFlatList({ data, extraData, setMaterialNum }) {
-  return (
-    <View style={{
-      flex: 1,
-    }}
-    >
-      <FlatList
-        data={data}
-        extraData={extraData}
-        keyExtractor={({ id }) => id}
-        renderItem={({ item: { id, name } }) => (
-          <MaterialItem
-            id={id}
-            name={name}
-            needs={extraData.needsList[id]}
-            future={extraData.futureList[id]}
-            current={extraData.currList[id]}
-            setMaterialNum={setMaterialNum}
-          />
-        )}
-      />
-    </View>
-  )
+export default class MaterialFlatList extends PureComponent {
+  render() {
+    const { data, extraData, setMaterialNum } = this.props
+    return (
+      <View style={{
+        flex: 1,
+      }}
+      >
+        <FlatList
+          data={data}
+          extraData={extraData}
+          keyExtractor={({ id }) => id}
+          renderItem={({ item: { id, name } }) => (
+            <MaterialItem
+              id={id}
+              name={name}
+              needs={extraData.needsList[id]}
+              future={extraData.futureList[id]}
+              current={extraData.currList[id]}
+              setMaterialNum={setMaterialNum}
+            />
+          )}
+        />
+      </View>
+    )
+  }
 }
-
-const materialNeedsCalculator = createSelector(
-  ({ account, accountData }) => accountData[account].servant,
-  ({ account, accountData }) => _.get(accountData, [account, 'config', 'futureSightMaterialList', 'priority'], {}),
-  (servantList, config) => {
-    const ret = _.mapValues(materialList, () => 0)
-    Object.keys(servantList).forEach((id) => {
-      const {
-        level,
-        skills,
-        priority,
-      } = servantList[id]
-      if (!_.get(config, [priority], true)) {
-        return
-      }
-      const servant = servants[parseInt(id, 10)]
-      skills.forEach((skill) => {
-        for (let i = skill.curr; i < skill.next; i += 1) {
-          servant.skillResource[i - 1].forEach((cost) => {
-            ret[cost.id] += cost.num
-          })
-        }
-      })
-      rarityAscensionLevel[servant.rarity].forEach((checkLevel, index) => {
-        if ((level.curr < checkLevel && checkLevel < level.next) ||
-            (level.curr === checkLevel && !level.currAscension) ||
-            (level.next === checkLevel && level.currAscension)) {
-          servant.ascensionResource[index].forEach((cost) => {
-            ret[cost.id] += cost.num
-          })
-        }
-      })
-    })
-    return ret
-  },
-)
-
-const materialFutureCalculator = createSelector(
-  ({ account }) => account,
-  account => _.mapValues(materialList, () => 0),
-)
-
-const extractCurrentList = createSelector(
-  ({ account, accountData }) => accountData[account].material,
-  list => _.mapValues(list, ({ current }) => current),
-)
-
-const materialCalculator = createStructuredSelector({
-  currList: extractCurrentList,
-  needsList: materialNeedsCalculator,
-  futureList: materialFutureCalculator,
-})
-
-const getMaterialList = createSelector(
-  ({ data }) => data,
-  ({ state: { account, accountData } }) => _.get(accountData, [account, 'config', 'futureSightMaterialList', 'type'], {}),
-  (data, config) => (
-    data.filter(({ type }) => _.get(config, [type], true))
-  ),
-)
-
-const getFutureInsightViewConfig = ({ account, accountData }) => _.get(accountData, [account, 'config', 'futureInsightView'], false)
-
-const getNeedsMaterial = createSelector(
-  ({ data }) => data,
-  ({ extraData }) => extraData,
-  (data, { needsList, currList, futureList }) => data.filter(({ id }) => (
-    needsList[id] > currList[id] + futureList[id]
-  )),
-)
-
-export default connect(
-  (state, { data }) => ({
-    data: getMaterialList({ state, data }),
-    extraData: materialCalculator(state),
-    futureInsightView: getFutureInsightViewConfig(state),
-  }),
-  dispatch => ({
-    setMaterialNum: (id, num) => {
-      dispatch(setMaterialNumAction(id, num))
-    },
-  }),
-  ({ data, extraData, futureInsightView }, dispatch, ownProps) => ({
-    ...ownProps,
-    ...dispatch,
-    data: futureInsightView ? getNeedsMaterial({ data, extraData }) : data,
-    extraData,
-  }),
-)(MaterialFlatList)

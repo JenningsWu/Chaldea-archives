@@ -39,7 +39,7 @@ export default class ServantList extends PureComponent {
   keyExtractor = (item: { id: string }) => item.id
 
   renderItem = ({ item }) => (
-    <ServantItem item={item} />
+    <ServantItem item={item} navigation={this.props.navigation} />
   )
 
   render() {

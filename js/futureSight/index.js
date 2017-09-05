@@ -6,16 +6,13 @@ import React from 'react'
 import {
   View,
   ScrollView,
-  Text,
 } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 import {
   Card,
   ListItem,
   Icon,
-  CheckBox,
 } from 'react-native-elements'
-import Menu, { MenuContext, MenuOptions, MenuOption, MenuTrigger } from 'react-native-menu'
 import { connect } from 'react-redux'
 import _ from 'lodash'
 
