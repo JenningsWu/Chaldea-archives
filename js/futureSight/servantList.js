@@ -118,12 +118,7 @@ class ServantListWithSearch extends PureComponent {
             clearIcon
           />
           <Icon
-            name="settings"
-            iconStyle={{ paddingLeft: 2, paddingRight: 5, fontSize: 24 }}
-            onPress={() => this.setState({ keyword: '' })}
-          />
-          <Icon
-            iconStyle={{ paddingLeft: 5, paddingRight: 10, fontSize: 32 }}
+            iconStyle={{ paddingLeft: 2, paddingRight: 10, fontSize: 32 }}
             name={this.state.up ? 'caret-up' : 'caret-down'}
             type="font-awesome"
             onPress={() => this.setState({ up: !up })}
@@ -134,7 +129,7 @@ class ServantListWithSearch extends PureComponent {
         }}
         >
           <FlatList
-            data={this.state.list}
+            data={up ? this.state.list : this.state.list.slice().reverse()}
             keyExtractor={(item: { id: string }) => item.id}
             renderItem={({ item }) => (
               <ServantItem
@@ -169,7 +164,7 @@ class ServantListWithSearch extends PureComponent {
 
 const getServantList = createSelector(
   ({ account, accountData }) => accountData[account].servant,
-  ({ account, accountData }) => accountData[account].config.futureSightServantList,
+  ({ account, accountData }) => accountData[account].config.viewFilter.futureSightServantList,
   (servant, config) => (
     _.map(servant, (data, id) => ({
       id,

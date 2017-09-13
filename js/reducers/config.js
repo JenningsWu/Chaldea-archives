@@ -1,5 +1,10 @@
 import _ from 'lodash'
-import { CLICK_CONFIG, SWITCH_FUTURE_INSIGHT_VIEW } from '../actions/config'
+import { combineReducers } from 'redux'
+import {
+  CLICK_CONFIG,
+  SWITCH_FUTURE_INSIGHT_VIEW,
+  SET_SEARCHBAR_OPTION,
+} from '../actions/config'
 
 function getConfig(state = {}, action) {
   // if (action.type === REHYDRATE) {
@@ -24,7 +29,7 @@ function getConfig(state = {}, action) {
   }
 }
 
-export default function config(state = {}, action) {
+function viewFilter(state = {}, action) {
   switch (action.type) {
     case CLICK_CONFIG:
       return {
@@ -41,3 +46,23 @@ export default function config(state = {}, action) {
     }
   }
 }
+
+function searchbarOption(state = {}, action) {
+  console.log(1, action, SET_SEARCHBAR_OPTION)
+  switch (action.type) {
+    case SET_SEARCHBAR_OPTION:
+      console.log(action)
+      return {
+        ...state,
+        [action.name]: action.value,
+      }
+    default: {
+      return state
+    }
+  }
+}
+
+export default combineReducers({
+  viewFilter,
+  searchbarOption,
+})

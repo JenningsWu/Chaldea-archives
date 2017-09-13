@@ -12,11 +12,16 @@ import {
   Icon,
 } from 'react-native-elements'
 import { connect } from 'react-redux'
+import { createSelector } from 'reselect'
+import _ from 'lodash'
 
 import navigationOptions from './navigationOptions'
 
 import servants from '../assets/data/servants'
 import { setServantInfo } from '../actions/servant'
+import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
+import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'
+
 
 import ServantForm from './servantForm'
 import ServantItem from './servantItem'
@@ -41,24 +46,22 @@ class ServantListWithSearch extends PureComponent {
   })
 
   constructor(props) {
-    super()
-    this.list = Object.keys(servants).map(
-      key => servants[key]).slice(1).filter(servant => !(servant.id in props.list))
-    this.candidateList = this.list
+    super(props)
     this.state = {
       keyword: '',
       up: true,
       adding: false,
       current: '001',
+      showOption: false,
       // list: props.data,
-      renderList: this.list,
+      list: props.list,
     }
   }
 
   state: {
     keyword: string;
     up: boolean;
-    renderList: Array<Object>;
+    list: Array<Object>;
   }
   //
   // componentDidMount() {
@@ -69,14 +72,13 @@ class ServantListWithSearch extends PureComponent {
     if (this.props === nextProps) {
       return
     }
-    this.candidateList = this.list.filter(servant => !(servant.id in nextProps.list))
-    this.onSearchChange(this.state.keyword)
+    this.onSearchChange(this.state.keyword, nextProps.list)
   }
 
-  onSearchChange = (keyword: string) => {
+  onSearchChange = (keyword: string, list = this.props.list) => {
     this.setState({
       keyword,
-      renderList: keyword === '' ? this.candidateList : this.candidateList.filter(servant =>
+      list: keyword === '' ? list : list.filter(servant =>
         servant.checkKeyWord(keyword)),
     })
   }
@@ -93,6 +95,14 @@ class ServantListWithSearch extends PureComponent {
     } = this.state
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
+        <SearchbarOptionModal
+          visible={this.state.showOption}
+          close={(value) => {
+            this.props.setSearchbarOption(value)
+            this.setState({ showOption: false })
+          }}
+          state={this.props.option}
+        />
         <View style={{
           flexDirection: 'row',
           justifyContent: 'flex-start',
@@ -110,7 +120,7 @@ class ServantListWithSearch extends PureComponent {
           <Icon
             name="settings"
             iconStyle={{ paddingLeft: 2, paddingRight: 5, fontSize: 24 }}
-            onPress={() => this.setState({ keyword: '' })}
+            onPress={() => this.setState({ showOption: true })}
           />
           <Icon
             iconStyle={{ paddingLeft: 5, paddingRight: 10, fontSize: 32 }}
@@ -124,7 +134,7 @@ class ServantListWithSearch extends PureComponent {
         }}
         >
           <FlatList
-            data={this.state.renderList}
+            data={this.state.up ? this.state.list : this.state.list.slice().reverse()}
             keyExtractor={(item: { id: string }) => item.id}
             renderItem={({ item }) => (
               <ServantItem
@@ -148,11 +158,27 @@ class ServantListWithSearch extends PureComponent {
   }
 }
 
+const getOption = ({ account, accountData }) => _.get(accountData, [account, 'config', 'searchbarOption', 'addServant'], initialOption)
+
+const getServantList = createSelector(
+  getOption,
+  () => servants,
+  ({ account, accountData }) => accountData[account].servant,
+  (option, servantList, exclude) =>
+    servantList.slice(1).filter(s => s.filter(option) && !(s.id in exclude)),
+)
+
 export default connect(
-  ({ account, accountData }) => ({ list: accountData[account].servant }),
+  state => ({
+    list: getServantList(state),
+    option: getOption(state),
+  }),
   dispatch => ({
     setServantInfo: (id, value) => {
       dispatch(setServantInfo(id, value))
+    },
+    setSearchbarOption: (value) => {
+      dispatch(setSearchbarOptionAction('addServant', value))
     },
   }),
 )(ServantListWithSearch)

@@ -38,6 +38,7 @@ const FgoIndex = ({ navigation }) => (
         />
         <ListItem
           title="活动情况"
+          onPress={() => navigation.navigg('ttt')}
         />
         <ListItem
           title="切换账号"
@@ -62,7 +63,7 @@ const EyeMenu = ({ enable, onClick }) => (
 
 const FutureSightMenu = connect(
   ({ account, accountData }) => ({
-    enable: _.get(accountData, [account, 'config', 'futureInsightView'], false),
+    enable: _.get(accountData, [account, 'config', 'viewFilter', 'futureInsightView'], false),
   }),
   dispatch => ({
     onClick: (value) => {

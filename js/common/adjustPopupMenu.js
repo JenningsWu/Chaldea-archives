@@ -54,7 +54,7 @@ const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
 
 export default connect(
   ({ account, accountData }, { parentName }) => ({
-    config: accountData[account].config[parentName],
+    config: accountData[account].config.viewFilter[parentName],
   }),
   (dispatch, { parentName }) => ({
     clickConfig: (name, key, value) => {

@@ -121,7 +121,7 @@ class ServantListWithSearch extends PureComponent {
 
 const materialNeedsCalculator = createSelector(
   ({ account, accountData }) => accountData[account].servant,
-  ({ account, accountData }) => _.get(accountData, [account, 'config', 'futureSightMaterialList', 'priority'], {}),
+  ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
     const ret = _.mapValues(materialList, () => 0)
     Object.keys(servantList).forEach((id) => {
@@ -173,14 +173,14 @@ const materialCalculator = createStructuredSelector({
 
 const getMaterialList = createSelector(
   () => materialList,
-  ({ account, accountData }) => _.get(accountData, [account, 'config', 'futureSightMaterialList', 'type'], {}),
+  ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'type'], {}),
   (data, config) => _.map(data, (val, id) => ({
     ...val,
     id,
   })).filter(({ type }) => _.get(config, [type], true)),
 )
 
-const getFutureInsightViewConfig = ({ account, accountData }) => _.get(accountData, [account, 'config', 'futureInsightView'], false)
+const getFutureInsightViewConfig = ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureInsightView'], false)
 
 const getNeedsMaterial = createSelector(
   ({ data }) => data,

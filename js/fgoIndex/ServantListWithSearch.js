@@ -2,15 +2,20 @@
  * @flow
  */
 
-import React, { Component, PureComponent } from 'react'
+import React, { PureComponent } from 'react'
 import {
   View,
 } from 'react-native'
 import { SearchBar, Icon } from 'react-native-elements'
+import { connect } from 'react-redux'
+import { createSelector } from 'reselect'
+import _ from 'lodash'
 
 import ServantList from './ServantList'
 
 import servants from '../assets/data/servants'
+import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
+import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -19,32 +24,39 @@ const noBorderStyle = {
   borderBottomWidth: 0,
 }
 
-export default class ServantListWithSearch extends PureComponent {
-  constructor() {
-    super()
-    this.servants = servants.slice(1)
+class ServantListWithSearch extends PureComponent {
+  constructor(props) {
+    super(props)
     this.state = {
       keyword: '',
       up: true,
-      list: this.servants,
+      showOption: false,
+      list: props.list,
     }
   }
 
   state: {
     keyword: string;
     up: boolean;
+    showOption: boolean;
     list: Array<Object>;
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('MaterialList')
+    // this.props.navigation.navigate('MaterialList')
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (this.props === nextProps) {
+      return
+    }
+    this.onSearchChange(this.state.keyword, nextProps.list)
+  }
 
-  onSearchChange = (keyword: string) => {
+  onSearchChange = (keyword: string, list = this.props.list) => {
     this.setState({
       keyword,
-      list: keyword === '' ? this.servants : this.servants.filter(servant =>
+      list: keyword === '' ? list : this.props.list.filter(servant =>
         servant.checkKeyWord(keyword)),
     })
   }
@@ -59,6 +71,14 @@ export default class ServantListWithSearch extends PureComponent {
     const { up } = this.state
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
+        <SearchbarOptionModal
+          visible={this.state.showOption}
+          close={(value) => {
+            this.props.setSearchbarOption(value)
+            this.setState({ showOption: false })
+          }}
+          state={this.props.option}
+        />
         <View style={{
           flexDirection: 'row',
           justifyContent: 'flex-start',
@@ -77,7 +97,7 @@ export default class ServantListWithSearch extends PureComponent {
           <Icon
             name="settings"
             iconStyle={{ paddingLeft: 2, paddingRight: 5, fontSize: 24 }}
-            onPress={() => this.setState({ keyword: '' })}
+            onPress={() => this.setState({ showOption: true })}
           />
           <Icon
             iconStyle={{ paddingLeft: 5, paddingRight: 10, fontSize: 32 }}
@@ -99,3 +119,23 @@ export default class ServantListWithSearch extends PureComponent {
     )
   }
 }
+
+const getOption = ({ account, accountData }) => _.get(accountData, [account, 'config', 'searchbarOption', 'index'], initialOption)
+
+const getServantList = createSelector(
+  getOption,
+  () => servants,
+  (option, servantList) => servantList.slice(1).filter(s => s.filter(option)),
+)
+
+export default connect(
+  state => ({
+    list: getServantList(state),
+    option: getOption(state),
+  }),
+  dispatch => ({
+    setSearchbarOption: (value) => {
+      dispatch(setSearchbarOptionAction('index', value))
+    },
+  }),
+)(ServantListWithSearch)

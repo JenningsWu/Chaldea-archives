@@ -5,6 +5,7 @@
 import { compose, applyMiddleware, createStore } from 'redux'
 import { persistStore, persistReducer, createMigrate } from 'redux-persist'
 import storage from 'redux-persist/es/storage'
+import { Client, Configuration } from 'bugsnag-react-native'
 
 import rootReducer from '../reducers'
 import addAccountID from './addAccountID'
@@ -17,7 +18,7 @@ if (__DEV__ && !!window.navigator.userAgent) {
 }
 
 const migrations = {
-  1: (state) => {
+  2: (state) => {
     const ids = Object.keys(state.accountData)
     let next = state
     ids.forEach((id) => {
@@ -33,7 +34,7 @@ const migrations = {
 
 const config = {
   key: 'root',
-  version: 1,
+  version: 2,
   storage,
   migrate: createMigrate(migrations, { debug: true }),
 }
@@ -52,6 +53,14 @@ function configureStore(onComplete: Function) {
   // if (isDebuggingInChrome) {
   //   window.store = store;
   // }
+
+  const configuration = new Configuration()
+  configuration.beforeSendCallbacks.push((report) => {
+    report.metadata = {
+      state: store.getState(),
+    }
+  })
+  const bugsnag = new Client(configuration)
   return store
 }
 

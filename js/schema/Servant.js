@@ -1,3 +1,5 @@
+import _ from 'lodash'
+
 const rarityAscensionLevel = {
   [-1]: [],
   0: [25, 35, 45, 55],
@@ -35,6 +37,25 @@ const classToStr = {
   13: 'BeastⅡ',
   14: 'BeastⅢ',
   15: 'Grand Caster',
+}
+
+const classToClass = {
+  0: 'sp',
+  1: 'saber',
+  2: 'archer',
+  3: 'lancer',
+  4: 'rider',
+  5: 'caster',
+  6: 'assassin',
+  7: 'berserker',
+  8: 'sp',
+  9: 'sp',
+  10: 'sp',
+  11: 'sp',
+  12: 'sp',
+  13: 'sp',
+  14: 'sp',
+  15: 'sp',
 }
 
 const genderToStr = {
@@ -136,6 +157,13 @@ export default class ClassName {
 
   checkKeyWord(key) {
     return this.fuzzyKeywords.some(str => str.indexOf(key) >= 0) || this.exactKeywords.includes(key)
+  }
+
+  filter(option) {
+    return (
+      _.get(option, ['rarityOption', this.rarity], true) &&
+      _.get(option, ['classOption', classToClass[this.class]], true)
+    )
   }
 
 }
