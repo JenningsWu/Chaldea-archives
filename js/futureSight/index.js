@@ -21,8 +21,13 @@ import indexNavigationOptions from './navigationOptions'
 import MaterialList from './materialList'
 import ServantList from './servantList'
 import AddServant from './addServant'
+import AccountList from './accountList'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
 import { switchFutureInsightView } from '../actions/config'
+import {
+  switchAccountEditingMode,
+  addAccount,
+} from '../actions/account'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{ flex: 1 }}>
@@ -42,6 +47,7 @@ const FgoIndex = ({ navigation }) => (
         />
         <ListItem
           title="切换账号"
+          onPress={() => navigation.navigate('AccountList')}
         />
       </ScrollView>
     </Card>
@@ -72,6 +78,37 @@ const FutureSightMenu = connect(
   }),
 )(EyeMenu)
 
+const AddIcon = connect(
+  () => ({}),
+  dispatch => ({
+    onClick: () => {
+      dispatch(addAccount())
+    },
+  }),
+)(({ onClick }) => (
+  <Icon
+    name="add"
+    iconStyle={{ paddingRight: 10 }}
+    onPress={onClick}
+  />
+))
+
+const EditingIcon = connect(
+  ({ account, accountData }) => ({
+    editing: _.get(accountData, [account, 'config', 'account', 'editing'], false),
+  }),
+  dispatch => ({
+    onClick: (value) => {
+      dispatch(switchAccountEditingMode(value))
+    },
+  }),
+)(({ editing, onClick }) => (
+  <Icon
+    name={editing ? 'done' : 'build'}
+    iconStyle={{ paddingRight: 10 }}
+    onPress={() => onClick(!editing)}
+  />
+))
 
 export default StackNavigator({
   Index: {
@@ -140,5 +177,15 @@ export default StackNavigator({
   },
   AddServant: {
     screen: AddServant,
+  },
+  AccountList: {
+    screen: AccountList,
+    navigationOptions: () => ({
+      headerRight: <View style={{ flexDirection: 'row' }}>
+        <AddIcon />
+        <EditingIcon />
+      </View>
+      ,
+    }),
   },
 })

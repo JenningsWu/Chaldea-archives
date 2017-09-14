@@ -5,6 +5,7 @@ import {
   SWITCH_FUTURE_INSIGHT_VIEW,
   SET_SEARCHBAR_OPTION,
 } from '../actions/config'
+import { SWITCH_ACCOUNT_EDITING_MODE } from '../actions/account'
 
 function getConfig(state = {}, action) {
   // if (action.type === REHYDRATE) {
@@ -48,10 +49,8 @@ function viewFilter(state = {}, action) {
 }
 
 function searchbarOption(state = {}, action) {
-  console.log(1, action, SET_SEARCHBAR_OPTION)
   switch (action.type) {
     case SET_SEARCHBAR_OPTION:
-      console.log(action)
       return {
         ...state,
         [action.name]: action.value,
@@ -62,7 +61,21 @@ function searchbarOption(state = {}, action) {
   }
 }
 
+function account(state = {}, action) {
+  switch (action.type) {
+    case SWITCH_ACCOUNT_EDITING_MODE:
+      return {
+        ...state,
+        editing: action.value,
+      }
+    default: {
+      return state
+    }
+  }
+}
+
 export default combineReducers({
   viewFilter,
   searchbarOption,
+  account,
 })
