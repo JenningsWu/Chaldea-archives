@@ -48,49 +48,77 @@ class MaterialItem extends PureComponent {
   }
 
   render() {
-    const { id, name, needs, future, current, setMaterialNum } = this.props
+    const { id, name, simple, needs, future, current, setMaterialNum } = this.props
     return (
-      <ListItem
-        title={name}
-        avatar={
-          <Image
-            resizeMode="stretch"
-            source={materialImg[id]}
-            style={{ height: '100%', aspectRatio: 1 }}
-          />}
-        subtitle={
-          <View style={styles.subtitleView}>
-            <Text
-              style={[
-                styles.needsText,
-                { color: needs > future + current ? 'red' : 'green' },
-              ]}
-            >
-              所需：{needs}
-            </Text>
-            <Text style={styles.futureText}>活动：{future}</Text>
-            <Text style={styles.storageText}>库存：</Text>
-          </View>
-        }
-        rightTitle={`${current}`}
-        onPress={() => { this.setState({ showInput: true }) }}
-        textInput={this.state.showInput}
-        textInputAutoFocus
-        textInputOnBlur={() => { this.setState({ showInput: false }) }}
-        textInputValue={`${current}`}
-        textInputKeyboardType="numeric"
-        textInputReturnKeyType="done"
-        textInputSelectTextOnFocus
-        textInputStyle={{ color: '#444444', width: '100%', flex: 1, textAlignVertical: 'bottom', paddingTop: 10 }}
-        rightTitleStyle={{ color: '#444444' }}
-        textInputOnChangeText={(num) => {
-          setMaterialNum(id, parseInt(num, 10) || 0)
-        }}
-        hideChevron
-        // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
-        // underlayColor="#ddd"
-        // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
-      />
+      simple ? (
+        <ListItem
+          title={name}
+          avatar={
+            <Image
+              resizeMode="stretch"
+              source={materialImg[id]}
+              style={{ height: '100%', aspectRatio: 1 }}
+            />}
+          subtitle={
+            <View style={styles.subtitleView}>
+              <Text
+                style={[
+                  styles.needsText,
+                  { color: needs > future + current ? 'red' : 'green' },
+                ]}
+              >
+                所需：{needs.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+              </Text>
+            </View>
+          }
+          hideChevron
+          // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
+          // underlayColor="#ddd"
+          // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
+        />
+      ) : (
+        <ListItem
+          title={name}
+          avatar={
+            <Image
+              resizeMode="stretch"
+              source={materialImg[id]}
+              style={{ height: '100%', aspectRatio: 1 }}
+            />}
+          subtitle={
+            <View style={styles.subtitleView}>
+              <Text
+                style={[
+                  styles.needsText,
+                  { color: needs > future + current ? 'red' : 'green' },
+                ]}
+              >
+                所需：{needs}
+              </Text>
+              <Text style={styles.futureText}>活动：{future}</Text>
+              <Text style={styles.storageText}>库存：</Text>
+            </View>
+          }
+          rightTitle={simple ? null : `${current}`}
+          onPress={() => { this.setState({ showInput: true }) }}
+          textInput={this.state.showInput}
+          textInputAutoFocus
+          textInputOnBlur={() => { this.setState({ showInput: false }) }}
+          textInputValue={`${current}`}
+          textInputKeyboardType="numeric"
+          textInputReturnKeyType="done"
+          textInputSelectTextOnFocus
+          textInputStyle={{ color: '#444444', width: '100%', flex: 1, textAlignVertical: 'bottom', paddingTop: 10 }}
+          rightTitleStyle={{ color: '#444444' }}
+          textInputOnChangeText={(num) => {
+            setMaterialNum(id, parseInt(num, 10) || 0)
+          }}
+          hideChevron
+          // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
+          // underlayColor="#ddd"
+          // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
+        />
+      )
     )
   }
 }
@@ -107,10 +135,11 @@ export default class MaterialFlatList extends PureComponent {
           data={data}
           extraData={extraData}
           keyExtractor={({ id }) => id}
-          renderItem={({ item: { id, name } }) => (
+          renderItem={({ item: { id, name, simple = false } }) => (
             <MaterialItem
               id={id}
               name={name}
+              simple={simple}
               needs={extraData.needsList[id]}
               future={extraData.futureList[id]}
               current={extraData.currList[id]}

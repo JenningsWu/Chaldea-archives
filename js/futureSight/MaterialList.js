@@ -103,11 +103,6 @@ class ServantListWithSearch extends PureComponent {
             clearIcon
             keyboardType="web-search"
           />
-          <Icon
-            name="settings"
-            iconStyle={{ paddingLeft: 3, paddingRight: 10, fontSize: 24 }}
-            onPress={() => this.setState({ keyword: '' })}
-          />
         </View>
         <MaterialFlatList
           data={list}
@@ -174,10 +169,16 @@ const materialCalculator = createStructuredSelector({
 const getMaterialList = createSelector(
   () => materialList,
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'type'], {}),
-  (data, config) => _.map(data, (val, id) => ({
-    ...val,
-    id,
-  })).filter(({ type }) => _.get(config, [type], true)),
+  (data, config) => {
+    const ret = _.map(data, (val, id) => ({
+      ...val,
+      id,
+    })).filter(({ type }) => _.get(config, [type], true))
+    const top = ret.filter(({ id }) => id[0] === '9')
+    top.push(...ret.filter(({ id }) => id[0] !== '9'))
+    console.log(top)
+    return top
+  },
 )
 
 const getFutureInsightViewConfig = ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureInsightView'], false)

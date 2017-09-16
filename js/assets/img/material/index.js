@@ -76,6 +76,8 @@ import m4103 from './4103.jpg'
 import m4104 from './4104.jpg'
 import m4105 from './4105.jpg'
 import m4106 from './4106.jpg'
+import m9000 from './9000.jpg'
+import m9001 from './9001.png'
 
 export default {
   '0000': m0000,
@@ -156,4 +158,6 @@ export default {
   4104: m4104,
   4105: m4105,
   4106: m4106,
+  9000: m9000,
+  9001: m9001,
 }

@@ -1,4 +1,15 @@
 export default {
+  9000: {
+    name: 'QP (量子)',
+    type: 5,
+    top: true,
+    simple: true,
+  },
+  9001: {
+    name: '金狗粮',
+    type: 5,
+    top: true,
+  },
   '0000': {
     name: '剑之辉石',
     type: 0,
