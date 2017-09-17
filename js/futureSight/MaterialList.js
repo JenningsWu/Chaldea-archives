@@ -174,9 +174,8 @@ const getMaterialList = createSelector(
       ...val,
       id,
     })).filter(({ type }) => _.get(config, [type], true))
-    const top = ret.filter(({ id }) => id[0] === '9')
-    top.push(...ret.filter(({ id }) => id[0] !== '9'))
-    console.log(top)
+    const top = ret.filter(m => m.top)
+    top.push(...ret.filter(m => !m.top))
     return top
   },
 )

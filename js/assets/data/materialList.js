@@ -10,6 +10,11 @@ export default {
     type: 5,
     top: true,
   },
+  9002: {
+    name: '圣杯',
+    type: 5,
+    top: true,
+  },
   '0000': {
     name: '剑之辉石',
     type: 0,

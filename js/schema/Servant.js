@@ -10,6 +10,17 @@ const rarityAscensionLevel = {
   5: [50, 60, 70, 80],
 }
 
+const rarityPalingenesisLevel = {
+  [-1]: [],
+  0: [65, 70, 75, 80, 85, 90, 92, 94, 96, 98],
+  1: [60, 70, 75, 80, 85, 90, 92, 94, 96, 98],
+  2: [65, 70, 75, 80, 85, 90, 92, 94, 96, 98],
+  3: [70, 75, 80, 85, 90, 92, 94, 96, 98],
+  4: [80, 85, 90, 92, 94, 96, 98],
+  5: [90, 92, 94, 96, 98],
+}
+
+
 const rarityToStr = {
   [-1]: '未定义',
   0: '零星',
@@ -168,4 +179,4 @@ export default class ClassName {
 
 }
 
-export { rarityAscensionLevel }
+export { rarityAscensionLevel, rarityPalingenesisLevel }

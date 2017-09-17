@@ -15,9 +15,8 @@ import {
   Button,
   List,
   CheckBox,
-  Rating,
 } from 'react-native-elements'
-import { rarityAscensionLevel } from '../schema/Servant'
+import { rarityAscensionLevel, rarityPalingenesisLevel } from '../schema/Servant'
 
 const CURR = 'next'
 const NEXT = 'level_next'
@@ -80,10 +79,20 @@ export default class ServantForm extends PureComponent {
       default:
     }
 
-    if (!rarityAscensionLevel[rarity].includes(level.curr)) {
+    if (level.next === level.curr) {
+      level.nextAscension = level.nextAscension || level.currAscension
+    }
+
+    if (
+      !rarityAscensionLevel[rarity].includes(level.curr) &&
+      !rarityPalingenesisLevel[rarity].includes(level.curr)
+    ) {
       level.currAscension = false
     }
-    if (!rarityAscensionLevel[rarity].includes(level.next)) {
+    if (
+      !rarityAscensionLevel[rarity].includes(level.next) &&
+      !rarityPalingenesisLevel[rarity].includes(level.next)
+    ) {
       level.nextAscension = false
     }
 
@@ -144,6 +153,7 @@ export default class ServantForm extends PureComponent {
       npLevel,
       priority,
     } = this.state
+    const { rarity } = this.props.servant
     return (
       <List containerStyle={{
         marginTop: 20,
@@ -168,7 +178,7 @@ export default class ServantForm extends PureComponent {
                 <CheckBox
                   center
                   style={{ height: 20, flex: 1, marginTop: 4 }}
-                  title="已灵基突破"
+                  title={level.curr < (rarityPalingenesisLevel[rarity][0] || 101) ? '已灵基突破' : '已喂圣杯'}
                   checked={level.currAscension}
                   onPress={() => this.handleLevelChange(CURR_ASCENSION, !level.currAscension)}
                 />
@@ -187,7 +197,7 @@ export default class ServantForm extends PureComponent {
                 <CheckBox
                   center
                   style={{ height: 20, flex: 1, marginTop: 4 }}
-                  title="已灵基突破"
+                  title={level.next < (rarityPalingenesisLevel[rarity][0] || 101) ? '已灵基突破' : '已喂圣杯'}
                   checked={level.nextAscension}
                   onPress={() => this.handleLevelChange(NEXT_ASCENSION, !level.nextAscension)}
                 />
