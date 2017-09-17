@@ -49,6 +49,7 @@ class MaterialItem extends PureComponent {
 
   render() {
     const { id, name, simple, needs, future, current, setMaterialNum } = this.props
+    const enough = needs <= future + current
     return (
       simple ? (
         <ListItem
@@ -64,13 +65,17 @@ class MaterialItem extends PureComponent {
               <Text
                 style={[
                   styles.needsText,
-                  { color: needs > future + current ? 'red' : 'green' },
+                  { color: enough ? 'green' : 'red' },
+                  { width: '100%' },
                 ]}
               >
                 所需：{needs.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
               </Text>
             </View>
           }
+          switchButton
+          onSwitch={() => setMaterialNum(id, enough ? 0 : 999999999999)}
+          switched={enough}
           hideChevron
           // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
           // underlayColor="#ddd"
@@ -90,7 +95,7 @@ class MaterialItem extends PureComponent {
               <Text
                 style={[
                   styles.needsText,
-                  { color: needs > future + current ? 'red' : 'green' },
+                  { color: enough ? 'green' : 'red' },
                 ]}
               >
                 所需：{needs}
@@ -99,7 +104,7 @@ class MaterialItem extends PureComponent {
               <Text style={styles.storageText}>库存：</Text>
             </View>
           }
-          rightTitle={simple ? null : `${current}`}
+          rightTitle={`${current}`}
           onPress={() => { this.setState({ showInput: true }) }}
           textInput={this.state.showInput}
           textInputAutoFocus

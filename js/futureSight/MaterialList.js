@@ -129,21 +129,8 @@ const materialNeedsCalculator = createSelector(
         return
       }
       const servant = servants[parseInt(id, 10)]
-      skills.forEach((skill) => {
-        for (let i = skill.curr; i < skill.next; i += 1) {
-          servant.skillResource[i - 1].forEach((cost) => {
-            ret[cost.id] += cost.num
-          })
-        }
-      })
-      rarityAscensionLevel[servant.rarity].forEach((checkLevel, index) => {
-        if ((level.curr < checkLevel && checkLevel < level.next) ||
-            (level.curr === checkLevel && !level.currAscension) ||
-            (level.next === checkLevel && level.currAscension)) {
-          servant.ascensionResource[index].forEach((cost) => {
-            ret[cost.id] += cost.num
-          })
-        }
+      servant.calculateMaterailNums(level, skills).forEach((num, materialId) => {
+        ret[materialId] += num
       })
     })
     return ret

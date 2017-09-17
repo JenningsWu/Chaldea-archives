@@ -6,7 +6,7 @@ export default {
     simple: true,
   },
   9001: {
-    name: '金狗粮',
+    name: '同职介金狗粮',
     type: 5,
     top: true,
   },
