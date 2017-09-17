@@ -28,6 +28,7 @@ import {
   switchAccountEditingMode,
   addAccount,
 } from '../actions/account'
+import navigateOnce from '../lib/navigateOnce'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{ flex: 1 }}>
@@ -43,7 +44,7 @@ const FgoIndex = ({ navigation }) => (
         />
         <ListItem
           title="活动情况"
-          onPress={() => navigation.navigg('ttt')}
+          onPress={() => navigation.navigate('ttt')}
         />
         <ListItem
           title="切换账号"
@@ -110,7 +111,7 @@ const EditingIcon = connect(
   />
 ))
 
-export default StackNavigator({
+const Index = StackNavigator({
   Index: {
     screen: FgoIndex,
     // screen: materialList,
@@ -189,3 +190,8 @@ export default StackNavigator({
     }),
   },
 })
+
+
+Index.router.getStateForAction = navigateOnce(Index.router.getStateForAction)
+
+export default Index

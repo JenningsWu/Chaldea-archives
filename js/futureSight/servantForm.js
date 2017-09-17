@@ -236,6 +236,24 @@ export default class ServantForm extends PureComponent {
             />
           ))
         }
+
+        <ListItem
+          title="优先级"
+          subtitle={
+            <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
+              <TextInput
+                style={{ height: 20, flex: 1, textAlign: 'center' }}
+                selectTextOnFocus
+                value={`${priority}`}
+                keyboardType="numeric"
+                returnKeyType="done"
+                onChangeText={text => this.setSingleNum('priority', text)}
+              />
+            </View>
+          }
+          hideChevron
+        />
+
         <ListItem
           title="宝具等级"
           subtitle={
@@ -253,22 +271,6 @@ export default class ServantForm extends PureComponent {
           hideChevron
         />
 
-        <ListItem
-          title="优先级"
-          subtitle={
-            <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
-              <TextInput
-                style={{ height: 20, flex: 1, textAlign: 'center' }}
-                selectTextOnFocus
-                value={`${priority}`}
-                keyboardType="numeric"
-                returnKeyType="done"
-                onChangeText={text => this.setSingleNum('priority', text)}
-              />
-          </View>
-          }
-          hideChevron
-        />
         <View style={{
           flexDirection: 'row',
           alignItems: 'center',

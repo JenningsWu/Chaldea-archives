@@ -22,6 +22,7 @@ import busterImg from '../assets/img/Buster.png'
 import QuickImg from '../assets/img/Quick.png'
 
 import avatars from '../assets/img/avatars'
+import servants from '../assets/data/servants'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -48,12 +49,14 @@ export default class ServantListWithSearch extends PureComponent {
 //   flex: 1,
 // }
   static navigationOptions = ({ navigation }) => ({
-    title: navigation.state.params.servant.name,
+    title: servants[parseInt(navigation.state.params.id, 10)].name,
     ...indexNavigationOptions,
   })
 
   render() {
-    const { servant } = this.props.navigation.state.params
+    const { id } = this.props.navigation.state.params
+    console.log(id, servants)
+    const servant = servants[parseInt(id, 10)]
     return (
       <View style={{ flex: 1 }}>
         <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>

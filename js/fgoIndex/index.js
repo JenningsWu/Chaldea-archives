@@ -11,6 +11,7 @@ import { StackNavigator } from 'react-navigation'
 import ServantList from './ServantListWithSearch'
 import ServantPage from './ServantPage'
 import indexNavigationOptions from './navigationOptions'
+import navigateOnce from '../lib/navigateOnce'
 
 const FgoIndex = ({ navigation }) => (
   <View style={{
@@ -29,11 +30,15 @@ FgoIndex.navigationOptions = {
   title: '图鉴',
 }
 
-export default StackNavigator({
+const Index = StackNavigator({
   Index: {
     screen: FgoIndex,
   },
-  Item: {
+  ServantDetail: {
     screen: ServantPage,
   },
 })
+
+Index.router.getStateForAction = navigateOnce(Index.router.getStateForAction)
+
+export default Index

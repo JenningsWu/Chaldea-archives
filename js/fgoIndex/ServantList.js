@@ -27,7 +27,7 @@ class ServantItem extends PureComponent {
         subtitle={`${item.classDesc} ${item.rarityDesc}`}
         titleContainerStyle={{ marginLeft: -4 }}
         subtitleContainerStyle={{ marginLeft: -4 }}
-        onPress={() => this.props.navigation.navigate('Item', { servant: item })}
+        onPress={() => this.props.navigation.navigate('ServantDetail', { id: item.id })}
         underlayColor="#ddd"
         // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
       />

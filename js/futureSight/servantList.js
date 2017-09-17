@@ -153,6 +153,7 @@ class ServantListWithSearch extends PureComponent {
                     cancelButton
                   />
                 }
+                navigation={this.props.navigation}
               />
             )}
           />

@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   },
 })
 
-export default TabNavigator({
+const App = TabNavigator({
   FgoIndex: {
     screen: FgoIndex,
   },
@@ -53,6 +53,7 @@ export default TabNavigator({
   },
 })
 
+export default App
 
 // export default function ChaldeaArchives() {
 //   return (
