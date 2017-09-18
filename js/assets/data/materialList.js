@@ -1,4 +1,4 @@
-export default {
+const materialMap = {
   9000: {
     name: 'QP (量子)',
     type: 5,
@@ -336,3 +336,5 @@ export default {
     type: 4,
   },
 }
+
+export default materialMap

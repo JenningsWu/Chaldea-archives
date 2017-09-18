@@ -6,6 +6,7 @@ import {
   ADD_ACCOUNT,
   SET_ACCOUNT_NAME,
   DELETE_ACCOUNT,
+  IMPORT_DATA,
 } from '../actions/account'
 import materialList from '../assets/data/materialList'
 import config from './config'
@@ -33,6 +34,11 @@ function material(state = initialMaterialData, action) {
           current: action.num,
         },
       }
+    case IMPORT_DATA:
+      return {
+        ...state,
+        ...action.data.material,
+      }
     default:
       return state
   }
@@ -47,6 +53,11 @@ function servant(state = {}, action) {
       }
     case REMOVE_SERVANT:
       return _.omit(state, [action.id])
+    case IMPORT_DATA:
+      return {
+        ...state,
+        ...action.data.servant,
+      }
     default:
       return state
   }

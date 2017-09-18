@@ -17,7 +17,7 @@ import _ from 'lodash'
 import MaterialFlatList from './materialFlatList'
 import indexNavigationOptions from './navigationOptions'
 
-import servants from '../assets/data/servants'
+import servantMap from '../assets/data/servants'
 import materialList from '../assets/data/materialList'
 import { setMaterialNum as setMaterialNumAction } from '../actions/material'
 import { rarityAscensionLevel } from '../schema/Servant'
@@ -128,7 +128,7 @@ const materialNeedsCalculator = createSelector(
       if (!_.get(config, [priority], true)) {
         return
       }
-      const servant = servants[parseInt(id, 10)]
+      const servant = servantMap[id]
       servant.calculateMaterailNums(level, skills).forEach((num, materialId) => {
         ret[materialId] += num
       })

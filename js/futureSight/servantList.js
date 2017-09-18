@@ -20,7 +20,7 @@ import _ from 'lodash'
 
 import navigationOptions from './navigationOptions'
 
-import servants from '../assets/data/servants'
+import servantMap from '../assets/data/servants'
 import { setServantInfo, removeServant } from '../actions/servant'
 
 import ServantForm from './servantForm'
@@ -88,7 +88,7 @@ class ServantListWithSearch extends PureComponent {
     this.setState({
       keyword,
       list: keyword === '' ? candidate : candidate.filter(({ id }) =>
-        servants[parseInt(id, 10)].checkKeyWord(keyword)),
+        servantMap[id].checkKeyWord(keyword)),
     })
   }
 
@@ -133,7 +133,7 @@ class ServantListWithSearch extends PureComponent {
             keyExtractor={(item: { id: string }) => item.id}
             renderItem={({ item }) => (
               <ServantItem
-                servant={servants[parseInt(item.id, 10)]}
+                servant={servantMap[item.id]}
                 setServantInfo={this.props.setServantInfo}
                 desc={
                   <View style={{ flexDirection: 'column' }}>
@@ -144,7 +144,7 @@ class ServantListWithSearch extends PureComponent {
                 bigAvatar
                 servantForm={
                   <ServantForm
-                    servant={servants[parseInt(item.id, 10)]}
+                    servant={servantMap[item.id]}
                     data={item}
                     setServantInfo={this.props.setServantInfo}
                     removeServant={this.props.removeServant}

@@ -3,6 +3,7 @@ const SET_ACCOUNT_NAME = 'set_account_name'
 const SWITCH_ACCOUNT = 'switch_account'
 const SWITCH_ACCOUNT_EDITING_MODE = 'switch_account_editing_mode'
 const DELETE_ACCOUNT = 'delete_account'
+const IMPORT_DATA = 'import_data'
 
 function addAccount(name = '') {
   return {
@@ -40,6 +41,13 @@ function deleteAccount(id) {
   }
 }
 
+function importData(data) {
+  return {
+    type: IMPORT_DATA,
+    data,
+  }
+}
+
 export {
   ADD_ACCOUNT,
   addAccount,
@@ -51,4 +59,6 @@ export {
   switchAccountEditingMode,
   DELETE_ACCOUNT,
   deleteAccount,
+  IMPORT_DATA,
+  importData,
 }

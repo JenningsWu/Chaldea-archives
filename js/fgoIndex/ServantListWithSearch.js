@@ -13,7 +13,7 @@ import _ from 'lodash'
 
 import ServantList from './ServantList'
 
-import servants from '../assets/data/servants'
+import { servantList as servants } from '../assets/data/servants'
 import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
 import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'
 
@@ -43,7 +43,7 @@ class ServantListWithSearch extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('MaterialList')
+    this.props.navigation.navigate('AccountList')
   }
 
   componentWillReceiveProps(nextProps) {
@@ -60,8 +60,6 @@ class ServantListWithSearch extends PureComponent {
         servant.checkKeyWord(keyword)),
     })
   }
-
-  servants: Array<Object>
 
 //
 // const testStyle = {

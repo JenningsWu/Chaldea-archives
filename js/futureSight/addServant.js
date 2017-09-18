@@ -17,7 +17,7 @@ import _ from 'lodash'
 
 import navigationOptions from './navigationOptions'
 
-import servants from '../assets/data/servants'
+import { servantList as servants } from '../assets/data/servants'
 import { setServantInfo } from '../actions/servant'
 import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
 import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'

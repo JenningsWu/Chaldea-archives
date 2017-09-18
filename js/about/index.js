@@ -18,7 +18,7 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 
 const TabBarIcon = ({ tintColor }) => (
   <Icon
-    name="paw"
+    name="map"
     size={20}
     style={{ color: tintColor }}
   />
@@ -72,6 +72,9 @@ const About = () => (
           '意见反馈与 Bug 提交',
           '',
           [
+            {
+              text: '取消',
+            },
             {
               text: '通过 GitHub',
               onPress: () => Linking.openURL('https://github.com/JenningsWu/Chaldea-archives/issues/new'),

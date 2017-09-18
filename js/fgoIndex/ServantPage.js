@@ -2,7 +2,7 @@
  * @flow
  */
 
-import React, { PureComponent } from 'react'
+import React, { PureComponent, Component } from 'react'
 import {
   View,
   ScrollView,
@@ -22,7 +22,7 @@ import busterImg from '../assets/img/Buster.png'
 import QuickImg from '../assets/img/Quick.png'
 
 import avatars from '../assets/img/avatars'
-import servants from '../assets/data/servants'
+import servantMap from '../assets/data/servants'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -33,7 +33,7 @@ const noBorderStyle = {
 
 const cardImg = [artsImg, busterImg, QuickImg]
 
-export default class ServantListWithSearch extends PureComponent {
+export default class ServantListWithSearch extends Component {
   constructor() {
     super()
     // this.servants = servants.slice(1)
@@ -49,14 +49,18 @@ export default class ServantListWithSearch extends PureComponent {
 //   flex: 1,
 // }
   static navigationOptions = ({ navigation }) => ({
-    title: servants[parseInt(navigation.state.params.id, 10)].name,
+    title: servantMap[navigation.state.params.id].name,
     ...indexNavigationOptions,
   })
 
+  shouldComponentUpdate(nextProps) {
+    console.log('shouldComponentUpdate', nextProps)
+    return true
+  }
+
   render() {
     const { id } = this.props.navigation.state.params
-    console.log(id, servants)
-    const servant = servants[parseInt(id, 10)]
+    const servant = servantMap[id]
     return (
       <View style={{ flex: 1 }}>
         <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
