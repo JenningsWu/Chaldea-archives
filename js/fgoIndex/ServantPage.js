@@ -34,28 +34,13 @@ const noBorderStyle = {
 const cardImg = [artsImg, busterImg, QuickImg]
 
 export default class ServantListWithSearch extends Component {
-  constructor() {
-    super()
-    // this.servants = servants.slice(1)
-    // this.state = {
-    //   keyword: '',
-    //   up: true,
-    //   list: this.servants,
-    // }
-  }
-
-//
-// const testStyle = {
-//   flex: 1,
-// }
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
     ...indexNavigationOptions,
   })
 
-  shouldComponentUpdate(nextProps) {
-    console.log('shouldComponentUpdate', nextProps)
-    return true
+  shouldComponentUpdate({ navigation }) {
+    return navigation.state.params.id !== this.props.navigation.state.params.id
   }
 
   render() {
