@@ -6,6 +6,7 @@ import React, { PureComponent } from 'react'
 import {
   FlatList,
   Image,
+  View,
 } from 'react-native'
 import { ListItem } from 'react-native-elements'
 
@@ -18,12 +19,15 @@ class ServantItem extends PureComponent {
     return (
       <ListItem
         title={item.name}
-        avatar={
-          <Image
-            resizeMode="stretch"
-            style={{ height: '100%', aspectRatio: 0.914 }}
-            source={avatars[parseInt(item.id, 10)]}
-          />}
+        leftIcon={
+          <View style={{ height: 42, width: 42, marginRight: 10 }}>
+            <Image
+              resizeMode="stretch"
+              style={{ height: '100%', aspectRatio: 0.914 }}
+              source={avatars[parseInt(item.id, 10)]}
+            />
+          </View>
+        }
         subtitle={`${item.classDesc} ${item.rarityDesc}`}
         titleContainerStyle={{ marginLeft: -4 }}
         subtitleContainerStyle={{ marginLeft: -4 }}

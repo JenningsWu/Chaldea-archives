@@ -21,6 +21,7 @@ import indexNavigationOptions from './navigationOptions'
 import MaterialList from './materialList'
 import ServantList from './servantList'
 import AddServant from './addServant'
+import EventList from './eventList'
 import AccountList from './accountList'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
 import { switchFutureInsightView } from '../actions/config'
@@ -44,7 +45,7 @@ const FgoIndex = ({ navigation }) => (
         />
         <ListItem
           title="活动情况"
-          onPress={() => navigation.navigate('ttt')}
+          onPress={() => navigation.navigate('EventList')}
         />
         <ListItem
           title="切换账号"
@@ -178,6 +179,9 @@ const Index = StackNavigator({
   },
   AddServant: {
     screen: AddServant,
+  },
+  EventList: {
+    screen: EventList,
   },
   AccountList: {
     screen: AccountList,

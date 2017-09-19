@@ -301,10 +301,13 @@ export default class ClassName {
     }
 
     // Blaze of Wisdom
+    // Use Math.pow instead of '**' ES7 operator or Building will fail
+    /*eslint-disable */
     const exp = (50 * (
-      ((level.next ** 3) - level.next) -
-      ((level.curr ** 3) - level.curr)
+      ((Math.pow(level.next, 3)) - level.next) -
+      ((Math.pow(level.curr, 3)) - level.curr)
     )) / 3
+    /*eslint-enable */
     ret.set('9001', ret.get('9001') + Math.ceil(exp / 32400))
     return ret
   }
