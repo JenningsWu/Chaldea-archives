@@ -18,7 +18,7 @@ if (__DEV__ && !!window.navigator.userAgent) {
 }
 
 const migrations = {
-  2: (state) => {
+  3: (state) => {
     const ids = Object.keys(state.accountData)
     let next = state
     ids.forEach((id) => {
@@ -34,7 +34,7 @@ const migrations = {
 
 const config = {
   key: 'root',
-  version: 2,
+  version: 3,
   storage,
   migrate: createMigrate(migrations, { debug: true }),
 }

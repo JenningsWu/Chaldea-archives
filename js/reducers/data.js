@@ -2,6 +2,7 @@ import _ from 'lodash'
 import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
 import { SET_SERVANT_INFO, REMOVE_SERVANT } from '../actions/servant'
+import { SET_EVENT, SET_EVENT_POOL } from '../actions/event'
 import {
   ADD_ACCOUNT,
   SET_ACCOUNT_NAME,
@@ -63,10 +64,51 @@ function servant(state = {}, action) {
   }
 }
 
+function eventItem(state = { active: false, pool: [] }, action) {
+  switch (action.type) {
+    case SET_EVENT:
+      return {
+        ...state,
+        active: action.value,
+      }
+    case SET_EVENT_POOL: {
+      const { pool } = state
+      const { poolIndex, value } = action
+      while (pool.length <= poolIndex) {
+        pool.push(0)
+      }
+      return {
+        ...state,
+        pool: [
+          ...pool.slice(0, poolIndex),
+          value,
+          ...pool.slice(poolIndex + 1),
+        ],
+      }
+    }
+    default:
+      return state
+  }
+}
+
+function event(state = {}, action) {
+  switch (action.type) {
+    case SET_EVENT:
+    case SET_EVENT_POOL:
+      return {
+        ...state,
+        [action.id]: eventItem(state[action.id], action),
+      }
+    default:
+      return state
+  }
+}
+
 const getAccountData = combineReducers({
   name,
   material,
   servant,
+  event,
   config,
 })
 

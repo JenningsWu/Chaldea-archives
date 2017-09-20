@@ -9,6 +9,7 @@ import {
   Text,
   StyleSheet,
   Platform,
+  TextInput,
 } from 'react-native'
 import {
   ListItem,
@@ -21,6 +22,10 @@ import navigationOptions from './navigationOptions'
 
 import servantMap from '../assets/data/servants'
 import eventList from '../assets/data/event.json'
+import {
+  setEvent as setEventAction,
+  setEventPool as setEventPoolAction,
+} from '../actions/event'
 
 const styles = StyleSheet.create({
   subtitle: {
@@ -40,6 +45,11 @@ const styles = StyleSheet.create({
   },
 })
 
+const initialEventItem = {
+  active: false,
+  pool: [],
+}
+
 class EventItem extends PureComponent {
   constructor() {
     super()
@@ -48,11 +58,40 @@ class EventItem extends PureComponent {
 
   render() {
     const {
+      id,
       name,
+      pool,
+      event,
+      setEvent,
+      setEventPool,
     } = this.props
     return (
       <ListItem
         title={name}
+        subtitle={
+          pool && (
+            <View style={{ flexDirection: 'row', justifyContent: 'flex-start', marginLeft: 10, marginTop: 5 }}>
+              {
+                pool.map(({ name }, idx) => (
+                  <View key={name} style={{ flexDirection: 'row', alignItems: 'center', marginRight: 20 }}>
+                    <TextInput
+                      keyboardType="numeric"
+                      returnKeyType="done"
+                      style={{ width: 36, marginRight: 3, color: '#434343' }}
+                      value={`${event.pool[idx] || 0}`}
+                      onChangeText={text => setEventPool(id, idx, parseInt(text, 10) || 0)}
+                    />
+                    <Text style={{ color: '#434343' }}>{idx + 1 < pool.length ? `${name}, ` : name}</Text>
+                  </View>
+                ))
+              }
+            </View>
+          )
+        }
+        hideChevron
+        switchButton
+        switched={event.active}
+        onSwitch={() => setEvent(id, !event.active)}
       />
     )
   }
@@ -75,31 +114,21 @@ class EventList extends PureComponent {
   }
 
   state: {
-    keyword: string;
-    up: boolean;
     list: Array<Object>;
   }
-
-  //
-  // componentDidMount() {
-  //   this.props.navigation.navigate('FutureSight', { servant: servants[2] })
-  // }
-
-  onSearchChange = (keyword: string, candidate = this.props.data) => {
-    this.setState({
-      keyword,
-      list: keyword === '' ? candidate : candidate.filter(({ id }) =>
-        servantMap[id].checkKeyWord(keyword)),
-    })
-  }
-
-  servants: Array<Object>
 
 //
 // const testStyle = {
 //   flex: 1,
 // }
+
   render() {
+    const {
+      data,
+      setEvent,
+      setEventPool,
+    } = this.props
+
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
         <View style={{
@@ -108,10 +137,16 @@ class EventList extends PureComponent {
         >
           <FlatList
             data={this.list}
+            extraData={data}
             keyExtractor={(item: { id: string }) => item.id}
             renderItem={({ item }) => (
               <EventItem
+                id={item.id}
                 name={item.name}
+                pool={item.pool}
+                event={data[item.id] || initialEventItem}
+                setEvent={setEvent}
+                setEventPool={setEventPool}
               />
             )}
           />
@@ -121,18 +156,10 @@ class EventList extends PureComponent {
   }
 }
 
-const getServantList = createSelector(
-  ({ account, accountData }) => accountData[account].servant,
-  ({ account, accountData }) => accountData[account].config.viewFilter.futureSightServantList,
-  (servant, config) => (
-    _.map(servant, (data, id) => ({
-      id,
-      ...data,
-    })).filter(({ priority }) => _.get(config, ['priority', priority], true))
-  ),
-)
-
 export default connect(
-  state => ({ data: getServantList(state) }),
-  dispatch => ({}),
+  ({ account, accountData }) => ({ data: accountData[account].event }),
+  dispatch => ({
+    setEvent: (id, value) => dispatch(setEventAction(id, value)),
+    setEventPool: (id, poolIdx, value) => dispatch(setEventPoolAction(id, poolIdx, value)),
+  }),
 )(EventList)
