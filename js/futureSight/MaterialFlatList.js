@@ -105,10 +105,7 @@ class MaterialItem extends PureComponent {
             </View>
           }
           rightTitle={`${current}`}
-          onPress={() => { this.setState({ showInput: true }) }}
-          textInput={this.state.showInput}
-          textInputAutoFocus
-          textInputOnBlur={() => { this.setState({ showInput: false }) }}
+          textInput
           textInputValue={`${current}`}
           textInputKeyboardType="numeric"
           textInputReturnKeyType="done"

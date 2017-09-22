@@ -2,7 +2,7 @@ import _ from 'lodash'
 import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
 import { SET_SERVANT_INFO, REMOVE_SERVANT } from '../actions/servant'
-import { SET_EVENT, SET_EVENT_POOL } from '../actions/event'
+import { SET_EVENT, SET_EVENT_POOL, FINISH_EVENT } from '../actions/event'
 import {
   ADD_ACCOUNT,
   SET_ACCOUNT_NAME,
@@ -11,6 +11,8 @@ import {
 } from '../actions/account'
 import materialList from '../assets/data/materialList'
 import config from './config'
+import { getEventMaterial } from '../schema/Event'
+
 
 const initialMaterialData = _.mapValues(materialList, () => ({
   current: 0,
@@ -40,6 +42,19 @@ function material(state = initialMaterialData, action) {
         ...state,
         ...action.data.material,
       }
+    case FINISH_EVENT: {
+      const { id, pool } = action
+      const ret = getEventMaterial(id, pool)
+      return _.assignWith(ret, state, (retVal, prevVal) => {
+        if (!retVal) {
+          return prevVal
+        }
+        return {
+          ...prevVal,
+          current: prevVal.current + retVal,
+        }
+      })
+    }
     default:
       return state
   }

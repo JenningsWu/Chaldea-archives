@@ -10,6 +10,7 @@ import {
   StyleSheet,
   Platform,
   TextInput,
+  Alert,
 } from 'react-native'
 import {
   ListItem,
@@ -25,6 +26,7 @@ import eventList from '../assets/data/event.json'
 import {
   setEvent as setEventAction,
   setEventPool as setEventPoolAction,
+  finishEvent as finishEventAction,
 } from '../actions/event'
 
 const styles = StyleSheet.create({
@@ -64,6 +66,7 @@ class EventItem extends PureComponent {
       event,
       setEvent,
       setEventPool,
+      finishEvent,
     } = this.props
     return (
       <ListItem
@@ -91,7 +94,27 @@ class EventItem extends PureComponent {
         hideChevron
         switchButton
         switched={event.active}
-        onSwitch={() => setEvent(id, !event.active)}
+        onSwitch={() => {
+          const { active } = event
+          if (active) {
+            Alert.alert(
+              '活动毕业',
+              '是否将活动素材全部加入库存？',
+              [
+                { text: '取消', onPress: () => setEvent(id, false), style: 'cancel' },
+                {
+                  text: '确定',
+                  onPress: () => {
+                    finishEvent(id, pool)
+                    setEvent(id, false)
+                  },
+                },
+              ],
+            )
+          } else {
+            setEvent(id, true)
+          }
+        }}
       />
     )
   }
@@ -127,6 +150,7 @@ class EventList extends PureComponent {
       data,
       setEvent,
       setEventPool,
+      finishEvent,
     } = this.props
 
     return (
@@ -147,6 +171,7 @@ class EventList extends PureComponent {
                 event={data[item.id] || initialEventItem}
                 setEvent={setEvent}
                 setEventPool={setEventPool}
+                finishEvent={finishEvent}
               />
             )}
           />
@@ -161,5 +186,6 @@ export default connect(
   dispatch => ({
     setEvent: (id, value) => dispatch(setEventAction(id, value)),
     setEventPool: (id, poolIdx, value) => dispatch(setEventPoolAction(id, poolIdx, value)),
+    finishEvent: (id, pool) => dispatch(finishEventAction(id, pool)),
   }),
 )(EventList)

@@ -19,9 +19,8 @@ import indexNavigationOptions from './navigationOptions'
 
 import servantMap from '../assets/data/servants'
 import materialList from '../assets/data/materialList'
-import events from '../assets/data/event'
 import { setMaterialNum as setMaterialNumAction } from '../actions/material'
-import { rarityAscensionLevel } from '../schema/Servant'
+import { getEventMaterial } from '../schema/Event'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -144,14 +143,7 @@ const materialFutureCalculator = createSelector(
     const ret = _.mapValues(materialList, () => 0)
     _.forEach(event, ({ active, pool }, id) => {
       if (active) {
-        _.forEach(events[id].material, (num, materialId) => {
-          ret[materialId] += num
-        })
-        pool.forEach((pnum, idx) => {
-          _.forEach(events[id].pool[idx].material, (num, materialId) => {
-            ret[materialId] += pnum * num
-          })
-        })
+        _.mergeWith(ret, getEventMaterial(id, pool), (v1, v2) => v1 + v2)
       }
     })
     return ret
