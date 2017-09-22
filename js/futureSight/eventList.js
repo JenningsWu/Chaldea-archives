@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
 const initialEventItem = {
   active: false,
   pool: [],
+  finish: false,
 }
 
 class EventItem extends PureComponent {
@@ -83,6 +84,7 @@ class EventItem extends PureComponent {
                       style={{ width: 36, marginRight: 3, color: '#434343' }}
                       value={`${event.pool[idx] || 0}`}
                       onChangeText={text => setEventPool(id, idx, parseInt(text, 10) || 0)}
+                      editable={event.active}
                     />
                     <Text style={{ color: '#434343' }}>{idx + 1 < pool.length ? `${name}, ` : name}</Text>
                   </View>
@@ -93,19 +95,20 @@ class EventItem extends PureComponent {
         }
         hideChevron
         switchButton
+        switchDisabled={event.finish}
         switched={event.active}
         onSwitch={() => {
           const { active } = event
           if (active) {
             Alert.alert(
               '活动毕业',
-              '是否将活动素材全部加入库存？',
+              '是否将活动素材全部加入库存？选择加入将毕业活动，以后无法重新开启。',
               [
                 { text: '取消', onPress: () => setEvent(id, false), style: 'cancel' },
                 {
                   text: '确定',
                   onPress: () => {
-                    finishEvent(id, pool)
+                    finishEvent(id, event.pool)
                     setEvent(id, false)
                   },
                 },

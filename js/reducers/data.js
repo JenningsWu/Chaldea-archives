@@ -45,15 +45,19 @@ function material(state = initialMaterialData, action) {
     case FINISH_EVENT: {
       const { id, pool } = action
       const ret = getEventMaterial(id, pool)
-      return _.assignWith(ret, state, (retVal, prevVal) => {
-        if (!retVal) {
-          return prevVal
-        }
-        return {
-          ...prevVal,
-          current: prevVal.current + retVal,
-        }
-      })
+      return {
+        ..._.assignWith(state, ret, (prevVal, retVal) => {
+          if (!prevVal) {
+            return {
+              current: retVal,
+            }
+          }
+          return {
+            ...prevVal,
+            current: prevVal.current + retVal,
+          }
+        }),
+      }
     }
     default:
       return state
@@ -79,7 +83,7 @@ function servant(state = {}, action) {
   }
 }
 
-function eventItem(state = { active: false, pool: [] }, action) {
+function eventItem(state = { active: false, pool: [], finish: false }, action) {
   switch (action.type) {
     case SET_EVENT:
       return {
@@ -101,6 +105,11 @@ function eventItem(state = { active: false, pool: [] }, action) {
         ],
       }
     }
+    case FINISH_EVENT:
+      return {
+        ...state,
+        finish: true,
+      }
     default:
       return state
   }
@@ -110,6 +119,7 @@ function event(state = {}, action) {
   switch (action.type) {
     case SET_EVENT:
     case SET_EVENT_POOL:
+    case FINISH_EVENT:
       return {
         ...state,
         [action.id]: eventItem(state[action.id], action),
