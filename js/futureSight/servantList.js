@@ -21,10 +21,12 @@ import _ from 'lodash'
 import navigationOptions from './navigationOptions'
 
 import servantMap from '../assets/data/servants'
-import { setServantInfo, removeServant } from '../actions/servant'
+import { setServantInfo, removeServant, finishServant } from '../actions/servant'
 
 import ServantForm from './servantForm'
 import ServantItem from './servantItem'
+
+import { materialFutureCalculator, materialCurrentCalculator } from '../utils/selectors'
 
 
 const noBorderStyle = {
@@ -92,6 +94,25 @@ class ServantListWithSearch extends PureComponent {
     })
   }
 
+  checkServant = (servantId, { level, skills }) => {
+    const {
+      currentMaterail,
+      futureMaterial,
+    } = this.props
+    const needs = servantMap[servantId].calculateMaterailNums(level, skills)
+    const needsObj = {}
+    needs.forEach((v, k) => { needsObj[k] = v })
+    return {
+      needs: needsObj,
+      shortage: Array.from(needs).filter(([id, num]) => num > currentMaterail[id]).map(([id]) => ({
+        id,
+        need: needs.get(id),
+        current: currentMaterail[id],
+        future: futureMaterial[id],
+      })),
+    }
+  }
+
   servants: Array<Object>
 
 //
@@ -137,8 +158,8 @@ class ServantListWithSearch extends PureComponent {
                 setServantInfo={this.props.setServantInfo}
                 desc={
                   <View style={{ flexDirection: 'column' }}>
-                    <Text style={styles.subtitle}>{`等级 ${item.level.curr} -> ${item.level.next}, 宝具 ${item.npLevel}`}</Text>
-                    <Text style={styles.subtitle}>{`技能 ${item.skills[0].curr} -> ${item.skills[0].next}, ${item.skills[1].curr} -> ${item.skills[1].next}, ${item.skills[2].curr} -> ${item.skills[2].next}`}</Text>
+                    <Text style={styles.subtitle}>{`等级 ${item.level.curr} → ${item.level.next}, 宝具 ${item.npLevel}`}</Text>
+                    <Text style={styles.subtitle}>{`技能 ${item.skills[0].curr} → ${item.skills[0].next}, ${item.skills[1].curr} → ${item.skills[1].next}, ${item.skills[2].curr} → ${item.skills[2].next}`}</Text>
                   </View>
                 }
                 bigAvatar
@@ -148,9 +169,12 @@ class ServantListWithSearch extends PureComponent {
                     data={item}
                     setServantInfo={this.props.setServantInfo}
                     removeServant={this.props.removeServant}
+                    checkServant={this.checkServant}
+                    finishServant={this.props.finishServant}
                     deleteButton
                     updateButton
                     cancelButton
+                    finishButton
                   />
                 }
                 navigation={this.props.navigation}
@@ -175,13 +199,21 @@ const getServantList = createSelector(
 )
 
 export default connect(
-  state => ({ data: getServantList(state) }),
+  state => ({
+    data: getServantList(state),
+    servantInfo: (({ account, accountData }) => accountData[account].servant)(state),
+    currentMaterail: materialCurrentCalculator(state),
+    futureMaterial: materialFutureCalculator(state),
+  }),
   dispatch => ({
     setServantInfo: (id, value) => {
       dispatch(setServantInfo(id, value))
     },
     removeServant: (id) => {
       dispatch(removeServant(id))
+    },
+    finishServant: (id, needs) => {
+      dispatch(finishServant(id, needs))
     },
   }),
 )(ServantListWithSearch)

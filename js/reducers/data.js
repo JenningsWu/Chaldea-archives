@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
-import { SET_SERVANT_INFO, REMOVE_SERVANT } from '../actions/servant'
+import { SET_SERVANT_INFO, REMOVE_SERVANT, FINISH_SERVANT } from '../actions/servant'
 import { SET_EVENT, SET_EVENT_POOL, FINISH_EVENT } from '../actions/event'
 import {
   ADD_ACCOUNT,
@@ -59,6 +59,47 @@ function material(state = initialMaterialData, action) {
         }),
       }
     }
+    case FINISH_SERVANT: {
+      const { needs } = action
+      return {
+        ..._.assignWith(state, needs, (prevVal, retVal) => {
+          if (!prevVal) {
+            return {
+              current: 0,
+            }
+          }
+          return {
+            ...prevVal,
+            current: prevVal.current - retVal,
+          }
+        }),
+      }
+    }
+    default:
+      return state
+  }
+}
+
+function servantItem(state, action) {
+  switch (action.type) {
+    case FINISH_SERVANT: {
+      const {
+        level,
+        skills,
+      } = state
+      return {
+        ...state,
+        level: {
+          ...level,
+          curr: level.next,
+          currAscension: level.nextAscension,
+        },
+        skills: skills.map(({ next }) => ({
+          curr: next,
+          next,
+        })),
+      }
+    }
     default:
       return state
   }
@@ -77,6 +118,11 @@ function servant(state = {}, action) {
       return {
         ...state,
         ...action.data.servant,
+      }
+    case FINISH_SERVANT:
+      return {
+        ...state,
+        [action.id]: servantItem(state[action.id], action),
       }
     default:
       return state

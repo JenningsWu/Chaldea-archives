@@ -1,5 +1,6 @@
 const SET_SERVANT_INFO = 'set_servant_info'
 const REMOVE_SERVANT = 'remove_servant'
+const FINISH_SERVANT = 'finish_servant'
 
 function setServantInfo(id, value) {
   return {
@@ -16,4 +17,19 @@ function removeServant(id) {
   }
 }
 
-export { SET_SERVANT_INFO, REMOVE_SERVANT, setServantInfo, removeServant }
+function finishServant(id, needs) {
+  return {
+    type: FINISH_SERVANT,
+    id,
+    needs,
+  }
+}
+
+export {
+  SET_SERVANT_INFO,
+  REMOVE_SERVANT,
+  setServantInfo,
+  removeServant,
+  FINISH_SERVANT,
+  finishServant,
+}

@@ -20,7 +20,7 @@ import indexNavigationOptions from './navigationOptions'
 import servantMap from '../assets/data/servants'
 import materialList from '../assets/data/materialList'
 import { setMaterialNum as setMaterialNumAction } from '../actions/material'
-import { getEventMaterial } from '../schema/Event'
+import { materialFutureCalculator, materialCurrentCalculator } from '../utils/selectors'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -137,26 +137,8 @@ const materialNeedsCalculator = createSelector(
   },
 )
 
-const materialFutureCalculator = createSelector(
-  ({ account, accountData }) => accountData[account].event,
-  (event) => {
-    const ret = _.mapValues(materialList, () => 0)
-    _.forEach(event, ({ active, pool }, id) => {
-      if (active) {
-        _.mergeWith(ret, getEventMaterial(id, pool), (v1, v2) => v1 + v2)
-      }
-    })
-    return ret
-  },
-)
-
-const extractCurrentList = createSelector(
-  ({ account, accountData }) => accountData[account].material,
-  list => _.mapValues(list, ({ current }) => current),
-)
-
 const materialCalculator = createStructuredSelector({
-  currList: extractCurrentList,
+  currList: materialCurrentCalculator,
   needsList: materialNeedsCalculator,
   futureList: materialFutureCalculator,
 })

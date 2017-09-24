@@ -43,7 +43,7 @@ class ServantListWithSearch extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('EventList')
+    this.props.navigation.navigate('ServantList')
   }
 
   componentWillReceiveProps(nextProps) {

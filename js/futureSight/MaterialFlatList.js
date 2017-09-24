@@ -50,6 +50,14 @@ class MaterialItem extends PureComponent {
   render() {
     const { id, name, simple, needs, future, current, setMaterialNum } = this.props
     const enough = needs <= future + current
+    let textColor
+    if (needs <= current) {
+      textColor = '#5cb85c'
+    } else if (enough) {
+      textColor = '#f0ad4e'
+    } else {
+      textColor = '#d9534f'
+    }
     return (
       simple ? (
         <ListItem
@@ -65,7 +73,7 @@ class MaterialItem extends PureComponent {
               <Text
                 style={[
                   styles.needsText,
-                  { color: enough ? 'green' : 'red' },
+                  { color: enough ? '#5cb85c' : '#d9534f' },
                   { width: '100%' },
                 ]}
               >
@@ -95,7 +103,7 @@ class MaterialItem extends PureComponent {
               <Text
                 style={[
                   styles.needsText,
-                  { color: enough ? 'green' : 'red' },
+                  { color: textColor },
                 ]}
               >
                 所需：{needs}

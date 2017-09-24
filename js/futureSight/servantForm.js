@@ -18,6 +18,8 @@ import {
 } from 'react-native-elements'
 import { rarityAscensionLevel, rarityPalingenesisLevel } from '../schema/Servant'
 
+import materials from '../assets/data/materialList'
+
 const CURR = 'next'
 const NEXT = 'level_next'
 const CURR_ASCENSION = 'curr_ascension'
@@ -26,6 +28,18 @@ const NEXT_ASCENSION = 'next_ascension'
 function constrainInt(value, min, max) {
   const ret = parseInt(value, 10) || 0
   return Math.min(Math.max(ret, min), max)
+}
+
+function statusToStr(shortage) {
+  return shortage.map(({ id, need, current, future }) => (
+    `${materials[id].name}: 库存缺口 ${need - current}, 活动可提供 ${future}`
+  )).join('\n')
+}
+
+function materialObjToStr(obj) {
+  return _.map(obj, (num, id) => (
+    `${materials[id].name}: ${num}`
+  )).join('\n')
 }
 
 export default class ServantForm extends PureComponent {
@@ -183,7 +197,7 @@ export default class ServantForm extends PureComponent {
                   onPress={() => this.handleLevelChange(CURR_ASCENSION, !level.currAscension)}
                 />
               </View>
-              <Text> -&gt; </Text>
+              <Text> ⟶ </Text>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
                   style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2 }}
@@ -221,7 +235,7 @@ export default class ServantForm extends PureComponent {
                     returnKeyType="done"
                     onChangeText={text => this.handleSkillChange(idx, CURR, text)}
                   />
-                  <Text> -&gt; </Text>
+                  <Text> ⟶ </Text>
                   <TextInput
                     style={{ height: 20, flex: 1, textAlign: 'center' }}
                     value={`${skills[idx].next}`}
@@ -274,7 +288,7 @@ export default class ServantForm extends PureComponent {
         <View style={{
           flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'center',
+          justifyContent: 'space-around',
           marginTop: 10,
           // flex: 1,
         }}
@@ -335,6 +349,53 @@ export default class ServantForm extends PureComponent {
                     onPress: () => {
                       if (this.props.updateButton) {
                         this.props.collapse()
+                      }
+                    },
+                  },
+                ],
+              )
+            }}
+          />}
+          {this.props.finishButton && <Button
+            backgroundColor="#969899"
+            buttonStyle={{
+              paddingTop: 6,
+              paddingBottom: 6,
+            }}
+            title="完成"
+            onPress={() => {
+              this.props.setServantInfo(
+                this.props.servant.id,
+                this.state,
+              )
+              const {
+                needs,
+                shortage,
+              } = this.props.checkServant(this.props.servant.id, this.state)
+              Alert.alert(
+                '完成',
+                `将从库存素材中扣除如下消耗素材：\n${materialObjToStr(needs)}`,
+                [
+                  {
+                    text: '取消',
+                    style: 'cancel',
+                  },
+                  {
+                    text: '确定',
+                    onPress: () => {
+                      if (shortage.length === 0) {
+                        this.props.finishServant(this.props.servant.id, needs)
+                        this.props.collapse()
+                      } else {
+                        Alert.alert(
+                          '素材不足',
+                          `库存资源不足！尚缺以下素材：\n${statusToStr(shortage)}`,
+                          [
+                            {
+                              text: '确定',
+                            },
+                          ],
+                        )
                       }
                     },
                   },
