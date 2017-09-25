@@ -19,15 +19,15 @@ import { connect } from 'react-redux'
 import { createSelector } from 'reselect'
 import _ from 'lodash'
 
-import navigationOptions from './navigationOptions'
+import navigationOptions from '../navigationOptions'
 
-import servantMap from '../assets/data/servants'
-import eventList from '../assets/data/event.json'
+import servantMap from '../../assets/data/servants'
+import eventList from '../../assets/data/event.json'
 import {
   setEvent as setEventAction,
   setEventPool as setEventPoolAction,
   finishEvent as finishEventAction,
-} from '../actions/event'
+} from '../../actions/event'
 
 const styles = StyleSheet.create({
   subtitle: {
@@ -118,6 +118,8 @@ class EventItem extends PureComponent {
             setEvent(id, true)
           }
         }}
+        onPress={() => this.props.navigation.navigate('EventMaterial', { id })}
+
       />
     )
   }
@@ -175,6 +177,7 @@ class EventList extends PureComponent {
                 setEvent={setEvent}
                 setEventPool={setEventPool}
                 finishEvent={finishEvent}
+                navigation={this.props.navigation}
               />
             )}
           />

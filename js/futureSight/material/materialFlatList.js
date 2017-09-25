@@ -96,7 +96,7 @@ class MaterialItem extends PureComponent {
           onSwitch={() => setMaterialNum(id, enough ? 0 : 999999999999)}
           switched={enough}
           hideChevron
-          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList })}
+          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList, name })}
 
           // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
           // underlayColor="#ddd"
@@ -137,7 +137,7 @@ class MaterialItem extends PureComponent {
             setMaterialNum(id, parseInt(num, 10) || 0)
           }}
           hideChevron
-          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList })}
+          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList, name })}
 
           // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
           // underlayColor="#ddd"

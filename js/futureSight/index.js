@@ -22,7 +22,8 @@ import MaterialList from './material/materialList'
 import MaterialServant from './material/servantList'
 import ServantList from './servant/servantList'
 import AddServant from './servant/addServant'
-import EventList from './eventList'
+import EventList from './event/eventList'
+import EventMaterial from './event/materialList'
 import AccountList from './accountList'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
 import { switchFutureInsightView } from '../actions/config'
@@ -196,6 +197,9 @@ const Index = StackNavigator({
   },
   MaterialServant: {
     screen: MaterialServant,
+  },
+  EventMaterial: {
+    screen: EventMaterial,
   },
 })
 

@@ -14,11 +14,13 @@ import {
 import {
   ListItem,
 } from 'react-native-elements'
+import _ from 'lodash'
 
 import navigationOptions from '../navigationOptions'
 
-import servantMap from '../../assets/data/servants'
-import avatars from '../../assets/img/avatars'
+import events from '../../assets/data/event.json'
+import materials from '../../assets/data/materialList'
+import materialImg from '../../assets/img/material'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -45,28 +47,24 @@ const styles = StyleSheet.create({
   },
 })
 
-class ServantItem extends PureComponent {
+class MaterialItem extends PureComponent {
   render() {
     const {
       id,
       num,
+      tag,
     } = this.props
-    const servant = servantMap[id]
+    const material = materials[id]
     return (
       <ListItem
-        title={servantMap[servant.id].name}
-        leftIcon={
-          <View style={{ height: 42, width: 42, marginRight: 10 }}>
-            <Image
-              resizeMode="stretch"
-              style={{ height: '100%', aspectRatio: 0.914 }}
-              source={avatars[parseInt(servant.id, 10)]}
-            />
-          </View>
-        }
-        titleContainerStyle={{ marginLeft: -4 }}
-        subtitleContainerStyle={{ marginLeft: -4 }}
-        onPress={() => this.props.navigation.navigate('ServantDetail', { id: servant.id })}
+        title={material.name}
+        avatar={
+          <Image
+            resizeMode="stretch"
+            source={materialImg[id]}
+            style={{ height: '100%', aspectRatio: 1 }}
+          />}
+        subtitle={tag === '' ? undefined : `每${tag}`}
         underlayColor="#ddd"
         rightTitle={`${num}`}
         hideChevron
@@ -75,9 +73,9 @@ class ServantItem extends PureComponent {
   }
 }
 
-class ServantList extends PureComponent {
+class MaterialList extends PureComponent {
   static navigationOptions = ({ navigation }) => ({
-    title: `${navigation.state.params.name}`,
+    title: events[navigation.state.params.id].name,
     ...navigationOptions,
   })
 
@@ -88,7 +86,19 @@ class ServantList extends PureComponent {
   }
 
   render() {
-    const { data, servantInfo } = this.props.navigation.state.params
+    const event = events[this.props.navigation.state.params.id]
+    const list = [
+      ..._.map(event.material, (num, id) => ({
+        id,
+        num,
+        tag: '',
+      })),
+      ..._.flatMap(event.pool, ({ name, material }) => _.map(material, (num, id) => ({
+        id,
+        num,
+        tag: name,
+      }))),
+    ]
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
         <View style={{
@@ -96,15 +106,13 @@ class ServantList extends PureComponent {
         }}
         >
           <FlatList
-            data={data}
-            extraData={servantInfo}
-            keyExtractor={(item: { id: string }) => item.id}
+            data={list}
+            keyExtractor={(item: { id: string }) => `${item.id}${item.tag}`}
             renderItem={({ item }) => (
-              <ServantItem
+              <MaterialItem
                 id={item.id}
                 num={item.num}
-                info={servantInfo[item.id]}
-                navigation={this.props.navigation}
+                tag={item.tag}
               />
             )}
           />
@@ -114,4 +122,4 @@ class ServantList extends PureComponent {
   }
 }
 
-export default ServantList
+export default MaterialList
