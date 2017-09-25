@@ -170,6 +170,11 @@ function event(state = {}, action) {
         ...state,
         [action.id]: eventItem(state[action.id], action),
       }
+    case IMPORT_DATA:
+      return {
+        ...state,
+        ...action.data.event,
+      }
     default:
       return state
   }

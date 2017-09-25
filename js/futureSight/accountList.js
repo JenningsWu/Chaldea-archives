@@ -25,6 +25,7 @@ import _ from 'lodash'
 import navigationOptions from './navigationOptions'
 import materialMap from '../assets/data/materialList'
 import servantMap from '../assets/data/servants'
+import eventMap from '../assets/data/event.json'
 
 import {
   setAccountName as setAccountNameAction,
@@ -74,10 +75,18 @@ function getDataFromText(text) {
       priority: parseInt(priority, 10) || 0,
     }
   ))
+  const event = _.mapValues(data.event, ({ active, pool, finish }) => (
+    {
+      active: !!active,
+      finish: !!finish,
+      pool: pool.map(i => parseInt(i, 10) || 0),
+    }
+  ))
 
   return {
     material: _.pickBy(material, (v, id) => id in materialMap),
     servant: _.pickBy(servant, (v, id) => id in servantMap),
+    event: _.pickBy(event, (v, id) => id in eventMap),
   }
 }
 
@@ -164,6 +173,7 @@ class Item extends PureComponent {
                   Clipboard.setString(JSON.stringify({
                     material,
                     servant: this.props.data.servant,
+                    event: this.props.data.event,
                   }))
                   Alert.alert(
                     '数据导出',
@@ -293,6 +303,7 @@ class AccountList extends Component {
           </Modal>
           <FlatList
             data={this.props.list}
+            extraData={this.props.data}
             keyExtractor={({ id }) => id}
             renderItem={({ item: { id, name } }) => (
               <Item
@@ -327,6 +338,7 @@ export default connect(
     data: {
       material: accountData[account].material,
       servant: accountData[account].servant,
+      event: accountData[account].event,
     },
   }),
   dispatch => ({
