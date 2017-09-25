@@ -179,6 +179,7 @@ export default class ClassName {
     this.starGeneration = obj.starGeneration
     this.npChargeATK = obj.npChargeATK
     this.npChargeDEF = obj.npChargeDEF
+    this.deathResist = obj.deathResist
     this.traits = obj.traits
 
     // advance

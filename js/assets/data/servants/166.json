@@ -10,7 +10,6 @@
   ],
   "exactKeywords": [],
   "rarity": 4,
-  "class": 11,
   "startATK": 1366,
   "endATK": 8197,
   "startHP": 2182,
@@ -594,5 +593,6 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "deathResist": 0.006
 }

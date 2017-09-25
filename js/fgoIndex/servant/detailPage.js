@@ -84,7 +84,7 @@ export default class ServantDetailPage extends Component {
                   <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 3 }}>
                     {
                       servant.hits.map((num, idx) => ({ num, idx })).map(({ num, idx }) => (
-                        <Text key={`${num}-${idx}`}>{num}</Text>
+                        <Text key={`${num}-${idx}`} style={{ color: '#bdc6cf' }}>{num}</Text>
                       ))
                     }
                   </View>
@@ -105,7 +105,7 @@ export default class ServantDetailPage extends Component {
                   <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 3 }}>
                     {
                       servant.charge.map((num, idx) => ({ num, idx })).map(({ num, idx }) => (
-                        <Text key={`${num}-${idx}`}>{`${num * 100}%`}</Text>
+                        <Text key={`${num}-${idx}`} style={{ color: '#bdc6cf' }}>{`${num * 100}%`}</Text>
                       ))
                     }
                   </View>
@@ -134,8 +134,8 @@ export default class ServantDetailPage extends Component {
               hideChevron
             />
             <ListItem
-              title="即死率"
-              rightTitle={`${servant.starAbsorption * 100}%`}
+              title="被即死率"
+              rightTitle={`${servant.deathResist * 100}%`}
               hideChevron
             />
           </ScrollView>
