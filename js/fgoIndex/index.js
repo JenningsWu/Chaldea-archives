@@ -8,8 +8,9 @@ import {
 } from 'react-native'
 import { StackNavigator } from 'react-navigation'
 
-import ServantList from './ServantListWithSearch'
-import ServantPage from './ServantPage'
+import ServantList from './servantListWithSearch'
+import ServantPage from './servant/servantPage'
+import DetailPage from './servant/detailPage'
 import indexNavigationOptions from './navigationOptions'
 import navigateOnce from '../lib/navigateOnce'
 
@@ -36,6 +37,9 @@ const Index = StackNavigator({
   },
   ServantDetail: {
     screen: ServantPage,
+  },
+  DetailPage: {
+    screen: DetailPage,
   },
 })
 

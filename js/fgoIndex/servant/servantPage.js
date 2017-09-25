@@ -15,14 +15,14 @@ import {
 } from 'react-native-elements'
 import _ from 'lodash'
 
-import indexNavigationOptions from './navigationOptions'
+import indexNavigationOptions from '../navigationOptions'
 
-import artsImg from '../assets/img/Arts.png'
-import busterImg from '../assets/img/Buster.png'
-import QuickImg from '../assets/img/Quick.png'
+import artsImg from '../../assets/img/Arts.png'
+import busterImg from '../../assets/img/Buster.png'
+import QuickImg from '../../assets/img/Quick.png'
 
-import avatars from '../assets/img/avatars'
-import servantMap from '../assets/data/servants'
+import avatars from '../../assets/img/avatars'
+import servantMap from '../../assets/data/servants'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -33,7 +33,7 @@ const noBorderStyle = {
 
 const cardImg = [artsImg, busterImg, QuickImg]
 
-export default class ServantListWithSearch extends Component {
+export default class ServantPage extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
     ...indexNavigationOptions,
@@ -63,6 +63,7 @@ export default class ServantListWithSearch extends Component {
             <ListItem
               title="数值"
               subtitle={`${servant.endATK} / ${servant.endHP}`}
+              onPress={() => this.props.navigation.navigate('DetailPage', { id: this.props.navigation.state.params.id })}
             />
             <ListItem
               title="技能"
@@ -91,7 +92,7 @@ export default class ServantListWithSearch extends Component {
               }
             </View>
             <Divider style={{
-              height: 0.5,
+              height: 1,
               backgroundColor: '#bbb',
             }}
             />

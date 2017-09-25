@@ -11,7 +11,7 @@ import { connect } from 'react-redux'
 import { createSelector } from 'reselect'
 import _ from 'lodash'
 
-import ServantList from './ServantList'
+import ServantList from './servantList'
 
 import { servantList as servants } from '../assets/data/servants'
 import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
@@ -43,7 +43,7 @@ class ServantListWithSearch extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('ServantList')
+    this.props.navigation.navigate('ServantDetail', { id: '001' })
   }
 
   componentWillReceiveProps(nextProps) {
