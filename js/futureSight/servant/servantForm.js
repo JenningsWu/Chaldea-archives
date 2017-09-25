@@ -16,9 +16,9 @@ import {
   List,
   CheckBox,
 } from 'react-native-elements'
-import { rarityAscensionLevel, rarityPalingenesisLevel } from '../schema/Servant'
+import { rarityAscensionLevel, rarityPalingenesisLevel } from '../../schema/Servant'
 
-import materials from '../assets/data/materialList'
+import materials from '../../assets/data/materialList'
 
 const CURR = 'next'
 const NEXT = 'level_next'

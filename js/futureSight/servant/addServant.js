@@ -15,12 +15,12 @@ import { connect } from 'react-redux'
 import { createSelector } from 'reselect'
 import _ from 'lodash'
 
-import navigationOptions from './navigationOptions'
+import navigationOptions from '../navigationOptions'
 
-import { servantList as servants } from '../assets/data/servants'
-import { setServantInfo } from '../actions/servant'
-import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
-import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'
+import { servantList as servants } from '../../assets/data/servants'
+import { setServantInfo } from '../../actions/servant'
+import SearchbarOptionModal, { initialOption } from '../../common/searchbarOptionModal'
+import { setSearchbarOption as setSearchbarOptionAction } from '../../actions/config'
 
 
 import ServantForm from './servantForm'

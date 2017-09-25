@@ -15,12 +15,12 @@ import { createSelector, createStructuredSelector } from 'reselect'
 import _ from 'lodash'
 
 import MaterialFlatList from './materialFlatList'
-import indexNavigationOptions from './navigationOptions'
+import indexNavigationOptions from '../navigationOptions'
 
-import servantMap from '../assets/data/servants'
-import materialList from '../assets/data/materialList'
-import { setMaterialNum as setMaterialNumAction } from '../actions/material'
-import { materialFutureCalculator, materialCurrentCalculator } from '../utils/selectors'
+import servantMap from '../../assets/data/servants'
+import materialList from '../../assets/data/materialList'
+import { setMaterialNum as setMaterialNumAction } from '../../actions/material'
+import { materialFutureCalculator, materialCurrentCalculator } from '../../utils/selectors'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -81,6 +81,8 @@ class ServantListWithSearch extends PureComponent {
       data,
       extraData,
       setMaterialNum,
+      materialToServant,
+      navigation,
     } = this.props
     const {
       keyword,
@@ -108,29 +110,71 @@ class ServantListWithSearch extends PureComponent {
           data={list}
           extraData={extraData}
           setMaterialNum={setMaterialNum}
+          materialToServant={materialToServant}
+          navigation={navigation}
         />
       </View>
     )
   }
 }
 
-const materialNeedsCalculator = createSelector(
+const servantMatarialCalculator = createSelector(
   ({ account, accountData }) => accountData[account].servant,
+  servantList => (
+    _.map(servantList, (info, id) => {
+      const { level, skills } = info
+      const servant = servantMap[id]
+      return {
+        id,
+        info,
+        needs: Array.from(servant.calculateMaterailNums(level, skills)).map(
+          ([materialId, num]) => (
+            {
+              id: materialId,
+              num,
+            }
+          ),
+        ).filter(({ num }) => num > 0),
+      }
+    })
+  ),
+)
+
+const materialNeedsCalculator = createSelector(
+  servantMatarialCalculator,
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
     const ret = _.mapValues(materialList, () => 0)
-    Object.keys(servantList).forEach((id) => {
+    servantList.forEach(({ info, needs }) => {
       const {
-        level,
-        skills,
         priority,
-      } = servantList[id]
+      } = info
       if (!_.get(config, [priority], true)) {
         return
       }
-      const servant = servantMap[id]
-      servant.calculateMaterailNums(level, skills).forEach((num, materialId) => {
-        ret[materialId] += num
+      needs.forEach(({ id, num }) => {
+        ret[id] += num
+      })
+    })
+    return ret
+  },
+)
+
+const materialToServantCalculator = createSelector(
+  servantMatarialCalculator,
+  ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
+  (servantList, config) => {
+    const ret = _.mapValues(materialList, () => [])
+    servantList.forEach(({ info, needs }) => {
+      const {
+        priority,
+        id,
+      } = info
+      if (!_.get(config, [priority], true)) {
+        return
+      }
+      needs.forEach((material) => {
+        ret[material.id].push({ id, num: material.num })
       })
     })
     return ret
@@ -141,6 +185,8 @@ const materialCalculator = createStructuredSelector({
   currList: materialCurrentCalculator,
   needsList: materialNeedsCalculator,
   futureList: materialFutureCalculator,
+  materialToServant: materialToServantCalculator,
+  servantInfo: ({ account, accountData }) => accountData[account].servant,
 })
 
 const getMaterialList = createSelector(

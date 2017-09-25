@@ -18,15 +18,15 @@ import { connect } from 'react-redux'
 import { createSelector } from 'reselect'
 import _ from 'lodash'
 
-import navigationOptions from './navigationOptions'
+import navigationOptions from '../navigationOptions'
 
-import servantMap from '../assets/data/servants'
-import { setServantInfo, removeServant, finishServant } from '../actions/servant'
+import servantMap from '../../assets/data/servants'
+import { setServantInfo, removeServant, finishServant } from '../../actions/servant'
 
 import ServantForm from './servantForm'
 import ServantItem from './servantItem'
 
-import { materialFutureCalculator, materialCurrentCalculator } from '../utils/selectors'
+import { materialFutureCalculator, materialCurrentCalculator } from '../../utils/selectors'
 
 
 const noBorderStyle = {

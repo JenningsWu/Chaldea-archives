@@ -244,7 +244,6 @@ export default class ClassName {
     })
 
     // ascension
-    console.log(rarityAscensionLevel[this.rarity], level, this.ascensionResource)
     rarityAscensionLevel[this.rarity].forEach((checkLevel, index) => {
       if ((level.curr < checkLevel && checkLevel < level.next) ||
           ((level.curr === checkLevel && !level.currAscension) &&

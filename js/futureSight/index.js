@@ -18,9 +18,10 @@ import _ from 'lodash'
 
 import indexNavigationOptions from './navigationOptions'
 
-import MaterialList from './materialList'
-import ServantList from './servantList'
-import AddServant from './addServant'
+import MaterialList from './material/materialList'
+import MaterialServant from './material/servantList'
+import ServantList from './servant/servantList'
+import AddServant from './servant/addServant'
 import EventList from './eventList'
 import AccountList from './accountList'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
@@ -192,6 +193,9 @@ const Index = StackNavigator({
       </View>
       ,
     }),
+  },
+  MaterialServant: {
+    screen: MaterialServant,
   },
 })
 

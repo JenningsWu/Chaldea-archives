@@ -11,7 +11,7 @@ import {
 } from 'react-native-elements'
 import { NavigationActions } from 'react-navigation'
 
-import avatars from '../assets/img/avatars'
+import avatars from '../../assets/img/avatars'
 
 export default class ServantItem extends PureComponent {
   constructor() {

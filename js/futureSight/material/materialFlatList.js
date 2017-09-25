@@ -14,7 +14,7 @@ import {
   ListItem,
 } from 'react-native-elements'
 
-import materialImg from '../assets/img/material'
+import materialImg from '../../assets/img/material'
 
 const styles = StyleSheet.create({
   subtitleView: {
@@ -48,7 +48,18 @@ class MaterialItem extends PureComponent {
   }
 
   render() {
-    const { id, name, simple, needs, future, current, setMaterialNum } = this.props
+    const {
+      id,
+      name,
+      simple,
+      needs,
+      future,
+      current,
+      setMaterialNum,
+      navigation,
+      servantList,
+      servantInfo,
+    } = this.props
     const enough = needs <= future + current
     let textColor
     if (needs <= current) {
@@ -85,6 +96,8 @@ class MaterialItem extends PureComponent {
           onSwitch={() => setMaterialNum(id, enough ? 0 : 999999999999)}
           switched={enough}
           hideChevron
+          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList })}
+
           // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
           // underlayColor="#ddd"
           // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
@@ -124,6 +137,8 @@ class MaterialItem extends PureComponent {
             setMaterialNum(id, parseInt(num, 10) || 0)
           }}
           hideChevron
+          onPress={() => navigation.navigate('MaterialServant', { servantInfo, data: servantList })}
+
           // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
           // underlayColor="#ddd"
           // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
@@ -135,7 +150,7 @@ class MaterialItem extends PureComponent {
 
 export default class MaterialFlatList extends PureComponent {
   render() {
-    const { data, extraData, setMaterialNum } = this.props
+    const { data, extraData, setMaterialNum, navigation } = this.props
     return (
       <View style={{
         flex: 1,
@@ -153,7 +168,10 @@ export default class MaterialFlatList extends PureComponent {
               needs={extraData.needsList[id]}
               future={extraData.futureList[id]}
               current={extraData.currList[id]}
+              servantList={extraData.materialToServant[id]}
+              servantInfo={extraData.servantInfo}
               setMaterialNum={setMaterialNum}
+              navigation={navigation}
             />
           )}
         />
