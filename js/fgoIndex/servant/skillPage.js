@@ -7,16 +7,29 @@ import {
   View,
   Text,
   ScrollView,
+  Image,
 } from 'react-native'
 import {
   Card,
   ListItem,
+  Divider,
 } from 'react-native-elements'
 import _ from 'lodash'
 
 import indexNavigationOptions from '../navigationOptions'
 
+import artsImg from '../../assets/img/Arts.png'
+import busterImg from '../../assets/img/Buster.png'
+import QuickImg from '../../assets/img/Quick.png'
+
+import avatars from '../../assets/img/avatars'
 import servantMap from '../../assets/data/servants'
+
+import {
+  skillCondition,
+  effectDesc,
+  skillDuration,
+} from '../../schema/Skill'
 
 const noBorderStyle = {
   borderLeftWidth: 0,
@@ -25,7 +38,66 @@ const noBorderStyle = {
   borderBottomWidth: 0,
 }
 
-export default class ServantDetailPage extends Component {
+const cardImg = [artsImg, busterImg, QuickImg]
+
+class Skills extends PureComponent {
+  constructor() {
+    super()
+    this.state = {
+      curr: 0,
+    }
+  }
+  render() {
+    const skill = this.props.skill[this.props.skill.length - 1]
+    const {
+      name,
+      lv,
+      initialCD,
+      condition,
+      effect,
+    } = skill
+    return (
+      <Card containerStyle={{ margin: 0 }} title={`${name}${lv ? ` ${lv}` : ''}`}>
+        <ListItem
+          title="初始 CD"
+          rightTitle={initialCD}
+          hideChevron
+        />
+        {
+          condition < 1 ? null : (
+            <ListItem
+              title="开放条件"
+              rightTitle={skillCondition[condition]}
+              hideChevron
+            />
+          )
+        }
+        {
+          effect.map(({ id, value, duration, durationTime, effectiveTime }) => (
+            (value.length <= 1 || value[1] === 0 || value[1] === value[0]) ? (
+              // <ListItem
+              //   key={id}
+              //   title=
+              //   // rightTitle={`${value[0]}`}
+              //   hideChevron
+              // />
+              <View key={id} style={{ paddingTop: 3, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: '#bbb' }}>
+                <Text style={{ color: '#43484d', margin: 10 }}>
+                  {effectDesc(id)}
+                </Text>
+              </View>
+
+            ) : (
+              null
+            )
+          ))
+        }
+      </Card>
+    )
+  }
+}
+
+export default class ServantSkillPage extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
     ...indexNavigationOptions,
@@ -38,10 +110,19 @@ export default class ServantDetailPage extends Component {
   render() {
     const { id } = this.props.navigation.state.params
     const servant = servantMap[id]
+    const {
+      skill1,
+      skill2,
+      skill3,
+    } = servant
     return (
       <View style={{ flex: 1 }}>
-        <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
-          <ScrollView>
+        <ScrollView style={{ flex: 1 }}>
+          <Skills skill={skill1} />
+          <Skills skill={skill2} />
+          <Skills skill={skill3} />
+        </ScrollView>
+        {/* <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
             <ListItem
               title={servant.name}
               // rightTitle={servant.rarityDesc}
@@ -129,8 +210,7 @@ export default class ServantDetailPage extends Component {
               rightTitle={`${servant.deathResist * 100}%`}
               hideChevron
             />
-          </ScrollView>
-        </Card>
+        </Card> */}
       </View>
     )
   }
