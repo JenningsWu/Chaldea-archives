@@ -67,6 +67,7 @@ export default class ServantPage extends Component {
             />
             <ListItem
               title="技能"
+              onPress={() => this.props.navigation.navigate('SkillPage', { id: this.props.navigation.state.params.id })}
             />
             <ListItem
               title="宝具"

@@ -139,6 +139,64 @@ export const detail = {
   9: '特性赋予',
 }
 
+// description used when target is enemy
+export const detailForEnemy = {
+  4005: '暴击率',
+}
+
+// description used when buffOrDebuff is 1 or 3
+export const detailForConstant = {
+  1000: '伤害',
+}
+
+export const detailSp = {
+  5019: '以某概率赋予某状态',
+  5015: '赋予根据自身 HP 减少程度提升暴击威力的状态',
+  5020: '赋予根据自身 HP 减少程度提升攻击的特攻状态',
+  5029: '随机在同阶段效果中选一',
+  5032: '防御力每回合改变 ※第1回合改变值10%',
+}
+
+
+export const detailSpSuffixAtkHp = {
+  '0007': '赋予毒状态',
+  '0008': '赋予诅咒状态',
+  '0009': '赋予灼烧状态',
+  '0010': '赋予石化状态',
+  '0011': '赋予行动不能状态',
+  '0012': '赋予眩晕状态',
+  '0013': '赋予拘束状态',
+  '0014': '赋予恐怖状态',
+  '0015': '赋予技能封印状态',
+  '0016': '赋予宝具封印状态',
+  '0018': '赋予强化无效状态',
+  '0019': '赋予混乱状态状态',
+  5028: '赋予无法战斗状态',
+  5000: '赋予无敌状态',
+  5001: '赋予闪避状态',
+  5003: '赋予必中状态',
+  5004: '赋予无敌贯通状态',
+  5005: '赋予无视防御力状态',
+  5006: '赋予待机状态',
+  5007: '赋予弱体无效状态',
+}
+
+export const detailSpSuffixEveryTurn = {
+  4006: '赋予星星获得状态',
+  4011: '赋予 HP 获得状态',
+  5026: '每回合概率获得星星',
+}
+
+export const detailSpSuffixRevive = {
+  5002: '赋予战续状态',
+}
+
+export const detailSpSuffixProb = {
+  5014: '赋予攻击即死效果',
+  5023: '针对自身的攻击以概率回避',
+}
+
+
 const traitList = {
   '000': '-',
   '001': 'Saber 职介',
@@ -277,14 +335,61 @@ export function targetWithTrait(targetId, traitId) {
   }[targetId]
 }
 
-export function effectDesc(id) {
+function descSimpleSuffix(buffFlag, value) {
+  if (value[0] === 0) return ''
+  if (buffFlag === '0' || buffFlag === '1') return ' · 提升：'
+  return ' · 减少：'
+}
+
+function descSuffix(buffFlag, detailId, value) {
+  if (value[0] === 0) return ''
+  let twoType = ['提升', '减少']
+  if (detailId in detailSpSuffixAtkHp) {
+    twoType = ['每回合固定伤害', '每回合血量回复']
+  } else if (detailId in detailSpSuffixEveryTurn) {
+    twoType = ['每回合获得', '每回合减少']
+  } else if (detailId in detailSpSuffixRevive) {
+    twoType = ['复活时 HP', '复活时 HP']
+  } else if (detailId in detailSpSuffixProb) {
+    twoType = ['概率', '概率']
+  }
+  if (buffFlag === '0' || buffFlag === '1') return ` · ${twoType[0]}：`
+  return ` · ${twoType[1]}：`
+}
+
+export function effectDesc(id, value) {
   let desc = ''
   const targetId = id.substring(0, 2)
   const targetIdSp = id.substring(2, 5)
+
   if (targetIdSp === '000') {
     desc = `${target[targetId]}`
   } else {
     desc = `${targetWithTrait(targetId, targetIdSp)}`
+  }
+
+  const placeId = id.substring(5, 7)
+  if (placeId !== '00') {
+    desc = `${desc} · 条件：${place[placeId]}`
+  }
+
+  const buffFlag = id.substring(7, 8)
+  const detailId = id.substring(8, 12)
+  // use different description style
+  if (detailId[0] === '7') {
+    desc = `${desc} · 对【${traitList[detailId.substring(1)]}】特攻${descSimpleSuffix(buffFlag, value)}`
+  } else if (detailId[0] === '8') {
+    desc = `${desc} · 对【${traitList[detailId.substring(1)]}】特防${descSimpleSuffix(buffFlag, value)}`
+  } else if (detailId[0] === '9') {
+    desc = `${desc} · 赋予特性【${traitList[detailId.substring(1)]}】`
+  } else if (targetId[0] === '1' && detailId in detailForEnemy) {
+    desc = `${desc} · ${detailForEnemy[detailId]}${descSimpleSuffix(buffFlag, value)}`
+  } else if ((buffFlag === '1' || buffFlag === '3') && detailId in detailForConstant) {
+    desc = `${desc} · ${detailForEnemy[detailId]}${descSimpleSuffix(buffFlag, value)}`
+  } else if (detailId in detailSp) {
+    desc = `${desc} · 【未处理】`
+  } else {
+    desc = `${desc} · ${detail[detailId]}${descSuffix(buffFlag, detailId, value)}`
   }
   return desc
 }

@@ -60,7 +60,7 @@ class Skills extends PureComponent {
       <Card containerStyle={{ margin: 0 }} title={`${name}${lv ? ` ${lv}` : ''}`}>
         <ListItem
           title="初始 CD"
-          rightTitle={initialCD}
+          rightTitle={`${initialCD}`}
           hideChevron
         />
         {
@@ -73,8 +73,8 @@ class Skills extends PureComponent {
           )
         }
         {
-          effect.map(({ id, value, duration, durationTime, effectiveTime }) => (
-            (value.length <= 1 || value[1] === 0 || value[1] === value[0]) ? (
+          effect.map(({ id, value, duration, durationTime, effectiveTime, probability }) => (
+            (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
               // <ListItem
               //   key={id}
               //   title=
@@ -83,7 +83,7 @@ class Skills extends PureComponent {
               // />
               <View key={id} style={{ paddingTop: 3, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: '#bbb' }}>
                 <Text style={{ color: '#43484d', margin: 10 }}>
-                  {effectDesc(id)}
+                  {effectDesc(id, value)}
                 </Text>
               </View>
 
