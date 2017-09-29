@@ -243,6 +243,13 @@ const traitList = {
   303: '女性（含无性别 servant）',
 }
 
+export const detailProb = {
+  5019: '以某概率赋予某状态',
+  5023: '针对自身的攻击以概率回避',
+  5026: '每回合概率获得星星',
+  5028: '赋予无法战斗状态',
+}
+
 export const skillCondition = {
   [-1]: '未定义',
   0: '无／灵基突破',
@@ -364,6 +371,14 @@ export function showedValue(id, value) {
     value.map(n => `${n}`)
 }
 
+export function probDesc(id) {
+  const detailId = id.substring(8, 12)
+
+  return (detailId in detailProb) ?
+      '概率' :
+      '成功率'
+}
+
 export function effectDesc(id, value, probability) {
   let desc = ''
   const targetId = id.substring(0, 2)
@@ -380,13 +395,14 @@ export function effectDesc(id, value, probability) {
     desc = `${desc} · 条件：${place[placeId]}`
   }
 
-  if (probability[0] !== 100 &&
-      (probability[1] === 0 || probability[0] === probability[1])) {
-    desc = `${desc} · 成功率：${probability[0]}%`
-  }
-
   const buffFlag = id.substring(7, 8)
   const detailId = id.substring(8, 12)
+
+  if (probability[0] !== 100 &&
+      (probability[1] === 0 || probability[0] === probability[1])) {
+    desc = `${desc} · ${probDesc(id)}：${probability[0]}%`
+  }
+
   // use different description style
   if (detailId[0] === '7') {
     desc = `${desc} · 对【${traitList[detailId.substring(1)]}】特攻${descSimpleSuffix(buffFlag, value)}`

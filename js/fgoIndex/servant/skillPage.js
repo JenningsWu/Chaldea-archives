@@ -30,6 +30,7 @@ import {
   effectDesc,
   skillDuration,
   showedValue,
+  probDesc,
 } from '../../schema/Skill'
 
 const noBorderStyle = {
@@ -117,7 +118,7 @@ class Skills extends PureComponent {
                   probability[0] !== probability[1] && probability[1] !== 0 ? (
                     <View>
                       <Text style={{ color: '#43484d', margin: 10 }}>
-                        成功率：
+                        {probDesc(id)}
                       </Text>
                       <View style={{ marginHorizontal: 10, marginBottom: 5, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#ccc' }}>
                         <View style={{ flexDirection: 'row' }}>
