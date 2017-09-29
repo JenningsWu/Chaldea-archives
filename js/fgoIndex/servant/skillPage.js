@@ -29,6 +29,7 @@ import {
   skillCondition,
   effectDesc,
   skillDuration,
+  showedValue,
 } from '../../schema/Skill'
 
 const noBorderStyle = {
@@ -73,24 +74,77 @@ class Skills extends PureComponent {
           )
         }
         {
-          effect.map(({ id, value, duration, durationTime, effectiveTime, probability }) => (
-            (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
+          effect.map(({ id, value, duration, durationTime, effectiveTime, probability = [100, 0] }) => {
+            const valueStr = showedValue(id, value)
+            // (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
               // <ListItem
               //   key={id}
               //   title=
               //   // rightTitle={`${value[0]}`}
               //   hideChevron
               // />
+            return (
               <View key={id} style={{ paddingTop: 3, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: '#bbb' }}>
                 <Text style={{ color: '#43484d', margin: 10 }}>
-                  {effectDesc(id, value)}
+                  {effectDesc(id, value, probability)}
+                  {value[0] !== 0 && (value[1] === 0 || value[1] === value[0]) ? `${valueStr[0]}` : ''}
                 </Text>
+                {
+                  value[0] !== value[1] && value[1] !== 0 ? (
+                    <View style={{ marginHorizontal: 10, marginBottom: 5, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#ccc' }}>
+                      <View style={{ flexDirection: 'row' }}>
+                        {
+                          valueStr.slice(0, 5).map((v, idx) => [v, `${v}-${idx}`]).map(([v, key]) => (
+                            <View key={key} style={{ flex: 1, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#ccc' }}>
+                              <Text style={{ flex: 1, textAlign: 'center', color: '#444' }}>{v}</Text>
+                            </View>
+                          ))
+                        }
+                      </View>
+                      <View style={{ flexDirection: 'row' }}>
+                        {
+                          valueStr.slice(5, 10).map((v, idx) => [v, `${v}-${idx}`]).map(([v, key]) => (
+                            <View key={key} style={{ flex: 1, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#ccc' }}>
+                              <Text style={{ flex: 1, textAlign: 'center', color: '#444' }}>{v}</Text>
+                            </View>
+                          ))
+                        }
+                      </View>
+                    </View>
+                  ) : null
+                }
+                {
+                  probability[0] !== probability[1] && probability[1] !== 0 ? (
+                    <View>
+                      <Text style={{ color: '#43484d', margin: 10 }}>
+                        成功率：
+                      </Text>
+                      <View style={{ marginHorizontal: 10, marginBottom: 5, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#ccc' }}>
+                        <View style={{ flexDirection: 'row' }}>
+                          {
+                            probability.slice(0, 5).map((v, idx) => [`${v}%`, `${v}-${idx}`]).map(([v, key]) => (
+                              <View key={key} style={{ flex: 1, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#ccc' }}>
+                                <Text style={{ flex: 1, textAlign: 'center', color: '#444' }}>{v}</Text>
+                              </View>
+                            ))
+                          }
+                        </View>
+                        <View style={{ flexDirection: 'row' }}>
+                          {
+                            probability.slice(5, 10).map((v, idx) => [`${v}%`, `${v}-${idx}`]).map(([v, key]) => (
+                              <View key={key} style={{ flex: 1, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#ccc' }}>
+                                <Text style={{ flex: 1, textAlign: 'center', color: '#444' }}>{v}</Text>
+                              </View>
+                            ))
+                          }
+                        </View>
+                      </View>
+                    </View>
+                  ) : null
+                }
               </View>
-
-            ) : (
-              null
             )
-          ))
+          })
         }
       </Card>
     )

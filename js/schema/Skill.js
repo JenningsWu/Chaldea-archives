@@ -357,7 +357,14 @@ function descSuffix(buffFlag, detailId, value) {
   return ` · ${twoType[1]}：`
 }
 
-export function effectDesc(id, value) {
+export function showedValue(id, value) {
+  const buffFlag = id.substring(7, 8)
+  return buffFlag === '0' || buffFlag === '2' ?
+    value.map(n => `${n}%`) :
+    value.map(n => `${n}`)
+}
+
+export function effectDesc(id, value, probability) {
   let desc = ''
   const targetId = id.substring(0, 2)
   const targetIdSp = id.substring(2, 5)
@@ -371,6 +378,11 @@ export function effectDesc(id, value) {
   const placeId = id.substring(5, 7)
   if (placeId !== '00') {
     desc = `${desc} · 条件：${place[placeId]}`
+  }
+
+  if (probability[0] !== 100 &&
+      (probability[1] === 0 || probability[0] === probability[1])) {
+    desc = `${desc} · 成功率：${probability[0]}%`
   }
 
   const buffFlag = id.substring(7, 8)
