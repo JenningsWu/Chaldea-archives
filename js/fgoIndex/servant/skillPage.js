@@ -7,50 +7,40 @@ import {
   View,
   Text,
   ScrollView,
-  Image,
 } from 'react-native'
 import {
   Card,
   ListItem,
   Divider,
+  Icon,
 } from 'react-native-elements'
 import _ from 'lodash'
 
 import indexNavigationOptions from '../navigationOptions'
 
-import artsImg from '../../assets/img/Arts.png'
-import busterImg from '../../assets/img/Buster.png'
-import QuickImg from '../../assets/img/Quick.png'
-
-import avatars from '../../assets/img/avatars'
 import servantMap from '../../assets/data/servants'
 
 import {
   skillCondition,
   effectDesc,
-  skillDuration,
   showedValue,
   probDesc,
 } from '../../schema/Skill'
 
-const noBorderStyle = {
-  borderLeftWidth: 0,
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderBottomWidth: 0,
-}
-
-const cardImg = [artsImg, busterImg, QuickImg]
-
 class Skills extends PureComponent {
-  constructor() {
+  constructor(props) {
     super()
     this.state = {
-      curr: 0,
+      curr: props.skill.length - 1,
     }
   }
   render() {
-    const skill = this.props.skill[this.props.skill.length - 1]
+    const num = this.props.skill.length
+    if (num === 0) {
+      return null
+    }
+    const { curr } = this.state
+    const skill = this.props.skill[curr]
     const {
       name,
       lv,
@@ -59,12 +49,29 @@ class Skills extends PureComponent {
       effect,
     } = skill
     return (
-      <Card containerStyle={{ margin: 0 }} title={`${name}${lv ? ` ${lv}` : ''}`}>
-        <ListItem
-          title="初始 CD"
-          rightTitle={`${initialCD}`}
-          hideChevron
-        />
+      <Card containerStyle={{ margin: 0 }} title={null}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', paddingBottom: 15 }}>
+          <Icon
+            name="keyboard-arrow-left"
+            color={curr === 0 ? 'white' : 'black'}
+            onPress={() => {
+              if (curr > 0) {
+                this.setState({ curr: curr - 1 })
+              }
+            }}
+          />
+          <Text style={{ fontWeight: 'bold', textAlign: 'center', color: '#43484d' }}>{`${name}${lv ? ` ${lv}` : ''}`}</Text>
+          <Icon
+            name="keyboard-arrow-right"
+            color={curr === num - 1 ? 'white' : 'black'}
+            onPress={() => {
+              if (curr < num - 1) {
+                this.setState({ curr: curr + 1 })
+              }
+            }}
+          />
+        </View>
+        <Divider style={{ backgroundColor: '#e1e8ee' }} />
         {
           condition < 1 ? null : (
             <ListItem
@@ -74,8 +81,20 @@ class Skills extends PureComponent {
             />
           )
         }
+        <ListItem
+          title="初始 CD"
+          rightTitle={`${initialCD}`}
+          hideChevron
+        />
         {
-          effect.map(({ id, value, duration, durationTime, effectiveTime, probability = [100, 0] }) => {
+          effect.map(({
+            id,
+            value,
+            duration,
+            durationTime,
+            effectiveTime,
+            probability = [100, 0],
+          }) => {
             const valueStr = showedValue(id, value)
             // (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
               // <ListItem
@@ -171,7 +190,7 @@ export default class ServantSkillPage extends Component {
       skill3,
     } = servant
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{ flex: 1, backgroundColor: 'white' }}>
         <ScrollView style={{ flex: 1 }}>
           <Skills skill={skill1} />
           <Skills skill={skill2} />
