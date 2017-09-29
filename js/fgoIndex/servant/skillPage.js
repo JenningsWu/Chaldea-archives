@@ -87,7 +87,7 @@ class Skills extends PureComponent {
             return (
               <View key={id} style={{ paddingTop: 3, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: '#bbb' }}>
                 <Text style={{ color: '#43484d', margin: 10 }}>
-                  {effectDesc(id, value, probability)}
+                  {effectDesc(id, value, probability, duration, durationTime, effectiveTime)}
                   {value[0] !== 0 && (value[1] === 0 || value[1] === value[0]) ? `${valueStr[0]}` : ''}
                 </Text>
                 {

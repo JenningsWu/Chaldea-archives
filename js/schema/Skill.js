@@ -280,11 +280,11 @@ export const skillDurationTime = {
 }
 
 export const skillEffectiveTime = {
-  [-2]: '死亡后',
+  [-2]: '死亡后生效',
   [-1]: '当即生效',
-  0: '回合结束',
-  1: '一回合后',
-  5: '五回合后',
+  0: '回合结束生效',
+  1: '一回合后生效',
+  5: '五回合后生效',
 }
 
 export const npEffectType = {
@@ -379,7 +379,7 @@ export function probDesc(id) {
       '成功率'
 }
 
-export function effectDesc(id, value, probability) {
+export function effectDesc(id, value, probability, duration, durationTime, effectiveTime) {
   let desc = ''
   const targetId = id.substring(0, 2)
   const targetIdSp = id.substring(2, 5)
@@ -402,6 +402,19 @@ export function effectDesc(id, value, probability) {
       (probability[1] === 0 || probability[0] === probability[1])) {
     desc = `${desc} · ${probDesc(id)}：${probability[0]}%`
   }
+
+  if (duration > 0 && duration < 99999 && duration in skillDuration) {
+    desc = `${desc} · ${skillDuration[duration]}`
+  }
+
+  if (durationTime > 1 && durationTime in skillDurationTime) {
+    desc = `${desc} · ${skillDurationTime[durationTime]}`
+  }
+
+  if (effectiveTime !== -1 && effectiveTime in skillEffectiveTime) {
+    desc = `${desc} · ${skillEffectiveTime[effectiveTime]}`
+  }
+
 
   // use different description style
   if (detailId[0] === '7') {
