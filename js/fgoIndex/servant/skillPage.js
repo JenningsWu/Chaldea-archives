@@ -25,6 +25,8 @@ import {
   effectDesc,
   showedValue,
   probDesc,
+  detailNeedGroup,
+  skillRequirement,
 } from '../../schema/Skill'
 
 class Skills extends PureComponent {
@@ -47,7 +49,9 @@ class Skills extends PureComponent {
       initialCD,
       condition,
       effect,
+      requirement = '00000',
     } = skill
+    let groupPhaseId = -1
     return (
       <Card containerStyle={{ margin: 0 }} title={null}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', paddingBottom: 15 }}>
@@ -87,6 +91,15 @@ class Skills extends PureComponent {
           hideChevron
         />
         {
+          requirement === '00000' ? null : (
+            <ListItem
+              title="使用条件"
+              rightTitle={skillRequirement[requirement]}
+              hideChevron
+            />
+          )
+        }
+        {
           effect.map(({
             id,
             value,
@@ -94,8 +107,14 @@ class Skills extends PureComponent {
             durationTime,
             effectiveTime,
             probability = [100, 0],
-          }) => {
+            phaseID,
+          }, effectIdx) => {
             const valueStr = showedValue(id, value)
+            console.log(id, detailNeedGroup(id))
+            if (detailNeedGroup(id)) {
+              groupPhaseId = phaseID
+            }
+            console.log(groupPhaseId, phaseID)
             // (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
               // <ListItem
               //   key={id}
@@ -104,8 +123,18 @@ class Skills extends PureComponent {
               //   hideChevron
               // />
             return (
-              <View key={id} style={{ paddingTop: 3, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: '#bbb' }}>
+              <View key={id} style={{
+                paddingTop: 3,
+                paddingBottom: 3,
+              }}
+              >
+                <Divider style={{
+                  height: effectIdx > 0 ? 1 : 0,
+                  backgroundColor: groupPhaseId === phaseID ? '#ddd' : '#bbb',
+                }}
+                />
                 <Text style={{ color: '#43484d', margin: 10 }}>
+                  {!detailNeedGroup(id) && groupPhaseId === phaseID ? '⤷' : ''}
                   {effectDesc(id, value, probability, duration, durationTime, effectiveTime)}
                   {value[0] !== 0 && (value[1] === 0 || value[1] === value[0]) ? `${valueStr[0]}` : ''}
                 </Text>

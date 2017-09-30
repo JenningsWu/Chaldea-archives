@@ -24,7 +24,7 @@ const place = {
   '05': '星星 10 颗',
 }
 
-const skillRequirement = {
+export const skillRequirement = {
   '00000': '无',
   '01010': '10 颗星星',
   '02100': 'NP 100%',
@@ -129,7 +129,7 @@ export const detail = {
   5026: '每回合概率获得星星',
   5027: '绿卡性能缓慢提升',
   5028: '赋予无法战斗状态',
-  5029: '随机在同阶段效果中选一',
+  5029: '随机在以下效果中选一',
   5030: 'Hit 数 2 倍，每 hit 初始伤害减半（总伤害随技能等级提升）',
   5031: '即死无效',
   5032: '防御力每回合改变 ※第1回合改变值10%',
@@ -149,11 +149,14 @@ export const detailForConstant = {
   1000: '伤害',
 }
 
-export const detailSp = {
+export const groupedDetail = {
   5019: '以某概率赋予某状态',
+  5029: '随机在以下效果中选一',
+}
+
+export const detailSp = {
   5015: '赋予根据自身 HP 减少程度提升暴击威力的状态',
   5020: '赋予根据自身 HP 减少程度提升攻击的特攻状态',
-  5029: '随机在同阶段效果中选一',
   5032: '防御力每回合改变 ※第1回合改变值10%',
 }
 
@@ -399,6 +402,7 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
   const detailId = id.substring(8, 12)
 
   if (probability[0] !== 100 &&
+      probability[0] !== 0 &&
       (probability[1] === 0 || probability[0] === probability[1])) {
     desc = `${desc} · ${probDesc(id)}：${probability[0]}%`
   }
@@ -433,4 +437,8 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
     desc = `${desc} · ${detail[detailId]}${descSuffix(buffFlag, detailId, value)}`
   }
   return desc
+}
+
+export function detailNeedGroup(id) {
+  return id.substring(8, 12) in groupedDetail
 }
