@@ -26,6 +26,7 @@ import {
   showedValue,
   probDesc,
   attackNp,
+  npEffectType,
 } from '../../schema/Skill'
 
 const NpEffect = ({
@@ -35,6 +36,7 @@ const NpEffect = ({
   durationTime,
   effectiveTime,
   probability = [100, 0],
+  type,
   isFirst,
   isGrouped,
 }) => {
@@ -54,6 +56,7 @@ const NpEffect = ({
       />
       <Text style={{ color: '#43484d', margin: 10 }}>
         {isGrouped ? '⤷' : ''}
+        {`${npEffectType[type]}`}
         {effectDesc(id, value, probability, duration, durationTime, effectiveTime)}
         {value[0] !== 0 && (value[1] === 0 || value[1] === value[0]) ? `${valueStr[0]}` : ''}
       </Text>
@@ -182,6 +185,7 @@ class NP extends PureComponent {
                 key={id}
                 id={id}
                 value={e.value}
+                type={e.type}
                 duration={duration}
                 durationTime={durationTime}
                 effectiveTime={effectiveTime}
@@ -237,6 +241,7 @@ class NP extends PureComponent {
                 key={id}
                 id={id}
                 value={e.value}
+                type={e.type}
                 duration={duration}
                 durationTime={durationTime}
                 effectiveTime={effectiveTime}

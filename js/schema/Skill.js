@@ -149,6 +149,11 @@ export const detailForConstant = {
   1000: '伤害',
 }
 
+// description used when buffOrDebuff is 1
+export const detailForBuffConstant = {
+  2000: '伤害减免：',
+}
+
 export const groupedDetail = {
   5019: '以某概率赋予某状态',
   5029: '随机在以下效果中选一',
@@ -291,9 +296,9 @@ export const skillEffectiveTime = {
 }
 
 export const npEffectType = {
-  0: '固定值',
-  1: '宝具升级效果提升',
-  2: '超蓄力效果提升',
+  0: '',  // '固定值'
+  1: '[lv] ',  // '宝具升级效果提升',
+  2: '<OverCharge>',  // '超蓄力效果提升',
 }
 
 export const npCondition = {
@@ -437,7 +442,9 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
   } else if (targetId[0] === '1' && detailId in detailForEnemy) {
     desc = `${desc} · ${detailForEnemy[detailId]}${descSimpleSuffix(buffFlag, value)}`
   } else if ((buffFlag === '1' || buffFlag === '3') && detailId in detailForConstant) {
-    desc = `${desc} · ${detailForEnemy[detailId]}${descSimpleSuffix(buffFlag, value)}`
+    desc = `${desc} · ${detailForConstant[detailId]}${descSimpleSuffix(buffFlag, value)}`
+  } else if (buffFlag === '1' && detailId in detailForBuffConstant) {
+    desc = `${desc} · ${detailForBuffConstant[detailId]}`
   } else if (detailId in detailSp) {
     desc = `${desc} · 【未处理】`
   } else {
