@@ -314,6 +314,13 @@ export const npType = {
   6: '变身海德',
 }
 
+export const attackNp = {
+  1: '全体攻击',
+  2: '单体攻击',
+  3: '全体攻击（无视防御）',
+  4: '单体攻击（无视防御）',
+}
+
 export const npCardType = {
   0: '蓝卡',
   1: '红卡',

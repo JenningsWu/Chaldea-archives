@@ -123,10 +123,12 @@ class Skills extends PureComponent {
               //   hideChevron
               // />
             return (
-              <View key={id} style={{
-                paddingTop: 3,
-                paddingBottom: 3,
-              }}
+              <View
+                key={id}
+                style={{
+                  paddingTop: 3,
+                  paddingBottom: 3,
+                }}
               >
                 <Divider style={{
                   height: effectIdx > 0 ? 1 : 0,

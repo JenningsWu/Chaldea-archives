@@ -12,6 +12,7 @@ import ServantList from './servantListWithSearch'
 import ServantPage from './servant/servantPage'
 import DetailPage from './servant/detailPage'
 import SkillPage from './servant/skillPage'
+import NpPage from './servant/npPage'
 import indexNavigationOptions from './navigationOptions'
 import navigateOnce from '../lib/navigateOnce'
 
@@ -44,6 +45,9 @@ const Index = StackNavigator({
   },
   SkillPage: {
     screen: SkillPage,
+  },
+  NpPage: {
+    screen: NpPage,
   },
 })
 

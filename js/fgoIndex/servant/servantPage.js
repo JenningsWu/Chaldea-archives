@@ -71,6 +71,7 @@ export default class ServantPage extends Component {
             />
             <ListItem
               title="宝具"
+              onPress={() => this.props.navigation.navigate('NpPage', { id: this.props.navigation.state.params.id })}
             />
             <View style={{
               flex: 1,
