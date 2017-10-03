@@ -11,6 +11,7 @@ import {
 import {
   Card,
   ListItem,
+  Divider,
 } from 'react-native-elements'
 import _ from 'lodash'
 
@@ -18,11 +19,47 @@ import indexNavigationOptions from '../navigationOptions'
 
 import servantMap from '../../assets/data/servants'
 
+import {
+  effectDesc,
+  showedValue,
+} from '../../schema/Skill'
+
 const noBorderStyle = {
   borderLeftWidth: 0,
   borderTopWidth: 0,
   borderRightWidth: 0,
   borderBottomWidth: 0,
+}
+
+const ClassSkill = ({
+  name,
+  lv,
+  effect,
+}) => {
+  const effectList = Array.isArray(effect) ? effect : [effect]
+  return (
+    <Card
+      containerStyle={[
+        noBorderStyle,
+        {
+          margin: 0,
+        },
+      ]}
+      title={`${name} ${lv}`}
+    >
+      {
+        effectList.map(({ id, value }) => (
+          <View key={id}>
+            <Text style={{ color: '#43484d', margin: 10 }}>
+              {effectDesc(id, value, [100, 0], 0, 0, -1)}
+              {showedValue(id, value)[0]}
+            </Text>
+            <Divider style={{ backgroundColor: '#e1e8ee' }} />
+          </View>
+        ))
+      }
+    </Card>
+  )
 }
 
 export default class ServantDetailPage extends Component {
@@ -129,6 +166,16 @@ export default class ServantDetailPage extends Component {
               rightTitle={`${servant.deathResist * 100}%`}
               hideChevron
             />
+            {
+              servant.classSkill.map(({ name, lv, effect }) => (
+                <ClassSkill
+                  key={`${name}-${lv}`}
+                  name={name}
+                  lv={lv}
+                  effect={effect}
+                />
+              ))
+            }
           </ScrollView>
         </Card>
       </View>
