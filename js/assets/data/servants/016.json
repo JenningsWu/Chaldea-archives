@@ -235,11 +235,11 @@
       "type": 1,
       "condition": 0,
       "value": [
+        "600",
         "800",
-        "1000",
-        "1100",
-        "1150",
-        "1200"
+        "900",
+        "950",
+        "1000"
       ],
       "card": 1,
       "lv": "B++",
@@ -249,10 +249,10 @@
           "id": "000000001000",
           "value": [
             0,
+            100,
             200,
-            400,
-            600,
-            800
+            300,
+            400
           ],
           "duration": 0,
           "durationTime": 0,
@@ -284,7 +284,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             500,
             0,
@@ -305,7 +305,7 @@
     {
       "name": "流星一条（Stella）",
       "type": 1,
-      "condition": 0,
+      "condition": 1,
       "value": [
         "800",
         "1000",
@@ -356,7 +356,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             500,
             0,

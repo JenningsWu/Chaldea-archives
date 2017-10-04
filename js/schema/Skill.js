@@ -82,7 +82,7 @@ export const detail = {
   1004: '暴击威力',
   1005: '宝具威力',
   2000: '防御力',
-  3000: '魅惑率',
+  3000: '赋予魅惑状态',
   4000: 'NP 量',
   4001: 'NP 获取量',
   4002: 'NP 获得状态',
@@ -137,6 +137,11 @@ export const detail = {
   7: '特攻',
   8: '特防',
   9: '特性赋予',
+}
+
+
+export const overrallTargetDetail = {
+  4005: '星星数量',
 }
 
 // description used when target is enemy
@@ -234,9 +239,9 @@ const traitList = {
   '025': '罗马',
   '026': '猛兽',
   '027': 'saber 脸',
-  '028': '持有天/地之力的从者, 特斯拉特攻',
-  '029': '持有天/地之力的从者（拟似从者、半从者除外）, 被神秘殺し所',
-  '030': '持有天/地之力的从者（持有特殊星之力除外）, 闪闪特攻',
+  '028': '持有天/地之力的从者', // 特斯拉特攻
+  '029': '持有天/地之力的从者（拟似从者、半从者除外）', // 奶光特攻
+  '030': '持有天/地之力的从者（持有特殊星之力除外）', // 闪闪特攻
   '031': '骑乘',
   '032': '亚瑟',
   '033': '布姐所爱之人',
@@ -364,10 +369,10 @@ function descSimpleSuffix(buffFlag, value) {
 }
 
 function descSuffix(buffFlag, detailId, value) {
-  if (value[0] === 0) return ''
+  if (value[0] === 0 && value[1] === 0) return ''
   let twoType = ['提升', '减少']
   if (detailId in detailSpSuffixAtkHp) {
-    twoType = ['每回合固定伤害', '每回合血量回复']
+    twoType = ['每回合血量回复', '每回合固定伤害']
   } else if (detailId in detailSpSuffixEveryTurn) {
     twoType = ['每回合获得', '每回合减少']
   } else if (detailId in detailSpSuffixRevive) {
@@ -398,20 +403,24 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
   let desc = ''
   const targetId = id.substring(0, 2)
   const targetIdSp = id.substring(2, 5)
+  const placeId = id.substring(5, 7)
+  const buffFlag = id.substring(7, 8)
+  const detailId = id.substring(8, 12)
 
   if (targetIdSp === '000') {
-    desc = `${target[targetId]}`
+    if (detailId in overrallTargetDetail && targetId === '02') {
+      desc = '我方'
+    } else {
+      desc = `${target[targetId]}`
+    }
   } else {
     desc = `${targetWithTrait(targetId, targetIdSp)}`
   }
 
-  const placeId = id.substring(5, 7)
   if (placeId !== '00') {
     desc = `${desc} · 条件：${place[placeId]}`
   }
 
-  const buffFlag = id.substring(7, 8)
-  const detailId = id.substring(8, 12)
 
   if (probability[0] !== 100 &&
       probability[0] !== 0 &&

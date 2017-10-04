@@ -182,7 +182,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -227,7 +227,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             100,
             0,

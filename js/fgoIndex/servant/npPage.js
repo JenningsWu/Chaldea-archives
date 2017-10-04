@@ -130,8 +130,12 @@ class NP extends PureComponent {
       2: 'green',
     }[card] || '#43484d'
     let groupPhaseId = -1
-    const preEffect = effect.filter(({ phaseID }) => parseInt(phaseID, 10) <= parseInt(attackPhaseID, 10))
-    const postEffect = effect.filter(({ phaseID }) => parseInt(phaseID, 10) > parseInt(attackPhaseID, 10))
+    const preEffect = effect.filter(
+      ({ phaseID }) => parseInt(phaseID, 10) <= parseInt(attackPhaseID, 10)).sort(
+        (a, b) => parseInt(a.phaseID, 10) - parseInt(b.phaseID, 10))
+    const postEffect = effect.filter(
+      ({ phaseID }) => parseInt(phaseID, 10) > parseInt(attackPhaseID, 10)).sort(
+        (a, b) => parseInt(a.phaseID, 10) - parseInt(b.phaseID, 10))
     return (
       <Card containerStyle={{ margin: 0 }} title={null}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', paddingBottom: 15 }}>
@@ -165,11 +169,15 @@ class NP extends PureComponent {
             />
           )
         }
-        <ListItem
-          title="Hit 数"
-          rightTitle={`${hits}`}
-          hideChevron
-        />
+        {
+          hits > 0 ? (
+            <ListItem
+              title="Hit 数"
+              rightTitle={`${hits}`}
+              hideChevron
+            />
+          ) : null
+        }
         {
           preEffect.map((e, effectIdx) => {
             const {
@@ -182,7 +190,7 @@ class NP extends PureComponent {
             } = e
             const ret = (
               <NpEffect
-                key={id}
+                key={`${id}-${e.value[0]}-${e.value[1]}`}
                 id={id}
                 value={e.value}
                 type={e.type}
@@ -238,7 +246,7 @@ class NP extends PureComponent {
             } = e
             const ret = (
               <NpEffect
-                key={id}
+                key={`${id}-${e.value[0]}-${e.value[1]}`}
                 id={id}
                 value={e.value}
                 type={e.type}

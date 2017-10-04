@@ -124,7 +124,7 @@ class Skills extends PureComponent {
               // />
             return (
               <View
-                key={id}
+                key={`${id}-${value[0]}-${value[1]}`}
                 style={{
                   paddingTop: 3,
                   paddingBottom: 3,
