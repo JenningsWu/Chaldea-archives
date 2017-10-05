@@ -27,6 +27,7 @@ import {
   probDesc,
   attackNp,
   npEffectType,
+  npType,
 } from '../../schema/Skill'
 
 const NpEffect = ({
@@ -168,6 +169,34 @@ class NP extends PureComponent {
               hideChevron
             />
           )
+        }
+        {
+          (groupPhaseId = attackPhaseID,
+          type === 5 ? (
+            <View
+              style={{
+                paddingTop: 3,
+                paddingBottom: 3,
+              }}
+            >
+              <Text style={{ color: '#43484d', margin: 10 }}>
+                {`[lv]${npType[type]}`}
+              </Text>
+              {
+                <View style={{ marginHorizontal: 10, marginBottom: 5, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#ccc' }}>
+                  <View style={{ flexDirection: 'row' }}>
+                    {
+                      value.slice(0, 5).map((v, idx) => [`${v}%`, `${v}-${idx}`]).map(([v, key]) => (
+                        <View key={key} style={{ flex: 1, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#ccc' }}>
+                          <Text style={{ flex: 1, textAlign: 'center', color: '#444' }}>{v}</Text>
+                        </View>
+                      ))
+                    }
+                  </View>
+                </View>
+              }
+            </View>
+          ) : null)
         }
         {
           hits > 0 ? (

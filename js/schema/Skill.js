@@ -426,6 +426,8 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
       probability[0] !== 0 &&
       (probability[1] === 0 || probability[0] === probability[1])) {
     desc = `${desc} · ${probDesc(id)}：${probability[0]}%`
+  } else if (detailId in detailProb && probability[0] !== probability[1] && probability[1] === 0) {
+    desc = `${desc} · ${probDesc(id)}：${probability[0]}%`
   }
 
   if (duration > 0 && duration < 99999 && duration in skillDuration) {
