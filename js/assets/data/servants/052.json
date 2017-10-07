@@ -274,11 +274,11 @@
       "type": 2,
       "condition": 0,
       "value": [
+        "600",
+        "800",
         "900",
-        "1200",
-        "1350",
-        "1425",
-        "1500"
+        "950",
+        "1000"
       ],
       "card": 0,
       "lv": "C",
@@ -287,16 +287,16 @@
         {
           "id": "020000014005",
           "value": [
+            15,
             20,
             25,
             30,
-            35,
-            40
+            35
           ],
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
@@ -341,7 +341,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,

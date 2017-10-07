@@ -173,11 +173,11 @@
       "type": 1,
       "condition": 0,
       "value": [
+        "600",
         "800",
-        "1000",
-        "1100",
-        "1150",
-        "1200"
+        "900",
+        "950",
+        "1000"
       ],
       "card": 2,
       "lv": "D",
@@ -186,16 +186,16 @@
         {
           "id": "000000004011",
           "value": [
+            2000,
             3000,
             4000,
             5000,
-            6000,
-            7000
+            6000
           ],
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
@@ -222,7 +222,7 @@
           "duration": 2,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
@@ -267,7 +267,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
@@ -294,7 +294,7 @@
           "duration": 2,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,

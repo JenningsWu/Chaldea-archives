@@ -297,6 +297,132 @@
         }
       ],
       "hits": 0
+    },
+    {
+      "name": "我将绝灭一切毒害（Nightingale Pledge）",
+      "type": 0,
+      "condition": 1,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021005",
+          "value": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000014008",
+          "value": [
+            3000,
+            4000,
+            4500,
+            4750,
+            5000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "120000021000",
+          "value": [
+            50,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "0",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 0
     }
   ],
   "classSkill": [

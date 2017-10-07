@@ -315,7 +315,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "2",
           "probability": [
             100,
             0,
@@ -334,6 +334,159 @@
           "id": "000000022000",
           "value": [
             10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "2",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": "4"
+    },
+    {
+      "name": "多元重奏饱和炮击（Quintet Fire）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        "800",
+        "1000",
+        "1100",
+        "1150",
+        "1200"
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            20,
+            35,
+            50,
+            65,
+            80
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000021000",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "2",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000022000",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "2",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000004001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            20,
             0,
             0,
             0,

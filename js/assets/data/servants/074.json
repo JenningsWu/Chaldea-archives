@@ -328,11 +328,11 @@
       "type": 1,
       "condition": 0,
       "value": [
+        "450",
         "600",
-        "750",
-        "825",
-        "862.5",
-        "900"
+        "675",
+        "712.5",
+        "750"
       ],
       "card": 0,
       "lv": "C-",
@@ -350,7 +350,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             60,
             70,
@@ -377,7 +377,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
@@ -422,7 +422,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             60,
             70,
@@ -449,7 +449,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,

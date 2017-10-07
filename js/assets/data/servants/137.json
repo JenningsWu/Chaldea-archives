@@ -295,7 +295,7 @@
     {
       "name": "鹤翼三连",
       "type": 2,
-      "condition": 0,
+      "condition": 1,
       "value": [
         "900",
         "1200",
@@ -346,7 +346,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "2",
           "probability": [
             100,
             0,

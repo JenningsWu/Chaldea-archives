@@ -82,6 +82,9 @@ export const detail = {
   1004: '暴击威力',
   1005: '宝具威力',
   2000: '防御力',
+  2001: '红卡耐性',
+  2002: '蓝卡耐性',
+  2003: '绿卡耐性',
   3000: '赋予魅惑状态',
   4000: 'NP 量',
   4001: 'NP 获取量',
@@ -98,7 +101,7 @@ export const detail = {
   4012: '即死',
   4013: '即死耐性',
   4014: '即死成功率',
-  4015: '加倍返还该回合所受伤害',
+  4015: '敌人回合结束时，加倍返还该回合所受伤害',
   4016: '自身给予回复效果',
   5000: '赋予无敌状态',
   5001: '赋予闪避状态',
@@ -157,6 +160,11 @@ export const detailForConstant = {
 // description used when buffOrDebuff is 1
 export const detailForBuffConstant = {
   2000: '伤害减免：',
+}
+
+// description used when buffOrDebuff is 1 or 3
+export const detailForEnemyDebuffConstant = {
+  2000: '被伤害增加：',
 }
 
 export const groupedDetail = {
@@ -456,6 +464,8 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
     desc = `${desc} · ${detailForConstant[detailId]}${descSimpleSuffix(buffFlag, value)}`
   } else if (buffFlag === '1' && detailId in detailForBuffConstant) {
     desc = `${desc} · ${detailForBuffConstant[detailId]}`
+  } else if (targetId[0] === '1' && buffFlag === '3' && detailId in detailForEnemyDebuffConstant) {
+    desc = `${desc} · ${detailForEnemyDebuffConstant[detailId]}`
   } else if (detailId in detailSp) {
     desc = `${desc} · 【未处理】`
   } else {

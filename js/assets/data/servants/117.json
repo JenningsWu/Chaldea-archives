@@ -257,7 +257,7 @@
           "duration": 5,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             30,
             40,

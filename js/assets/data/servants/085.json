@@ -295,7 +295,7 @@
     {
       "name": "日轮呀，顺从死亡（Vasavi Shakti）",
       "type": 1,
-      "condition": 0,
+      "condition": 2,
       "value": [
         "300",
         "400",
@@ -333,6 +333,78 @@
             0
           ],
           "type": 2
+        }
+      ],
+      "hits": "5"
+    },
+    {
+      "name": "日轮呀，顺从死亡（Vasavi Shakti）",
+      "type": 1,
+      "condition": 2,
+      "value": [
+        "400",
+        "500",
+        "550",
+        "575",
+        "600"
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007022",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
         }
       ],
       "hits": "5"

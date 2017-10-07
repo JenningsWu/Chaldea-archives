@@ -265,7 +265,7 @@
           "type": 2
         },
         {
-          "id": "000000005008",
+          "id": "000000020012",
           "value": [
             0,
             0,
@@ -273,10 +273,10 @@
             0,
             0
           ],
-          "duration": 0,
-          "durationTime": 1,
+          "duration": 2,
+          "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": "1",
           "probability": [
             100,
             0,
