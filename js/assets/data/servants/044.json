@@ -236,11 +236,11 @@
       "type": 3,
       "condition": 0,
       "value": [
+        "450",
         "600",
-        "750",
-        "825",
-        "862.5",
-        "900"
+        "675",
+        "712.5",
+        "750"
       ],
       "card": 0,
       "lv": "B",
@@ -249,16 +249,16 @@
         {
           "id": "120000020001",
           "value": [
+            20,
+            30,
+            40,
             50,
-            62.5,
-            75,
-            87.5,
-            100
+            60
           ],
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -303,7 +303,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 0,
+          "phaseID": 1,
           "probability": [
             100,
             0,
