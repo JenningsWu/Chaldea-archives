@@ -57,7 +57,8 @@ function configureStore(onComplete: Function) {
   const configuration = new Configuration()
   configuration.beforeSendCallbacks.push((report) => {
     report.metadata = {
-      state: store.getState(),
+      ...report.metadata,
+      state: { store: store.getState() },
     }
   })
   const bugsnag = new Client(configuration)
