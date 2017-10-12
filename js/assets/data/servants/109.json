@@ -41,8 +41,9 @@
   ],
   "starAbsorption": 97,
   "starGeneration": 0.256,
-  "npChargeATK": 0.0028000000000000004,
+  "npChargeATK": 0.0028,
   "npChargeDEF": 0.04,
+  "deathResist": 0.44,
   "traits": [],
   "skill1": [
     {
@@ -531,6 +532,5 @@
         "num": 6
       }
     ]
-  ],
-  "deathResist": 0.44
+  ]
 }

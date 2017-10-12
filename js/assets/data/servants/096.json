@@ -43,6 +43,7 @@
   "starGeneration": 0.059,
   "npChargeATK": 0.0062,
   "npChargeDEF": 0.06,
+  "deathResist": 0.07,
   "traits": [],
   "skill1": [
     {
@@ -606,6 +607,5 @@
         "num": 10
       }
     ]
-  ],
-  "deathResist": 0.07
+  ]
 }

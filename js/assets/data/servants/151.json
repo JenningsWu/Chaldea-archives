@@ -43,6 +43,7 @@
   "starGeneration": null,
   "npChargeATK": null,
   "npChargeDEF": null,
+  "deathResist": null,
   "traits": [],
   "skill1": [
     {
@@ -78,6 +79,5 @@
         "num": null
       }
     ]
-  ],
-  "deathResist": null
+  ]
 }
