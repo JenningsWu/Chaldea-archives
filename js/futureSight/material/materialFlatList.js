@@ -167,7 +167,7 @@ export default class MaterialFlatList extends PureComponent {
               simple={simple}
               needs={extraData.needsList[id]}
               future={extraData.futureList[id]}
-              current={extraData.currList[id]}
+              current={extraData.currList[id] || 0}
               servantList={extraData.materialToServant[id]}
               servantInfo={extraData.servantInfo}
               setMaterialNum={setMaterialNum}

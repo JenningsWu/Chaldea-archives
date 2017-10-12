@@ -62,6 +62,7 @@ import m3008 from './3008.png'
 import m3009 from './3009.jpg'
 import m3010 from './3010.jpg'
 import m3011 from './3011.jpg'
+import m3012 from './3012.jpg'
 import m4000 from './4000.jpg'
 import m4001 from './4001.jpg'
 import m4002 from './4002.jpg'
@@ -145,6 +146,7 @@ export default {
   3009: m3009,
   3010: m3010,
   3011: m3011,
+  3012: m3012,
   4000: m4000,
   4001: m4001,
   4002: m4002,

@@ -80,26 +80,6 @@ export default class ServantDetailPage extends Component {
         <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
           <ScrollView>
             <ListItem
-              title={servant.name}
-              // rightTitle={servant.rarityDesc}
-              hideChevron
-            />
-            <ListItem
-              title="初始 ATK / HP"
-              rightTitle={`${servant.startATK} / ${servant.startHP}`}
-              hideChevron
-            />
-            <ListItem
-              title="满破 ATK / HP"
-              rightTitle={`${servant.endATK} / ${servant.endHP}`}
-              hideChevron
-            />
-            <ListItem
-              title="100 级 ATK / HP"
-              rightTitle={`${servant.grailATK} / ${servant.grailHP}`}
-              hideChevron
-            />
-            <ListItem
               title="Hits 数"
               subtitle={
                 <View style={{ marginTop: 8 }}>

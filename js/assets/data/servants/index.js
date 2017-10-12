@@ -174,6 +174,17 @@ import s169 from './169.json'
 import s170 from './170.json'
 import s171 from './171.json'
 import s172 from './172.json'
+import s173 from './173.json'
+import s174 from './174.json'
+import s175 from './175.json'
+import s176 from './176.json'
+import s177 from './177.json'
+import s178 from './178.json'
+import s179 from './179.json'
+import s180 from './180.json'
+import s181 from './181.json'
+import s182 from './182.json'
+import s183 from './183.json'
 
 const servantsData = {
   '000': null,
@@ -349,9 +360,20 @@ const servantsData = {
   170: s170,
   171: s171,
   172: s172,
+  173: s173,
+  174: s174,
+  175: s175,
+  176: s176,
+  177: s177,
+  178: s178,
+  179: s179,
+  180: s180,
+  181: s181,
+  182: s182,
+  183: s183,
 }
 const servantMap = _.mapValues(servantsData, s => s && new Servant(s))
-const servantList = _.range(173).map(id => servantMap[pad(id)])
+const servantList = _.range(184).map(id => servantMap[pad(id)])
 
 export default servantMap
 export { servantList }

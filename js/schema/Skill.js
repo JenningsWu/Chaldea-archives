@@ -22,12 +22,15 @@ const place = {
   '03': '森林',
   '04': 'NP 100%',
   '05': '星星 10 颗',
+  '06': '燃烧场景',
 }
 
 export const skillRequirement = {
   '00000': '无',
   '01010': '10 颗星星',
   '02100': 'NP 100%',
+  '02010': 'NP 10%',
+  90500: 'HP 500',
 }
 
 const skillRequirementType = {
@@ -137,6 +140,9 @@ export const detail = {
   5031: '即死无效',
   5032: '防御力每回合改变 ※第1回合改变值10%',
   5033: '无敌解除',
+  5034: 'HP 50% 以下时 NP 获得量',
+  5035: '赋予职介相性的防御不利抵消状态',
+  5036: '赋予带电状态（回合结束时一次对周围以低概率赋予眩晕）',
   7: '特攻',
   8: '特防',
   9: '特性赋予',
@@ -215,8 +221,12 @@ export const detailSpSuffixRevive = {
 export const detailSpSuffixProb = {
   5014: '赋予攻击即死效果',
   5023: '针对自身的攻击以概率回避',
+  5036: '赋予带电状态',
 }
 
+export const detailSpSuffixReverse = {
+  5016: '技能 CD',
+}
 
 const traitList = {
   '000': '-',
@@ -387,6 +397,8 @@ function descSuffix(buffFlag, detailId, value) {
     twoType = ['复活时 HP', '复活时 HP']
   } else if (detailId in detailSpSuffixProb) {
     twoType = ['概率', '概率']
+  } else if (detailId in detailSpSuffixReverse) {
+    twoType = ['减少', '增加']
   }
   if (buffFlag === '0' || buffFlag === '1') return ` · ${twoType[0]}：`
   return ` · ${twoType[1]}：`
@@ -426,7 +438,7 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
   }
 
   if (placeId !== '00') {
-    desc = `${desc} · 条件：${place[placeId]}`
+    desc = `${desc} · 生效条件：${place[placeId]}`
   }
 
 

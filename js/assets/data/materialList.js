@@ -277,7 +277,10 @@ const materialMap = {
     name: '业物小刀',
     type: 5,
   },
-
+  3012: {
+    name: '黄金の葦',
+    type: 5,
+  },
   4000: {
     name: '银剑棋',
     type: 4,

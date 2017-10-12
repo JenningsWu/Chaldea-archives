@@ -1,0 +1,607 @@
+{
+  "id": "175",
+  "name": "尼禄·克劳狄乌斯",
+  "nameJP": "ネロ・クラウディウス",
+  "nameEN": "Nero Claudius",
+  "fuzzyKeywords": [
+    "尼禄·克劳狄乌斯",
+    "Nero Claudius",
+    "ネロ・クラウディウス"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 5,
+  "startATK": 1677,
+  "endATK": 10857,
+  "startHP": 2007,
+  "endHP": 13685,
+  "grailATK": 11885,
+  "grailHP": 14992,
+  "illustrator": "ワダアルコ",
+  "cv": "丹下樱",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "25",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    6,
+    2,
+    4,
+    6
+  ],
+  "charge": [
+    0.004,
+    0.004,
+    0.004,
+    0.004
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.111,
+  "npChargeATK": 0.004,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.42,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "暴走特权",
+      "condition": 0,
+      "lv": "EX",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005034",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill2": [
+    {
+      "name": "七之王冠",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005035",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "不死的马格斯",
+      "condition": 0,
+      "lv": "A",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000005002",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001000",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 9
+    }
+  ],
+  "np": [
+    {
+      "name": "歌颂的黄金剧场（Laudarentum Domus Illusterias）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "300",
+        "400",
+        "450",
+        "475",
+        "500"
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": "1",
+      "effect": [
+        {
+          "id": "000000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000001005",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "5"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "阵地作成",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "道具作成（奇）",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000004009",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "skillResource": [
+    [
+      {
+        "id": "0004",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "0004",
+        "num": 12
+      }
+    ],
+    [
+      {
+        "id": "0104",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "0104",
+        "num": 12
+      },
+      {
+        "id": "1104",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0204",
+        "num": 5
+      },
+      {
+        "id": "1104",
+        "num": 8
+      }
+    ],
+    [
+      {
+        "id": "0204",
+        "num": 12
+      },
+      {
+        "id": "1106",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "1106",
+        "num": 10
+      },
+      {
+        "id": "1110",
+        "num": 6
+      }
+    ],
+    [
+      {
+        "id": "1110",
+        "num": 18
+      },
+      {
+        "id": "1207",
+        "num": 15
+      }
+    ],
+    [
+      {
+        "id": "2000",
+        "num": 1
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "id": "4004",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "4004",
+        "num": 12
+      },
+      {
+        "id": "1106",
+        "num": 8
+      }
+    ],
+    [
+      {
+        "id": "4104",
+        "num": 5
+      },
+      {
+        "id": "1104",
+        "num": 8
+      },
+      {
+        "id": "1210",
+        "num": 2
+      }
+    ],
+    [
+      {
+        "id": "4104",
+        "num": 12
+      },
+      {
+        "id": "1210",
+        "num": 4
+      },
+      {
+        "id": "1211",
+        "num": 5
+      }
+    ]
+  ]
+}

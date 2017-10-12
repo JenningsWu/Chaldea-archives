@@ -1,0 +1,539 @@
+{
+  "id": "180",
+  "name": "海伦娜·布拉瓦茨基",
+  "nameJP": "エレナ・ブラヴァツキー",
+  "nameEN": "Helena Blavatsky",
+  "fuzzyKeywords": [
+    "海伦娜·布拉瓦茨基",
+    "Helena Blavatsky",
+    "エレナ・ブラヴァツキー"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 2,
+  "startATK": 1574,
+  "endATK": 9446,
+  "startHP": 1824,
+  "endHP": 11404,
+  "grailATK": 11437,
+  "grailHP": 13827,
+  "illustrator": "松竜",
+  "cv": "金元寿子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    5,
+    1,
+    3,
+    3
+  ],
+  "charge": [
+    0.0038,
+    0.0038,
+    0.0038,
+    0.0038
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0038,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.27,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "夏日假期！",
+      "condition": 0,
+      "lv": "A+",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "020000004000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014006",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 10
+    }
+  ],
+  "skill2": [
+    {
+      "name": "ＮＹＡＲＦ！",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            1000,
+            1100,
+            1200,
+            1300,
+            1400,
+            1500,
+            1600,
+            1700,
+            1800,
+            2000
+          ],
+          "duration": 5,
+          "durationTime": 5,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "110000034000",
+          "value": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "skill3": [
+    {
+      "name": "大佐的暑假",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005007",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 5,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "np": [
+    {
+      "name": "金星神・白银圆环（Sanat Kumāra wheel）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        "450",
+        "600",
+        "675",
+        "712.5",
+        "750"
+      ],
+      "card": 0,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000020001",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": "1",
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": "4"
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "单独行动",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "skillResource": [
+    [
+      {
+        "id": "0001",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0001",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "0101",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0101",
+        "num": 10
+      },
+      {
+        "id": "1209",
+        "num": 3
+      }
+    ],
+    [
+      {
+        "id": "0201",
+        "num": 4
+      },
+      {
+        "id": "1209",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "0201",
+        "num": 10
+      },
+      {
+        "id": "1103",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "1103",
+        "num": 7
+      },
+      {
+        "id": "1003",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "1003",
+        "num": 30
+      },
+      {
+        "id": "1205",
+        "num": 12
+      }
+    ],
+    [
+      {
+        "id": "2000",
+        "num": 1
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "id": "4001",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "4001",
+        "num": 10
+      },
+      {
+        "id": "1103",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "4101",
+        "num": 4
+      },
+      {
+        "id": "1209",
+        "num": 5
+      },
+      {
+        "id": "1206",
+        "num": 3
+      }
+    ],
+    [
+      {
+        "id": "4101",
+        "num": 10
+      },
+      {
+        "id": "1206",
+        "num": 5
+      },
+      {
+        "id": "1110",
+        "num": 10
+      }
+    ]
+  ]
+}
