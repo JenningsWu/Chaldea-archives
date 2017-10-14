@@ -61,9 +61,10 @@ const About = () => (
     />
     <ListItem
       title="APP 图标画师"
-      rightTitle="/"
+      rightTitle="空想"
       rightTitleStyle={{ color: '#333' }}
       onPress={() => Linking.openURL('https://github.com/JenningsWu/Chaldea-archives')}
+      hideChevron
     />
     <ListItem
       title="意见反馈与 Bug 提交"
