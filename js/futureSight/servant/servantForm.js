@@ -133,6 +133,7 @@ export default class ServantForm extends PureComponent {
   }
 
   handleSkillChange = (index, type, value) => {
+    console.log(index, type, value)
     const skill = {
       ...this.state.skills[index],
     }
@@ -181,7 +182,7 @@ export default class ServantForm extends PureComponent {
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2 }}
+                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.curr}`}
@@ -200,7 +201,7 @@ export default class ServantForm extends PureComponent {
               <Text> ⟶ </Text>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2 }}
+                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.next}`}
@@ -228,7 +229,7 @@ export default class ServantForm extends PureComponent {
               subtitle={
                 <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
                   <TextInput
-                    style={{ height: 20, flex: 1, textAlign: 'center' }}
+                    style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
                     value={`${skills[idx].curr}`}
                     selectTextOnFocus
                     keyboardType="numeric"
@@ -237,7 +238,7 @@ export default class ServantForm extends PureComponent {
                   />
                   <Text> ⟶ </Text>
                   <TextInput
-                    style={{ height: 20, flex: 1, textAlign: 'center' }}
+                    style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
                     value={`${skills[idx].next}`}
                     selectTextOnFocus
                     keyboardType="numeric"
@@ -256,7 +257,7 @@ export default class ServantForm extends PureComponent {
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <TextInput
-                style={{ height: 20, flex: 1, textAlign: 'center' }}
+                style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
                 selectTextOnFocus
                 value={`${priority}`}
                 keyboardType="numeric"
@@ -273,7 +274,7 @@ export default class ServantForm extends PureComponent {
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <TextInput
-                style={{ height: 20, flex: 1, textAlign: 'center' }}
+                style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
                 selectTextOnFocus
                 value={`${npLevel}`}
                 keyboardType="numeric"

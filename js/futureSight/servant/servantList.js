@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
 
 class ServantListWithSearch extends PureComponent {
   static navigationOptions = () => ({
-    title: '从者一览',
+    title: '已选从者',
     ...navigationOptions,
   })
 

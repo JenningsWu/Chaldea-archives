@@ -9,7 +9,6 @@ import {
 import {
   ListItem,
 } from 'react-native-elements'
-import { NavigationActions } from 'react-navigation'
 
 import avatars from '../../assets/img/avatars'
 
@@ -66,9 +65,6 @@ export default class ServantItem extends PureComponent {
           }
         }}
         onLongPress={() => {
-          const setParamsAction = NavigationActions.navigate({
-            routeName: 'ServantDetail',
-          })
           // this.props.navigation.dispatch(setParamsAction)
           this.props.navigation.navigate('ServantDetail', { id: servant.id })
         }}
