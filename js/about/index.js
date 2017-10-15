@@ -59,7 +59,7 @@ const About = ({ navigation }) => (
               },
               {
                 text: '通过邮件',
-                onPress: () => Linking.openURL('mailto:example@gmail.com'),
+                onPress: () => Linking.openURL('mailto:chaldea.archives@gmail.com'),
               },
             ],
           )
