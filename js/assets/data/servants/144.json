@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -91,6 +92,7 @@
       "name": "善神的智慧",
       "condition": 0,
       "lv": "A+",
+      "requirement": "00000",
       "effect": [
         {
           "id": "010000015002",
@@ -124,7 +126,7 @@
           ]
         },
         {
-          "id": "000000001001",
+          "id": "010000001001",
           "value": [
             20,
             21,
@@ -258,7 +260,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "np": [

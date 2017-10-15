@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -124,7 +125,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -196,7 +198,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "np": [
@@ -213,7 +216,7 @@
       ],
       "card": 2,
       "lv": "A++",
-      "attackPhaseID": 0,
+      "attackPhaseID": 1,
       "effect": [
         {
           "id": "000000001000",
@@ -227,7 +230,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": 1,
+          "phaseID": 0,
           "probability": [
             100,
             0,

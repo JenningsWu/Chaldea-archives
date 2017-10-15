@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -91,6 +92,7 @@
       "name": "天赋的睿智",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000002000",
@@ -173,7 +175,7 @@
           "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
-            8,
+            100,
             0,
             0,
             0,
@@ -192,6 +194,7 @@
       "name": "天赋的睿智",
       "condition": 2,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000002000",
@@ -274,7 +277,7 @@
           "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
-            8,
+            100,
             0,
             0,
             0,
@@ -305,7 +308,7 @@
           "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
-            80,
+            100,
             0,
             0,
             0,
@@ -421,7 +424,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "np": [
@@ -435,6 +439,105 @@
         450,
         475,
         500
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007028",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000020012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000034008",
+          "value": [
+            500,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 3
+    },
+    {
+      "name": "人类神话・雷电降临（System Keraunos）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        400,
+        500,
+        550,
+        575,
+        600
       ],
       "card": 1,
       "lv": "EX",

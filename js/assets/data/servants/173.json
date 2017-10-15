@@ -48,35 +48,348 @@
   "skill1": [
     {
       "name": "天赋的见识",
+      "condition": 0,
       "lv": "A++",
-      "initialCD": 7,
-      "effect": []
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000014005",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
     }
   ],
   "skill2": [
     {
       "name": "假说推论",
+      "condition": 0,
       "lv": "A+",
-      "initialCD": 7,
-      "effect": []
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000004007",
+          "value": [
+            300,
+            330,
+            360,
+            390,
+            420,
+            450,
+            480,
+            510,
+            540,
+            600
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005007",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
     }
   ],
   "skill3": [
     {
       "name": "巴顿术",
+      "condition": 0,
       "lv": "B++",
-      "initialCD": 7,
-      "effect": []
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
     }
   ],
   "np": [
     {
       "name": "这是基本的推测，我的朋友（Elementary My Dear）",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
       "lv": "B",
-      "value": [],
-      "hits": null,
-      "effect": [],
-      "attackPhaseID": null
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            30,
+            40,
+            45,
+            47.5,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            500,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000005005",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000001004",
+          "value": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
     }
   ],
   "classSkill": [
@@ -84,7 +397,37 @@
       "name": "阵地作成",
       "lv": "EX",
       "effect": [
-        null
+        {
+          "id": "000000001002",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
       ]
     }
   ],

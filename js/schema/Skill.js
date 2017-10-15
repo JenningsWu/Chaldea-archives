@@ -23,6 +23,7 @@ const place = {
   '04': 'NP 100%',
   '05': '星星 10 颗',
   '06': '燃烧场景',
+  '07': '海德时',
 }
 
 export const skillRequirement = {
@@ -268,6 +269,7 @@ const traitList = {
   '036': '希腊神话系男性',
   '037': '毒',
   '038': '超巨大',
+  '039': '伊莉雅',
   300: '神性、恶魔、死灵',
   301: '死灵、恶魔',
   302: '异性',
@@ -452,6 +454,9 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
 
   if (duration > 0 && duration < 99999 && duration in skillDuration) {
     desc = `${desc} · ${skillDuration[duration]}`
+    if (durationTime > 0) {
+      desc = `${desc} · ${skillDurationTime[durationTime]}`
+    }
   }
 
   if (durationTime > 1 && durationTime in skillDurationTime) {

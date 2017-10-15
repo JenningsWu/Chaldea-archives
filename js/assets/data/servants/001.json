@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     },
     {
       "name": "荣光不败的雪花之壁",
@@ -153,14 +154,16 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
     {
       "name": "时为朦胧的白亚之壁",
       "condition": 0,
-      "lv": "？",
+      "lv": "",
+      "requirement": "00000",
       "effect": [
         {
           "id": "010000005000",
@@ -232,7 +235,8 @@
     {
       "name": "意为奋进的决断之盾",
       "condition": 3,
-      "lv": "？",
+      "lv": "",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000004004",
@@ -622,6 +626,5 @@
       }
     ]
   ],
-  "ascensionResource": [
-  ]
+  "ascensionResource": []
 }

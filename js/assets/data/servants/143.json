@@ -176,7 +176,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -248,7 +249,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -320,7 +322,8 @@
           ]
         }
       ],
-      "initialCD": 12
+      "initialCD": 12,
+      "requirement": "00000"
     }
   ],
   "np": [

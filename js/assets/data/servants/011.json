@@ -114,7 +114,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -155,7 +156,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     },
     {
       "name": "鹰之瞳",
@@ -225,7 +227,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -266,7 +269,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     },
     {
       "name": "投影魔术",
@@ -367,7 +371,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "np": [

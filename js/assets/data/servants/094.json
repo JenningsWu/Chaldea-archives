@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -124,7 +125,8 @@
           ]
         }
       ],
-      "initialCD": 10
+      "initialCD": 10,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -227,7 +229,8 @@
           ]
         }
       ],
-      "initialCD": 10
+      "initialCD": 10,
+      "requirement": "00000"
     },
     {
       "name": "理性蒸发",
@@ -359,7 +362,8 @@
           ]
         }
       ],
-      "initialCD": 10
+      "initialCD": 10,
+      "requirement": "00000"
     }
   ],
   "np": [

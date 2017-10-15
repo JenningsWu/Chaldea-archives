@@ -45,16 +45,11 @@
   "npChargeDEF": 0.03,
   "deathResist": 0.33,
   "traits": [],
-  "skill1": [
-  ],
-  "skill2": [
-  ],
-  "np": [
-  ],
+  "skill1": [],
+  "skill2": [],
+  "skill3": [],
+  "np": [],
   "classSkill": [],
-  "skillResource": [
-  ],
-  "ascensionResource": [
-  ],
-  "skill3": []
+  "skillResource": [],
+  "ascensionResource": []
 }

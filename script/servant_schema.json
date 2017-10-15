@@ -29,7 +29,7 @@
 
     "skill": {
       "type": "object",
-      "required": ["name", "condition", "lv", "effect", "initialCD"],
+      "required": ["name", "condition", "lv", "effect", "initialCD", "requirement"],
       "properties": {
         "name": { "type": "string" },
         "condition": { "type": "integer" },
@@ -40,7 +40,8 @@
             "$ref": "#/definitions/effect"
           }
         },
-        "initialCD": { "type": "integer" }
+        "initialCD": { "type": "integer" },
+        "requirement": { "type": "string", "pattern": "\\d{5}" }
       }
     }
   },

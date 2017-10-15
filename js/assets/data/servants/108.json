@@ -83,7 +83,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -91,9 +92,10 @@
       "name": "军略",
       "condition": 0,
       "lv": "B",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000001005",
+          "id": "020000001005",
           "value": [
             9,
             9.9,
@@ -196,7 +198,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "np": [

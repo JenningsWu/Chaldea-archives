@@ -114,7 +114,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill2": [
@@ -217,7 +218,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -225,9 +227,10 @@
       "name": "纵使三度迎接夕阳",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000005002",
+          "id": "000000015002",
           "value": [
             300,
             330,

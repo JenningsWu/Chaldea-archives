@@ -50,6 +50,7 @@
       "name": "魔境的智慧",
       "condition": 0,
       "lv": "A+",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000001004",
@@ -132,7 +133,7 @@
           "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
-            80,
+            100,
             0,
             0,
             0,
@@ -186,7 +187,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -258,7 +260,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "np": [

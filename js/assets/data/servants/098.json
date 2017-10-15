@@ -50,9 +50,10 @@
       "name": "精灵的狂骚",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "120000024000",
+          "id": "120000024005",
           "value": [
             30,
             32,
@@ -186,7 +187,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "requirement": "00000"
     }
   ],
   "skill3": [
@@ -227,7 +229,8 @@
           ]
         }
       ],
-      "initialCD": 9
+      "initialCD": 9,
+      "requirement": "00000"
     }
   ],
   "np": [
