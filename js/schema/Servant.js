@@ -255,6 +255,10 @@ export default class ClassName {
             (level.curr < checkLevel || !level.currAscension))) {
         if (this.ascensionResource[index] != null) {
           this.ascensionResource[index].forEach((cost) => {
+            // ignore event-sp material
+            if (cost.id[0] === '3') {
+              return
+            }
             ret.set(cost.id, (ret.get(cost.id) || 0) + cost.num)
           })
           // qp

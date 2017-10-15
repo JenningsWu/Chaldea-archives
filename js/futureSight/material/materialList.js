@@ -196,7 +196,7 @@ const getMaterialList = createSelector(
     const ret = _.map(data, (val, id) => ({
       ...val,
       id,
-    })).filter(({ type }) => _.get(config, [type], true))
+    })).filter(({ id, type }) => id[0] !== '3' && _.get(config, [type], true))
     const top = ret.filter(m => m.top)
     top.push(...ret.filter(m => !m.top))
     return top
