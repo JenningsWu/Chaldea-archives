@@ -454,7 +454,7 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
 
   if (duration > 0 && duration < 99999 && duration in skillDuration) {
     desc = `${desc} · ${skillDuration[duration]}`
-    if (durationTime > 0) {
+    if (durationTime === 1) {
       desc = `${desc} · ${skillDurationTime[durationTime]}`
     }
   }
