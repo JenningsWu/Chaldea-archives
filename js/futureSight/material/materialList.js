@@ -165,10 +165,9 @@ const materialToServantCalculator = createSelector(
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
     const ret = _.mapValues(materialList, () => [])
-    servantList.forEach(({ info, needs }) => {
+    servantList.forEach(({ id, info, needs }) => {
       const {
         priority,
-        id,
       } = info
       if (!_.get(config, [priority], true)) {
         return
