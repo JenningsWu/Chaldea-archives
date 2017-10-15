@@ -219,37 +219,39 @@
     {
       "name": "对魔力",
       "lv": "B",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          17.5,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [

@@ -306,7 +306,7 @@
       ],
       "card": 1,
       "lv": "C",
-      "attackPhaseID": "1",
+      "attackPhaseID": 1,
       "effect": [
         {
           "id": "000000005004",
@@ -347,7 +347,7 @@
           "duration": 0,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,

@@ -28,62 +28,33 @@
     1
   ],
   "hits": [
-    null,
-    null,
-    null,
-    null
+    -1,
+    -1,
+    -1,
+    -1
   ],
   "charge": [
-    null,
-    null,
-    null,
-    null
+    -1,
+    -1,
+    -1,
+    -1
   ],
-  "starAbsorption": null,
-  "starGeneration": null,
-  "npChargeATK": null,
-  "npChargeDEF": null,
-  "deathResist": null,
+  "starAbsorption": -1,
+  "starGeneration": -1,
+  "npChargeATK": -1,
+  "npChargeDEF": -1,
+  "deathResist": -1,
   "traits": [],
   "skill1": [
-    {
-      "name": "",
-      "lv": "",
-      "initialCD": null,
-      "effect": []
-    }
   ],
   "skill2": [
-    {
-      "name": "",
-      "lv": "",
-      "initialCD": null,
-      "effect": []
-    }
   ],
   "np": [
-    {
-      "name": "",
-      "lv": "",
-      "value": [],
-      "hits": null,
-      "effect": []
-    }
   ],
   "classSkill": [],
   "skillResource": [
-    [
-      {
-        "num": null
-      }
-    ]
   ],
   "ascensionResource": [
-    [
-      {
-        "num": null
-      }
-    ]
   ],
   "skill3": []
 }

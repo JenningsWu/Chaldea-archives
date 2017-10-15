@@ -95,7 +95,7 @@
         {
           "id": "000000000002",
           "value": [
-            "6",
+            40,
             44,
             48,
             52,
@@ -127,7 +127,7 @@
           "id": "000000014008",
           "value": [
             1000,
-            "1",
+            1150,
             1300,
             1450,
             1600,
@@ -359,7 +359,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -404,7 +404,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -427,107 +427,113 @@
     {
       "name": "对魔力",
       "lv": "B",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          17.5,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "骑乘",
       "lv": "A",
-      "effect": {
-        "id": "000000001003",
-        "value": [
-          10,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "神性",
       "lv": "B",
-      "effect": {
-        "id": "000000011000",
-        "value": [
-          175,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [

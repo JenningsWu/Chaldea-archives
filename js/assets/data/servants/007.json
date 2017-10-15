@@ -315,7 +315,7 @@
       ],
       "card": 2,
       "lv": "B+",
-      "attackPhaseID": "0",
+      "attackPhaseID": 0,
       "effect": [
         {
           "id": "020000014005",
@@ -352,107 +352,113 @@
     {
       "name": "对魔力",
       "lv": "C",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          15,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "骑乘",
       "lv": "B",
-      "effect": {
-        "id": "000000001003",
-        "value": [
-          8,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "神性",
       "lv": "D",
-      "effect": {
-        "id": "000000011000",
-        "value": [
-          125,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            125,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [

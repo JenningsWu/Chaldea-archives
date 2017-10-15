@@ -46,44 +46,15 @@
   "deathResist": 0.33,
   "traits": [],
   "skill1": [
-    {
-      "name": "",
-      "lv": "",
-      "initialCD": null,
-      "effect": []
-    }
   ],
   "skill2": [
-    {
-      "name": "",
-      "lv": "",
-      "initialCD": null,
-      "effect": []
-    }
   ],
   "np": [
-    {
-      "name": "",
-      "lv": "",
-      "value": [],
-      "hits": null,
-      "effect": []
-    }
   ],
   "classSkill": [],
   "skillResource": [
-    [
-      {
-        "num": null
-      }
-    ]
   ],
   "ascensionResource": [
-    [
-      {
-        "num": null
-      }
-    ]
   ],
   "skill3": []
 }

@@ -126,7 +126,7 @@
         {
           "id": "000000000017",
           "value": [
-            "5",
+            16,
             17.6,
             19.2,
             20.8,
@@ -398,7 +398,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -443,7 +443,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -466,72 +466,76 @@
     {
       "name": "对魔力",
       "lv": "D",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          12.5,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "单独行动",
       "lv": "B",
-      "effect": {
-        "id": "000000001004",
-        "value": [
-          8,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [

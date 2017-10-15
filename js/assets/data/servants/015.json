@@ -255,7 +255,7 @@
           "duration": 1,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             125,
@@ -282,7 +282,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             150,
             0,
@@ -354,7 +354,7 @@
           "duration": 1,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             125,
@@ -381,7 +381,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             150,
             0,
@@ -404,72 +404,76 @@
     {
       "name": "对魔力",
       "lv": "A",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          20,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "单独行动",
       "lv": "A+",
-      "effect": {
-        "id": "000000001004",
-        "value": [
-          11,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "durationTime": 0,
-        "effectiveTime": -1,
-        "phaseID": 0,
-        "probability": [
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     },
     {
       "name": "女神的神核",

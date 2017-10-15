@@ -275,7 +275,7 @@
       ],
       "card": 2,
       "lv": "B",
-      "attackPhaseID": "1",
+      "attackPhaseID": 1,
       "effect": [
         {
           "id": "110000020012",
@@ -316,7 +316,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": "2",
+          "phaseID": 2,
           "probability": [
             50,
             62.5,
@@ -347,7 +347,7 @@
       ],
       "card": 2,
       "lv": "B+",
-      "attackPhaseID": "1",
+      "attackPhaseID": 1,
       "effect": [
         {
           "id": "110000020012",
@@ -388,7 +388,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": "2",
+          "phaseID": 2,
           "probability": [
             60,
             70,

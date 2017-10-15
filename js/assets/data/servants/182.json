@@ -464,7 +464,7 @@
       ],
       "card": 2,
       "lv": "EX",
-      "attackPhaseID": "1",
+      "attackPhaseID": 1,
       "effect": [
         {
           "id": "000000001003",

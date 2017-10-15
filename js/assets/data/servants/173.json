@@ -75,13 +75,17 @@
       "lv": "B",
       "value": [],
       "hits": null,
-      "effect": []
+      "effect": [],
+      "attackPhaseID": null
     }
   ],
   "classSkill": [
     {
       "name": "阵地作成",
-      "lv": "EX"
+      "lv": "EX",
+      "effect": [
+        null
+      ]
     }
   ],
   "skillResource": [

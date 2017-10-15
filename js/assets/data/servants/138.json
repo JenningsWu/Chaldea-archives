@@ -399,7 +399,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -445,7 +445,7 @@
           "duration": 5,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -541,7 +541,9 @@
     },
     {
       "name": "双重职阶",
-      "lv": "E"
+      "lv": "E",
+      "effect": [
+      ]
     }
   ],
   "skillResource": [

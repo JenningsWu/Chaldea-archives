@@ -1,30 +1,27 @@
 {
   "definitions": {
     "effect": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["id", "value", "duration", "durationTime", "effectiveTime", "phaseID", "probability"],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "\\d{12}"
-          },
-          "value": {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
-          },
-          "duration": { "type": "integer" },
-          "durationTime": { "type": "integer" },
-          "effectiveTime": { "type": "integer" },
-          "phaseID": { "type": "integer" },
-          "probability": {
-            "type": "array",
-            "items": {
-              "type": "number"
-            }
+      "type": "object",
+      "required": ["id", "value", "duration", "durationTime", "effectiveTime", "phaseID", "probability"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "\\d{12}"
+        },
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "duration": { "type": "integer" },
+        "durationTime": { "type": "integer" },
+        "effectiveTime": { "type": "integer" },
+        "phaseID": { "type": "integer" },
+        "probability": {
+          "type": "array",
+          "items": {
+            "type": "number"
           }
         }
       }
@@ -38,7 +35,10 @@
         "condition": { "type": "integer" },
         "lv": { "type": "string" },
         "effect": {
-          "$ref": "#/definitions/effect"
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/effect"
+          }
         },
         "initialCD": { "type": "integer" }
       }

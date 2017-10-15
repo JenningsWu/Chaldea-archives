@@ -10,6 +10,7 @@
   ],
   "exactKeywords": [],
   "rarity": 4,
+  "class": 11,
   "startATK": 1366,
   "endATK": 8197,
   "startHP": 2182,
@@ -322,7 +323,7 @@
           "duration": 3,
           "durationTime": 0,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -349,7 +350,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,

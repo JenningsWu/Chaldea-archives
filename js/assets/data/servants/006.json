@@ -69,7 +69,19 @@
           "duration": 3,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ]
     }
@@ -128,7 +140,7 @@
           "duration": 0,
           "durationTime": 1,
           "effectiveTime": -1,
-          "phaseID": "1",
+          "phaseID": 1,
           "probability": [
             100,
             0,
@@ -150,7 +162,7 @@
     {
       "name": "屠龙者",
       "lv": "A",
-      "initialCD": 0,
+      "initialCD": -1,
       "condition": 0,
       "effect": [
         {
@@ -170,7 +182,19 @@
           "duration": 3,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "id": "000000008024",
@@ -189,7 +213,19 @@
           "duration": 3,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ]
     },
@@ -215,7 +251,19 @@
           "duration": 3,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "id": "000000008024",
@@ -234,7 +282,19 @@
           "duration": 3,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "id": "000000001001",
@@ -253,7 +313,19 @@
           "duration": 1,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ],
       "initialCD": 7
@@ -333,7 +405,19 @@
           "effectiveTime": -1,
           "phaseID": 0,
           "type": 2,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "id": "000000004001",
@@ -348,7 +432,19 @@
           "effectiveTime": -1,
           "phaseID": 1,
           "type": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ],
       "hits": 1
@@ -358,24 +454,39 @@
     {
       "name": "骑乘",
       "lv": "B",
-      "effect": {
-        "id": "000000001003",
-        "value": [
-          8,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "effectiveTime": -1,
-        "phaseID": 0
-      }
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [

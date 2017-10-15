@@ -111,7 +111,19 @@
           "duration": 1,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         },
         {
           "id": "000000000000",
@@ -130,7 +142,19 @@
           "duration": 1,
           "effectiveTime": -1,
           "phaseID": 0,
-          "durationTime": 0
+          "durationTime": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
         }
       ]
     }
@@ -255,24 +279,39 @@
     {
       "name": "对魔力",
       "lv": "C+",
-      "effect": {
-        "id": "000000000001",
-        "value": [
-          16.25,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "duration": 99999,
-        "effectiveTime": -1,
-        "phaseID": 0
-      }
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            16.25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
     }
   ],
   "skillResource": [
