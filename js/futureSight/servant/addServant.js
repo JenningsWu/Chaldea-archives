@@ -163,7 +163,7 @@ const getOption = ({ account, accountData }) => _.get(accountData, [account, 'co
 
 const getServantList = createSelector(
   getOption,
-  () => servants,
+  () => servants.filter(s => s && s.isShipped),
   ({ account, accountData }) => accountData[account].servant,
   (option, servantList, exclude) =>
     servantList.slice(1).filter(s => s.filter(option) && !(s.id in exclude)),

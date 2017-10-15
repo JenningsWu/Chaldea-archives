@@ -216,6 +216,10 @@ export default class ClassName {
       .join(' & ')
   }
 
+  get isShipped() {
+    return this.skillResource.length > 0 || this.ascensionResource.length > 0
+  }
+
   checkKeyWord(key) {
     return this.fuzzyKeywords.some(str => str.indexOf(key) >= 0) || this.exactKeywords.includes(key)
   }
