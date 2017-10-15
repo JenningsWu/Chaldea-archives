@@ -236,11 +236,13 @@ export default class ClassName {
     // skill
     skills.forEach((skill) => {
       for (let i = skill.curr; i < skill.next; i += 1) {
-        this.skillResource[i - 1].forEach((cost) => {
-          ret.set(cost.id, (ret.get(cost.id) || 0) + cost.num)
-        })
-        // qp
-        ret.set('9000', ret.get('9000') + skillQP[this.rarity][i - 1])
+        if (this.skillResource[i - 1] != null) {
+          this.skillResource[i - 1].forEach((cost) => {
+            ret.set(cost.id, (ret.get(cost.id) || 0) + cost.num)
+          })
+          // qp
+          ret.set('9000', ret.get('9000') + skillQP[this.rarity][i - 1])
+        }
       }
     })
 
@@ -251,11 +253,13 @@ export default class ClassName {
             (level.next > checkLevel || level.nextAscension)) ||
           ((level.next === checkLevel && level.currAscension) &&
             (level.curr < checkLevel || !level.currAscension))) {
-        this.ascensionResource[index].forEach((cost) => {
-          ret.set(cost.id, (ret.get(cost.id) || 0) + cost.num)
-        })
-        // qp
-        ret.set('9000', ret.get('9000') + ascensionQP[this.rarity][index])
+        if (this.ascensionResource[index] != null) {
+          this.ascensionResource[index].forEach((cost) => {
+            ret.set(cost.id, (ret.get(cost.id) || 0) + cost.num)
+          })
+          // qp
+          ret.set('9000', ret.get('9000') + ascensionQP[this.rarity][index])
+        }
       }
     })
 
