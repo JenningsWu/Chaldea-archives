@@ -10,6 +10,8 @@ import codePush from 'react-native-code-push'
 import configureStore from './store/configureStore'
 import App from './app'
 
+const codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME }
+
 export default function setup(): ReactClass<{}> {
   class Root extends Component {
 
@@ -40,5 +42,5 @@ export default function setup(): ReactClass<{}> {
     }
   }
 
-  return codePush(Root)
+  return codePush(codePushOptions)(Root)
 }
