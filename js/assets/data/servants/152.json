@@ -49,20 +49,25 @@
     {
       "name": "",
       "lv": "",
-      "initialCD": null
+      "initialCD": null,
+      "effect": []
     }
   ],
   "skill2": [
     {
       "name": "",
       "lv": "",
-      "initialCD": null
+      "initialCD": null,
+      "effect": []
     }
   ],
   "np": [
     {
       "name": "",
-      "lv": ""
+      "lv": "",
+      "value": [],
+      "hits": null,
+      "effect": []
     }
   ],
   "classSkill": [],
@@ -79,5 +84,6 @@
         "num": null
       }
     ]
-  ]
+  ],
+  "skill3": []
 }

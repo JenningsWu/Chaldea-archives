@@ -49,21 +49,24 @@
     {
       "name": "怪力",
       "lv": "B",
-      "initialCD": 7
+      "initialCD": 7,
+      "effect": []
     }
   ],
   "skill2": [
     {
       "name": "恐慌之声",
       "lv": "A",
-      "initialCD": 8
+      "initialCD": 8,
+      "effect": []
     }
   ],
   "skill3": [
     {
       "name": "自我改造",
       "lv": "D",
-      "initialCD": 7
+      "initialCD": 7,
+      "effect": []
     }
   ],
   "np": [

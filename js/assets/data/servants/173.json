@@ -49,27 +49,33 @@
     {
       "name": "天赋的见识",
       "lv": "A++",
-      "initialCD": 7
+      "initialCD": 7,
+      "effect": []
     }
   ],
   "skill2": [
     {
       "name": "假说推论",
       "lv": "A+",
-      "initialCD": 7
+      "initialCD": 7,
+      "effect": []
     }
   ],
   "skill3": [
     {
       "name": "巴顿术",
       "lv": "B++",
-      "initialCD": 7
+      "initialCD": 7,
+      "effect": []
     }
   ],
   "np": [
     {
       "name": "这是基本的推测，我的朋友（Elementary My Dear）",
-      "lv": "B"
+      "lv": "B",
+      "value": [],
+      "hits": null,
+      "effect": []
     }
   ],
   "classSkill": [
