@@ -1,0 +1,271 @@
+{
+  "definitions": {
+    "effect": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "value", "duration", "durationTime", "effectiveTime", "phaseID", "probability"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "\\d{12}"
+          },
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "duration": { "type": "integer" },
+          "durationTime": { "type": "integer" },
+          "effectiveTime": { "type": "integer" },
+          "phaseID": { "type": "integer" },
+          "probability": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+
+    "skill": {
+      "type": "object",
+      "required": ["name", "condition", "lv", "effect", "initialCD"],
+      "properties": {
+        "name": { "type": "string" },
+        "condition": { "type": "integer" },
+        "lv": { "type": "string" },
+        "effect": {
+          "$ref": "#/definitions/effect"
+        },
+        "initialCD": { "type": "integer" }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "nameEN",
+    "fuzzyKeywords",
+    "exactKeywords",
+    "rarity",
+    "class",
+    "startATK",
+    "endATK",
+    "startHP",
+    "endHP",
+    "grailATK",
+    "grailHP",
+    "illustrator",
+    "cv",
+    "gender",
+    "attribute",
+    "alignment",
+    "cards",
+    "hits",
+    "charge",
+    "starAbsorption",
+    "starGeneration",
+    "npChargeATK",
+    "npChargeDEF",
+    "deathResist",
+    "traits",
+    "skill1",
+    "skill2",
+    "skill3",
+    "np",
+    "classSkill",
+    "skillResource",
+    "ascensionResource"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "\\d\\d\\d"
+    },
+    "name": { "type": "string" },
+    "nameJP": { "type": "string" },
+    "nameEN": { "type": "string" },
+    "fuzzyKeywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exactKeywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rarity": { "type": "integer" },
+    "class": { "type": "integer" },
+    "startATK": { "type": "integer" },
+    "endATK": { "type": "integer" },
+    "startHP": { "type": "integer" },
+    "endHP": { "type": "integer" },
+    "grailATK": { "type": "integer" },
+    "grailHP": { "type": "integer" },
+    "illustrator": { "type": "string" },
+    "cv": { "type": "string" },
+    "gender": { "type": "integer" },
+    "attribute": { "type": "integer" },
+    "alignment": { "type": "string" },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "hits": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "charge": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "starAbsorption": { "type": "number" },
+    "starGeneration": { "type": "number" },
+    "npChargeATK": { "type": "number" },
+    "npChargeDEF": { "type": "number" },
+    "deathResist": { "type": "number" },
+    "traits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "skill1": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/skill"
+      }
+    },
+
+    "skill2": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/skill"
+      }
+    },
+
+    "skill3": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/skill"
+      }
+    },
+    "np": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "type",
+          "condition",
+          "value",
+          "card",
+          "lv",
+          "attackPhaseID",
+          "effect",
+          "hits"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "integer" },
+          "condition": { "type": "integer" },
+          "value": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "card": { "type": "integer" },
+          "lv": { "type": "string" },
+          "attackPhaseID": { "type": "integer" },
+          "effect": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                 { "$ref": "#/definitions/effect" },
+                 {
+                   "type": "object",
+                   "required": ["type"],
+                   "properties": {
+                     "type": { "type": "integer" }
+                   }
+                 }
+              ]
+            }
+          },
+          "hits": { "type": "integer" }
+        }
+
+      }
+    },
+    "classSkill":{
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "lv",
+          "effect"
+        ],
+        "properties": {
+          "name": { "type": "string" },
+          "id": { "type": "string" },
+          "effect": {
+            "type": "array",
+            "items": {
+               "$ref": "#/definitions/effect"
+            }
+          }
+        }
+      }
+    },
+    "skillResource": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "num"
+          ],
+          "properties": {
+            "id": { "type": "string", "pattern": "\\d{4}" },
+            "num": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "ascensionResource": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "num"
+          ],
+          "properties": {
+            "id": { "type": "string", "pattern": "\\d{4}" },
+            "num": { "type": "integer" }
+          }
+        }
+      }
+    }
+  }
+}
