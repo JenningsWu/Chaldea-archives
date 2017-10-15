@@ -19,6 +19,8 @@ import indexNavigationOptions from '../navigationOptions'
 
 import servantMap from '../../assets/data/servants'
 
+import { toPercentStr } from '../../utils'
+
 import {
   effectDesc,
   showedValue,
@@ -133,7 +135,7 @@ export default class ServantDetailPage extends Component {
                   <View style={{ flexDirection: 'row', justifyContent: 'space-around', marginTop: 3 }}>
                     {
                       servant.charge.map((num, idx) => ({ num, idx })).map(({ num, idx }) => (
-                        <Text key={`${num}-${idx}`} style={{ color: '#bdc6cf' }}>{`${num * 100}%`}</Text>
+                        <Text key={`${num}-${idx}`} style={{ color: '#bdc6cf' }}>{toPercentStr(num)}</Text>
                       ))
                     }
                   </View>
@@ -143,17 +145,17 @@ export default class ServantDetailPage extends Component {
             />
             <ListItem
               title="宝具 NP 率"
-              rightTitle={`${servant.npChargeATK * 100}%`}
+              rightTitle={toPercentStr(servant.npChargeATK)}
               hideChevron
             />
             <ListItem
               title="受击 NP 率"
-              rightTitle={`${servant.npChargeDEF * 100}%`}
+              rightTitle={toPercentStr(servant.npChargeDEF)}
               hideChevron
             />
             <ListItem
               title="出星率"
-              rightTitle={`${servant.starGeneration * 100}%`}
+              rightTitle={toPercentStr(servant.starGeneration)}
               hideChevron
             />
             <ListItem
@@ -163,7 +165,7 @@ export default class ServantDetailPage extends Component {
             />
             <ListItem
               title="被即死率"
-              rightTitle={`${servant.deathResist * 100}%`}
+              rightTitle={toPercentStr(servant.deathResist)}
               hideChevron
             />
             <ListItem
