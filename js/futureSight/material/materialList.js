@@ -127,7 +127,15 @@ const servantMatarialCalculator = createSelector(
       return {
         id,
         info,
-        needs: Array.from(servant.calculateMaterailNums(level, skills)).map(
+        ascensionNeeds: Array.from(servant.calculateMaterailNums(level, null)).map(
+          ([materialId, num]) => (
+            {
+              id: materialId,
+              num,
+            }
+          ),
+        ).filter(({ num }) => num > 0),
+        skillNeeds: Array.from(servant.calculateMaterailNums(null, skills)).map(
           ([materialId, num]) => (
             {
               id: materialId,
@@ -145,14 +153,17 @@ const materialNeedsCalculator = createSelector(
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
     const ret = _.mapValues(materialList, () => 0)
-    servantList.forEach(({ info, needs }) => {
+    servantList.forEach(({ info, ascensionNeeds, skillNeeds }) => {
       const {
         priority,
       } = info
       if (!_.get(config, [priority], true)) {
         return
       }
-      needs.forEach(({ id, num }) => {
+      ascensionNeeds.forEach(({ id, num }) => {
+        ret[id] += num
+      })
+      skillNeeds.forEach(({ id, num }) => {
         ret[id] += num
       })
     })
@@ -165,15 +176,24 @@ const materialToServantCalculator = createSelector(
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
     const ret = _.mapValues(materialList, () => [])
-    servantList.forEach(({ id, info, needs }) => {
+    servantList.forEach(({ id, info, ascensionNeeds, skillNeeds }) => {
       const {
         priority,
       } = info
       if (!_.get(config, [priority], true)) {
         return
       }
-      needs.forEach((material) => {
-        ret[material.id].push({ id, num: material.num })
+      const materialToServant = {}
+      ascensionNeeds.forEach((material) => {
+        materialToServant[material.id] = materialToServant[material.id] || {}
+        materialToServant[material.id].numForAscension = material.num
+      })
+      skillNeeds.forEach((material) => {
+        materialToServant[material.id] = materialToServant[material.id] || {}
+        materialToServant[material.id].numForSkill = material.num
+      })
+      _.forEach(materialToServant, ({ numForSkill = 0, numForAscension = 0 }, materialId) => {
+        ret[materialId].push({ id, numForSkill, numForAscension })
       })
     })
     return ret

@@ -232,6 +232,31 @@ export default class ClassName {
   }
 
   calculateMaterailNums(level, skills) {
+    if (level == null) {
+      level = {
+        curr: 1,
+        next: 1,
+        currAscension: false,
+        nextAscension: false,
+      }
+    }
+    if (skills == null) {
+      skills = [
+        {
+          curr: 1,
+          next: 1,
+        },
+        {
+          curr: 1,
+          next: 1,
+        },
+        {
+          curr: 1,
+          next: 1,
+        },
+      ]
+    }
+
     const ret = new Map([
       ['9000', 0],
       ['9001', 0],
@@ -325,6 +350,33 @@ export default class ClassName {
     /*eslint-enable */
     ret.set('9001', ret.get('9001') + Math.ceil(exp / 32400))
     return ret
+  }
+
+  calculateFullMaterailNums(calculateSkill, calculateAscension) {
+    return this.calculateMaterailNums(
+      calculateSkill ? {
+        curr: 1,
+        next: rarityPalingenesisLevel[this.rarity].length > 0 ? (
+          rarityPalingenesisLevel[this.rarity][0]
+        ) : 1,
+        currAscension: false,
+        nextAscension: false,
+      } : null,
+      calculateAscension ? [
+        {
+          curr: 1,
+          next: 9,
+        },
+        {
+          curr: 1,
+          next: 9,
+        },
+        {
+          curr: 1,
+          next: 9,
+        },
+      ] : null,
+    )
   }
 }
 

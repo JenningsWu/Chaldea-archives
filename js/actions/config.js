@@ -1,5 +1,5 @@
 const CLICK_CONFIG = 'click_config'
-const SWITCH_FUTURE_INSIGHT_VIEW = 'switch_future_insight_view'
+const SET_VIEW_FILTER = 'set_view_filter'
 const SET_SEARCHBAR_OPTION = 'set_serchbar_option'
 
 function clickConfig(parentName, name, key, value) {
@@ -12,11 +12,20 @@ function clickConfig(parentName, name, key, value) {
   }
 }
 
-function switchFutureInsightView(value) {
+function setTopValueConfig(name, value) {
   return {
-    type: SWITCH_FUTURE_INSIGHT_VIEW,
+    type: SET_VIEW_FILTER,
+    name,
     value,
   }
+}
+
+function switchFutureInsightView(value) {
+  return setTopValueConfig('futureInsightView', value)
+}
+
+function switchMaterilServantView(value) {
+  return setTopValueConfig('materialServantSimpleView', value)
 }
 
 function setSearchbarOption(name, value) {
@@ -30,8 +39,9 @@ function setSearchbarOption(name, value) {
 export {
   CLICK_CONFIG,
   clickConfig,
-  SWITCH_FUTURE_INSIGHT_VIEW,
+  SET_VIEW_FILTER,
   switchFutureInsightView,
+  switchMaterilServantView,
   SET_SEARCHBAR_OPTION,
   setSearchbarOption,
 }

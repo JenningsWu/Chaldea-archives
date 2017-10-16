@@ -2,7 +2,7 @@ import _ from 'lodash'
 import { combineReducers } from 'redux'
 import {
   CLICK_CONFIG,
-  SWITCH_FUTURE_INSIGHT_VIEW,
+  SET_VIEW_FILTER,
   SET_SEARCHBAR_OPTION,
 } from '../actions/config'
 import { SWITCH_ACCOUNT_EDITING_MODE } from '../actions/account'
@@ -37,10 +37,10 @@ function viewFilter(state = {}, action) {
         ...state,
         [action.parentName]: getConfig(state[action.parentName], action),
       }
-    case SWITCH_FUTURE_INSIGHT_VIEW:
+    case SET_VIEW_FILTER:
       return {
         ...state,
-        futureInsightView: action.value,
+        [action.name]: action.value,
       }
     default: {
       return state

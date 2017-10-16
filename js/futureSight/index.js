@@ -19,7 +19,7 @@ import _ from 'lodash'
 import indexNavigationOptions from './navigationOptions'
 
 import MaterialList from './material/materialList'
-import MaterialServant from './material/servantList'
+import MaterialServant, { SwitchIconMenu as MSSwitchIconMenu } from './material/servantList'
 import ServantList from './servant/servantList'
 import AddServant from './servant/addServant'
 import EventList from './event/eventList'
@@ -197,6 +197,25 @@ const Index = StackNavigator({
   },
   MaterialServant: {
     screen: MaterialServant,
+    navigationOptions: () => ({
+      headerRight: <View style={{ flexDirection: 'row' }}>
+        <AdjustPopupMenu
+          parentName={'futureSightMaterialServantList'}
+          list={{
+            show: {
+              0: '已选从者',
+              1: '全部从者',
+            },
+            type: {
+              0: '灵基突破',
+              1: '升级技能',
+            },
+          }}
+        />
+        <MSSwitchIconMenu />
+      </View>
+      ,
+    }),
   },
   EventMaterial: {
     screen: EventMaterial,
