@@ -280,7 +280,7 @@ export default class ClassName {
       if ((level.curr < checkLevel && checkLevel < level.next) ||
           ((level.curr === checkLevel && !level.currAscension) &&
             (level.next > checkLevel || level.nextAscension)) ||
-          ((level.next === checkLevel && level.currAscension) &&
+          ((level.next === checkLevel && level.nextAscension) &&
             (level.curr < checkLevel || !level.currAscension))) {
         if (this.ascensionResource[index] != null) {
           this.ascensionResource[index].forEach((cost) => {
@@ -299,8 +299,10 @@ export default class ClassName {
     // Palingenesis
     rarityPalingenesisLevel[this.rarity].forEach((checkLevel, index) => {
       if ((level.curr < checkLevel && checkLevel < level.next) ||
-          (level.curr === checkLevel && !level.currAscension) ||
-          (level.next === checkLevel && level.currAscension)) {
+          ((level.curr === checkLevel && !level.currAscension) &&
+            (level.next > checkLevel || level.nextAscension)) ||
+          ((level.next === checkLevel && level.nextAscension) &&
+            (level.curr < checkLevel || !level.currAscension))) {
         ret.set('9002', ret.get('9002') + 1)
         // qp
         ret.set('9000', ret.get('9000') + palingenesisQP[this.rarity][index])
