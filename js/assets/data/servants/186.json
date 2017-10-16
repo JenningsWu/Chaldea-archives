@@ -1,0 +1,583 @@
+{
+  "id": "186",
+  "name": "宝藏院胤舜",
+  "nameJP": "宝蔵院胤舜",
+  "nameEN": "Houzouin Insyun",
+  "fuzzyKeywords": [
+    "宝藏院胤舜",
+    "Houzouin Insyun",
+    "宝蔵院胤舜"
+  ],
+  "exactKeywords": [],
+  "rarity": 3,
+  "class": 3,
+  "startATK": 1261,
+  "endATK": 6791,
+  "startHP": 1799,
+  "endHP": 9996,
+  "grailATK": 9191,
+  "grailHP": 13553,
+  "illustrator": "松竜",
+  "cv": "浪川大辅",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    2,
+    2,
+    3,
+    4
+  ],
+  "charge": [
+    0.0106,
+    0.0106,
+    0.0106,
+    0.0106
+  ],
+  "starAbsorption": 90,
+  "starGeneration": 0.122,
+  "npChargeATK": 0.0106,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.36,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "宗和的心得",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill2": [
+    {
+      "name": "武之求道",
+      "condition": 0,
+      "lv": "B",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000004",
+          "value": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7
+    }
+  ],
+  "skill3": [
+    {
+      "name": "先の先",
+      "condition": 0,
+      "lv": "B+",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "110000022000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 8
+    }
+  ],
+  "np": [
+    {
+      "name": "朧裏月十一式",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            30,
+            40,
+            45,
+            47.5,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "000000000017",
+          "value": [
+            100,
+            125,
+            150,
+            175,
+            200
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            100,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000005031",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000005001",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D+",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "skillResource": [
+    [
+      {
+        "id": "0002",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0002",
+        "num": 8
+      }
+    ],
+    [
+      {
+        "id": "0102",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0102",
+        "num": 8
+      },
+      {
+        "id": "1102",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0202",
+        "num": 4
+      },
+      {
+        "id": "1102",
+        "num": 7
+      }
+    ],
+    [
+      {
+        "id": "0202",
+        "num": 8
+      },
+      {
+        "id": "1204",
+        "num": 2
+      }
+    ],
+    [
+      {
+        "id": "1204",
+        "num": 4
+      },
+      {
+        "id": "1111",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "1111",
+        "num": 12
+      },
+      {
+        "id": "1001",
+        "num": 48
+      }
+    ],
+    [
+      {
+        "id": "2000",
+        "num": 1
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "id": "4002",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "4002",
+        "num": 8
+      },
+      {
+        "id": "1204",
+        "num": 3
+      }
+    ],
+    [
+      {
+        "id": "4102",
+        "num": 4
+      },
+      {
+        "id": "1102",
+        "num": 7
+      },
+      {
+        "id": "1104",
+        "num": 3
+      }
+    ],
+    [
+      {
+        "id": "4102",
+        "num": 8
+      },
+      {
+        "id": "1104",
+        "num": 6
+      },
+      {
+        "id": "1201",
+        "num": 4
+      }
+    ]
+  ]
+}

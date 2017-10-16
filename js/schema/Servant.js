@@ -352,9 +352,9 @@ export default class ClassName {
     return ret
   }
 
-  calculateFullMaterailNums(calculateSkill, calculateAscension) {
+  calculateFullMaterailNums(calculateAscension, calculateSkill) {
     return this.calculateMaterailNums(
-      calculateSkill ? {
+      calculateAscension ? {
         curr: 1,
         next: rarityPalingenesisLevel[this.rarity].length > 0 ? (
           rarityPalingenesisLevel[this.rarity][0]
@@ -362,7 +362,7 @@ export default class ClassName {
         currAscension: false,
         nextAscension: false,
       } : null,
-      calculateAscension ? [
+      calculateSkill ? [
         {
           curr: 1,
           next: 9,

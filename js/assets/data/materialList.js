@@ -173,6 +173,10 @@ const materialMap = {
     name: '追憶の貝殻',
     type: 2,
   },
+  1111: {
+    name: '枯淡勾玉',
+    type: 2,
+  },
 
   1200: {
     name: '混沌之爪',

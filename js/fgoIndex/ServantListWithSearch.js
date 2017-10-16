@@ -43,7 +43,9 @@ class ServantListWithSearch extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.navigation.navigate('MaterialList', { id: '179' })
+    if (__DEV__) {
+      this.props.navigation.navigate('MaterialList', { id: '179' })
+    }
   }
 
   componentWillReceiveProps(nextProps) {

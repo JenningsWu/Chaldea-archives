@@ -37,6 +37,7 @@ import m1107 from './1107.jpg'
 import m1108 from './1108.jpg'
 import m1109 from './1109.jpg'
 import m1110 from './1110.jpg'
+import m1111 from './1111.jpg'
 import m1200 from './1200.jpg'
 import m1201 from './1201.jpg'
 import m1202 from './1202.jpg'
@@ -121,6 +122,7 @@ export default {
   1108: m1108,
   1109: m1109,
   1110: m1110,
+  1111: m1111,
   1200: m1200,
   1201: m1201,
   1202: m1202,

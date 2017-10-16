@@ -107,6 +107,9 @@ export const detail = {
   4014: '即死成功率',
   4015: '敌人回合结束时，加倍返还该回合所受伤害',
   4016: '自身给予回复效果',
+  4017: '红卡的星星集中度',
+  4018: '蓝卡的星星集中度',
+  4019: '绿卡的星星集中度',
   5000: '赋予无敌状态',
   5001: '赋予闪避状态',
   5002: '赋予战续状态',
@@ -144,6 +147,7 @@ export const detail = {
   5034: 'HP 50% 以下时 NP 获得量',
   5035: '赋予职介相性的防御不利抵消状态',
   5036: '赋予带电状态（回合结束时一次对周围以低概率赋予眩晕）',
+  5037: '赋予延烧状态（灼烧的效果提升）',
   7: '特攻',
   8: '特防',
   9: '特性赋予',
@@ -207,6 +211,7 @@ export const detailSpSuffixAtkHp = {
   5005: '赋予无视防御力状态',
   5006: '赋予待机状态',
   5007: '赋予弱体无效状态',
+  5038: '赋予在普通攻击时以 100% 概率赋予诅咒状态（三回合）的状态',
 }
 
 export const detailSpSuffixEveryTurn = {
@@ -227,6 +232,7 @@ export const detailSpSuffixProb = {
 
 export const detailSpSuffixReverse = {
   5016: '技能 CD',
+  5037: '赋予延烧状态（灼烧的效果提升）',
 }
 
 const traitList = {
@@ -454,12 +460,9 @@ export function effectDesc(id, value, probability, duration, durationTime, effec
 
   if (duration > 0 && duration < 99999 && duration in skillDuration) {
     desc = `${desc} · ${skillDuration[duration]}`
-    if (durationTime === 1) {
-      desc = `${desc} · ${skillDurationTime[durationTime]}`
-    }
   }
 
-  if (durationTime > 1 && durationTime in skillDurationTime) {
+  if (durationTime > 0 && durationTime in skillDurationTime) {
     desc = `${desc} · ${skillDurationTime[durationTime]}`
   }
 
