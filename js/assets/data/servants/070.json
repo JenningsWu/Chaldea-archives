@@ -153,7 +153,8 @@
     {
       "name": "原初的符文",
       "condition": 0,
-      "lv": "？",
+      "lv": "",
+      "requirement": "00000",
       "effect": [
         {
           "id": "010000001003",
@@ -187,8 +188,7 @@
           ]
         }
       ],
-      "initialCD": 8,
-      "requirement": "00000"
+      "initialCD": 8
     }
   ],
   "skill3": [
