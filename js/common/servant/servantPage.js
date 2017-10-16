@@ -15,8 +15,6 @@ import {
 } from 'react-native-elements'
 import _ from 'lodash'
 
-import indexNavigationOptions from '../navigationOptions'
-
 import artsImg from '../../assets/img/Arts.png'
 import busterImg from '../../assets/img/Buster.png'
 import QuickImg from '../../assets/img/Quick.png'
@@ -36,15 +34,14 @@ const cardImg = [artsImg, busterImg, QuickImg]
 export default class ServantPage extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
-    ...indexNavigationOptions,
   })
 
   shouldComponentUpdate({ navigation }) {
-    return navigation.state.params.id !== this.props.navigation.state.params.id
+    return !_.isEqual(navigation.state.params, this.props.navigation.state.params)
   }
 
   render() {
-    const { id } = this.props.navigation.state.params
+    const { id, routePrefix } = this.props.navigation.state.params
     const servant = servantMap[id]
     return (
       <View style={{ flex: 1 }}>
@@ -63,15 +60,15 @@ export default class ServantPage extends Component {
             <ListItem
               title="数值"
               subtitle={`${servant.endATK} / ${servant.endHP}`}
-              onPress={() => this.props.navigation.navigate('DetailPage', { id: this.props.navigation.state.params.id })}
+              onPress={() => this.props.navigation.navigate(`${routePrefix}DetailPage`, { id, routePrefix })}
             />
             <ListItem
               title="技能"
-              onPress={() => this.props.navigation.navigate('SkillPage', { id: this.props.navigation.state.params.id })}
+              onPress={() => this.props.navigation.navigate(`${routePrefix}SkillPage`, { id, routePrefix })}
             />
             <ListItem
               title="宝具"
-              onPress={() => this.props.navigation.navigate('NpPage', { id: this.props.navigation.state.params.id })}
+              onPress={() => this.props.navigation.navigate(`${routePrefix}NpPage`, { id, routePrefix })}
             />
             <View style={{
               flex: 1,

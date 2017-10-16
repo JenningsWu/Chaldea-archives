@@ -9,10 +9,10 @@ import {
 import { StackNavigator } from 'react-navigation'
 
 import ServantList from './servantListWithSearch'
-import ServantPage from './servant/servantPage'
-import DetailPage from './servant/detailPage'
-import SkillPage from './servant/skillPage'
-import NpPage from './servant/npPage'
+import ServantPage from '../common/servant/servantPage'
+import DetailPage from '../common/servant/detailPage'
+import SkillPage from '../common/servant/skillPage'
+import NpPage from '../common/servant/npPage'
 import indexNavigationOptions from './navigationOptions'
 import navigateOnce from '../lib/navigateOnce'
 
@@ -22,8 +22,6 @@ const FgoIndex = ({ navigation }) => (
     justifyContent: 'center',
   }}
   >
-    {/* <Text>hello world</Text>
-    <Button onPress={() => navigation.navigate('Item', { t: 'a' })} title="Jump" /> */}
     <ServantList navigation={navigation} />
   </View>
 )
@@ -36,18 +34,27 @@ FgoIndex.navigationOptions = {
 const Index = StackNavigator({
   Index: {
     screen: FgoIndex,
+    navigationOptions: indexNavigationOptions,
   },
-  ServantDetail: {
+  IndexServantDetail: {
     screen: ServantPage,
+    navigationOptions: indexNavigationOptions,
   },
-  DetailPage: {
+  IndexDetailPage: {
     screen: DetailPage,
+    navigationOptions: indexNavigationOptions,
   },
-  SkillPage: {
+  IndexSkillPage: {
     screen: SkillPage,
+    navigationOptions: indexNavigationOptions,
   },
-  NpPage: {
+  IndexNpPage: {
     screen: NpPage,
+    navigationOptions: indexNavigationOptions,
+  },
+}, {
+  navigationOptions: {
+    gesturesEnabled: true,
   },
 })
 

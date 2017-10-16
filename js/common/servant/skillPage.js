@@ -16,8 +16,6 @@ import {
 } from 'react-native-elements'
 import _ from 'lodash'
 
-import indexNavigationOptions from '../navigationOptions'
-
 import servantMap from '../../assets/data/servants'
 
 import {
@@ -110,11 +108,9 @@ class Skills extends PureComponent {
             phaseID,
           }, effectIdx) => {
             const valueStr = showedValue(id, value)
-            console.log(id, detailNeedGroup(id))
             if (detailNeedGroup(id)) {
               groupPhaseId = phaseID
             }
-            console.log(groupPhaseId, phaseID)
             // (value.length <= 11 || value[1] === 0 || value[1] === value[0]) ? (
               // <ListItem
               //   key={id}
@@ -205,7 +201,6 @@ class Skills extends PureComponent {
 export default class ServantSkillPage extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
-    ...indexNavigationOptions,
   })
 
   shouldComponentUpdate({ navigation }) {

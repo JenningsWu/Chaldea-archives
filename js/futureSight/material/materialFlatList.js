@@ -97,10 +97,6 @@ class MaterialItem extends PureComponent {
           switched={enough}
           hideChevron
           onPress={() => navigation.navigate('MaterialServant', { id, servantInfo, data: servantList, name })}
-
-          // onPress={() => this.props.navigation.navigate('Item', { servant: item })}
-          // underlayColor="#ddd"
-          // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
         />
       ) : (
         <ListItem

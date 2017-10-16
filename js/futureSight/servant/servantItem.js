@@ -66,7 +66,7 @@ export default class ServantItem extends PureComponent {
         }}
         onLongPress={() => {
           // this.props.navigation.dispatch(setParamsAction)
-          this.props.navigation.navigate('ServantDetail', { id: servant.id })
+          this.props.navigation.navigate('FutureServantDetail', { id: servant.id, routePrefix: 'Future' })
         }}
         underlayColor="#ddd"
         rightIcon={{ name: extend ? 'chevron-left' : 'chevron-right' }}

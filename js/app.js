@@ -51,6 +51,7 @@ const App = TabNavigator({
   tabBarOptions: {
     activeTintColor: '#e91e63',
   },
+  swipeEnabled: false,
 })
 
 export default App

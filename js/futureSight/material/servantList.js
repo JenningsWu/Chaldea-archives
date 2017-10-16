@@ -113,7 +113,7 @@ class ServantItem extends PureComponent {
         }
         titleContainerStyle={{ marginLeft: -4 }}
         subtitleContainerStyle={{ marginLeft: -4 }}
-        onPress={() => this.props.navigation.navigate('ServantDetail', { id: servant.id })}
+        onPress={() => this.props.navigation.navigate('FutureServantDetail', { id: servant.id, routePrefix: 'Future' })}
         underlayColor="#ddd"
         rightIcon={(
           <View style={{ justifyContent: 'center', minWidth: 100 }}>

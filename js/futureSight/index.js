@@ -26,6 +26,10 @@ import EventList from './event/eventList'
 import EventMaterial from './event/materialList'
 import AccountList from './accountList'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
+import ServantPage from '../common/servant/servantPage'
+import DetailPage from '../common/servant/detailPage'
+import SkillPage from '../common/servant/skillPage'
+import NpPage from '../common/servant/npPage'
 import { switchFutureInsightView } from '../actions/config'
 import {
   switchAccountEditingMode,
@@ -219,6 +223,28 @@ const Index = StackNavigator({
   },
   EventMaterial: {
     screen: EventMaterial,
+  },
+
+  // servant info
+  FutureServantDetail: {
+    screen: ServantPage,
+    navigationOptions: indexNavigationOptions,
+  },
+  FutureDetailPage: {
+    screen: DetailPage,
+    navigationOptions: indexNavigationOptions,
+  },
+  FutureSkillPage: {
+    screen: SkillPage,
+    navigationOptions: indexNavigationOptions,
+  },
+  FutureNpPage: {
+    screen: NpPage,
+    navigationOptions: indexNavigationOptions,
+  },
+}, {
+  navigationOptions: {
+    gesturesEnabled: true,
   },
 })
 

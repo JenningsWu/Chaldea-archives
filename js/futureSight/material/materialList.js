@@ -57,11 +57,6 @@ class ServantListWithSearch extends PureComponent {
     list: Array<Object>;
   }
 
-
-  // componentDidMount() {
-  //   this.props.navigation.navigate('FutureSight', { servant: servants[2] })
-  // }
-
   onSearchChange = (keyword: string) => {
     this.setState({
       keyword,
@@ -72,10 +67,6 @@ class ServantListWithSearch extends PureComponent {
 
   materialList: Array<Object>
 
-//
-// const testStyle = {
-//   flex: 1,
-// }
   render() {
     const {
       data,

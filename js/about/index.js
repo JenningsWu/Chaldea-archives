@@ -141,4 +141,8 @@ export default StackNavigator({
   NgaRef: {
     screen: NgaReference,
   },
+}, {
+  navigationOptions: {
+    gesturesEnabled: true,
+  },
 })

@@ -16,8 +16,6 @@ import {
 } from 'react-native-elements'
 import _ from 'lodash'
 
-import indexNavigationOptions from '../navigationOptions'
-
 import servantMap from '../../assets/data/servants'
 
 import {
@@ -299,7 +297,6 @@ class NP extends PureComponent {
 export default class ServantNpPage extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: servantMap[navigation.state.params.id].name,
-    ...indexNavigationOptions,
   })
 
   shouldComponentUpdate({ navigation }) {
