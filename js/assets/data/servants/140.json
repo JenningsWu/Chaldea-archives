@@ -227,9 +227,10 @@
       "name": "无辜的怪物",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000004006",
+          "id": "000000014006",
           "value": [
             5,
             6,
@@ -291,8 +292,7 @@
           ]
         }
       ],
-      "initialCD": 7,
-      "requirement": "00000"
+      "initialCD": 7
     }
   ],
   "np": [

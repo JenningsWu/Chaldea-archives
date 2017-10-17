@@ -165,9 +165,10 @@
       "name": "骑士不死于徒手",
       "condition": 0,
       "lv": "A++",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000004006",
+          "id": "000000014006",
           "value": [
             5,
             6,
@@ -229,8 +230,7 @@
           ]
         }
       ],
-      "initialCD": 8,
-      "requirement": "00000"
+      "initialCD": 8
     }
   ],
   "np": [

@@ -343,13 +343,13 @@
       "attackPhaseID": 0,
       "effect": [
         {
-          "id": "110000034005",
+          "id": "110000024005",
           "value": [
-            10,
-            20,
-            30,
-            40,
-            50
+            50,
+            62.5,
+            75,
+            87.5,
+            100
           ],
           "duration": 3,
           "durationTime": 0,
@@ -368,6 +368,78 @@
             0
           ],
           "type": 2
+        }
+      ],
+      "hits": 13
+    },
+    {
+      "name": "妄想幻象（Zabaniya）",
+      "type": 2,
+      "condition": 1,
+      "value": [
+        1200,
+        1500,
+        1650,
+        1725,
+        1800
+      ],
+      "card": 0,
+      "lv": "B++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024005",
+          "value": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "110000022002",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
         }
       ],
       "hits": 13

@@ -50,6 +50,7 @@
       "name": "雾夜杀人",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000001003",
@@ -96,8 +97,8 @@
             0,
             0
           ],
-          "duration": 0,
-          "durationTime": 1,
+          "duration": 1,
+          "durationTime": 0,
           "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
@@ -114,8 +115,7 @@
           ]
         }
       ],
-      "initialCD": 8,
-      "requirement": "00000"
+      "initialCD": 8
     }
   ],
   "skill2": [

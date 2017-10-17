@@ -134,9 +134,10 @@
       "name": "无辜的怪物",
       "condition": 0,
       "lv": "D",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000004006",
+          "id": "000000014006",
           "value": [
             3,
             4,
@@ -151,7 +152,7 @@
           ],
           "duration": 3,
           "durationTime": 0,
-          "effectiveTime": 0,
+          "effectiveTime": -1,
           "phaseID": 0,
           "probability": [
             100,
@@ -198,8 +199,7 @@
           ]
         }
       ],
-      "initialCD": 7,
-      "requirement": "00000"
+      "initialCD": 7
     }
   ],
   "np": [
