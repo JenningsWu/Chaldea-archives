@@ -5,6 +5,7 @@
 import React from 'react'
 import {
   View,
+  Alert,
 } from 'react-native'
 import {
   Icon,
@@ -17,6 +18,7 @@ import { connect } from 'react-redux'
 import _ from 'lodash'
 
 import { clickConfig as clickConfigAction } from '../actions/config'
+import { hook } from '../lib/navigateOnce'
 
 const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
   <Menu onSelect={() => {}}>
@@ -42,7 +44,13 @@ const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
                 title={label}
                 checked={value}
                 renderTouchable={View}
-                onPress={() => clickConfig(name, key, !value)}
+                onPress={() => {
+                  if (!hook.allowSwitch()) {
+                    hook.alert()
+                  } else {
+                    clickConfig(name, key, !value)
+                  }
+                }}
               />
             </MenuOption>
           )

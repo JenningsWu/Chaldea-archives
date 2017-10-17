@@ -178,6 +178,7 @@ class ServantListWithSearch extends PureComponent {
                   />
                 }
                 navigation={this.props.navigation}
+                lockIfExpand
               />
             )}
           />

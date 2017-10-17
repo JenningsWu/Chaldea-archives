@@ -11,15 +11,22 @@ import {
 } from 'react-native-elements'
 
 import avatars from '../../assets/img/avatars'
+import { hook } from '../../lib/navigateOnce'
 
 export default class ServantItem extends PureComponent {
-  constructor() {
+  constructor(props) {
     super()
     this.state = {
       extend: false,
     }
+    this.servant = props.servant
   }
 
+  componentWillUnmount() {
+    if (this.props.lockIfExpand && this.state.extend) {
+      hook.unregister(this.servant.id)
+    }
+  }
 
   getSubtitle() {
     if (this.state.extend && this.props.servantForm) {
@@ -34,12 +41,16 @@ export default class ServantItem extends PureComponent {
   }
 
   collapse = () => {
+    if (this.props.lockIfExpand) {
+      hook.unregister(this.servant.id)
+    }
     this.setState({ extend: false })
   }
 
   render() {
     const {
       servant,
+      lockIfExpand,
     } = this.props
 
     const {
@@ -61,12 +72,16 @@ export default class ServantItem extends PureComponent {
         subtitleContainerStyle={{ marginLeft: bigAvatar ? 4 : 0 }}
         onPress={() => {
           if (!extend) {
+            if (this.props.lockIfExpand) {
+              hook.register(servant.id, servant.name)
+            }
             this.setState({ extend: true })
           }
         }}
         onLongPress={() => {
-          // this.props.navigation.dispatch(setParamsAction)
-          this.props.navigation.navigate('FutureServantDetail', { id: servant.id, routePrefix: 'Future' })
+          if (!lockIfExpand || !extend) {
+            this.props.navigation.navigate('FutureServantDetail', { id: servant.id, routePrefix: 'Future' })
+          }
         }}
         underlayColor="#ddd"
         rightIcon={{ name: extend ? 'chevron-left' : 'chevron-right' }}
