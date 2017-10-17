@@ -31,6 +31,22 @@ const noBorderStyle = {
   borderBottomWidth: 0,
 }
 
+const ConditionalListItem = ({
+  title,
+  subtitle,
+  rightTitle,
+  show = true,
+}) => (
+  show ? (
+    <ListItem
+      title={title}
+      subtitle={subtitle}
+      rightTitle={rightTitle}
+      hideChevron
+    />
+  ) : null
+)
+
 const ClassSkill = ({
   name,
   lv,
@@ -83,20 +99,20 @@ export default class ServantDetailPage extends Component {
               // rightTitle={servant.rarityDesc}
               hideChevron
             />
-            <ListItem
+            <ConditionalListItem
               title="初始 ATK / HP"
               rightTitle={`${servant.startATK} / ${servant.startHP}`}
-              hideChevron
+              show={servant.startATK !== 0 || servant.startHP !== 0}
             />
-            <ListItem
+            <ConditionalListItem
               title="满破 ATK / HP"
               rightTitle={`${servant.endATK} / ${servant.endHP}`}
-              hideChevron
+              show={servant.endATK !== 0 || servant.endHP !== 0}
             />
-            <ListItem
+            <ConditionalListItem
               title="100 级 ATK / HP"
               rightTitle={`${servant.grailATK} / ${servant.grailHP}`}
-              hideChevron
+              show={servant.grailATK !== 0 || servant.grailHP !== 0}
             />
             <ListItem
               title="Hits 数"
@@ -119,7 +135,7 @@ export default class ServantDetailPage extends Component {
               }
               hideChevron
             />
-            <ListItem
+            <ConditionalListItem
               title="NP 获取率"
               subtitle={
                 <View style={{ marginTop: 8 }}>
@@ -138,36 +154,36 @@ export default class ServantDetailPage extends Component {
                   </View>
                 </View>
               }
-              hideChevron
+              show={servant.charge.some(v => v !== -1)}
             />
-            <ListItem
+            <ConditionalListItem
               title="宝具 NP 率"
               rightTitle={toPercentStr(servant.npChargeATK)}
-              hideChevron
+              show={servant.npChargeATK !== -1}
             />
-            <ListItem
+            <ConditionalListItem
               title="受击 NP 率"
               rightTitle={toPercentStr(servant.npChargeDEF)}
-              hideChevron
+              show={servant.npChargeDEF !== -1}
             />
-            <ListItem
+            <ConditionalListItem
               title="出星率"
               rightTitle={toPercentStr(servant.starGeneration)}
-              hideChevron
+              show={servant.starGeneration !== -1}
             />
-            <ListItem
+            <ConditionalListItem
               title="暴击权重"
               rightTitle={`${servant.starAbsorption}`}
-              hideChevron
+              show={servant.starAbsorption !== -1}
             />
-            <ListItem
+            <ConditionalListItem
               title="被即死率"
               rightTitle={toPercentStr(servant.deathResist)}
-              hideChevron
+              show={servant.deathResist !== -1}
             />
-            <ListItem
+            <ConditionalListItem
               title="职介技能："
-              hideChevron
+              show={servant.classSkill.length > 0}
             />
             {
               servant.classSkill.map(({ name, lv, effect }) => (

@@ -43,6 +43,12 @@ export default class ServantPage extends Component {
   render() {
     const { id, routePrefix } = this.props.navigation.state.params
     const servant = servantMap[id]
+    const showSkill = (
+      servant.skill1.length > 0 ||
+      servant.skill2.length > 0 ||
+      servant.skill3.length > 0
+    )
+    const showNp = servant.np.length > 0
     return (
       <View style={{ flex: 1 }}>
         <Card containerStyle={{ margin: 0, height: '100%' }} title={null}>
@@ -64,11 +70,21 @@ export default class ServantPage extends Component {
             />
             <ListItem
               title="技能"
-              onPress={() => this.props.navigation.navigate(`${routePrefix}SkillPage`, { id, routePrefix })}
+              onPress={() => {
+                if (showSkill) {
+                  this.props.navigation.navigate(`${routePrefix}SkillPage`, { id, routePrefix })
+                }
+              }}
+              hideChevron={!showSkill}
             />
             <ListItem
               title="宝具"
-              onPress={() => this.props.navigation.navigate(`${routePrefix}NpPage`, { id, routePrefix })}
+              onPress={() => {
+                if (showSkill) {
+                  this.props.navigation.navigate(`${routePrefix}NpPage`, { id, routePrefix })
+                }
+              }}
+              hideChevron={!showNp}
             />
             <View style={{
               flex: 1,
