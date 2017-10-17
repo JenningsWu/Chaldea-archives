@@ -23,8 +23,8 @@ class PreventSwitchHook {
 
   alert() {
     Alert.alert(
-      '',
-      `未保存从者信息：\n${this.getError()}\n`,
+      '未保存从者信息',
+      `\n${this.getError()}\n`,
       [
         {
           text: '确定',

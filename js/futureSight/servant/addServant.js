@@ -166,7 +166,7 @@ const getServantList = createSelector(
   () => servants.filter(s => s && s.isShipped),
   ({ account, accountData }) => accountData[account].servant,
   (option, servantList, exclude) =>
-    servantList.slice(1).filter(s => s.filter(option) && !(s.id in exclude)),
+    servantList.filter(s => s.filter(option) && !(s.id in exclude)),
 )
 
 export default connect(
