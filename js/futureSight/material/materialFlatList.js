@@ -124,7 +124,7 @@ class MaterialItem extends PureComponent {
           rightTitle={`${current}`}
           textInput
           textInputValue={`${current}`}
-          textInputKeyboardType="numeric"
+          keyboardType="numeric"
           textInputReturnKeyType="done"
           textInputSelectTextOnFocus
           textInputStyle={{ color: '#444444', width: '100%', flex: 1, textAlignVertical: 'bottom', paddingTop: 10 }}

@@ -15,6 +15,8 @@
 		00E356F31AD99517003FC87E /* ChaldeaArchivesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChaldeaArchivesTests.m */; };
 		02557961634145D3A82694E6 /* libBugsnagReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B90556F27FED470587522B75 /* libBugsnagReactNative.a */; };
 		028C75C4817E4C18A8B46252 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3333AC14E7144F16925041C3 /* EvilIcons.ttf */; };
+		05C2D3801F974BF200178C93 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05744DC01F97396C00F50ED5 /* IQKeyboardManager.bundle */; };
+		0CD450362481436281F244C5 /* libReactNativeKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E8E37395E4247A8D9C4F3 /* libReactNativeKeyboardManager.a */; };
 		106273A23B3D4069BD11A750 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E74599D32F6F4CBBAFE0A602 /* libRNVectorIcons.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -41,6 +43,7 @@
 		3CE7F13D8B4E47E2ADBE9A3A /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34C78FD336D949BEA01694BC /* SimpleLineIcons.ttf */; };
 		49FAB80278DD49D9BEDDB866 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8862A6D48C7347CB80C15DCC /* Octicons.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		62F592C21C954BA3841C8F17 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32AB8636526447AEA5E002FF /* Feather.ttf */; };
 		72D29BB5A2C049058D1A400A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB9F76E57C7549DBB3E87F83 /* Zocial.ttf */; };
 		754B84B132604F6798E3D03D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 155CF673EEE841B2A0E5C6B0 /* Entypo.ttf */; };
 		7B51CB24EF3D43E7AED6A1E6 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26EBE199CD3F4A409AA531D0 /* Foundation.ttf */; };
@@ -151,6 +154,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = F886647B1F4ADB500036D01B;
 			remoteInfo = "CodePush-tvOS";
+		};
+		05744DBE1F97390700F50ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2154DC1246F44D7986AE339 /* ReactNativeKeyboardManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A51183591EFAC02F0077C68F;
+			remoteInfo = ReactNativeKeyboardManager;
 		};
 		05C21DF61F78EB0D003F77E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -339,6 +349,9 @@
 		00E356EE1AD99517003FC87E /* ChaldeaArchivesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaldeaArchivesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ChaldeaArchivesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaldeaArchivesTests.m; sourceTree = "<group>"; };
+		05744DC01F97396C00F50ED5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = "../node_modules/react-native-keyboard-manager/ios/IQKeyboardManager/Resources/IQKeyboardManager.bundle"; sourceTree = "<group>"; };
+		05744DD31F973B2000F50ED5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		05744DFB1F973B5500F50ED5 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ChaldeaArchives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaldeaArchives.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -353,6 +366,7 @@
 		26EBE199CD3F4A409AA531D0 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ChaldeaArchives-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChaldeaArchives-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ChaldeaArchives-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChaldeaArchives-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AB8636526447AEA5E002FF /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		3333AC14E7144F16925041C3 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		34C78FD336D949BEA01694BC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		3B60D3425D214DBD86118EB3 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
@@ -365,11 +379,13 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8862A6D48C7347CB80C15DCC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		8ACCEE01F3784AF98F224E46 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		A2154DC1246F44D7986AE339 /* ReactNativeKeyboardManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeKeyboardManager.xcodeproj; path = "../node_modules/react-native-keyboard-manager/ios/ReactNativeKeyboardManager.xcodeproj"; sourceTree = "<group>"; };
 		AA5616A9115346CA97CBB8B9 /* CodePush.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CodePush.xcodeproj; path = "../node_modules/react-native-code-push/ios/CodePush.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B90556F27FED470587522B75 /* libBugsnagReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBugsnagReactNative.a; sourceTree = "<group>"; };
 		BB9F76E57C7549DBB3E87F83 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		C64F3F15F2E54E84ABF8C5FC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		E21E8E37395E4247A8D9C4F3 /* libReactNativeKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeKeyboardManager.a; sourceTree = "<group>"; };
 		E2DF86768DDA4CF4AF10E0E4 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E74599D32F6F4CBBAFE0A602 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -404,6 +420,7 @@
 				D37AAD27D87E43D4BA706453 /* libz.tbd in Frameworks */,
 				106273A23B3D4069BD11A750 /* libRNVectorIcons.a in Frameworks */,
 				A57744BE03BC413488D2D373 /* libCodePush.a in Frameworks */,
+				0CD450362481436281F244C5 /* libReactNativeKeyboardManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,12 +517,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		05744DBB1F97390700F50ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05744DBF1F97390700F50ED5 /* libReactNativeKeyboardManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05744DD21F973B2000F50ED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05744DD31F973B2000F50ED5 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			path = "../node_modules/react-native-keyboard-manager/ios/IQKeyboardManager/Resources";
+			sourceTree = "<group>";
+		};
+		05744DFA1F973B5500F50ED5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05744DFB1F973B5500F50ED5 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			path = "../node_modules/react-native-keyboard-manager/ios/IQKeyboardManager/Resources";
+			sourceTree = "<group>";
+		};
 		05C21DEE1F78EB0C003F77E8 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
+				05744DD21F973B2000F50ED5 /* Resources */,
+				05744DFA1F973B5500F50ED5 /* Resources */,
 				B90556F27FED470587522B75 /* libBugsnagReactNative.a */,
 				E74599D32F6F4CBBAFE0A602 /* libRNVectorIcons.a */,
 				57B36184414A4604B2B682F8 /* libCodePush.a */,
+				E21E8E37395E4247A8D9C4F3 /* libReactNativeKeyboardManager.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -623,6 +669,7 @@
 				650393F7C2914A73BADE3027 /* BugsnagReactNative.xcodeproj */,
 				50DA5196668543AF89E75C03 /* RNVectorIcons.xcodeproj */,
 				AA5616A9115346CA97CBB8B9 /* CodePush.xcodeproj */,
+				A2154DC1246F44D7986AE339 /* ReactNativeKeyboardManager.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -685,6 +732,8 @@
 				8862A6D48C7347CB80C15DCC /* Octicons.ttf */,
 				34C78FD336D949BEA01694BC /* SimpleLineIcons.ttf */,
 				BB9F76E57C7549DBB3E87F83 /* Zocial.ttf */,
+				05744DC01F97396C00F50ED5 /* IQKeyboardManager.bundle */,
+				32AB8636526447AEA5E002FF /* Feather.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -861,6 +910,10 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
+					ProductGroup = 05744DBB1F97390700F50ED5 /* Products */;
+					ProjectRef = A2154DC1246F44D7986AE339 /* ReactNativeKeyboardManager.xcodeproj */;
+				},
+				{
 					ProductGroup = 05C21E081F78EB0D003F77E8 /* Products */;
 					ProjectRef = 50DA5196668543AF89E75C03 /* RNVectorIcons.xcodeproj */;
 				},
@@ -965,6 +1018,13 @@
 			fileType = archive.ar;
 			path = libCodePush.a;
 			remoteRef = 05285EC31F89E99E009A33AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05744DBF1F97390700F50ED5 /* libReactNativeKeyboardManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeKeyboardManager.a;
+			remoteRef = 05744DBE1F97390700F50ED5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		05C21DF71F78EB0D003F77E8 /* libRCTBlob-tvOS.a */ = {
@@ -1153,6 +1213,7 @@
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				754B84B132604F6798E3D03D /* Entypo.ttf in Resources */,
 				028C75C4817E4C18A8B46252 /* EvilIcons.ttf in Resources */,
+				05C2D3801F974BF200178C93 /* IQKeyboardManager.bundle in Resources */,
 				2160E6580B41413CB232A7B9 /* FontAwesome.ttf in Resources */,
 				7B51CB24EF3D43E7AED6A1E6 /* Foundation.ttf in Resources */,
 				CDF438A185F741488E2A34F6 /* Ionicons.ttf in Resources */,
@@ -1161,6 +1222,7 @@
 				49FAB80278DD49D9BEDDB866 /* Octicons.ttf in Resources */,
 				3CE7F13D8B4E47E2ADBE9A3A /* SimpleLineIcons.ttf in Resources */,
 				72D29BB5A2C049058D1A400A /* Zocial.ttf in Resources */,
+				62F592C21C954BA3841C8F17 /* Feather.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1289,12 +1351,14 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = ChaldeaArchivesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1319,12 +1383,14 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = ChaldeaArchivesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1350,6 +1416,7 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = ChaldeaArchives/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1374,6 +1441,7 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = ChaldeaArchives/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1404,11 +1472,13 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = "ChaldeaArchives-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1442,11 +1512,13 @@
 					"$(SRCROOT)/../node_modules/bugsnag-react-native/cocoa/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
+					"$(SRCROOT)/../node_modules/react-native-keyboard-manager/ios/**",
 				);
 				INFOPLIST_FILE = "ChaldeaArchives-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1481,6 +1553,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ChaldeaArchives-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1505,6 +1578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
