@@ -133,7 +133,6 @@ export default class ServantForm extends PureComponent {
   }
 
   handleSkillChange = (index, type, value) => {
-    console.log(index, type, value)
     const skill = {
       ...this.state.skills[index],
     }
@@ -182,17 +181,18 @@ export default class ServantForm extends PureComponent {
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
+                  style={{ flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.curr}`}
                   selectTextOnFocus
                   onChangeText={text => this.handleLevelChange(CURR, text)}
                   onBlur={this.limitLevel}
+                  underlineColorAndroid="transparent"
                 />
                 <CheckBox
                   center
-                  style={{ height: 20, flex: 1, marginTop: 4 }}
+                  style={{ flex: 1, marginTop: 4 }}
                   title={level.curr < (rarityPalingenesisLevel[rarity][0] || 101) ? '已灵基突破' : '已喂圣杯'}
                   checked={level.currAscension}
                   onPress={() => this.handleLevelChange(CURR_ASCENSION, !level.currAscension)}
@@ -201,17 +201,18 @@ export default class ServantForm extends PureComponent {
               <Text> ⟶ </Text>
               <View style={{ flexDirection: 'column', flex: 1 }} >
                 <TextInput
-                  style={{ height: 20, flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
+                  style={{ flex: 1, textAlign: 'center', marginTop: 2, padding: 0 }}
                   keyboardType="numeric"
                   returnKeyType="done"
                   value={`${level.next}`}
                   selectTextOnFocus
                   onChangeText={text => this.handleLevelChange(NEXT, text)}
                   onBlur={this.limitLevel}
+                  underlineColorAndroid="transparent"
                 />
                 <CheckBox
                   center
-                  style={{ height: 20, flex: 1, marginTop: 4 }}
+                  style={{ flex: 1, marginTop: 4 }}
                   title={level.next < (rarityPalingenesisLevel[rarity][0] || 101) ? '已灵基突破' : '已喂圣杯'}
                   checked={level.nextAscension}
                   onPress={() => this.handleLevelChange(NEXT_ASCENSION, !level.nextAscension)}
@@ -229,21 +230,23 @@ export default class ServantForm extends PureComponent {
               subtitle={
                 <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
                   <TextInput
-                    style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
+                    style={{ flex: 1, textAlign: 'center', padding: 0 }}
                     value={`${skills[idx].curr}`}
                     selectTextOnFocus
                     keyboardType="numeric"
                     returnKeyType="done"
                     onChangeText={text => this.handleSkillChange(idx, CURR, text)}
+                    underlineColorAndroid="transparent"
                   />
                   <Text> ⟶ </Text>
                   <TextInput
-                    style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
+                    style={{ flex: 1, textAlign: 'center', padding: 0 }}
                     value={`${skills[idx].next}`}
                     selectTextOnFocus
                     keyboardType="numeric"
                     returnKeyType="done"
                     onChangeText={text => this.handleSkillChange(idx, NEXT, text)}
+                    underlineColorAndroid="transparent"
                   />
                 </View>
               }
@@ -257,12 +260,13 @@ export default class ServantForm extends PureComponent {
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <TextInput
-                style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
+                style={{ flex: 1, textAlign: 'center', padding: 0 }}
                 selectTextOnFocus
                 value={`${priority}`}
                 keyboardType="numeric"
                 returnKeyType="done"
                 onChangeText={text => this.setSingleNum('priority', text)}
+                underlineColorAndroid="transparent"
               />
             </View>
           }
@@ -274,12 +278,13 @@ export default class ServantForm extends PureComponent {
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
               <TextInput
-                style={{ height: 20, flex: 1, textAlign: 'center', padding: 0 }}
+                style={{ flex: 1, textAlign: 'center', padding: 0 }}
                 selectTextOnFocus
                 value={`${npLevel}`}
                 keyboardType="numeric"
                 returnKeyType="done"
                 onChangeText={text => this.setSingleNum('npLevel', text)}
+                underlineColorAndroid="transparent"
               />
             </View>
           }
