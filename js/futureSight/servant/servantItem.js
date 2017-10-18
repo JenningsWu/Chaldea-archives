@@ -84,7 +84,12 @@ export default class ServantItem extends PureComponent {
           }
         }}
         underlayColor="#ddd"
-        rightIcon={{ name: extend ? 'chevron-left' : 'chevron-right' }}
+        rightIcon={extend ? {
+          name: 'chevron-left',
+          color: 'transparent',
+        } : {
+          name: 'chevron-right',
+        }}
         // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
       />
     )

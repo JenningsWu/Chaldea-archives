@@ -196,9 +196,10 @@
       "name": "战斗续行",
       "condition": 0,
       "lv": "A",
+      "requirement": "00000",
       "effect": [
         {
-          "id": "000000005002",
+          "id": "000000015002",
           "value": [
             1000,
             1150,
@@ -229,8 +230,7 @@
           ]
         }
       ],
-      "initialCD": 9,
-      "requirement": "00000"
+      "initialCD": 9
     }
   ],
   "np": [
