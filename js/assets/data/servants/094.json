@@ -6,7 +6,10 @@
   "fuzzyKeywords": [
     "阿斯托尔福",
     "Astolfo",
-    "アストルフォ"
+    "アストルフォ",
+    "阿福",
+    "伪娘",
+    "圣晶石召唤"
   ],
   "exactKeywords": [],
   "rarity": 4,
@@ -236,6 +239,7 @@
       "name": "理性蒸发",
       "condition": 1,
       "lv": "D+",
+      "requirement": "00000",
       "effect": [
         {
           "id": "000000015026",
@@ -251,7 +255,7 @@
             9,
             10
           ],
-          "duration": 3,
+          "duration": 5,
           "durationTime": 0,
           "effectiveTime": -1,
           "phaseID": 0,
@@ -282,7 +286,7 @@
             46,
             50
           ],
-          "duration": 3,
+          "duration": 5,
           "durationTime": 0,
           "effectiveTime": -1,
           "phaseID": 0,
@@ -313,7 +317,7 @@
             36,
             40
           ],
-          "duration": 3,
+          "duration": 5,
           "durationTime": 0,
           "effectiveTime": -1,
           "phaseID": 0,
@@ -362,8 +366,7 @@
           ]
         }
       ],
-      "initialCD": 10,
-      "requirement": "00000"
+      "initialCD": 10
     }
   ],
   "np": [

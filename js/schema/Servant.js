@@ -192,6 +192,15 @@ export default class ClassName {
     // resource
     this.skillResource = obj.skillResource
     this.ascensionResource = obj.ascensionResource
+
+    this.fuzzyKeywords = [
+      ...this.fuzzyKeywords,
+      this.rarityDesc,
+      // this.classDesc,
+      this.genderDesc,
+      this.attributeDesc,
+      this.alignmentDesc,
+    ].map(v => v.toLowerCase())
   }
 
   get rarityDesc() {
@@ -221,7 +230,9 @@ export default class ClassName {
   }
 
   checkKeyWord(key) {
-    return this.fuzzyKeywords.some(str => str.indexOf(key) >= 0) || this.exactKeywords.includes(key)
+    return this.fuzzyKeywords.some(
+      str => str.indexOf(key.toLowerCase()) >= 0,
+    ) || this.exactKeywords.includes(key)
   }
 
   filter(option) {
