@@ -93,6 +93,9 @@ class ServantListWithSearch extends PureComponent {
     const {
       up,
     } = this.state
+    const {
+      fouMode,
+    } = this.props
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
         <SearchbarOptionModal
@@ -147,6 +150,7 @@ class ServantListWithSearch extends PureComponent {
                     setServantInfo={this.props.setServantInfo}
                     addButton
                     cancelButton
+                    fouMode={fouMode}
                   />
                 }
                 navigation={this.props.navigation}
@@ -173,6 +177,7 @@ export default connect(
   state => ({
     list: getServantList(state),
     option: getOption(state),
+    fouMode: _.get(state.accountData, [state.account, 'config', 'global', 'fouMode'], false),
   }),
   dispatch => ({
     setServantInfo: (id, value) => {

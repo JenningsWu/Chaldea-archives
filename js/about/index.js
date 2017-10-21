@@ -35,8 +35,8 @@ const Developer = [
 ]
 
 const About = ({ navigation }) => (
-  <ScrollView>
-    <List>
+  <ScrollView style={{ backgroundColor: 'white' }} >
+    <List style={{ marginTop: 0 }}>
       <ListItem
         title="开源于"
         rightTitle="GitHub"

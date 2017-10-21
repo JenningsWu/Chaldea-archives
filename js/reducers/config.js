@@ -4,6 +4,7 @@ import {
   CLICK_CONFIG,
   SET_VIEW_FILTER,
   SET_SEARCHBAR_OPTION,
+  SET_GLOBAL_CONFIG,
 } from '../actions/config'
 import { SWITCH_ACCOUNT_EDITING_MODE } from '../actions/account'
 
@@ -74,8 +75,21 @@ function account(state = {}, action) {
   }
 }
 
+function global(state = {}, action) {
+  switch (action.type) {
+    case SET_GLOBAL_CONFIG:
+      return {
+        ...state,
+        [action.name]: action.value,
+      }
+    default:
+      return state
+  }
+}
+
 export default combineReducers({
   viewFilter,
   searchbarOption,
   account,
+  global,
 })

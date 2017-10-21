@@ -10,6 +10,8 @@ import { Client, Configuration } from 'bugsnag-react-native'
 import rootReducer from '../reducers'
 import addAccountID from './addAccountID'
 
+import { setBugsnagClient } from '../lib/bugsnag'
+
 const middlewares = [addAccountID]
 
 if (__DEV__ && !!window.navigator.userAgent) {
@@ -41,6 +43,8 @@ const config = {
 
 const reducer = persistReducer(config, rootReducer)
 
+let bugsnag
+
 function configureStore(onComplete: Function) {
   const store = createStore(
     reducer,
@@ -61,8 +65,13 @@ function configureStore(onComplete: Function) {
       state: { store: store.getState() },
     }
   })
-  const bugsnag = new Client(configuration)
+  setBugsnagClient(new Client(configuration))
   return store
 }
 
+function getBugsnagClient() {
+  return bugsnag
+}
+
 export default configureStore
+export { getBugsnagClient }

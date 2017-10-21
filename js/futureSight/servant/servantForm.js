@@ -75,6 +75,23 @@ export default class ServantForm extends PureComponent {
     }
   }
 
+  setSingleNum = (name, value) => {
+    const num = (parseInt(value, 10) || 0) % 10
+    this.setState({ [name]: constrainInt(num, 1, 5) })
+  }
+
+  limitLevel = () => {
+    const next = Math.max(this.state.level.next, this.state.level.curr)
+    if (next !== this.state.level.next) {
+      this.setState({
+        level: {
+          ...this.state.level,
+          next,
+        },
+      })
+    }
+  }
+
   handleLevelChange = (type, value) => {
     const level = {
       ...this.state.level,
@@ -117,23 +134,6 @@ export default class ServantForm extends PureComponent {
     if (!_.isEqual(level, this.state.level)) {
       this.setState({ level })
     }
-  }
-
-  limitLevel = () => {
-    const next = Math.max(this.state.level.next, this.state.level.curr)
-    if (next !== this.state.level.next) {
-      this.setState({
-        level: {
-          ...this.state.level,
-          next,
-        },
-      })
-    }
-  }
-
-  setSingleNum = (name, value) => {
-    const num = (parseInt(value, 10) || 0) % 10
-    this.setState({ [name]: constrainInt(num, 1, 5) })
   }
 
   handleSkillChange = (index, curr, next) => {

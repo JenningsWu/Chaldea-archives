@@ -1,6 +1,7 @@
 const CLICK_CONFIG = 'click_config'
 const SET_VIEW_FILTER = 'set_view_filter'
 const SET_SEARCHBAR_OPTION = 'set_serchbar_option'
+const SET_GLOBAL_CONFIG = 'set_global_config'
 
 function clickConfig(parentName, name, key, value) {
   return {
@@ -36,6 +37,14 @@ function setSearchbarOption(name, value) {
   }
 }
 
+function setGlobalConfig(name, value) {
+  return {
+    type: SET_GLOBAL_CONFIG,
+    name,
+    value
+  }
+}
+
 export {
   CLICK_CONFIG,
   clickConfig,
@@ -44,4 +53,6 @@ export {
   switchMaterilServantView,
   SET_SEARCHBAR_OPTION,
   setSearchbarOption,
+  SET_GLOBAL_CONFIG,
+  setGlobalConfig,
 }

@@ -120,6 +120,7 @@ class ServantListWithSearch extends PureComponent {
 //   flex: 1,
 // }
   render() {
+    const { fouMode } = this.props
     const { up } = this.state
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
@@ -175,6 +176,7 @@ class ServantListWithSearch extends PureComponent {
                     updateButton
                     cancelButton
                     finishButton
+                    fouMode={fouMode}
                   />
                 }
                 navigation={this.props.navigation}
@@ -205,6 +207,7 @@ export default connect(
     servantInfo: (({ account, accountData }) => accountData[account].servant)(state),
     currentMaterail: materialCurrentCalculator(state),
     futureMaterial: materialFutureCalculator(state),
+    fouMode: _.get(state.accountData, [state.account, 'config', 'global', 'fouMode'], false),
   }),
   dispatch => ({
     setServantInfo: (id, value) => {

@@ -25,6 +25,7 @@ import AddServant from './servant/addServant'
 import EventList from './event/eventList'
 import EventMaterial from './event/materialList'
 import AccountList from './accountList'
+import ConfigList from './config'
 import AdjustPopupMenu from '../common/adjustPopupMenu'
 import ServantPage from '../common/servant/servantPage'
 import DetailPage from '../common/servant/detailPage'
@@ -56,6 +57,10 @@ const FgoIndex = ({ navigation }) => (
         <ListItem
           title="切换账号"
           onPress={() => navigation.navigate('AccountList')}
+        />
+        <ListItem
+          title="应用设置"
+          onPress={() => navigation.navigate('ConfigList')}
         />
       </ScrollView>
     </Card>
@@ -198,6 +203,9 @@ const Index = StackNavigator({
       </View>
       ,
     }),
+  },
+  ConfigList: {
+    screen: ConfigList,
   },
   MaterialServant: {
     screen: MaterialServant,
