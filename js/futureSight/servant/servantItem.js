@@ -51,6 +51,9 @@ export default class ServantItem extends PureComponent {
     const {
       servant,
       lockIfExpand,
+      chooseMode,
+      selected = true,
+      selectServant,
     } = this.props
 
     const {
@@ -71,7 +74,7 @@ export default class ServantItem extends PureComponent {
         titleContainerStyle={{ marginLeft: bigAvatar ? 4 : 0 }}
         subtitleContainerStyle={{ marginLeft: bigAvatar ? 4 : 0 }}
         onPress={() => {
-          if (!extend) {
+          if (!extend && !chooseMode) {
             if (this.props.lockIfExpand) {
               hook.register(servant.id, servant.name)
             }
@@ -89,6 +92,14 @@ export default class ServantItem extends PureComponent {
           color: 'transparent',
         } : {
           name: 'chevron-right',
+        }}
+        hideChevron={chooseMode}
+        switchButton={chooseMode}
+        switched={selected}
+        onSwitch={() => {
+          if (selectServant) {
+            selectServant(servant.id, !selected)
+          }
         }}
         // avatarStyl e={{ height: 38, width: 34, alignSelf: 'stretch' }}
       />

@@ -18,7 +18,7 @@ import { setGlobalConfig as setGlobalConfigAction } from '../../actions/config'
 class ConfigList extends PureComponent {
   static navigationOptions = {
     ...navigationOptions,
-    title: '应用设置',
+    title: '特殊设置',
   }
 
   render() {

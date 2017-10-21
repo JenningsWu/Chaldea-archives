@@ -59,7 +59,7 @@ const FgoIndex = ({ navigation }) => (
           onPress={() => navigation.navigate('AccountList')}
         />
         <ListItem
-          title="应用设置"
+          title="特殊设置"
           onPress={() => navigation.navigate('ConfigList')}
         />
       </ScrollView>
@@ -142,6 +142,14 @@ const Index = StackNavigator({
               4: '第四优先级',
               5: '第五优先级',
             },
+            chooseMode: {
+              enable: '特殊选择',
+            },
+          }}
+          defaultValue={{
+            chooseMode: {
+              enable: false,
+            },
           }}
         />
         <Icon
@@ -166,6 +174,14 @@ const Index = StackNavigator({
               3: '第三优先级',
               4: '第四优先级',
               5: '第五优先级',
+            },
+            chooseMode: {
+              enable: '只考虑特殊选择',
+            },
+          }}
+          defaultValue={{
+            chooseMode: {
+              enable: false,
             },
           }}
         />

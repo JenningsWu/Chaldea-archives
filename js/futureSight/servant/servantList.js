@@ -21,7 +21,7 @@ import _ from 'lodash'
 import navigationOptions from '../navigationOptions'
 
 import servantMap from '../../assets/data/servants'
-import { setServantInfo, removeServant, finishServant } from '../../actions/servant'
+import { setServantInfo, removeServant, finishServant, selectServant } from '../../actions/servant'
 
 import ServantForm from './servantForm'
 import ServantItem from './servantItem'
@@ -120,7 +120,7 @@ class ServantListWithSearch extends PureComponent {
 //   flex: 1,
 // }
   render() {
-    const { fouMode } = this.props
+    const { fouMode, chooseMode } = this.props
     const { up } = this.state
     return (
       <View style={{ flex: 1, backgroundColor: '#fff' }}>
@@ -156,6 +156,8 @@ class ServantListWithSearch extends PureComponent {
             renderItem={({ item }) => (
               <ServantItem
                 servant={servantMap[item.id]}
+                selected={_.get(item, 'selected', false)}
+                selectServant={this.props.selectServant}
                 setServantInfo={this.props.setServantInfo}
                 desc={
                   <View style={{ flexDirection: 'column' }}>
@@ -181,6 +183,7 @@ class ServantListWithSearch extends PureComponent {
                 }
                 navigation={this.props.navigation}
                 lockIfExpand
+                chooseMode={chooseMode}
               />
             )}
           />
@@ -208,6 +211,9 @@ export default connect(
     currentMaterail: materialCurrentCalculator(state),
     futureMaterial: materialFutureCalculator(state),
     fouMode: _.get(state.accountData, [state.account, 'config', 'global', 'fouMode'], false),
+    chooseMode: (({ account, accountData }) => (
+      _.get(accountData, [account, 'config', 'viewFilter', 'futureSightServantList', 'chooseMode', 'enable'],
+      false)))(state),
   }),
   dispatch => ({
     setServantInfo: (id, value) => {
@@ -218,6 +224,9 @@ export default connect(
     },
     finishServant: (id, needs) => {
       dispatch(finishServant(id, needs))
+    },
+    selectServant: (id, value) => {
+      dispatch(selectServant(id, value))
     },
   }),
 )(ServantListWithSearch)

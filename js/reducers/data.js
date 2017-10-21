@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
-import { SET_SERVANT_INFO, REMOVE_SERVANT, FINISH_SERVANT } from '../actions/servant'
+import { SET_SERVANT_INFO, REMOVE_SERVANT, FINISH_SERVANT, SELECT_SERVANT } from '../actions/servant'
 import { SET_EVENT, SET_EVENT_POOL, FINISH_EVENT } from '../actions/event'
 import {
   ADD_ACCOUNT,
@@ -110,7 +110,18 @@ function servant(state = {}, action) {
     case SET_SERVANT_INFO:
       return {
         ...state,
-        [action.id]: action.value,
+        [action.id]: {
+          ...state[action.id],
+          ...action.value,
+        },
+      }
+    case SELECT_SERVANT:
+      return {
+        ...state,
+        [action.id]: {
+          ...state[action.id],
+          selected: action.value,
+        },
       }
     case REMOVE_SERVANT:
       return _.omit(state, [action.id])

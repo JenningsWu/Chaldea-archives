@@ -20,7 +20,7 @@ import _ from 'lodash'
 import { clickConfig as clickConfigAction } from '../actions/config'
 import { hook } from '../lib/navigateOnce'
 
-const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
+const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon, defaultValue }) => (
   <Menu onSelect={() => {}}>
     <MenuTrigger>
       <Icon
@@ -32,7 +32,9 @@ const AdjustPopupMenu = ({ list, config = {}, clickConfig, icon }) => (
     <MenuOptions>
       {
         _.flatMap(list, (obj, name) => _.map(obj, (label, key) => {
-          const value = _.get(config, [name, key], true)
+          const value = _.get(
+            config, [name, key],
+            _.get(defaultValue, [name, key], true))
           return (
             <MenuOption style={{ padding: 0 }} key={`${name}:${key}`}>
               <CheckBox

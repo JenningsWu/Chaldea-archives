@@ -142,13 +142,18 @@ const servantMatarialCalculator = createSelector(
 const materialNeedsCalculator = createSelector(
   servantMatarialCalculator,
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
-  (servantList, config) => {
+  ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'chooseMode', 'enable'], false),
+  (servantList, config, chooseMode) => {
     const ret = _.mapValues(materialList, () => 0)
     servantList.forEach(({ info, ascensionNeeds, skillNeeds }) => {
       const {
         priority,
+        selected = false,
       } = info
       if (!_.get(config, [priority], true)) {
+        return
+      }
+      if (chooseMode && !selected) {
         return
       }
       ascensionNeeds.forEach(({ id, num }) => {
