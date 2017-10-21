@@ -16,9 +16,13 @@ import {
   List,
   CheckBox,
 } from 'react-native-elements'
+import Slider from '../../lib/slider'
+
 import { rarityAscensionLevel, rarityPalingenesisLevel } from '../../schema/Servant'
 
 import materials from '../../assets/data/materialList'
+
+import FouImage from '../../assets/img/Fou_Riyo.png'
 
 const CURR = 'next'
 const NEXT = 'level_next'
@@ -132,19 +136,11 @@ export default class ServantForm extends PureComponent {
     this.setState({ [name]: constrainInt(num, 1, 5) })
   }
 
-  handleSkillChange = (index, type, value) => {
+  handleSkillChange = (index, curr, next) => {
     const skill = {
       ...this.state.skills[index],
-    }
-
-    switch (type) {
-      case CURR:
-        skill.curr = constrainInt(value, 1, 10)
-        break
-      case NEXT:
-        skill.next = constrainInt(value, 1, 10)
-        break
-      default:
+      curr: constrainInt(curr, 1, 10),
+      next: constrainInt(next, 1, 10),
     }
 
     skill.next = Math.max(skill.next, skill.curr)
@@ -168,6 +164,7 @@ export default class ServantForm extends PureComponent {
       priority,
     } = this.state
     const { rarity } = this.props.servant
+    const { fouMode } = this.props
     return (
       <List containerStyle={{
         marginTop: 20,
@@ -226,27 +223,38 @@ export default class ServantForm extends PureComponent {
           ['一技能', '二技能', '三技能'].map((key, idx) => (
             <ListItem
               key={key}
-              title={key}
+              title={`${key}: ${skills[idx].curr} -> ${skills[idx].next}`}
               subtitle={
                 <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
-                  <TextInput
-                    style={{ flex: 1, textAlign: 'center', padding: 0 }}
-                    value={`${skills[idx].curr}`}
-                    selectTextOnFocus
-                    keyboardType="numeric"
-                    returnKeyType="done"
-                    onChangeText={text => this.handleSkillChange(idx, CURR, text)}
-                    underlineColorAndroid="transparent"
-                  />
-                  <Text> ⟶ </Text>
-                  <TextInput
-                    style={{ flex: 1, textAlign: 'center', padding: 0 }}
-                    value={`${skills[idx].next}`}
-                    selectTextOnFocus
-                    keyboardType="numeric"
-                    returnKeyType="done"
-                    onChangeText={text => this.handleSkillChange(idx, NEXT, text)}
-                    underlineColorAndroid="transparent"
+                  <Slider
+                    minimumValue={1}
+                    maximumValue={10}
+                    leftValue={skills[idx].curr}
+                    rightValue={skills[idx].next}
+                    multiSlider
+                    step={1}
+                    style={{ flex: 1 }}
+                    onValueChange={(left, right) => {
+                      this.handleSkillChange(idx, left, right)
+                    }}
+                    trackStyle={{
+                      height: 4,
+                      borderRadius: 2,
+                    }}
+                    thumbStyle={[{
+                      width: 30,
+                      height: 30,
+                      backgroundColor: 'white',
+                      borderRadius: 30 / 2,
+                      borderColor: '#30a935',
+                      borderWidth: 2,
+                    }, fouMode ? {
+                      marginTop: -6,
+                      borderWidth: 0,
+                      backgroundColor: 'transparent',
+                    } : {}]}
+                    thumbImage={fouMode ? FouImage : null}
+                    trackHighlightColor="#30a935"
                   />
                 </View>
               }
@@ -256,17 +264,34 @@ export default class ServantForm extends PureComponent {
         }
 
         <ListItem
-          title="优先级"
+          title={`优先级: ${priority}`}
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
-              <TextInput
-                style={{ flex: 1, textAlign: 'center', padding: 0 }}
-                selectTextOnFocus
-                value={`${priority}`}
-                keyboardType="numeric"
-                returnKeyType="done"
-                onChangeText={text => this.setSingleNum('priority', text)}
-                underlineColorAndroid="transparent"
+              <Slider
+                minimumValue={1}
+                maximumValue={5}
+                value={priority}
+                step={1}
+                style={{ flex: 1 }}
+                onValueChange={value => this.setSingleNum('priority', value)}
+                trackStyle={{
+                  height: 4,
+                  borderRadius: 2,
+                }}
+                thumbStyle={[{
+                  width: 30,
+                  height: 30,
+                  backgroundColor: 'white',
+                  borderRadius: 30 / 2,
+                  borderColor: '#30a935',
+                  borderWidth: 2,
+                }, fouMode ? {
+                  marginTop: -6,
+                  borderWidth: 0,
+                  backgroundColor: 'transparent',
+                } : {}]}
+                thumbImage={fouMode ? FouImage : null}
+                minimumTrackTintColor="#30a935"
               />
             </View>
           }
@@ -274,17 +299,34 @@ export default class ServantForm extends PureComponent {
         />
 
         <ListItem
-          title="宝具等级"
+          title={`宝具等级: ${npLevel}`}
           subtitle={
             <View style={{ flexDirection: 'row', paddingTop: 5, paddingLeft: 5 }}>
-              <TextInput
-                style={{ flex: 1, textAlign: 'center', padding: 0 }}
-                selectTextOnFocus
-                value={`${npLevel}`}
-                keyboardType="numeric"
-                returnKeyType="done"
-                onChangeText={text => this.setSingleNum('npLevel', text)}
-                underlineColorAndroid="transparent"
+              <Slider
+                minimumValue={1}
+                maximumValue={5}
+                value={npLevel}
+                step={1}
+                style={{ flex: 1 }}
+                onValueChange={value => this.setSingleNum('npLevel', value)}
+                trackStyle={{
+                  height: 4,
+                  borderRadius: 2,
+                }}
+                thumbStyle={[{
+                  width: 30,
+                  height: 30,
+                  backgroundColor: 'white',
+                  borderRadius: 30 / 2,
+                  borderColor: '#30a935',
+                  borderWidth: 2,
+                }, fouMode ? {
+                  marginTop: -6,
+                  borderWidth: 0,
+                  backgroundColor: 'transparent',
+                } : {}]}
+                thumbImage={fouMode ? FouImage : null}
+                minimumTrackTintColor="#30a935"
               />
             </View>
           }
