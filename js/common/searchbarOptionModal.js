@@ -131,6 +131,9 @@ export default class SearchbarOptionModal extends PureComponent {
                         title={label}
                         raised={enable}
                         backgroundColor={enable ? '#03a9f4' : '#868e96'}
+                        buttonStyle={{
+                          flex: 1,
+                        }}
                         containerViewStyle={{
                           flex: 1,
                           marginLeft: 5,
@@ -178,6 +181,9 @@ export default class SearchbarOptionModal extends PureComponent {
                         title={label}
                         raised={enable}
                         backgroundColor={enable ? '#03a9f4' : '#868e96'}
+                        buttonStyle={{
+                          flex: 1,
+                        }}
                         containerViewStyle={{
                           flex: 1,
                           marginLeft: 5,
@@ -201,8 +207,10 @@ export default class SearchbarOptionModal extends PureComponent {
               <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
                 <Button
                   backgroundColor="#03a9f4"
-                  large
                   buttonStyle={{
+                    flex: 1,
+                  }}
+                  containerViewStyle={{
                     flex: 1,
                   }}
                   title="重置"
@@ -210,8 +218,10 @@ export default class SearchbarOptionModal extends PureComponent {
                 />
                 <Button
                   backgroundColor="#03a9f4"
-                  large
                   buttonStyle={{
+                    flex: 1,
+                  }}
+                  containerViewStyle={{
                     flex: 1,
                   }}
                   title="清空"
@@ -223,14 +233,10 @@ export default class SearchbarOptionModal extends PureComponent {
                 <Button
                   backgroundColor="#5cb85c"
                   buttonStyle={{
-                    paddingTop: 6,
-                    paddingBottom: 6,
                     flex: 1,
-                    height: 30,
                     width: '100%',
                   }}
                   title="确定"
-                  style={{ height: 30, width: '100%' }}
                   onPress={this.close}
                 />
               </View>
