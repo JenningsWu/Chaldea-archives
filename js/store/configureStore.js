@@ -43,8 +43,6 @@ const config = {
 
 const reducer = persistReducer(config, rootReducer)
 
-let bugsnag
-
 function configureStore(onComplete: Function) {
   const store = createStore(
     reducer,
@@ -69,9 +67,4 @@ function configureStore(onComplete: Function) {
   return store
 }
 
-function getBugsnagClient() {
-  return bugsnag
-}
-
 export default configureStore
-export { getBugsnagClient }
