@@ -88,7 +88,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 6
     }
   ],
   "skill2": [
@@ -161,7 +162,8 @@
           ]
         }
       ],
-      "initialCD": 9
+      "initialCD": 9,
+      "img": 12
     }
   ],
   "skill3": [
@@ -265,7 +267,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 23
     }
   ],
   "np": [
@@ -378,7 +381,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "骑乘",
@@ -415,7 +419,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     },
     {
       "name": "女神的神核",
@@ -483,7 +488,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

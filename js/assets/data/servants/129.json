@@ -121,7 +121,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 28
     }
   ],
   "skill2": [
@@ -194,7 +195,8 @@
         }
       ],
       "initialCD": 6,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "skill3": [
@@ -267,7 +269,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "np": [
@@ -380,7 +383,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独行动",
@@ -417,7 +421,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     },
     {
       "name": "阵地作成",
@@ -454,7 +459,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     }
   ],
   "skillResource": [

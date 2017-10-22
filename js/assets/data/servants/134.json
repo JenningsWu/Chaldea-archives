@@ -88,7 +88,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 41
     }
   ],
   "skill2": [
@@ -130,7 +131,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "skill3": [
@@ -203,7 +205,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 30
     }
   ],
   "np": [
@@ -316,7 +319,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     },
     {
       "name": "对魔力",
@@ -353,7 +357,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     }
   ],
   "skillResource": [

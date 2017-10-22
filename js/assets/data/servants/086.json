@@ -92,7 +92,8 @@
         }
       ],
       "initialCD": 10,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 33
     }
   ],
   "skill2": [
@@ -134,7 +135,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 8
     },
     {
       "name": "セイバーの星",
@@ -205,7 +207,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 8
     }
   ],
   "skill3": [
@@ -278,7 +281,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 20
     }
   ],
   "np": [
@@ -409,7 +413,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 20
     },
     {
       "name": "骑乘",
@@ -446,7 +451,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     }
   ],
   "skillResource": [

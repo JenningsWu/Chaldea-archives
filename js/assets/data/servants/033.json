@@ -88,7 +88,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 16
     }
   ],
   "skill2": [
@@ -130,7 +131,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 29
     }
   ],
   "skill3": [
@@ -203,7 +205,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 37
     }
   ],
   "np": [
@@ -469,7 +472,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     },
     {
       "name": "道具作成",
@@ -506,7 +510,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 35
     }
   ],
   "skillResource": [

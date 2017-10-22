@@ -180,7 +180,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "skill2": [
@@ -253,7 +254,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 50
     },
     {
       "name": "气息感知",
@@ -355,7 +357,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 50
     }
   ],
   "skill3": [
@@ -428,7 +431,8 @@
         }
       ],
       "initialCD": 12,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "np": [
@@ -541,7 +545,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     }
   ],
   "skillResource": [

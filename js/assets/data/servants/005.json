@@ -121,7 +121,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 10
     }
   ],
   "skill2": [
@@ -225,7 +226,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "skill3": [
@@ -267,7 +269,8 @@
           ]
         }
       ],
-      "initialCD": 12
+      "initialCD": 12,
+      "img": 12
     }
   ],
   "np": [
@@ -398,7 +401,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "骑乘",
@@ -435,7 +439,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     }
   ],
   "skillResource": [

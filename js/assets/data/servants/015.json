@@ -117,7 +117,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 26
     }
   ],
   "skill2": [
@@ -159,7 +160,8 @@
           ]
         }
       ],
-      "initialCD": 9
+      "initialCD": 9,
+      "img": 27
     }
   ],
   "skill3": [
@@ -201,7 +203,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 28
     }
   ],
   "np": [
@@ -440,7 +443,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独行动",
@@ -477,7 +481,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     },
     {
       "name": "女神的神核",
@@ -545,7 +550,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

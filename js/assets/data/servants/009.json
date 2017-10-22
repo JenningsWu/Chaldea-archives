@@ -87,7 +87,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 15
     }
   ],
   "skill2": [
@@ -129,7 +130,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill3": [
@@ -171,7 +173,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "np": [
@@ -311,7 +314,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "骑乘",
@@ -348,7 +352,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     },
     {
       "name": "狂化",
@@ -385,7 +390,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     }
   ],
   "skillResource": [

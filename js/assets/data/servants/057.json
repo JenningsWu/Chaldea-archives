@@ -121,7 +121,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 24
     },
     {
       "name": "支援咒术",
@@ -192,7 +193,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 24
     }
   ],
   "skill2": [
@@ -234,7 +236,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 12
     }
   ],
   "skill3": [
@@ -307,7 +310,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 13
     }
   ],
   "np": [
@@ -420,7 +424,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     }
   ],
   "skillResource": [

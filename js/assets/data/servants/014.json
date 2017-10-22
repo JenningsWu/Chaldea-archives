@@ -87,7 +87,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 25
     },
     {
       "name": "跨越阿卡迪亚",
@@ -127,7 +128,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 25
     }
   ],
   "skill2": [
@@ -169,7 +171,8 @@
         }
       ],
       "initialCD": 6,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 23
     }
   ],
   "skill3": [
@@ -242,7 +245,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 18
     }
   ],
   "np": [
@@ -373,7 +377,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独行动",
@@ -410,7 +415,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     }
   ],
   "skillResource": [

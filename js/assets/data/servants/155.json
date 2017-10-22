@@ -120,7 +120,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "skill2": [
@@ -162,7 +163,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 8
     },
     {
       "name": "刹那無影剣",
@@ -233,7 +235,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 8
     }
   ],
   "skill3": [
@@ -306,7 +309,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 62
     }
   ],
   "np": [
@@ -392,7 +396,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     },
     {
       "name": "自动反应堆",
@@ -429,7 +434,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     }
   ],
   "skillResource": [

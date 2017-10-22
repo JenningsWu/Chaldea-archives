@@ -122,7 +122,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill2": [
@@ -195,7 +196,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     },
     {
       "name": "机关之铠",
@@ -266,7 +268,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill3": [
@@ -339,7 +342,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 15
     }
   ],
   "np": [
@@ -470,7 +474,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 35
     }
   ],
   "skillResource": [

@@ -90,7 +90,8 @@
           ]
         }
       ],
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill2": [
@@ -163,7 +164,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 13
     }
   ],
   "skill3": [
@@ -236,7 +238,8 @@
           ]
         }
       ],
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 14
     },
     {
       "name": "屠龙者",
@@ -338,7 +341,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 14
     }
   ],
   "np": [
@@ -496,7 +500,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     }
   ],
   "skillResource": [

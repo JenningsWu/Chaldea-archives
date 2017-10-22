@@ -87,7 +87,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 29
     }
   ],
   "skill2": [
@@ -160,7 +161,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 13
     },
     {
       "name": "耐毒",
@@ -231,7 +233,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 13
     }
   ],
   "skill3": [
@@ -273,7 +276,8 @@
         }
       ],
       "initialCD": 10,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "np": [
@@ -512,7 +516,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     },
     {
       "name": "道具作成",
@@ -549,7 +554,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 35
     }
   ],
   "skillResource": [

@@ -151,7 +151,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill2": [
@@ -193,7 +194,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill3": [
@@ -297,7 +299,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 26
     }
   ],
   "np": [
@@ -441,7 +444,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 46
     },
     {
       "name": "忘却补正",
@@ -478,7 +482,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 47
     },
     {
       "name": "自我回复（魔力)",
@@ -515,7 +520,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 48
     }
   ],
   "skillResource": [

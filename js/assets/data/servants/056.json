@@ -89,7 +89,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 1
     }
   ],
   "skill2": [
@@ -162,7 +163,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 30
     }
   ],
   "skill3": [
@@ -235,7 +237,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "np": [
@@ -348,7 +351,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     }
   ],
   "skillResource": [

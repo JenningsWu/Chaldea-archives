@@ -97,7 +97,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill2": [
@@ -139,7 +140,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill3": [
@@ -181,7 +183,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 23
     },
     {
       "name": "巴比伦的宝藏",
@@ -252,7 +255,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 23
     }
   ],
   "np": [
@@ -410,7 +414,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独行动",
@@ -447,7 +452,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     },
     {
       "name": "神性",
@@ -484,7 +490,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

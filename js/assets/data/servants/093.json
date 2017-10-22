@@ -89,7 +89,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 37
     }
   ],
   "skill2": [
@@ -162,7 +163,8 @@
         }
       ],
       "initialCD": 12,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 45
     }
   ],
   "skill3": [
@@ -204,7 +206,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 33
     },
     {
       "name": "神明裁决",
@@ -275,7 +278,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 33
     }
   ],
   "np": [
@@ -460,7 +464,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     }
   ],
   "skillResource": [

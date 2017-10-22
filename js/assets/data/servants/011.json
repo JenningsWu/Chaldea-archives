@@ -124,7 +124,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 18
     }
   ],
   "skill2": [
@@ -166,7 +167,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 20
     },
     {
       "name": "鹰之瞳",
@@ -237,7 +239,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 20
     }
   ],
   "skill3": [
@@ -279,7 +282,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 21
     },
     {
       "name": "投影魔术",
@@ -381,7 +385,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 21
     }
   ],
   "np": [
@@ -512,7 +517,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独行动",
@@ -549,7 +555,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     }
   ],
   "skillResource": [

@@ -151,7 +151,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 43
     }
   ],
   "skill2": [
@@ -224,7 +225,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill3": [
@@ -297,7 +299,8 @@
         }
       ],
       "initialCD": 6,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 44
     }
   ],
   "np": [
@@ -410,7 +413,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "单独显现",
@@ -509,7 +513,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     },
     {
       "name": "根源接续",
@@ -608,7 +613,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

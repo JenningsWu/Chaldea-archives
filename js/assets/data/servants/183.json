@@ -116,7 +116,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 25
     }
   ],
   "skill2": [
@@ -251,7 +252,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 6
     }
   ],
   "skill3": [
@@ -355,7 +357,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 29
     }
   ],
   "np": [
@@ -468,7 +471,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "女神的神核",
@@ -536,7 +540,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

@@ -88,7 +88,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 26
     }
   ],
   "skill2": [
@@ -161,7 +162,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 1
     }
   ],
   "skill3": [
@@ -203,7 +205,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 28
     },
     {
       "name": "狐嫁女",
@@ -274,7 +277,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 28
     }
   ],
   "np": [
@@ -513,7 +517,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     },
     {
       "name": "神性",
@@ -550,7 +555,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

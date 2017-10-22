@@ -122,7 +122,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 27
     }
   ],
   "skill2": [
@@ -195,7 +196,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill3": [
@@ -237,7 +239,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 12
     }
   ],
   "np": [
@@ -485,7 +488,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 40
     },
     {
       "name": "神性",
@@ -522,7 +526,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

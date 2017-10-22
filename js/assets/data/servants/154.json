@@ -88,7 +88,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 12
     }
   ],
   "skill2": [
@@ -223,7 +224,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 10
     }
   ],
   "skill3": [
@@ -296,7 +298,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 60
     }
   ],
   "np": [
@@ -382,7 +385,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "气息遮断",
@@ -419,7 +423,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 40
     },
     {
       "name": "单独行动",
@@ -456,7 +461,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     },
     {
       "name": "已臻境界",
@@ -555,7 +561,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 61
     }
   ],
   "skillResource": [

@@ -85,7 +85,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 6
     }
   ],
   "skill2": [
@@ -158,7 +159,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 56
     }
   ],
   "skill3": [
@@ -231,7 +233,8 @@
           ]
         }
       ],
-      "initialCD": 7
+      "initialCD": 7,
+      "img": 7
     }
   ],
   "np": [
@@ -317,7 +320,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     },
     {
       "name": "神性",
@@ -354,7 +358,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

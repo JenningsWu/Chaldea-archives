@@ -88,7 +88,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 9
     }
   ],
   "skill2": [
@@ -161,7 +162,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 33
     },
     {
       "name": "空虚生者之叹息",
@@ -232,7 +234,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 33
     }
   ],
   "skill3": [
@@ -305,7 +308,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 15
     }
   ],
   "np": [
@@ -490,7 +494,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     }
   ],
   "skillResource": [

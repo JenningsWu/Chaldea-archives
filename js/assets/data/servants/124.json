@@ -117,7 +117,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 41
     }
   ],
   "skill2": [
@@ -159,7 +160,8 @@
         }
       ],
       "initialCD": 6,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 8
     }
   ],
   "skill3": [
@@ -232,7 +234,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 53
     }
   ],
   "np": [
@@ -525,7 +528,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 40
     },
     {
       "name": "单独行动",
@@ -562,7 +566,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 22
     }
   ],
   "skillResource": [

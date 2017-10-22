@@ -117,7 +117,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 26
     }
   ],
   "skill2": [
@@ -159,7 +160,8 @@
           ]
         }
       ],
-      "initialCD": 9
+      "initialCD": 9,
+      "img": 27
     }
   ],
   "skill3": [
@@ -232,7 +234,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "np": [
@@ -372,7 +375,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 40
     },
     {
       "name": "对魔力",
@@ -409,7 +413,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "女神的神核",
@@ -477,7 +482,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

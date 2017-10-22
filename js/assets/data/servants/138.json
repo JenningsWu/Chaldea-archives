@@ -121,7 +121,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 2
     }
   ],
   "skill2": [
@@ -194,7 +195,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "skill3": [
@@ -422,7 +424,8 @@
           ]
         }
       ],
-      "initialCD": 8
+      "initialCD": 8,
+      "img": 14
     }
   ],
   "np": [
@@ -508,7 +511,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "阵地作成",
@@ -545,12 +549,14 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     },
     {
       "name": "双重职阶",
       "lv": "E",
-      "effect": []
+      "effect": [],
+      "img": 57
     }
   ],
   "skillResource": [

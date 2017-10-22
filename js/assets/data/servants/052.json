@@ -119,7 +119,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 26
     }
   ],
   "skill2": [
@@ -161,7 +162,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 1
     },
     {
       "name": "鲜血的传承",
@@ -232,7 +234,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 1
     }
   ],
   "skill3": [
@@ -274,7 +277,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 12
     }
   ],
   "np": [
@@ -405,7 +409,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 17
     }
   ],
   "skillResource": [

@@ -122,7 +122,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill2": [
@@ -226,7 +227,8 @@
         }
       ],
       "initialCD": 9,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 2
     }
   ],
   "skill3": [
@@ -330,7 +332,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 7
     }
   ],
   "np": [
@@ -470,7 +473,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 31
     },
     {
       "name": "道具作成",
@@ -507,7 +511,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 35
     },
     {
       "name": "混血",
@@ -544,7 +549,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 45
     }
   ],
   "skillResource": [

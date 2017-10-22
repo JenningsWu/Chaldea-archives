@@ -87,7 +87,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 6
     }
   ],
   "skill2": [
@@ -129,7 +130,8 @@
           ]
         }
       ],
-      "initialCD": 9
+      "initialCD": 9,
+      "img": 27
     }
   ],
   "skill3": [
@@ -171,7 +173,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 25
     }
   ],
   "np": [
@@ -302,7 +305,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "骑乘",
@@ -339,7 +343,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     },
     {
       "name": "神性",
@@ -376,7 +381,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

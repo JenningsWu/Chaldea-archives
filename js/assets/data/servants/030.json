@@ -120,7 +120,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 10
     }
   ],
   "skill2": [
@@ -193,7 +194,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     },
     {
       "name": "奇迹",
@@ -264,7 +266,8 @@
         }
       ],
       "initialCD": 8,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 11
     }
   ],
   "skill3": [
@@ -337,7 +340,8 @@
         }
       ],
       "initialCD": 7,
-      "requirement": "00000"
+      "requirement": "00000",
+      "img": 30
     }
   ],
   "np": [
@@ -423,7 +427,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 4
     },
     {
       "name": "骑乘",
@@ -460,7 +465,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 5
     },
     {
       "name": "神性",
@@ -497,7 +503,8 @@
             0
           ]
         }
-      ]
+      ],
+      "img": 14
     }
   ],
   "skillResource": [

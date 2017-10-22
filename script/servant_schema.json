@@ -29,7 +29,7 @@
 
     "skill": {
       "type": "object",
-      "required": ["name", "condition", "lv", "effect", "initialCD", "requirement"],
+      "required": ["name", "condition", "lv", "effect", "initialCD", "requirement", "img"],
       "properties": {
         "name": { "type": "string" },
         "condition": { "type": "integer" },
@@ -41,7 +41,8 @@
           }
         },
         "initialCD": { "type": "integer" },
-        "requirement": { "type": "string", "pattern": "\\d{5}" }
+        "requirement": { "type": "string", "pattern": "\\d{5}" },
+        "img": { "type": "integer" }
       }
     }
   },
@@ -220,7 +221,8 @@
         "required": [
           "name",
           "lv",
-          "effect"
+          "effect",
+          "img"
         ],
         "properties": {
           "name": { "type": "string" },
@@ -230,7 +232,8 @@
             "items": {
                "$ref": "#/definitions/effect"
             }
-          }
+          },
+          "img": { "type": "integer" }
         }
       }
     },
