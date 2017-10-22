@@ -4,6 +4,7 @@
   "homepage": "https://jenningswu.github.io/Chaldea-archives",
   "private": true,
   "dependencies": {
+    "clipboard": "^1.7.1",
     "lodash": "^4.17.4",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",
