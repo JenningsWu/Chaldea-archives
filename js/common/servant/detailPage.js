@@ -2,7 +2,7 @@
  * @flow
  */
 
-import React, { PureComponent, Component } from 'react'
+import React, { Component } from 'react'
 import {
   View,
   Text,
@@ -13,9 +13,8 @@ import {
   ListItem,
   Divider,
 } from 'react-native-elements'
-import _ from 'lodash'
 
-import servantMap from '../../assets/data/servants'
+import servantMap from '../../assets/export/data/servants'
 
 import { toPercentStr } from '../../utils'
 

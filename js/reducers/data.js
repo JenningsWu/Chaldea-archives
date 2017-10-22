@@ -9,12 +9,12 @@ import {
   DELETE_ACCOUNT,
   IMPORT_DATA,
 } from '../actions/account'
-import materialList from '../assets/data/materialList'
+import materialMap from '../assets/export/data/materials'
 import config from './config'
 import { getEventMaterial } from '../schema/Event'
 
 
-const initialMaterialData = _.mapValues(materialList, () => ({
+const initialMaterialData = _.mapValues(materialMap, () => ({
   current: 0,
 }))
 

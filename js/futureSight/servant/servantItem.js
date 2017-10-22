@@ -10,7 +10,7 @@ import {
   ListItem,
 } from 'react-native-elements'
 
-import avatars from '../../assets/img/avatars'
+import avatars from '../../assets/export/img/avatars'
 import { hook } from '../../lib/navigateOnce'
 
 export default class ServantItem extends PureComponent {

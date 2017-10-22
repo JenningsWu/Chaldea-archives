@@ -6,9 +6,6 @@ import React, { PureComponent } from 'react'
 import {
   View,
   FlatList,
-  Text,
-  StyleSheet,
-  Platform,
   Image,
 } from 'react-native'
 import {
@@ -19,33 +16,8 @@ import _ from 'lodash'
 import navigationOptions from '../navigationOptions'
 
 import events from '../../assets/data/event.json'
-import materials from '../../assets/data/materialList'
-import materialImg from '../../assets/img/material'
-
-const noBorderStyle = {
-  borderLeftWidth: 0,
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderBottomWidth: 0,
-}
-
-const styles = StyleSheet.create({
-  subtitle: {
-    color: '#86939e',
-    fontSize: 12,
-    marginTop: 1,
-    paddingLeft: 10,
-    ...Platform.select({
-      ios: {
-        fontWeight: '600',
-      },
-      android: {
-        fontFamily: 'sans-serif',
-        fontWeight: 'bold',
-      },
-    }),
-  },
-})
+import materials from '../../assets/export/data/materials'
+import materialImg from '../../assets/export/img/materials'
 
 class MaterialItem extends PureComponent {
   render() {

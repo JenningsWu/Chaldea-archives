@@ -5,7 +5,6 @@
 import React from 'react'
 import {
   View,
-  Alert,
 } from 'react-native'
 import {
   Icon,

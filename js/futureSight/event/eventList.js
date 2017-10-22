@@ -16,12 +16,10 @@ import {
   ListItem,
 } from 'react-native-elements'
 import { connect } from 'react-redux'
-import { createSelector } from 'reselect'
 import _ from 'lodash'
 
 import navigationOptions from '../navigationOptions'
 
-import servantMap from '../../assets/data/servants'
 import eventList from '../../assets/data/event.json'
 import {
   setEvent as setEventAction,

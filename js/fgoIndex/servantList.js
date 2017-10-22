@@ -11,7 +11,7 @@ import {
 import { ListItem } from 'react-native-elements'
 
 
-import avatars from '../assets/img/avatars'
+import avatars from '../assets/export/img/avatars'
 
 class ServantItem extends PureComponent {
   render() {

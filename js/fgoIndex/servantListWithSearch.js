@@ -13,7 +13,7 @@ import _ from 'lodash'
 
 import ServantList from './servantList'
 
-import { servantList as servants } from '../assets/data/servants'
+import { servantList as servants } from '../assets/export/data/servants'
 import SearchbarOptionModal, { initialOption } from '../common/searchbarOptionModal'
 import { setSearchbarOption as setSearchbarOptionAction } from '../actions/config'
 

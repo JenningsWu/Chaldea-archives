@@ -2,7 +2,7 @@
  * @flow
  */
 
-import React, { PureComponent, Component } from 'react'
+import React, { Component } from 'react'
 import {
   View,
   ScrollView,
@@ -19,15 +19,7 @@ import artsImg from '../../assets/img/Arts.png'
 import busterImg from '../../assets/img/Buster.png'
 import QuickImg from '../../assets/img/Quick.png'
 
-import avatars from '../../assets/img/avatars'
-import servantMap from '../../assets/data/servants'
-
-const noBorderStyle = {
-  borderLeftWidth: 0,
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderBottomWidth: 0,
-}
+import servantMap from '../../assets/export/data/servants'
 
 const cardImg = [artsImg, busterImg, QuickImg]
 

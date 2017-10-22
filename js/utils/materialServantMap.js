@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-import { servantList } from '../assets/data/servants'
+import { servantList } from '../assets/export/data/servants'
 
 function generate() {
   const ret = {}

@@ -8,7 +8,6 @@ import {
 } from 'react-native'
 import {
   SearchBar,
-  Icon,
 } from 'react-native-elements'
 import { connect } from 'react-redux'
 import { createSelector, createStructuredSelector } from 'reselect'
@@ -17,8 +16,8 @@ import _ from 'lodash'
 import MaterialFlatList from './materialFlatList'
 import indexNavigationOptions from '../navigationOptions'
 
-import servantMap from '../../assets/data/servants'
-import materialList from '../../assets/data/materialList'
+import servantMap from '../../assets/export/data/servants'
+import materialMap from '../../assets/export/data/materials'
 import { setMaterialNum as setMaterialNumAction } from '../../actions/material'
 import { materialFutureCalculator, materialCurrentCalculator } from '../../utils/selectors'
 
@@ -144,7 +143,7 @@ const materialNeedsCalculator = createSelector(
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'chooseMode', 'enable'], false),
   (servantList, config, chooseMode) => {
-    const ret = _.mapValues(materialList, () => 0)
+    const ret = _.mapValues(materialMap, () => 0)
     servantList.forEach(({ info, ascensionNeeds, skillNeeds }) => {
       const {
         priority,
@@ -171,7 +170,7 @@ const materialToServantCalculator = createSelector(
   servantMatarialCalculator,
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'priority'], {}),
   (servantList, config) => {
-    const ret = _.mapValues(materialList, () => [])
+    const ret = _.mapValues(materialMap, () => [])
     servantList.forEach(({ id, info, ascensionNeeds, skillNeeds }) => {
       const {
         priority,
@@ -205,7 +204,7 @@ const materialCalculator = createStructuredSelector({
 })
 
 const getMaterialList = createSelector(
-  () => materialList,
+  () => materialMap,
   ({ account, accountData }) => _.get(accountData, [account, 'config', 'viewFilter', 'futureSightMaterialList', 'type'], {}),
   (data, config) => {
     const ret = _.map(data, (val, id) => ({

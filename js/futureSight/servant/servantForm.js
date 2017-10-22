@@ -20,7 +20,7 @@ import Slider from '../../lib/slider'
 
 import { rarityAscensionLevel, rarityPalingenesisLevel } from '../../schema/Servant'
 
-import materials from '../../assets/data/materialList'
+import materials from '../../assets/export/data/materials'
 
 import FouImage from '../../assets/img/Fou_Riyo.png'
 

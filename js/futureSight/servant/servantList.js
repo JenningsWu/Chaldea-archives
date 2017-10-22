@@ -20,7 +20,7 @@ import _ from 'lodash'
 
 import navigationOptions from '../navigationOptions'
 
-import servantMap from '../../assets/data/servants'
+import servantMap from '../../assets/export/data/servants'
 import { setServantInfo, removeServant, finishServant, selectServant } from '../../actions/servant'
 
 import ServantForm from './servantForm'

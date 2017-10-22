@@ -7,8 +7,6 @@ import {
   View,
   FlatList,
   Text,
-  StyleSheet,
-  Platform,
   Image,
   ScrollView,
 } from 'react-native'
@@ -22,35 +20,10 @@ import _ from 'lodash'
 
 import navigationOptions from '../navigationOptions'
 
-import servantMap from '../../assets/data/servants'
-import avatars from '../../assets/img/avatars'
+import servantMap from '../../assets/export/data/servants'
+import avatars from '../../assets/export/img/avatars'
 import { switchMaterilServantView } from '../../actions/config'
 import materialServantMap from '../../utils/materialServantMap'
-
-const noBorderStyle = {
-  borderLeftWidth: 0,
-  borderTopWidth: 0,
-  borderRightWidth: 0,
-  borderBottomWidth: 0,
-}
-
-const styles = StyleSheet.create({
-  subtitle: {
-    color: '#86939e',
-    fontSize: 12,
-    marginTop: 1,
-    paddingLeft: 10,
-    ...Platform.select({
-      ios: {
-        fontWeight: '600',
-      },
-      android: {
-        fontFamily: 'sans-serif',
-        fontWeight: 'bold',
-      },
-    }),
-  },
-})
 
 const TEMPLATE = {
   id: '000',
@@ -62,7 +35,7 @@ class AvatarWithBadge extends PureComponent {
   render() {
     const {
       id,
-      num
+      num,
     } = this.props
     return (
       <View style={{ margin: 3 }}>

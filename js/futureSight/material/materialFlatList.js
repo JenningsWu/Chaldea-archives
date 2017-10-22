@@ -14,7 +14,7 @@ import {
   ListItem,
 } from 'react-native-elements'
 
-import materialImg from '../../assets/img/material'
+import materialImg from '../../assets/export/img/materials'
 
 const styles = StyleSheet.create({
   subtitleView: {

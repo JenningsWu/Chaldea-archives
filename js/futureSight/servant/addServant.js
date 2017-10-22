@@ -17,7 +17,7 @@ import _ from 'lodash'
 
 import navigationOptions from '../navigationOptions'
 
-import { servantList as servants } from '../../assets/data/servants'
+import { servantList as servants } from '../../assets/export/data/servants'
 import { setServantInfo } from '../../actions/servant'
 import SearchbarOptionModal, { initialOption } from '../../common/searchbarOptionModal'
 import { setSearchbarOption as setSearchbarOptionAction } from '../../actions/config'
@@ -37,12 +37,6 @@ class ServantListWithSearch extends PureComponent {
   static navigationOptions = ({ navigation }) => ({
     title: '增加',
     ...navigationOptions,
-    // headerRight: () => (
-    //   <Icon
-    //     name="settings"
-    //     onPress={() => navigation.navigate('MaterialList')}
-    //   />
-    // ),
   })
 
   constructor(props) {
@@ -63,10 +57,6 @@ class ServantListWithSearch extends PureComponent {
     up: boolean;
     list: Array<Object>;
   }
-  //
-  // componentDidMount() {
-  //   this.props.navigation.navigate('FutureSight', { servant: servants[2] })
-  // }
 
   componentWillReceiveProps(nextProps) {
     if (this.props === nextProps) {

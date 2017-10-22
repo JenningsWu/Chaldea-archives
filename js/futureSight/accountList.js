@@ -23,8 +23,8 @@ import { connect } from 'react-redux'
 import _ from 'lodash'
 
 import navigationOptions from './navigationOptions'
-import materialMap from '../assets/data/materialList'
-import servantMap from '../assets/data/servants'
+import materialMap from '../assets/export/data/materials'
+import servantMap from '../assets/export/data/servants'
 import eventMap from '../assets/data/event.json'
 
 import {
