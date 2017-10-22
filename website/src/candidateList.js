@@ -6,8 +6,8 @@ import {
   NavItem,
 } from 'react-bootstrap'
 
-import { servantList } from './assets/data/servants'
-import avatars from './assets/img/avatars'
+import { servantList } from './assets/export/data/servants'
+import avatars from './assets/export/img/avatars'
 
 class CandidiateList extends PureComponent {
   constructor() {

@@ -11,7 +11,7 @@ import {
 import _ from 'lodash'
 import Clipboard from 'clipboard'
 
-import servantMap from './assets/data/servants'
+import servantMap from './assets/export/data/servants'
 
 import CandidiateList from './candidateList'
 import ServantItem from './servantItem'
@@ -113,7 +113,10 @@ class App extends Component {
           selected={servant}
           add={this.add}
         />
-        <Button onClick={() => this.setState({ open: !this.state.open })}>
+        <Button
+          bsStyle="primary"
+          onClick={() => this.setState({ open: !this.state.open })}
+        >
           导出数据
         </Button>
         <Collapse in={this.state.open}>

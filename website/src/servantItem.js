@@ -12,8 +12,8 @@ import _ from 'lodash'
 
 import { rarityAscensionLevel, rarityPalingenesisLevel } from './schema/Servant'
 
-import avatars from './assets/img/avatars'
-import skillImg from './assets/img/skill'
+import avatars from './assets/export/img/avatars'
+import skillImg from './assets/export/img/skills'
 
 const CURR = 'next'
 const NEXT = 'level_next'
