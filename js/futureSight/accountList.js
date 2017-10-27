@@ -12,6 +12,8 @@ import {
   Alert,
   Clipboard,
   Modal,
+  Text,
+  Linking,
 } from 'react-native'
 import {
   ListItem,
@@ -248,6 +250,22 @@ class AccountList extends Component {
                   placeholder="粘贴数据到这里"
                   style={{ maxHeight: 100 }}
                 />
+                {this.state.importData === '' ? (
+                  <View style={{ marginTop: 10 }}>
+                    <Text>
+                      注：可以访问网站
+                    </Text>
+                    <Text
+                      style={{ color: 'blue' }}
+                      onPress={() => Linking.openURL('https://jenningswu.github.io/Chaldea-archives/')}
+                    >
+                      https://jenningswu.github.io/Chaldea-archives/
+                    </Text>
+                    <Text>
+                      在线编辑填写从者列表，然后导入。
+                    </Text>
+                  </View>
+                ) : null}
                 <View style={{ marginTop: 15, flexDirection: 'row', justifyContent: 'center', alignItems: 'flex-end' }}>
                   <Button
                     backgroundColor="#46b8da"
@@ -276,7 +294,7 @@ class AccountList extends Component {
                         const data = getDataFromText(this.state.importData)
                         this.props.importData(data)
                         Alert.alert(
-                          '数据倒入',
+                          '数据导入',
                           '导入数据成功！',
                           [
                             {
@@ -288,7 +306,7 @@ class AccountList extends Component {
                         // const servant =
                       } catch (e) {
                         Alert.alert(
-                          '数据倒入',
+                          '数据导入',
                           '导入数据存在错误！',
                           [
                             { text: '确定' },
