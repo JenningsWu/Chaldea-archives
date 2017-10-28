@@ -2,7 +2,7 @@ import _ from 'lodash'
 import { combineReducers } from 'redux'
 import { SET_MATERIAL_NUM } from '../actions/material'
 import { SET_SERVANT_INFO, REMOVE_SERVANT, FINISH_SERVANT, SELECT_SERVANT } from '../actions/servant'
-import { SET_EVENT, SET_EVENT_POOL, FINISH_EVENT } from '../actions/event'
+import { FINISH_EVENT } from '../actions/event'
 import {
   ADD_ACCOUNT,
   SET_ACCOUNT_NAME,
@@ -11,6 +11,7 @@ import {
 } from '../actions/account'
 import materialMap from '../assets/export/data/materials'
 import config from './config'
+import event from './event'
 import { getEventMaterial } from '../schema/Event'
 
 
@@ -43,8 +44,8 @@ function material(state = initialMaterialData, action) {
         ...action.data.material,
       }
     case FINISH_EVENT: {
-      const { id, pool } = action
-      const ret = getEventMaterial(id, pool)
+      const { id } = action
+      const ret = getEventMaterial(id, action.event)
       return {
         ..._.assignWith(state, ret, (prevVal, retVal) => {
           if (!prevVal) {
@@ -140,56 +141,6 @@ function servant(state = {}, action) {
   }
 }
 
-function eventItem(state = { active: false, pool: [], finish: false }, action) {
-  switch (action.type) {
-    case SET_EVENT:
-      return {
-        ...state,
-        active: action.value,
-      }
-    case SET_EVENT_POOL: {
-      const { pool } = state
-      const { poolIndex, value } = action
-      while (pool.length <= poolIndex) {
-        pool.push(0)
-      }
-      return {
-        ...state,
-        pool: [
-          ...pool.slice(0, poolIndex),
-          value,
-          ...pool.slice(poolIndex + 1),
-        ],
-      }
-    }
-    case FINISH_EVENT:
-      return {
-        ...state,
-        finish: true,
-      }
-    default:
-      return state
-  }
-}
-
-function event(state = {}, action) {
-  switch (action.type) {
-    case SET_EVENT:
-    case SET_EVENT_POOL:
-    case FINISH_EVENT:
-      return {
-        ...state,
-        [action.id]: eventItem(state[action.id], action),
-      }
-    case IMPORT_DATA:
-      return {
-        ...state,
-        ...action.data.event,
-      }
-    default:
-      return state
-  }
-}
 
 const getAccountData = combineReducers({
   name,

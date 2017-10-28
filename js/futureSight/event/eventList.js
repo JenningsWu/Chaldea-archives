@@ -106,7 +106,7 @@ class EventItem extends PureComponent {
                 {
                   text: '确定',
                   onPress: () => {
-                    finishEvent(id, event.pool)
+                    finishEvent(id, event)
                     setEvent(id, false)
                   },
                 },
@@ -190,6 +190,6 @@ export default connect(
   dispatch => ({
     setEvent: (id, value) => dispatch(setEventAction(id, value)),
     setEventPool: (id, poolIdx, value) => dispatch(setEventPoolAction(id, poolIdx, value)),
-    finishEvent: (id, pool) => dispatch(finishEventAction(id, pool)),
+    finishEvent: (id, event) => dispatch(finishEventAction(id, event)),
   }),
 )(EventList)
