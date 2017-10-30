@@ -186,6 +186,9 @@ import a185 from '../../img/avatar/185.jpg'
 import a186 from '../../img/avatar/186.jpg'
 import a187 from '../../img/avatar/187.jpg'
 import a188 from '../../img/avatar/188.jpg'
+import a189 from '../../img/avatar/189.jpg'
+import a190 from '../../img/avatar/190.jpg'
+import a191 from '../../img/avatar/191.jpg'
 
 export default [
   null,
@@ -377,4 +380,7 @@ export default [
   a186,
   a187,
   a188,
+  a189,
+  a190,
+  a191,
 ]

@@ -64,6 +64,7 @@ import m3009 from '../../img/material/3009.jpg'
 import m3010 from '../../img/material/3010.jpg'
 import m3011 from '../../img/material/3011.jpg'
 import m3012 from '../../img/material/3012.jpg'
+import m3013 from '../../img/material/3013.jpg'
 import m4000 from '../../img/material/4000.jpg'
 import m4001 from '../../img/material/4001.jpg'
 import m4002 from '../../img/material/4002.jpg'
@@ -149,6 +150,7 @@ export default {
   3010: m3010,
   3011: m3011,
   3012: m3012,
+  3013: m3013,
   4000: m4000,
   4001: m4001,
   4002: m4002,

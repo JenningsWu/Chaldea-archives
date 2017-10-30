@@ -1,0 +1,671 @@
+{
+  "id": "189",
+  "name": "刑部姫",
+  "nameJP": "刑部姫",
+  "nameEN": "Osakabehime",
+  "fuzzyKeywords": [
+    "刑部姫",
+    "Osakabehime",
+    "刑部姫"
+  ],
+  "exactKeywords": [],
+  "rarity": 5,
+  "class": 6,
+  "startATK": 1672,
+  "endATK": 10824,
+  "startHP": 2027,
+  "endHP": 13822,
+  "grailATK": 11849,
+  "grailHP": 15143,
+  "illustrator": "森山大輔",
+  "cv": "福圆美里",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "21",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.246,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.316,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "变化",
+      "condition": 0,
+      "lv": "A+",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000002000",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 1
+    }
+  ],
+  "skill2": [
+    {
+      "name": "千代纸操法",
+      "condition": 0,
+      "lv": "EX",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "010000004000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "010000000017",
+          "value": [
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 29
+    }
+  ],
+  "skill3": [
+    {
+      "name": "城化物",
+      "condition": 0,
+      "lv": "A++",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            40
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "110000025009",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 30
+    }
+  ],
+  "np": [
+    {
+      "name": "白鹭城的百鬼八天堂大人",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 2,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000001003",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000004010",
+          "value": [
+            1000,
+            1500,
+            1650,
+            1875,
+            2000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        }
+      ],
+      "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "气息遮断（阴）",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000020001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    },
+    {
+      "name": "神性",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
+  "skillResource": [
+    [
+      {
+        "id": "0005",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "0005",
+        "num": 12
+      }
+    ],
+    [
+      {
+        "id": "0105",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "0105",
+        "num": 12
+      },
+      {
+        "id": "1003",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "0205",
+        "num": 5
+      },
+      {
+        "id": "1003",
+        "num": 20
+      }
+    ],
+    [
+      {
+        "id": "0205",
+        "num": 12
+      },
+      {
+        "id": "1100",
+        "num": 6
+      }
+    ],
+    [
+      {
+        "id": "1100",
+        "num": 12
+      },
+      {
+        "id": "1211",
+        "num": 3
+      }
+    ],
+    [
+      {
+        "id": "1211",
+        "num": 8
+      },
+      {
+        "id": "1111",
+        "num": 24
+      }
+    ],
+    [
+      {
+        "id": "2000",
+        "num": 1
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "id": "4005",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "4005",
+        "num": 12
+      },
+      {
+        "id": "1100",
+        "num": 9
+      }
+    ],
+    [
+      {
+        "id": "4105",
+        "num": 5
+      },
+      {
+        "id": "1003",
+        "num": 20
+      },
+      {
+        "id": "1106",
+        "num": 5
+      }
+    ],
+    [
+      {
+        "id": "4105",
+        "num": 12
+      },
+      {
+        "id": "1106",
+        "num": 10
+      },
+      {
+        "id": "1203",
+        "num": 5
+      }
+    ]
+  ]
+}

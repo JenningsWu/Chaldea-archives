@@ -108,6 +108,7 @@ const genderToStr = {
   3: '－',
   4: '无',
   5: '男・女',
+  6: '女性型',
 }
 
 const attributeToStr = {

@@ -1,0 +1,567 @@
+{
+  "id": "190",
+  "name": "机械伊丽酱",
+  "nameJP": "メカエリチャン",
+  "nameEN": "mekaerichan",
+  "fuzzyKeywords": [
+    "机械伊丽酱",
+    "mekaerichan",
+    "メカエリチャン"
+  ],
+  "exactKeywords": [],
+  "rarity": 4,
+  "class": 10,
+  "startATK": 1666,
+  "endATK": 9997,
+  "startHP": 1744,
+  "endHP": 10901,
+  "grailATK": 12104,
+  "grailHP": 13217,
+  "illustrator": "ワダアルコ",
+  "cv": "大久保瑠美",
+  "gender": 6,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    2,
+    4,
+    4
+  ],
+  "charge": [
+    0.009,
+    0.009,
+    0.009,
+    0.009
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.097,
+  "npChargeATK": 0.009,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.5,
+  "traits": [],
+  "skill1": [
+    {
+      "name": "无辜的怪兽",
+      "condition": 0,
+      "lv": "EX",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000014006",
+          "value": [
+            5,
+            6,
+            6,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            10
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000002000",
+          "value": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 37
+    }
+  ],
+  "skill2": [
+    {
+      "name": "过载·改",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000034008",
+          "value": [
+            500,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 29
+    }
+  ],
+  "skill3": [
+    {
+      "name": "最终的伊丽酱",
+      "condition": 0,
+      "lv": "C",
+      "requirement": "00000",
+      "effect": [
+        {
+          "id": "000000025039",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001005",
+          "value": [
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            60
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "000000001004",
+          "value": [
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            60
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "initialCD": 7,
+      "img": 15
+    }
+  ],
+  "np": [
+    {
+      "name": "鋼鉄天空魔嬢",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000025039",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000026",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
+  "skillResource": [
+    [
+      {
+        "id": "0003",
+        "num": 4
+      },
+      {
+        "id": "0006",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0003",
+        "num": 10
+      },
+      {
+        "id": "0006",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "0103",
+        "num": 4
+      },
+      {
+        "id": "0106",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0103",
+        "num": 10
+      },
+      {
+        "id": "0106",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "0203",
+        "num": 4
+      },
+      {
+        "id": "0206",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "0203",
+        "num": 10
+      },
+      {
+        "id": "0206",
+        "num": 10
+      }
+    ],
+    [
+      {
+        "id": "1205",
+        "num": 4
+      },
+      {
+        "id": "1206",
+        "num": 4
+      }
+    ],
+    [
+      {
+        "id": "1202",
+        "num": 7
+      },
+      {
+        "id": "1211",
+        "num": 7
+      }
+    ],
+    [
+      {
+        "id": "2000",
+        "num": 1
+      }
+    ]
+  ],
+  "ascensionResource": [
+    [
+      {
+        "id": "3013",
+        "num": 1
+      }
+    ],
+    [
+      {
+        "id": "3013",
+        "num": 1
+      }
+    ],
+    [
+      {
+        "id": "3013",
+        "num": 1
+      }
+    ],
+    [
+      {
+        "id": "3013",
+        "num": 1
+      }
+    ]
+  ]
+}

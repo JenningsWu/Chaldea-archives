@@ -189,6 +189,9 @@ import s185 from '../../data/servants/185.json'
 import s186 from '../../data/servants/186.json'
 import s187 from '../../data/servants/187.json'
 import s188 from '../../data/servants/188.json'
+import s189 from '../../data/servants/189.json'
+import s190 from '../../data/servants/190.json'
+import s191 from '../../data/servants/191.json'
 
 const servantsData = {
   '000': null,
@@ -380,6 +383,9 @@ const servantsData = {
   186: s186,
   187: s187,
   188: s188,
+  189: s189,
+  190: s190,
+  191: s191,
 }
 
 function pad(str, max = 3) {
@@ -391,7 +397,7 @@ function pad(str, max = 3) {
 }
 
 const servantMap = _.mapValues(servantsData, s => s && new Servant(s))
-const servantList = _.range(189).map(id => servantMap[pad(id)])
+const servantList = _.range(192).map(id => servantMap[pad(id)])
 
 export default servantMap
 export { servantList }

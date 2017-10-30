@@ -285,6 +285,10 @@ const materialMap = {
     name: '黄金の葦',
     type: 5,
   },
+  3013: {
+    name: 'Bペレット',
+    type: 5,
+  },
   4000: {
     name: '银剑棋',
     type: 4,
