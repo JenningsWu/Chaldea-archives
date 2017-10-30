@@ -171,6 +171,8 @@ class EventList extends PureComponent {
                 id={item.id}
                 name={item.name}
                 pool={item.pool}
+                conditional={item.conditional}
+                material={item.material}
                 event={data[item.id] || initialEventItem}
                 setEvent={setEvent}
                 setEventPool={setEventPool}

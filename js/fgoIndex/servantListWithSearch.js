@@ -44,7 +44,7 @@ class ServantListWithSearch extends PureComponent {
 
   componentDidMount() {
     if (__DEV__) {
-      this.props.navigation.navigate('FutureSight', { id: '179' })
+      this.props.navigation.navigate('EventMaterial', { id: '18' })
     }
   }
 
