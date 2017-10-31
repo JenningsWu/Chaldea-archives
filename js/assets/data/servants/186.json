@@ -1,51 +1,6 @@
 {
   "id": "186",
-  "name": "宝藏院胤舜",
-  "nameJP": "宝蔵院胤舜",
-  "nameEN": "Houzouin Insyun",
-  "fuzzyKeywords": [
-    "宝藏院胤舜",
-    "Houzouin Insyun",
-    "宝蔵院胤舜",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 3,
-  "startATK": 1261,
-  "endATK": 6791,
-  "startHP": 1799,
-  "endHP": 9996,
-  "grailATK": 9191,
-  "grailHP": 13553,
-  "illustrator": "松竜",
-  "cv": "浪川大辅",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "11",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    2,
-    2,
-    3,
-    4
-  ],
-  "charge": [
-    0.0106,
-    0.0106,
-    0.0106,
-    0.0106
-  ],
-  "starAbsorption": 90,
-  "starGeneration": 0.122,
-  "npChargeATK": 0.0106,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "宗和的心得",
@@ -268,6 +223,46 @@
       "img": 32
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D+",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "朧裏月十一式",
@@ -421,46 +416,6 @@
         }
       ],
       "hits": 0
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D+",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            13,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

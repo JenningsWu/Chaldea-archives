@@ -1,56 +1,6 @@
 {
   "id": "068",
-  "name": "冲田总司",
-  "nameJP": "沖田総司",
-  "nameEN": "Okita Souji",
-  "fuzzyKeywords": [
-    "冲田总司",
-    "Okita Souji",
-    "沖田総司",
-    "樱saber",
-    "搓衣板（樱）",
-    "总司",
-    "樱毛",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 1,
-  "startATK": 1865,
-  "endATK": 12068,
-  "startHP": 1939,
-  "endHP": 13225,
-  "grailATK": 13210,
-  "grailHP": 14489,
-  "illustrator": "武内崇",
-  "cv": "悠木碧",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "11",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    5,
-    3
-  ],
-  "charge": [
-    0.0109,
-    0.0109,
-    0.0109,
-    0.0109
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.102,
-  "npChargeATK": 0.0109,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.35,
-  "traits": [],
   "skill1": [
     {
       "name": "缩地",
@@ -211,53 +161,6 @@
       "img": 18
     }
   ],
-  "np": [
-    {
-      "name": "无明三段突刺",
-      "type": 4,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "-",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000022000",
-          "value": [
-            30,
-            35,
-            40,
-            45,
-            50
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 3
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -334,6 +237,53 @@
         }
       ],
       "img": 5
+    }
+  ],
+  "np": [
+    {
+      "name": "无明三段突刺",
+      "type": 4,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 3
     }
   ],
   "skillResource": [

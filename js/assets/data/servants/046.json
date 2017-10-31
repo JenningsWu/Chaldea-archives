@@ -1,53 +1,6 @@
 {
   "id": "046",
-  "name": "卡米拉",
-  "nameJP": "カーミラ",
-  "nameEN": "Carmilla",
-  "fuzzyKeywords": [
-    "卡米拉",
-    "Carmilla",
-    "カーミラ",
-    "大龙娘",
-    "铁处女",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1568,
-  "endATK": 9408,
-  "startHP": 1675,
-  "endHP": 10473,
-  "grailATK": 11391,
-  "grailHP": 12698,
-  "illustrator": "okojo",
-  "cv": "田中敦子",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0215,
-    0.0215,
-    0.0215,
-    0.0215
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.252,
-  "npChargeATK": 0.0215,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.44,
-  "traits": [],
   "skill1": [
     {
       "name": "吸血",
@@ -239,6 +192,46 @@
       "img": 41
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "幻想的铁处女（Phantom Maiden）",
@@ -338,46 +331,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

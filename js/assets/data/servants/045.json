@@ -1,53 +1,6 @@
 {
   "id": "045",
-  "name": "玛塔・哈里",
-  "nameJP": "マタ・ハリ",
-  "nameEN": "Mata Hari",
-  "fuzzyKeywords": [
-    "玛塔・哈里",
-    "Mata Hari",
-    "マタ・ハリ",
-    "舞娘",
-    "大波妹",
-    "友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 1,
-  "class": 6,
-  "startATK": 977,
-  "endATK": 5377,
-  "startHP": 1313,
-  "endHP": 6565,
-  "grailATK": 8355,
-  "grailHP": 10120,
-  "illustrator": "こやまひろかず",
-  "cv": "种田梨沙",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "21",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.021,
-    0.021,
-    0.021,
-    0.021
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.246,
-  "npChargeATK": 0.021,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.55,
-  "traits": [],
   "skill1": [
     {
       "name": "谍报",
@@ -239,6 +192,7 @@
       "img": 32
     }
   ],
+  "classSkill": [],
   "np": [
     {
       "name": "有着白昼之眼的女子（Mata Hari）",
@@ -340,7 +294,6 @@
       "hits": 0
     }
   ],
-  "classSkill": [],
   "skillResource": [
     [
       {

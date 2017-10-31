@@ -1,57 +1,6 @@
 {
   "id": "039",
-  "name": "佐佐木小次郎",
-  "nameJP": "佐々木小次郎",
-  "nameEN": "Sasaki Koujirou",
-  "fuzzyKeywords": [
-    "佐佐木小次郎",
-    "Sasaki Koujirou",
-    "佐々木小次郎",
-    "小次郎",
-    "屠龙勇士小次郎",
-    "屠龙剑士",
-    "艹门",
-    "看门",
-    "火箭队",
-    "友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 1,
-  "class": 6,
-  "startATK": 1042,
-  "endATK": 5735,
-  "startHP": 1244,
-  "endHP": 6220,
-  "grailATK": 8912,
-  "grailHP": 9588,
-  "illustrator": "また",
-  "cv": "三木真一郎",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "12",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0105,
-    0.0105,
-    0.0105,
-    0.0105
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.253,
-  "npChargeATK": 0.0105,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.55,
-  "traits": [],
   "skill1": [
     {
       "name": "心眼（伪）",
@@ -377,6 +326,46 @@
       "img": 39
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "燕返",
@@ -422,46 +411,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

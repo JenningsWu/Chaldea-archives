@@ -1,57 +1,6 @@
 {
   "id": "156",
-  "name": "詹姆斯·莫里亚蒂",
-  "nameJP": "ジェームズ・モリアーティ",
-  "nameEN": "James Moriarty",
-  "fuzzyKeywords": [
-    "詹姆斯·莫里亚蒂",
-    "James Moriarty",
-    "ジェームズ・モリアーティ",
-    "莫教授",
-    "绅士",
-    "老爷爷",
-    "骚老头",
-    "长者",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 2,
-  "startATK": 1820,
-  "endATK": 11781,
-  "startHP": 2007,
-  "endHP": 13685,
-  "grailATK": 12896,
-  "grailHP": 14992,
-  "illustrator": "本庄雷太",
-  "cv": "土师孝也",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    4,
-    5,
-    3,
-    6
-  ],
-  "charge": [
-    0.0038,
-    0.0038,
-    0.0038,
-    0.0038
-  ],
-  "starAbsorption": 153,
-  "starGeneration": 0.08,
-  "npChargeATK": 0.0038,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "魔弹射手",
@@ -305,53 +254,6 @@
       "img": 6
     }
   ],
-  "np": [
-    {
-      "name": "终局的犯罪（The Dynamics Of An Asteroid）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "A+",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "110000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 12
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -428,6 +330,53 @@
         }
       ],
       "img": 22
+    }
+  ],
+  "np": [
+    {
+      "name": "终局的犯罪（The Dynamics Of An Asteroid）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 12
     }
   ],
   "skillResource": [

@@ -1,52 +1,6 @@
 {
   "id": "163",
-  "name": "梅尔特莉莉丝（溶解莉莉丝）",
-  "nameJP": "メルトリリス",
-  "nameEN": "Meltlilith",
-  "fuzzyKeywords": [
-    "梅尔特莉莉丝（溶解莉莉丝）",
-    "Meltlilith",
-    "メルトリリス",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 10,
-  "startATK": 1807,
-  "endATK": 11692,
-  "startHP": 1965,
-  "endHP": 13402,
-  "grailATK": 12799,
-  "grailHP": 14682,
-  "illustrator": "ワダアルコ",
-  "cv": "早见沙织",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "00",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    4,
-    6
-  ],
-  "charge": [
-    0.0092,
-    0.0092,
-    0.0092,
-    0.0092
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.102,
-  "npChargeATK": 0.0092,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.3,
-  "traits": [],
   "skill1": [
     {
       "name": "Crime Ballet",
@@ -300,80 +254,6 @@
       "img": 36
     }
   ],
-  "np": [
-    {
-      "name": "辩才天五弦琵琶（Sarasvati Melt out）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "EX",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000005009",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "000000001003",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 8
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -557,6 +437,80 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "辩才天五弦琵琶（Sarasvati Melt out）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000005009",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
     }
   ],
   "skillResource": [

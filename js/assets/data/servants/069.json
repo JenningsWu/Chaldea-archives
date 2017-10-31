@@ -1,56 +1,6 @@
 {
   "id": "069",
-  "name": "织田信长",
-  "nameJP": "織田信長",
-  "nameEN": "Oda Nobunaga",
-  "fuzzyKeywords": [
-    "织田信长",
-    "Oda Nobunaga",
-    "織田信長",
-    "信长",
-    "第六天萌王",
-    "钉宫",
-    "Nobu~",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 2,
-  "startATK": 1582,
-  "endATK": 9494,
-  "startHP": 1862,
-  "endHP": 11637,
-  "grailATK": 11495,
-  "grailHP": 14110,
-  "illustrator": "pako",
-  "cv": "钉宫理惠",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "11",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    4,
-    4,
-    2,
-    5
-  ],
-  "charge": [
-    0.0043,
-    0.0043,
-    0.0043,
-    0.0043
-  ],
-  "starAbsorption": 150,
-  "starGeneration": 0.079,
-  "npChargeATK": 0.0043,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "战略",
@@ -211,53 +161,6 @@
       "img": 16
     }
   ],
-  "np": [
-    {
-      "name": "三千世界",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "E~A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000007031",
-          "value": [
-            150,
-            162.5,
-            175,
-            187.5,
-            200
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -334,6 +237,53 @@
         }
       ],
       "img": 22
+    }
+  ],
+  "np": [
+    {
+      "name": "三千世界",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "E~A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007031",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
     }
   ],
   "skillResource": [

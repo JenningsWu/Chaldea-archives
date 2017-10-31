@@ -1,50 +1,6 @@
 {
   "id": "189",
-  "name": "刑部姫",
-  "nameJP": "刑部姫",
-  "nameEN": "Osakabehime",
-  "fuzzyKeywords": [
-    "刑部姫",
-    "Osakabehime",
-    "刑部姫"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 6,
-  "startATK": 1672,
-  "endATK": 10824,
-  "startHP": 2027,
-  "endHP": 13822,
-  "grailATK": 11849,
-  "grailHP": 15143,
-  "illustrator": "森山大輔",
-  "cv": "福圆美里",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "21",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    3,
-    4,
-    5
-  ],
-  "charge": [
-    0.0083,
-    0.0083,
-    0.0083,
-    0.0083
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.246,
-  "npChargeATK": 0.0083,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.316,
-  "traits": [],
   "skill1": [
     {
       "name": "变化",
@@ -298,107 +254,6 @@
       "img": 30
     }
   ],
-  "np": [
-    {
-      "name": "白鹭城的百鬼八天堂大人",
-      "type": 0,
-      "condition": 0,
-      "value": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "card": 2,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000002000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "020000001003",
-          "value": [
-            30,
-            35,
-            40,
-            45,
-            50
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "020000004010",
-          "value": [
-            1000,
-            1500,
-            1650,
-            1875,
-            2000
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 1
-        }
-      ],
-      "hits": 0
-    }
-  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -544,6 +399,107 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "白鹭城的百鬼八天堂大人",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 2,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000001003",
+          "value": [
+            30,
+            35,
+            40,
+            45,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000004010",
+          "value": [
+            1000,
+            1500,
+            1650,
+            1875,
+            2000
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        }
+      ],
+      "hits": 0
     }
   ],
   "skillResource": [

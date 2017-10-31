@@ -1,57 +1,6 @@
 {
   "id": "080",
-  "name": "查尔斯・巴贝奇",
-  "nameJP": "チャールズ・バベッジ",
-  "nameEN": "Charles Babbage",
-  "fuzzyKeywords": [
-    "查尔斯・巴贝奇",
-    "Charles Babbage",
-    "チャールズ・バベッジ",
-    "铁皮",
-    "机器人",
-    "蒸汽王",
-    "高达",
-    "庄司妈",
-    "扎古",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 5,
-  "startATK": 1113,
-  "endATK": 5996,
-  "startHP": 1959,
-  "endHP": 10887,
-  "grailATK": 8115,
-  "grailHP": 14761,
-  "illustrator": "I-IV",
-  "cv": "稻田彻",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "21",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0091,
-    0.0091,
-    0.0091,
-    0.0091
-  ],
-  "starAbsorption": 48,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0091,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "一心一意",
@@ -346,6 +295,46 @@
       "img": 15
     }
   ],
+  "classSkill": [
+    {
+      "name": "道具作成（伪)",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "np": [
     {
       "name": "绚烂的灰烬世界（Dimension of Steam）",
@@ -436,46 +425,6 @@
         }
       ],
       "hits": 4
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "道具作成（伪)",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

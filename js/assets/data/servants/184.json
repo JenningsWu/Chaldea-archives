@@ -1,51 +1,6 @@
 {
   "id": "184",
-  "name": "巴御前",
-  "nameJP": "巴御前",
-  "nameEN": "Tomoe Gozen",
-  "fuzzyKeywords": [
-    "巴御前",
-    "Tomoe Gozen",
-    "巴御前",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 2,
-  "startATK": 1657,
-  "endATK": 9946,
-  "startHP": 1728,
-  "endHP": 10804,
-  "grailATK": 12043,
-  "grailHP": 13100,
-  "illustrator": "しらび",
-  "cv": "金元寿子",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "11",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    2,
-    3,
-    5
-  ],
-  "charge": [
-    0.0087,
-    0.0087,
-    0.0087,
-    0.0087
-  ],
-  "starAbsorption": 153,
-  "starGeneration": 0.079,
-  "npChargeATK": 0.0087,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "鬼种之魔",
@@ -268,107 +223,6 @@
       "img": 12
     }
   ],
-  "np": [
-    {
-      "name": "真言・聖観世音菩薩",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024005",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000030009",
-          "value": [
-            1000,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000025037",
-          "value": [
-            100,
-            150,
-            200,
-            250,
-            300
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -483,6 +337,107 @@
         }
       ],
       "img": 17
+    }
+  ],
+  "np": [
+    {
+      "name": "真言・聖観世音菩薩",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024005",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030009",
+          "value": [
+            1000,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000025037",
+          "value": [
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

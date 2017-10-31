@@ -1,60 +1,11 @@
 {
   "id": "152",
-  "name": "所罗门",
-  "nameJP": "ソロモン",
-  "nameEN": "Solomon",
-  "fuzzyKeywords": [
-    "所罗门",
-    "Solomon",
-    "ソロモン",
-    "罗马尼",
-    "罗曼医生",
-    "死宅",
-    "自爆",
-    "无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 5,
-  "startATK": 0,
-  "endATK": 0,
-  "startHP": 0,
-  "endHP": 0,
-  "grailATK": 0,
-  "grailHP": 0,
-  "illustrator": "武内崇",
-  "cv": "铃村健一",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    1,
-    1,
-    1,
-    1
-  ],
-  "charge": [
-    -1,
-    -1,
-    -1,
-    -1
-  ],
-  "starAbsorption": -1,
-  "starGeneration": -1,
-  "npChargeATK": -1,
-  "npChargeDEF": -1,
-  "deathResist": -1,
-  "traits": [],
   "skill1": [],
   "skill2": [],
   "skill3": [],
-  "np": [],
   "classSkill": [],
+  "np": [],
   "skillResource": [],
   "ascensionResource": []
 }

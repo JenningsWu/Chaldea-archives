@@ -1,55 +1,6 @@
 {
   "id": "130",
-  "name": "玛丽・安托瓦内特",
-  "nameJP": "マリー・アントワネット",
-  "nameEN": "Marie Antoinette",
-  "fuzzyKeywords": [
-    "玛丽・安托瓦内特",
-    "Marie Antoinette",
-    "マリー・アントワネット",
-    "c皇后",
-    "水母",
-    "女排",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 5,
-  "startATK": 1510,
-  "endATK": 9060,
-  "startHP": 1824,
-  "endHP": 11404,
-  "grailATK": 10970,
-  "grailHP": 13827,
-  "illustrator": "ギンカ",
-  "cv": "种田梨沙",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "00",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    5,
-    1,
-    3,
-    4
-  ],
-  "charge": [
-    0.0032,
-    0.0032,
-    0.0032,
-    0.0032
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.109,
-  "npChargeATK": 0.0032,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "海滨之花",
@@ -272,80 +223,6 @@
       "img": 2
     }
   ],
-  "np": [
-    {
-      "name": "愿所爱光辉永存（Crystal Dress）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        450,
-        600,
-        675,
-        712,
-        750
-      ],
-      "card": 0,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000021004",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "020000001004",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 3
-    }
-  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -422,6 +299,80 @@
         }
       ],
       "img": 35
+    }
+  ],
+  "np": [
+    {
+      "name": "愿所爱光辉永存（Crystal Dress）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        450,
+        600,
+        675,
+        712,
+        750
+      ],
+      "card": 0,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000021004",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "020000001004",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 3
     }
   ],
   "skillResource": [

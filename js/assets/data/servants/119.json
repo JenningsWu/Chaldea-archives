@@ -1,57 +1,6 @@
 {
   "id": "119",
-  "name": "阿尔托莉雅・潘德拉贡〔Lancer〕",
-  "nameJP": "アルトリア・ペンドラゴン",
-  "nameEN": "Altria Pendragon",
-  "fuzzyKeywords": [
-    "阿尔托莉雅・潘德拉贡〔Lancer〕",
-    "Altria Pendragon",
-    "アルトリア・ペンドラゴン",
-    "白枪呆",
-    "天枪",
-    "乳下",
-    "北半球",
-    "神枪",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1部第六章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 3,
-  "startATK": 1699,
-  "endATK": 10995,
-  "startHP": 2288,
-  "endHP": 15606,
-  "grailATK": 12036,
-  "grailHP": 17097,
-  "illustrator": "石田あきら",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "00",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    3,
-    5
-  ],
-  "charge": [
-    0.011,
-    0.011,
-    0.011,
-    0.011
-  ],
-  "starAbsorption": 89,
-  "starGeneration": 0.122,
-  "npChargeATK": 0.011,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.24,
-  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -212,80 +161,6 @@
       "img": 29
     }
   ],
-  "np": [
-    {
-      "name": "耀于至远之枪（Rhongomyniad）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "A++",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005004",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "000000004000",
-          "value": [
-            20,
-            30,
-            40,
-            50,
-            60
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 2
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -362,6 +237,80 @@
         }
       ],
       "img": 5
+    }
+  ],
+  "np": [
+    {
+      "name": "耀于至远之枪（Rhongomyniad）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "A++",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005004",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000004000",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 2
     }
   ],
   "skillResource": [

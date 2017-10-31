@@ -1,57 +1,6 @@
 {
   "id": "090",
-  "name": "尼禄・克劳狄乌斯〔花嫁〕",
-  "nameJP": "ネロ・クラウディウス〔ブライド〕",
-  "nameEN": "Nero Claudius （Bride)",
-  "fuzzyKeywords": [
-    "尼禄・克劳狄乌斯〔花嫁〕",
-    "Nero Claudius （Bride)",
-    "ネロ・クラウディウス〔ブライド〕",
-    "嫁尼禄",
-    "白色暴君",
-    "花嫁",
-    "嫁王",
-    "滑稽",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 1,
-  "startATK": 1793,
-  "endATK": 11607,
-  "startHP": 2089,
-  "endHP": 14248,
-  "grailATK": 12706,
-  "grailHP": 15609,
-  "illustrator": "ワダアルコ",
-  "cv": "丹下樱",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "24",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    3,
-    4
-  ],
-  "charge": [
-    0.007,
-    0.007,
-    0.007,
-    0.007
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.11,
-  "npChargeATK": 0.007,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.35,
-  "traits": [],
   "skill1": [
     {
       "name": "予天繁星",
@@ -241,6 +190,84 @@
       "initialCD": 7,
       "requirement": "00000",
       "img": 11
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
     }
   ],
   "np": [
@@ -441,84 +468,6 @@
         }
       ],
       "hits": 2
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

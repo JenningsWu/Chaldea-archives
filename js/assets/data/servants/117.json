@@ -1,54 +1,6 @@
 {
   "id": "117",
-  "name": "风魔小太郎",
-  "nameJP": "風魔小太郎",
-  "nameEN": "Fuuma Koutarou ",
-  "fuzzyKeywords": [
-    "风魔小太郎",
-    "Fuuma Koutarou ",
-    "風魔小太郎",
-    "风魔",
-    "小太郎",
-    "拉姆",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 6,
-  "startATK": 1316,
-  "endATK": 7091,
-  "startHP": 1592,
-  "endHP": 8844,
-  "grailATK": 9597,
-  "grailHP": 11991,
-  "illustrator": "佐々木少年",
-  "cv": "花江夏树",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    4,
-    1,
-    4,
-    4
-  ],
-  "charge": [
-    0.0054,
-    0.0054,
-    0.0054,
-    0.0054
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.256,
-  "npChargeATK": 0.0054,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.385,
-  "traits": [],
   "skill1": [
     {
       "name": "破坏工作",
@@ -240,6 +192,46 @@
       "img": 52
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "不灭的混沌旅团",
@@ -285,46 +277,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

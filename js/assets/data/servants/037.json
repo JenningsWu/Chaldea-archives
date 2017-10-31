@@ -1,56 +1,6 @@
 {
   "id": "037",
-  "name": "诸葛孔明〔艾尔梅洛伊二世〕",
-  "nameJP": "諸葛孔明〔エルメロイⅡ世〕",
-  "nameEN": "El-Melloi II",
-  "fuzzyKeywords": [
-    "诸葛孔明〔艾尔梅洛伊二世〕",
-    "El-Melloi II",
-    "諸葛孔明〔エルメロイⅡ世〕",
-    "村夫",
-    "孔日天",
-    "王妃（男）",
-    "为所欲为",
-    "七星",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 5,
-  "startATK": 1637,
-  "endATK": 10598,
-  "startHP": 2091,
-  "endHP": 14259,
-  "grailATK": 11601,
-  "grailHP": 15621,
-  "illustrator": "武内崇",
-  "cv": "浪川大辅",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "10",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0164,
-    0.0164,
-    0.0164,
-    0.0164
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0164,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.345,
-  "traits": [],
   "skill1": [
     {
       "name": "鉴识眼",
@@ -335,6 +285,84 @@
       "img": 6
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "np": [
     {
       "name": "石兵八阵",
@@ -587,84 +615,6 @@
         }
       ],
       "hits": 0
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

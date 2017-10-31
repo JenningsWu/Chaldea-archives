@@ -1,52 +1,6 @@
 {
   "id": "174",
-  "name": "保罗·班扬",
-  "nameJP": "ポール・バニヤン",
-  "nameEN": "Paul Bunyan",
-  "fuzzyKeywords": [
-    "保罗·班扬",
-    "Paul Bunyan",
-    "ポール・バニヤン",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 1,
-  "class": 7,
-  "startATK": 1099,
-  "endATK": 6044,
-  "startHP": 1239,
-  "endHP": 6196,
-  "grailATK": 9391,
-  "grailHP": 9551,
-  "illustrator": "リヨ",
-  "cv": "小见川千明",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "11",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    3,
-    3,
-    3,
-    4
-  ],
-  "charge": [
-    0.0067,
-    0.0067,
-    0.0067,
-    0.0067
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.049,
-  "npChargeATK": 0.0067,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.65,
-  "traits": [],
   "skill1": [
     {
       "name": "愉快的伙伴们",
@@ -238,6 +192,46 @@
       "img": 30
     }
   ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
+    }
+  ],
   "np": [
     {
       "name": "惊人的伟业（Marvelous Exploits）",
@@ -283,46 +277,6 @@
         }
       ],
       "hits": 2
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "skillResource": [

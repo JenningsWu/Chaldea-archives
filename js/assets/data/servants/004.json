@@ -1,56 +1,6 @@
 {
   "id": "004",
-  "name": "阿尔托莉雅・潘德拉贡〔Lily〕",
-  "nameJP": "アルトリア・ペンドラゴン〔リリィ〕",
-  "nameEN": "Altria Pendragon （Lily)",
-  "fuzzyKeywords": [
-    "阿尔托莉雅・潘德拉贡〔Lily〕",
-    "Altria Pendragon （Lily)",
-    "アルトリア・ペンドラゴン〔リリィ〕",
-    "lily",
-    "搓衣板（白）",
-    "白saber",
-    "莉莉",
-    "事前登录赠送＆限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1486,
-  "endATK": 7726,
-  "startHP": 1975,
-  "endHP": 10623,
-  "grailATK": 9355,
-  "grailHP": 12880,
-  "illustrator": "武内崇",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0086,
-    0.0086,
-    0.0086,
-    0.0086
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.1,
-  "npChargeATK": 0.0086,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.21,
-  "traits": [],
   "skill1": [
     {
       "name": "直感",
@@ -180,53 +130,6 @@
       "img": 9
     }
   ],
-  "np": [
-    {
-      "name": "必胜黄金之剑（Caliburn）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        450,
-        525,
-        562,
-        600
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000014008",
-          "value": [
-            1000,
-            2000,
-            3000,
-            4000,
-            5000
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 8
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -303,6 +206,53 @@
         }
       ],
       "img": 5
+    }
+  ],
+  "np": [
+    {
+      "name": "必胜黄金之剑（Caliburn）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        450,
+        525,
+        562,
+        600
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            2000,
+            3000,
+            4000,
+            5000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
     }
   ],
   "skillResource": [

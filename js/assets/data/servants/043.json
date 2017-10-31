@@ -1,53 +1,6 @@
 {
   "id": "043",
-  "name": "夏尔・亨利・桑松",
-  "nameJP": "シャルル＝アンリ・サンソン",
-  "nameEN": "Charles Henri Sanson",
-  "fuzzyKeywords": [
-    "夏尔・亨利・桑松",
-    "Charles Henri Sanson",
-    "シャルル＝アンリ・サンソン",
-    "处刑",
-    "黑切",
-    "友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 2,
-  "class": 6,
-  "startATK": 968,
-  "endATK": 5456,
-  "startHP": 1564,
-  "endHP": 8309,
-  "grailATK": 7906,
-  "grailHP": 11991,
-  "illustrator": "しまどりる",
-  "cv": "宫野真守",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "02",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0106,
-    0.0106,
-    0.0106,
-    0.0106
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.248,
-  "npChargeATK": 0.0106,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.495,
-  "traits": [],
   "skill1": [
     {
       "name": "处刑人",
@@ -249,6 +202,46 @@
       "img": 14
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "死是向着明日的希望（la Molé Espoir）",
@@ -393,46 +386,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

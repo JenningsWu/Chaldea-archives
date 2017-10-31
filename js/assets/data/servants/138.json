@@ -1,56 +1,6 @@
 {
   "id": "138",
-  "name": "伊丽莎白・巴陶里〔勇者〕",
-  "nameJP": "エリザベート・バートリー〔ブレイブ〕",
-  "nameEN": "Erzsebet Bathory （Brave)",
-  "fuzzyKeywords": [
-    "伊丽莎白・巴陶里〔勇者〕",
-    "Erzsebet Bathory （Brave)",
-    "エリザベート・バートリー〔ブレイブ〕",
-    "SL",
-    "S龙",
-    "勇者",
-    "剑龙",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1649,
-  "endATK": 9899,
-  "startHP": 1799,
-  "endHP": 11248,
-  "grailATK": 11986,
-  "grailHP": 13638,
-  "illustrator": "ワダアルコ",
-  "cv": "大久保瑠美",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    4,
-    5
-  ],
-  "charge": [
-    0.0055,
-    0.0055,
-    0.0055,
-    0.0055
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.099,
-  "npChargeATK": 0.0055,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.28,
-  "traits": [],
   "skill1": [
     {
       "name": "勇者大原则",
@@ -428,53 +378,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "鮮血龙卷魔娘（Báthory Brave Erzsébet）",
-      "type": 4,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000030009",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 7
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -557,6 +460,53 @@
       "lv": "E",
       "effect": [],
       "img": 57
+    }
+  ],
+  "np": [
+    {
+      "name": "鮮血龙卷魔娘（Báthory Brave Erzsébet）",
+      "type": 4,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000030009",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 7
     }
   ],
   "skillResource": [

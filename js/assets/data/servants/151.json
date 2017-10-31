@@ -1,57 +1,11 @@
 {
   "id": "151",
-  "name": "魔神王 盖提亚",
-  "nameJP": "ゲーティア",
-  "nameEN": "Goetia",
-  "fuzzyKeywords": [
-    "魔神王 盖提亚",
-    "Goetia",
-    "ゲーティア",
-    "魔神王",
-    "无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 12,
-  "startATK": 0,
-  "endATK": 0,
-  "startHP": 0,
-  "endHP": 0,
-  "grailATK": 0,
-  "grailHP": 0,
-  "illustrator": "山中虎鉄",
-  "cv": "杉田智和",
-  "gender": 4,
-  "attribute": 4,
-  "alignment": "22",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    5,
-    5,
-    5,
-    1
-  ],
-  "charge": [
-    -1,
-    -1,
-    -1,
-    -1
-  ],
-  "starAbsorption": -1,
-  "starGeneration": -1,
-  "npChargeATK": -1,
-  "npChargeDEF": -1,
-  "deathResist": -1,
-  "traits": [],
   "skill1": [],
   "skill2": [],
   "skill3": [],
-  "np": [],
   "classSkill": [],
+  "np": [],
   "skillResource": [],
   "ascensionResource": []
 }

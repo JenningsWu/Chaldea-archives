@@ -1,53 +1,6 @@
 {
   "id": "028",
-  "name": "亚历山大",
-  "nameJP": "アレキサンダー",
-  "nameEN": "Alexander",
-  "fuzzyKeywords": [
-    "亚历山大",
-    "Alexander",
-    "アレキサンダー",
-    "幼帝",
-    "红颜美少年",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 4,
-  "startATK": 1366,
-  "endATK": 7356,
-  "startHP": 1555,
-  "endHP": 8640,
-  "grailATK": 9955,
-  "grailHP": 11714,
-  "illustrator": "BUNBUN",
-  "cv": "坂本真绫",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "10",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0086,
-    0.0086,
-    0.0086,
-    0.0086
-  ],
-  "starAbsorption": 205,
-  "starGeneration": 0.09,
-  "npChargeATK": 0.0086,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.4,
-  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -177,98 +130,6 @@
       "img": 25
     }
   ],
-  "np": [
-    {
-      "name": "起始的蹂躏制霸（Bucephalus）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 2,
-      "lv": "B+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014005",
-          "value": [
-            15,
-            20,
-            25,
-            30,
-            35
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    },
-    {
-      "name": "起始的蹂躏制霸（Bucephalus）",
-      "type": 1,
-      "condition": 1,
-      "value": [
-        800,
-        1000,
-        1100,
-        1150,
-        1200
-      ],
-      "card": 2,
-      "lv": "B++",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014005",
-          "value": [
-            15,
-            20,
-            25,
-            30,
-            35
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -383,6 +244,98 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "起始的蹂躏制霸（Bucephalus）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    },
+    {
+      "name": "起始的蹂躏制霸（Bucephalus）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        800,
+        1000,
+        1100,
+        1150,
+        1200
+      ],
+      "card": 2,
+      "lv": "B++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

@@ -1,53 +1,6 @@
 {
   "id": "035",
-  "name": "梅菲斯托费勒斯",
-  "nameJP": "メフィストフェレス",
-  "nameEN": "Mephistopheles",
-  "fuzzyKeywords": [
-    "梅菲斯托费勒斯",
-    "Mephistopheles",
-    "メフィストフェレス",
-    "子安",
-    "梅菲斯特",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 5,
-  "startATK": 1270,
-  "endATK": 6839,
-  "startHP": 1659,
-  "endHP": 9216,
-  "grailATK": 9255,
-  "grailHP": 12495,
-  "illustrator": "下越",
-  "cv": "子安武人",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0081,
-    0.0081,
-    0.0081,
-    0.0081
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.11,
-  "npChargeATK": 0.0081,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "咒术",
@@ -239,6 +192,84 @@
       "img": 38
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "np": [
     {
       "name": "微酣爆弹（Ticktock Bomb）",
@@ -383,84 +414,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "C+",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            7,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

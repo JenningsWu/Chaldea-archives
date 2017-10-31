@@ -1,54 +1,6 @@
 {
   "id": "031",
-  "name": "美狄亚",
-  "nameJP": "メディア",
-  "nameEN": "Medea",
-  "fuzzyKeywords": [
-    "美狄亚",
-    "Medea",
-    "メディア",
-    "C妈",
-    "saber控",
-    "手办狂魔",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 5,
-  "startATK": 1377,
-  "endATK": 7418,
-  "startHP": 1555,
-  "endHP": 8643,
-  "grailATK": 10039,
-  "grailHP": 11719,
-  "illustrator": "ネコタワワ",
-  "cv": "田中敦子",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "12",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0164,
-    0.0164,
-    0.0164,
-    0.0164
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.109,
-  "npChargeATK": 0.0164,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.345,
-  "traits": [],
   "skill1": [
     {
       "name": "高速神言",
@@ -209,6 +161,84 @@
       "img": 13
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "np": [
     {
       "name": "万符必将破戒（Rule Breaker）",
@@ -353,84 +383,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

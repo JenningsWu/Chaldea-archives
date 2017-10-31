@@ -1,57 +1,6 @@
 {
   "id": "076",
-  "name": "莫德雷德",
-  "nameJP": "モードレッド",
-  "nameEN": "Mordred",
-  "fuzzyKeywords": [
-    "莫德雷德",
-    "Mordred",
-    "モードレッド",
-    "小莫",
-    "莫受",
-    "坑爹剑",
-    "坑爹王",
-    "熊孩子",
-    "逆子",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 1,
-  "startATK": 1811,
-  "endATK": 11723,
-  "startHP": 2153,
-  "endHP": 14680,
-  "grailATK": 12833,
-  "grailHP": 16083,
-  "illustrator": "近衛乙嗣",
-  "cv": "泽城美雪",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "21",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    2,
-    4
-  ],
-  "charge": [
-    0.0056,
-    0.0056,
-    0.0056,
-    0.0056
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.1,
-  "npChargeATK": 0.0056,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.245,
-  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -243,6 +192,84 @@
       "img": 1
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "向端丽的吾父发起叛逆（Clarent Blood Arthur）",
@@ -387,84 +414,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

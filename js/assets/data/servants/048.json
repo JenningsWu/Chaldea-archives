@@ -1,56 +1,6 @@
 {
   "id": "048",
-  "name": "兰斯洛特",
-  "nameJP": "ランスロット",
-  "nameEN": "Lancelot",
-  "fuzzyKeywords": [
-    "兰斯洛特",
-    "Lancelot",
-    "ランスロット",
-    "长江",
-    "ntr骑士",
-    "黑洞剑法",
-    "懒死骆驼",
-    "3d骑士",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 7,
-  "startATK": 1746,
-  "endATK": 10477,
-  "startHP": 1652,
-  "endHP": 10327,
-  "grailATK": 12685,
-  "grailHP": 12521,
-  "illustrator": "こやまひろかず",
-  "cv": "置鲇龙太郎",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "03",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.005,
-    0.005,
-    0.005,
-    0.005
-  ],
-  "starAbsorption": 10,
-  "starGeneration": 0.05,
-  "npChargeATK": 0.005,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.52,
-  "traits": [],
   "skill1": [
     {
       "name": "无穷的武练",
@@ -211,53 +161,6 @@
       "img": 9
     }
   ],
-  "np": [
-    {
-      "name": "骑士不死于徒手（Knight of Honor）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 2,
-      "lv": "A++",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001000",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
-    }
-  ],
   "classSkill": [
     {
       "name": "狂化",
@@ -334,6 +237,53 @@
         }
       ],
       "img": 4
+    }
+  ],
+  "np": [
+    {
+      "name": "骑士不死于徒手（Knight of Honor）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 2,
+      "lv": "A++",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
     }
   ],
   "skillResource": [

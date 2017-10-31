@@ -1,55 +1,6 @@
 {
   "id": "030",
-  "name": "马大",
-  "nameJP": "マルタ",
-  "nameEN": "Marthe",
-  "fuzzyKeywords": [
-    "马大",
-    "Marthe",
-    "マルタ",
-    "圣女",
-    "马大姐",
-    "铁拳",
-    "屠龙圣女",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 4,
-  "startATK": 1335,
-  "endATK": 8014,
-  "startHP": 2090,
-  "endHP": 13068,
-  "grailATK": 9703,
-  "grailHP": 15845,
-  "illustrator": "坂本みねぢ",
-  "cv": "早见沙织",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "00",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0158,
-    0.0158,
-    0.0158,
-    0.0158
-  ],
-  "starAbsorption": 205,
-  "starGeneration": 0.09,
-  "npChargeATK": 0.0158,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.3,
-  "traits": [],
   "skill1": [
     {
       "name": "信仰的加护",
@@ -344,53 +295,6 @@
       "img": 30
     }
   ],
-  "np": [
-    {
-      "name": "不觉爱的悲哀之龙啊（Tarasque）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -505,6 +409,53 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "不觉爱的悲哀之龙啊（Tarasque）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

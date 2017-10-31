@@ -1,54 +1,6 @@
 {
   "id": "027",
-  "name": "牛若丸",
-  "nameJP": "牛若丸",
-  "nameEN": "Ushiwakamaru",
-  "fuzzyKeywords": [
-    "牛若丸",
-    "Ushiwakamaru",
-    "牛若丸",
-    "牛肉丸",
-    "官方痴女",
-    "跳船",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 4,
-  "startATK": 1314,
-  "endATK": 7076,
-  "startHP": 1625,
-  "endHP": 9028,
-  "grailATK": 9576,
-  "grailHP": 12240,
-  "illustrator": "坂本みねぢ",
-  "cv": "早见沙织",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "21",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0087,
-    0.0087,
-    0.0087,
-    0.0087
-  ],
-  "starAbsorption": 204,
-  "starGeneration": 0.091,
-  "npChargeATK": 0.0087,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.35,
-  "traits": [],
   "skill1": [
     {
       "name": "天狗的兵法",
@@ -209,6 +161,84 @@
       "img": 18
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "坛之浦・八艘跳",
@@ -299,84 +329,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            11,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

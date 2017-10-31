@@ -1,54 +1,6 @@
 {
   "id": "061",
-  "name": "伊丽莎白・巴陶里〔万圣节〕",
-  "nameJP": "エリザベート・バートリー〔ハロウィン〕",
-  "nameEN": "Erzsebet Bathory （Halloween)",
-  "fuzzyKeywords": [
-    "伊丽莎白・巴陶里〔万圣节〕",
-    "Erzsebet Bathory （Halloween)",
-    "エリザベート・バートリー〔ハロウィン〕",
-    "c龙",
-    "c龙娘",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 5,
-  "startATK": 1436,
-  "endATK": 8616,
-  "startHP": 1824,
-  "endHP": 11404,
-  "grailATK": 10432,
-  "grailHP": 13827,
-  "illustrator": "ワダアルコ",
-  "cv": "大久保瑠美",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    1,
-    1,
-    2,
-    4
-  ],
-  "charge": [
-    0.016,
-    0.016,
-    0.016,
-    0.016
-  ],
-  "starAbsorption": 49,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.016,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.42,
-  "traits": [],
   "skill1": [
     {
       "name": "无辜的怪物",
@@ -271,53 +223,6 @@
       "img": 12
     }
   ],
-  "np": [
-    {
-      "name": "鲜血特上魔娘（Báthory Halloween Erzsébet）",
-      "type": 3,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "E-",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000030008",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 5
-    }
-  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -394,6 +299,53 @@
         }
       ],
       "img": 35
+    }
+  ],
+  "np": [
+    {
+      "name": "鲜血特上魔娘（Báthory Halloween Erzsébet）",
+      "type": 3,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "E-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000030008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 5
     }
   ],
   "skillResource": [

@@ -1,54 +1,6 @@
 {
   "id": "062",
-  "name": "玉藻前",
-  "nameJP": "玉藻の前",
-  "nameEN": "Tamamo no Mae",
-  "fuzzyKeywords": [
-    "玉藻前",
-    "Tamamo no Mae",
-    "玉藻の前",
-    "c狐",
-    "人妻狐",
-    "小玉",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 5,
-  "startATK": 1629,
-  "endATK": 10546,
-  "startHP": 2091,
-  "endHP": 14259,
-  "grailATK": 11544,
-  "grailHP": 15621,
-  "illustrator": "ワダアルコ",
-  "cv": "斋藤千和",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "12",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    5,
-    1,
-    3,
-    4
-  ],
-  "charge": [
-    0.0032,
-    0.0032,
-    0.0032,
-    0.0032
-  ],
-  "starAbsorption": 49,
-  "starGeneration": 0.11,
-  "npChargeATK": 0.0032,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "咒术",
@@ -281,6 +233,84 @@
       "img": 28
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "神性",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "np": [
     {
       "name": "水天日光天照八野镇石",
@@ -479,84 +509,6 @@
         }
       ],
       "hits": 0
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "神性",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            200,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
     }
   ],
   "skillResource": [

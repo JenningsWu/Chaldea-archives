@@ -1,56 +1,6 @@
 {
   "id": "040",
-  "name": "咒腕的哈桑",
-  "nameJP": "呪腕のハサン",
-  "nameEN": "Hassan of the Cursed Arm",
-  "fuzzyKeywords": [
-    "咒腕的哈桑",
-    "Hassan of the Cursed Arm",
-    "呪腕のハサン",
-    "哈桑",
-    "人头帝",
-    "忠义无双",
-    "麒麟臂",
-    "人头狗",
-    "友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 2,
-  "class": 6,
-  "startATK": 1114,
-  "endATK": 6280,
-  "startHP": 1429,
-  "endHP": 7594,
-  "grailATK": 9100,
-  "grailHP": 10960,
-  "illustrator": "タスクオーナ",
-  "cv": "稻田彻",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "02",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    2,
-    1,
-    3,
-    3
-  ],
-  "charge": [
-    0.0107,
-    0.0107,
-    0.0107,
-    0.0107
-  ],
-  "starAbsorption": 97,
-  "starGeneration": 0.252,
-  "npChargeATK": 0.0107,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.44,
-  "traits": [],
   "skill1": [
     {
       "name": "投掷（短刀）",
@@ -211,6 +161,46 @@
       "img": 18
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "妄想心音（Zabaniya）",
@@ -256,46 +246,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

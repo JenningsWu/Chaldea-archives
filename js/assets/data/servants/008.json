@@ -1,58 +1,6 @@
 {
   "id": "008",
-  "name": "阿尔提拉",
-  "nameJP": "アルテラ",
-  "nameEN": "Artila",
-  "fuzzyKeywords": [
-    "阿尔提拉",
-    "Artila",
-    "アルテラ",
-    "阿提拉",
-    "b提拉",
-    "彩笔",
-    "天元突破",
-    "匈奴王",
-    "大王",
-    "上帝之鞭",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 1,
-  "startATK": 1907,
-  "endATK": 12343,
-  "startHP": 2039,
-  "endHP": 13907,
-  "grailATK": 13511,
-  "grailHP": 15236,
-  "illustrator": "huke",
-  "cv": "能登麻美子",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0084,
-    0.0084,
-    0.0084,
-    0.0084
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.11,
-  "npChargeATK": 0.0084,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.245,
-  "traits": [],
   "skill1": [
     {
       "name": "军略",
@@ -347,98 +295,6 @@
       "img": 6
     }
   ],
-  "np": [
-    {
-      "name": "军神之剑（Photon Ray）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        400,
-        500,
-        550,
-        575,
-        600
-      ],
-      "card": 1,
-      "lv": "A-",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    },
-    {
-      "name": "军神之剑（Photon Ray）",
-      "type": 1,
-      "condition": 1,
-      "value": [
-        400,
-        500,
-        550,
-        575,
-        600
-      ],
-      "card": 1,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -553,6 +409,98 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "军神之剑（Photon Ray）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        400,
+        500,
+        550,
+        575,
+        600
+      ],
+      "card": 1,
+      "lv": "A-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    },
+    {
+      "name": "军神之剑（Photon Ray）",
+      "type": 1,
+      "condition": 1,
+      "value": [
+        400,
+        500,
+        550,
+        575,
+        600
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

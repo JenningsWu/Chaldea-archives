@@ -1,58 +1,6 @@
 {
   "id": "111",
-  "name": "爱丽斯菲尔〔天之衣〕",
-  "nameJP": "アイリスフィール〔天の衣〕",
-  "nameEN": "Irisviel （Dress of Heaven)",
-  "fuzzyKeywords": [
-    "爱丽斯菲尔〔天之衣〕",
-    "Irisviel （Dress of Heaven)",
-    "アイリスフィール〔天の衣〕",
-    "太太",
-    "白太太",
-    "奶子",
-    "爱莉小三",
-    "白圣杯",
-    "杯子",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 5,
-  "startATK": 1372,
-  "endATK": 8237,
-  "startHP": 1996,
-  "endHP": 12476,
-  "grailATK": 9973,
-  "grailHP": 15127,
-  "illustrator": "縞うどん",
-  "cv": "大原沙耶香",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "20",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    3,
-    3,
-    3,
-    4
-  ],
-  "charge": [
-    0.0042,
-    0.0042,
-    0.0042,
-    0.0042
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0042,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.345,
-  "traits": [],
   "skill1": [
     {
       "name": "献身的觉悟",
@@ -213,80 +161,6 @@
       "img": 11
     }
   ],
-  "np": [
-    {
-      "name": "洁白的圣杯啊，讴歌吧（Song Of Grail）",
-      "type": 0,
-      "condition": 0,
-      "value": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "card": 0,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014008",
-          "value": [
-            2000,
-            2500,
-            2750,
-            2875,
-            3000
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 1
-        },
-        {
-          "id": "020000015002",
-          "value": [
-            1000,
-            1500,
-            2000,
-            2500,
-            3000
-          ],
-          "duration": 3,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 0
-    }
-  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -394,6 +268,80 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "洁白的圣杯啊，讴歌吧（Song Of Grail）",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014008",
+          "value": [
+            2000,
+            2500,
+            2750,
+            2875,
+            3000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 1
+        },
+        {
+          "id": "020000015002",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 3,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 0
     }
   ],
   "skillResource": [

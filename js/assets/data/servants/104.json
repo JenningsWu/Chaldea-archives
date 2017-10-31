@@ -1,53 +1,6 @@
 {
   "id": "104",
-  "name": "杰罗尼莫",
-  "nameJP": "ジェロニモ",
-  "nameEN": "Geronimo",
-  "fuzzyKeywords": [
-    "杰罗尼莫",
-    "Geronimo",
-    "ジェロニモ",
-    "萨满",
-    "酋长",
-    "剧情第1部第五章通关报酬＆圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 5,
-  "startATK": 1273,
-  "endATK": 6857,
-  "startHP": 1642,
-  "endHP": 9123,
-  "grailATK": 9280,
-  "grailHP": 12369,
-  "illustrator": "坂本みねぢ",
-  "cv": "江川央生",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "10",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    4
-  ],
-  "charge": [
-    0.009,
-    0.009,
-    0.009,
-    0.009
-  ],
-  "starAbsorption": 49,
-  "starGeneration": 0.11,
-  "npChargeATK": 0.009,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.405,
-  "traits": [],
   "skill1": [
     {
       "name": "血染的恶魔",
@@ -175,6 +128,84 @@
       "initialCD": 7,
       "requirement": "00000",
       "img": 25
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
     }
   ],
   "np": [
@@ -375,84 +406,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

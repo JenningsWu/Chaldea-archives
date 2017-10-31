@@ -1,53 +1,6 @@
 {
   "id": "097",
-  "name": "南丁格尔",
-  "nameJP": "ナイチンゲール",
-  "nameEN": "Nightingale",
-  "fuzzyKeywords": [
-    "南丁格尔",
-    "Nightingale",
-    "ナイチンゲール",
-    "护士",
-    "南丁",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 7,
-  "startATK": 1573,
-  "endATK": 10184,
-  "startHP": 2232,
-  "endHP": 15221,
-  "grailATK": 11148,
-  "grailHP": 16675,
-  "illustrator": "高橋慶太郎",
-  "cv": "泽城美雪",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    6,
-    5
-  ],
-  "charge": [
-    0.0077,
-    0.0077,
-    0.005,
-    0.0077
-  ],
-  "starAbsorption": 10,
-  "starGeneration": 0.05,
-  "npChargeATK": 0.0077,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.568,
-  "traits": [],
   "skill1": [
     {
       "name": "钢之看护",
@@ -206,6 +159,46 @@
       "initialCD": 7,
       "requirement": "00000",
       "img": 7
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
     }
   ],
   "np": [
@@ -433,46 +426,6 @@
         }
       ],
       "hits": 0
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "skillResource": [

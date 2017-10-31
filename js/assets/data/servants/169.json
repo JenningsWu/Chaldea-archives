@@ -1,51 +1,6 @@
 {
   "id": "169",
-  "name": "山鲁佐德",
-  "nameJP": "シェヘラザード",
-  "nameEN": "Scheherazade",
-  "fuzzyKeywords": [
-    "山鲁佐德",
-    "Scheherazade",
-    "シェヘラザード",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 5,
-  "startATK": 1423,
-  "endATK": 9212,
-  "startHP": 2324,
-  "endHP": 15846,
-  "grailATK": 10084,
-  "grailHP": 17360,
-  "illustrator": "なまにくATK(ニトロプラス)",
-  "cv": "井上喜久子",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "01",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    3,
-    4,
-    4,
-    4
-  ],
-  "charge": [
-    0.0051,
-    0.0051,
-    0.0051,
-    0.0051
-  ],
-  "starAbsorption": 52,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0051,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.48,
-  "traits": [],
   "skill1": [
     {
       "name": "旁白者",
@@ -268,6 +223,46 @@
       "img": 12
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A++",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            11.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    }
+  ],
   "np": [
     {
       "name": "一千零一夜（Alf Layla wa Layla）",
@@ -340,46 +335,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A++",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            11.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
     }
   ],
   "skillResource": [

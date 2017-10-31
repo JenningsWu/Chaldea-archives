@@ -1,55 +1,6 @@
 {
   "id": "159",
-  "name": "燕青",
-  "nameJP": "燕青",
-  "nameEN": "Yan Qing",
-  "fuzzyKeywords": [
-    "燕青",
-    "Yan Qing",
-    "燕青",
-    "燕小乙",
-    "天巧星",
-    "浪子燕青",
-    "梁山好汉",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1443,
-  "endATK": 8661,
-  "startHP": 1862,
-  "endHP": 11637,
-  "grailATK": 10487,
-  "grailHP": 14110,
-  "illustrator": "縞うどん",
-  "cv": "冈本信彦",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    1,
-    1,
-    3
-  ],
-  "hits": [
-    3,
-    1,
-    3,
-    5
-  ],
-  "charge": [
-    0.0071,
-    0.0071,
-    0.0071,
-    0.0071
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.296,
-  "npChargeATK": 0.0071,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.495,
-  "traits": [],
   "skill1": [
     {
       "name": "中国拳法",
@@ -241,53 +192,6 @@
       "img": 62
     }
   ],
-  "np": [
-    {
-      "name": "十面埋伏·形如无影",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000021004",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 11
-    }
-  ],
   "classSkill": [
     {
       "name": "气息遮断",
@@ -395,6 +299,53 @@
         }
       ],
       "img": 16
+    }
+  ],
+  "np": [
+    {
+      "name": "十面埋伏·形如无影",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000021004",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 11
     }
   ],
   "skillResource": [

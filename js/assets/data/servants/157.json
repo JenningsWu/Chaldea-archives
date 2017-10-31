@@ -1,57 +1,6 @@
 {
   "id": "157",
-  "name": "卫宫〔Alter〕",
-  "nameJP": "エミヤ〔オルタ〕",
-  "nameEN": "Emiya〔Alter〕",
-  "fuzzyKeywords": [
-    "卫宫〔Alter〕",
-    "Emiya〔Alter〕",
-    "エミヤ〔オルタ〕",
-    "黑茶",
-    "黑A",
-    "碳茶",
-    "黎明的神腕",
-    "大流士Lily",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1.5部第一章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 2,
-  "startATK": 1499,
-  "endATK": 8996,
-  "startHP": 1960,
-  "endHP": 12250,
-  "grailATK": 10892,
-  "grailHP": 14853,
-  "illustrator": "佐々木少年",
-  "cv": "诹访部顺一",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    4,
-    4,
-    4,
-    4
-  ],
-  "charge": [
-    0.0043,
-    0.0043,
-    0.0043,
-    0.0043
-  ],
-  "starAbsorption": 145,
-  "starGeneration": 0.079,
-  "npChargeATK": 0.0043,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "防弹加工",
@@ -274,53 +223,6 @@
       "img": 6
     }
   ],
-  "np": [
-    {
-      "name": "无限剑制（Unlimited Lost Works）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "E~A++",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            60,
-            70,
-            80,
-            90,
-            100,
-            110,
-            120,
-            130,
-            140,
-            160
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -397,6 +299,53 @@
         }
       ],
       "img": 22
+    }
+  ],
+  "np": [
+    {
+      "name": "无限剑制（Unlimited Lost Works）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "E~A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            130,
+            140,
+            160
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
     }
   ],
   "skillResource": [

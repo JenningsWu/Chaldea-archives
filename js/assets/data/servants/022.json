@@ -1,56 +1,6 @@
 {
   "id": "022",
-  "name": "罗穆路斯",
-  "nameJP": "ロムルス",
-  "nameEN": "Romulus",
-  "fuzzyKeywords": [
-    "罗穆路斯",
-    "Romulus",
-    "ロムルス",
-    "罗马",
-    "神祖",
-    "罗马罗马罗",
-    "笑什么笑你也是罗马",
-    "姿势",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 3,
-  "startATK": 1344,
-  "endATK": 7239,
-  "startHP": 1779,
-  "endHP": 9883,
-  "grailATK": 9797,
-  "grailHP": 13400,
-  "illustrator": "こやまひろかず",
-  "cv": "置鲇龙太郎",
-  "gender": 0,
-  "attribute": 3,
-  "alignment": "21",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0107,
-    0.0107,
-    0.0107,
-    0.0107
-  ],
-  "starAbsorption": 90,
-  "starGeneration": 0.121,
-  "npChargeATK": 0.0107,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.32,
-  "traits": [],
   "skill1": [
     {
       "name": "天性的肉体",
@@ -304,6 +254,46 @@
       "img": 12
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "万物皆由我枪生（Magna Voluisse Magnum）",
@@ -349,46 +339,6 @@
         }
       ],
       "hits": 7
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

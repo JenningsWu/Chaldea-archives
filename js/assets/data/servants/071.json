@@ -1,53 +1,6 @@
 {
   "id": "071",
-  "name": "迪尔姆德・奥迪纳",
-  "nameJP": "ディルムッド・オディナ",
-  "nameEN": "Diarmuid Ua Duibhne",
-  "fuzzyKeywords": [
-    "迪尔姆德・奥迪纳",
-    "Diarmuid Ua Duibhne",
-    "ディルムッド・オディナ",
-    "刷子",
-    "灭世双刷",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 3,
-  "startATK": 1277,
-  "endATK": 6877,
-  "startHP": 1877,
-  "endHP": 10098,
-  "grailATK": 9307,
-  "grailHP": 13691,
-  "illustrator": "また",
-  "cv": "绿川光",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "01",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    2,
-    2,
-    4
-  ],
-  "charge": [
-    0.0079,
-    0.0079,
-    0.0079,
-    0.0079
-  ],
-  "starAbsorption": 87,
-  "starGeneration": 0.123,
-  "npChargeATK": 0.0079,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "心眼（真）",
@@ -208,6 +161,46 @@
       "img": 20
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "破魔的红蔷薇、必灭的黄蔷薇（Gae Dearg&Gae Buidhe）",
@@ -352,46 +345,6 @@
         }
       ],
       "hits": 2
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

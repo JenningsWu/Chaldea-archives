@@ -1,54 +1,6 @@
 {
   "id": "072",
-  "name": "弗格斯・马克・罗伊",
-  "nameJP": "フェルグス・マック・ロイ",
-  "nameEN": "Fergus Mac Roich",
-  "fuzzyKeywords": [
-    "弗格斯・马克・罗伊",
-    "Fergus Mac Roich",
-    "フェルグス・マック・ロイ",
-    "狗爹",
-    "钻头",
-    "小刚",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 1,
-  "startATK": 1385,
-  "endATK": 7460,
-  "startHP": 1761,
-  "endHP": 9786,
-  "grailATK": 10096,
-  "grailHP": 13268,
-  "illustrator": "Bすけ",
-  "cv": "黑田崇矢",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "01",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0109,
-    0.0109,
-    0.0109,
-    0.0109
-  ],
-  "starAbsorption": 99,
-  "starGeneration": 0.1,
-  "npChargeATK": 0.0109,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.35,
-  "traits": [],
   "skill1": [
     {
       "name": "勇猛",
@@ -271,6 +223,84 @@
       "img": 18
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "虹霓剑（Caladbolg）",
@@ -415,84 +445,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

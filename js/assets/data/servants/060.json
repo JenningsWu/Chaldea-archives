@@ -1,55 +1,6 @@
 {
   "id": "060",
-  "name": "俄里翁",
-  "nameJP": "オリオン",
-  "nameEN": "Orion",
-  "fuzzyKeywords": [
-    "俄里翁",
-    "Orion",
-    "オリオン",
-    "月神",
-    "奶茶",
-    "月大奶",
-    "球王",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 2,
-  "startATK": 1716,
-  "endATK": 11107,
-  "startHP": 2134,
-  "endHP": 14553,
-  "grailATK": 12158,
-  "grailHP": 15943,
-  "illustrator": "I-IV",
-  "cv": "神奈延年&泽城美雪",
-  "gender": 5,
-  "attribute": 1,
-  "alignment": "21",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    1,
-    1,
-    3,
-    4
-  ],
-  "charge": [
-    0.01,
-    0.01,
-    0.01,
-    0.01
-  ],
-  "starAbsorption": 153,
-  "starGeneration": 0.08,
-  "npChargeATK": 0.01,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.27,
-  "traits": [],
   "skill1": [
     {
       "name": "女神的宠爱",
@@ -272,6 +223,84 @@
       "img": 18
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    }
+  ],
   "np": [
     {
       "name": "月之女神的爱矢恋矢（Tristar Amore Mio）",
@@ -443,84 +472,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            11,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
     }
   ],
   "skillResource": [

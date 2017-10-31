@@ -1,58 +1,6 @@
 {
   "id": "002",
-  "name": "阿尔托莉雅・潘德拉贡",
-  "nameJP": "アルトリア・ペンドラゴン",
-  "nameEN": "Altria Pendragon",
-  "fuzzyKeywords": [
-    "阿尔托莉雅・潘德拉贡",
-    "Altria Pendragon",
-    "アルトリア・ペンドラゴン",
-    "呆毛",
-    "棉袄",
-    "军刀",
-    "搓衣板（青）",
-    "傻吧",
-    "蓝saber",
-    "吾王",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 1,
-  "startATK": 1734,
-  "endATK": 11221,
-  "startHP": 2222,
-  "endHP": 15150,
-  "grailATK": 12283,
-  "grailHP": 16597,
-  "illustrator": "武内崇",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0086,
-    0.0086,
-    0.0086,
-    0.0086
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.1,
-  "npChargeATK": 0.0086,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.21,
-  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -182,6 +130,84 @@
       "img": 8
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "誓约胜利之剑",
@@ -272,84 +298,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

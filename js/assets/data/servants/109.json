@@ -1,53 +1,6 @@
 {
   "id": "109",
-  "name": "卫宫〔Assassin〕",
-  "nameJP": "エミヤ〔アサシン〕",
-  "nameEN": "Emiya （Assassin)",
-  "fuzzyKeywords": [
-    "卫宫〔Assassin〕",
-    "Emiya （Assassin)",
-    "エミヤ〔アサシン〕",
-    "切丝",
-    "Papa",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1493,
-  "endATK": 8958,
-  "startHP": 1783,
-  "endHP": 11168,
-  "grailATK": 10846,
-  "grailHP": 13541,
-  "illustrator": "AKIRA",
-  "cv": "小山力也",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    6,
-    4,
-    8
-  ],
-  "charge": [
-    0.0046,
-    0.0046,
-    0.0046,
-    0.0046
-  ],
-  "starAbsorption": 97,
-  "starGeneration": 0.256,
-  "npChargeATK": 0.0028,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.44,
-  "traits": [],
   "skill1": [
     {
       "name": "魔术",
@@ -270,80 +223,6 @@
       "img": 3
     }
   ],
-  "np": [
-    {
-      "name": "有花堪折直须折（Khronos Rose）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000024005",
-          "value": [
-            10,
-            20,
-            30,
-            40,
-            50
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 15
-    }
-  ],
   "classSkill": [
     {
       "name": "气息遮断",
@@ -420,6 +299,80 @@
         }
       ],
       "img": 22
+    }
+  ],
+  "np": [
+    {
+      "name": "有花堪折直须折（Khronos Rose）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000024005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 15
     }
   ],
   "skillResource": [

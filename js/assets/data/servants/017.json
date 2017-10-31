@@ -1,57 +1,6 @@
 {
   "id": "017",
-  "name": "库・丘林",
-  "nameJP": "クー・フーリン",
-  "nameEN": "Cu Chulainn",
-  "fuzzyKeywords": [
-    "库・丘林",
-    "Cu Chulainn",
-    "クー・フーリン",
-    "汪酱",
-    "大狗",
-    "非洲战神",
-    "幸运E",
-    "L汪",
-    "旋转的蓝色枪兵",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 3,
-  "startATK": 1344,
-  "endATK": 7239,
-  "startHP": 1726,
-  "endHP": 9593,
-  "grailATK": 9797,
-  "grailHP": 13007,
-  "illustrator": "武内崇",
-  "cv": "神奈延年",
-  "gender": 0,
-  "attribute": 1,
-  "alignment": "01",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0107,
-    0.0107,
-    0.0107,
-    0.0107
-  ],
-  "starAbsorption": 87,
-  "starGeneration": 0.121,
-  "npChargeATK": 0.0107,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.32,
-  "traits": [],
   "skill1": [
     {
       "name": "战斗续行",
@@ -243,80 +192,6 @@
       "img": 13
     }
   ],
-  "np": [
-    {
-      "name": "刺穿死棘之枪（Gae Bolg）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000022000",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "110000024012",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            50,
-            62.5,
-            75,
-            87.5,
-            100,
-            112.5,
-            125,
-            137.5,
-            150,
-            175
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -393,6 +268,80 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "刺穿死棘之枪（Gae Bolg）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100,
+            112.5,
+            125,
+            137.5,
+            150,
+            175
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

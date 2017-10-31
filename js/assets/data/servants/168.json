@@ -1,56 +1,11 @@
 {
   "id": "168",
-  "name": "BeastⅢ／R",
-  "nameJP": "ビーストⅢ／R",
-  "nameEN": "BeastⅢ／R",
-  "fuzzyKeywords": [
-    "BeastⅢ／R",
-    "BeastⅢ／R",
-    "ビーストⅢ／R",
-    "无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 14,
-  "startATK": 0,
-  "endATK": 0,
-  "startHP": 0,
-  "endHP": 0,
-  "grailATK": 0,
-  "grailHP": 0,
-  "illustrator": "ワダアルコ",
-  "cv": "田中理惠",
-  "gender": 1,
-  "attribute": 4,
-  "alignment": "22",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    -1,
-    -1,
-    -1,
-    -1
-  ],
-  "charge": [
-    -1,
-    -1,
-    -1,
-    -1
-  ],
-  "starAbsorption": -1,
-  "starGeneration": -1,
-  "npChargeATK": -1,
-  "npChargeDEF": -1,
-  "deathResist": -1,
-  "traits": [],
   "skill1": [],
   "skill2": [],
   "skill3": [],
-  "np": [],
   "classSkill": [],
+  "np": [],
   "skillResource": [],
   "ascensionResource": []
 }

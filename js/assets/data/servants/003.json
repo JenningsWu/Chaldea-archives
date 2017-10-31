@@ -1,58 +1,6 @@
 {
   "id": "003",
-  "name": "阿尔托莉雅・潘德拉贡〔Alter〕",
-  "nameJP": "アルトリア・ペンドラゴン〔オルタ〕",
-  "nameEN": "Altria Pendragon （Alter)",
-  "fuzzyKeywords": [
-    "阿尔托莉雅・潘德拉贡〔Alter〕",
-    "Altria Pendragon （Alter)",
-    "アルトリア・ペンドラゴン〔オルタ〕",
-    "黑无毛",
-    "黑毛",
-    "搓衣板（黑）",
-    "黑saber",
-    "黑呆",
-    "黑傻",
-    "圣晶石召唤（Story卡池）",
-    "剧情序章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1708,
-  "endATK": 10248,
-  "startHP": 1854,
-  "endHP": 11589,
-  "grailATK": 12408,
-  "grailHP": 14051,
-  "illustrator": "武内崇",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "02",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0086,
-    0.0086,
-    0.0086,
-    0.0086
-  ],
-  "starAbsorption": 99,
-  "starGeneration": 0.099,
-  "npChargeATK": 0.0086,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.192,
-  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -182,6 +130,46 @@
       "img": 6
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "誓约胜利之剑（Excalibur・Morgan）",
@@ -227,46 +215,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

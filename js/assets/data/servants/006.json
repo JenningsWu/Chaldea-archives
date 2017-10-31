@@ -1,56 +1,6 @@
 {
   "id": "006",
-  "name": "齐格弗里德",
-  "nameJP": "ジークフリート",
-  "nameEN": "Siegfried",
-  "fuzzyKeywords": [
-    "齐格弗里德",
-    "Siegfried",
-    "ジークフリート",
-    "飞哥",
-    "齐格废",
-    "对不起先生",
-    "龙哥",
-    "七个肺",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1363,
-  "endATK": 8181,
-  "startHP": 2266,
-  "endHP": 14165,
-  "grailATK": 9905,
-  "grailHP": 17175,
-  "illustrator": "近卫乙嗣",
-  "cv": "诹访部顺一",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0083,
-    0.0083,
-    0.0083,
-    0.0083
-  ],
-  "starAbsorption": 97,
-  "starGeneration": 0.1,
-  "npChargeATK": 0.0083,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.28,
-  "traits": [],
   "skill1": [
     {
       "name": "黄金律",
@@ -345,6 +295,46 @@
       "img": 14
     }
   ],
+  "classSkill": [
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "幻想大剑・天魔失坠",
@@ -462,46 +452,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

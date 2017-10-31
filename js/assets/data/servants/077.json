@@ -1,56 +1,6 @@
 {
   "id": "077",
-  "name": "尼古拉・特斯拉",
-  "nameJP": "ニコラ･テスラ",
-  "nameEN": "Nikola Tesla",
-  "fuzzyKeywords": [
-    "尼古拉・特斯拉",
-    "Nikola Tesla",
-    "ニコラ･テスラ",
-    "祖师爷",
-    "磁暴步兵",
-    "教主",
-    "特总",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1部第四章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 2,
-  "startATK": 1820,
-  "endATK": 11781,
-  "startHP": 2027,
-  "endHP": 13825,
-  "grailATK": 12896,
-  "grailHP": 15146,
-  "illustrator": "なまにくATK（ニトロプラス）",
-  "cv": "稻田彻",
-  "gender": 0,
-  "attribute": 3,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    3,
-    3
-  ],
-  "charge": [
-    0.0087,
-    0.0087,
-    0.0087,
-    0.0087
-  ],
-  "starAbsorption": 147,
-  "starGeneration": 0.079,
-  "npChargeATK": 0.0087,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "流电学",
@@ -438,6 +388,84 @@
       "img": 29
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    }
+  ],
   "np": [
     {
       "name": "人类神话・雷电降临（System Keraunos）",
@@ -636,84 +664,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
     }
   ],
   "skillResource": [

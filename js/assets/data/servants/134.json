@@ -1,54 +1,6 @@
 {
   "id": "134",
-  "name": "清姬",
-  "nameJP": "清姫",
-  "nameEN": "Kiyohime",
-  "fuzzyKeywords": [
-    "清姬",
-    "Kiyohime",
-    "清姫",
-    "l清姬",
-    "l种田",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 3,
-  "startATK": 1489,
-  "endATK": 8936,
-  "startHP": 1899,
-  "endHP": 11870,
-  "grailATK": 10820,
-  "grailHP": 14392,
-  "illustrator": "BLACK",
-  "cv": "种田梨沙",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    6,
-    2,
-    5
-  ],
-  "charge": [
-    0.0105,
-    0.0105,
-    0.0105,
-    0.0105
-  ],
-  "starAbsorption": 92,
-  "starGeneration": 0.12,
-  "npChargeATK": 0.0105,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.4,
-  "traits": [],
   "skill1": [
     {
       "name": "情热的炎夏",
@@ -209,80 +161,6 @@
       "img": 30
     }
   ],
-  "np": [
-    {
-      "name": "道成寺钟百八式火龙薙",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000020015",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            150,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000030009",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 6
-    }
-  ],
   "classSkill": [
     {
       "name": "狂化",
@@ -359,6 +237,80 @@
         }
       ],
       "img": 4
+    }
+  ],
+  "np": [
+    {
+      "name": "道成寺钟百八式火龙薙",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000020015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030009",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 6
     }
   ],
   "skillResource": [

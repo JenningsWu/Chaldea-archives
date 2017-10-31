@@ -1,55 +1,6 @@
 {
   "id": "114",
-  "name": "源赖光",
-  "nameJP": "源頼光",
-  "nameEN": "Minamoto Yorimitsu",
-  "fuzzyKeywords": [
-    "源赖光",
-    "Minamoto Yorimitsu",
-    "源頼光",
-    "奶光",
-    "奶子",
-    "金妈",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 7,
-  "startATK": 1786,
-  "endATK": 11556,
-  "startHP": 1980,
-  "endHP": 13500,
-  "grailATK": 12650,
-  "grailHP": 14790,
-  "illustrator": "本庄雷太",
-  "cv": "户松遥",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    4,
-    1,
-    3,
-    5
-  ],
-  "charge": [
-    0.0046,
-    0.0046,
-    0.0046,
-    0.0046
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.049,
-  "npChargeATK": 0.0046,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.39,
-  "traits": [],
   "skill1": [
     {
       "name": "无穷的武练",
@@ -241,53 +192,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "牛王招雷・天网恢恢",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "B++",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            100,
-            150,
-            200,
-            250,
-            300
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 7
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -440,6 +344,53 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "牛王招雷・天网恢恢",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "B++",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            100,
+            150,
+            200,
+            250,
+            300
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 7
     }
   ],
   "skillResource": [

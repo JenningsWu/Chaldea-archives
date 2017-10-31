@@ -1,52 +1,6 @@
 {
   "id": "020",
-  "name": "库・丘林〔Prototype〕",
-  "nameJP": "クー・フーリン〔プロトタイプ〕",
-  "nameEN": "Cu Chulainn （Prototype)",
-  "fuzzyKeywords": [
-    "库・丘林〔Prototype〕",
-    "Cu Chulainn （Prototype)",
-    "クー・フーリン〔プロトタイプ〕",
-    "旧狗",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 3,
-  "startATK": 1315,
-  "endATK": 7082,
-  "startHP": 1817,
-  "endHP": 10098,
-  "grailATK": 9584,
-  "grailHP": 13691,
-  "illustrator": "中原",
-  "cv": "中井和哉",
-  "gender": 0,
-  "attribute": 1,
-  "alignment": "01",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0108,
-    0.0108,
-    0.0108,
-    0.0108
-  ],
-  "starAbsorption": 88,
-  "starGeneration": 0.121,
-  "npChargeATK": 0.0108,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.28,
-  "traits": [],
   "skill1": [
     {
       "name": "符文魔术",
@@ -310,80 +264,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "贯穿之朱枪（Gae Bolg）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000022000",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "110000024012",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            50,
-            62.5,
-            75,
-            87.5,
-            100,
-            112.5,
-            125,
-            137.5,
-            150,
-            175
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -460,6 +340,80 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "贯穿之朱枪（Gae Bolg）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100,
+            112.5,
+            125,
+            137.5,
+            150,
+            175
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

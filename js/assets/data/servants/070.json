@@ -1,57 +1,6 @@
 {
   "id": "070",
-  "name": "斯卡哈",
-  "nameJP": "スカサハ",
-  "nameEN": "Scathach",
-  "fuzzyKeywords": [
-    "斯卡哈",
-    "Scathach",
-    "スカサハ",
-    "师匠",
-    "西秀",
-    "师傅",
-    "狗师",
-    "哈斯卡",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 3,
-  "startATK": 1758,
-  "endATK": 11375,
-  "startHP": 2174,
-  "endHP": 14825,
-  "grailATK": 12452,
-  "grailHP": 16241,
-  "illustrator": "こやまひろかず",
-  "cv": "能登麻美子",
-  "gender": 1,
-  "attribute": 3,
-  "alignment": "00",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    3,
-    6,
-    2,
-    7
-  ],
-  "charge": [
-    0.0071,
-    0.0071,
-    0.0071,
-    0.0071
-  ],
-  "starAbsorption": 88,
-  "starGeneration": 0.122,
-  "npChargeATK": 0.0071,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.32,
-  "traits": [],
   "skill1": [
     {
       "name": "魔境的智慧",
@@ -274,6 +223,46 @@
       "img": 14
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "贯穿死翔之枪（Gae Bolg Alternative）",
@@ -418,46 +407,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

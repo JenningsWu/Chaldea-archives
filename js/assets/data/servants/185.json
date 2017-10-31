@@ -1,51 +1,6 @@
 {
   "id": "185",
-  "name": "望月千代女",
-  "nameJP": "望月千代女",
-  "nameEN": "Mochizuki Chiyome",
-  "fuzzyKeywords": [
-    "望月千代女",
-    "Mochizuki Chiyome",
-    "望月千代女",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1418,
-  "endATK": 8510,
-  "startHP": 1862,
-  "endHP": 11637,
-  "grailATK": 10304,
-  "grailHP": 14110,
-  "illustrator": "ひろやまひろし",
-  "cv": "佐仓绫音",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    3,
-    3,
-    4
-  ],
-  "charge": [
-    0.008,
-    0.008,
-    0.008,
-    0.008
-  ],
-  "starAbsorption": 99,
-  "starGeneration": 0.255,
-  "npChargeATK": 0.008,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.44,
-  "traits": [],
   "skill1": [
     {
       "name": "咒术（巫）",
@@ -237,6 +192,46 @@
       "img": 18
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "口寄せ・伊吹大明神縁起",
@@ -309,46 +304,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

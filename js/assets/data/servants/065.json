@@ -1,54 +1,6 @@
 {
   "id": "065",
-  "name": "弗朗西斯・德雷克",
-  "nameJP": "フランシス・ドレイク",
-  "nameEN": "Francis Drake",
-  "fuzzyKeywords": [
-    "弗朗西斯・德雷克",
-    "Francis Drake",
-    "フランシス・ドレイク",
-    "海盗船长",
-    "德姐",
-    "BBA",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 4,
-  "startATK": 1750,
-  "endATK": 11326,
-  "startHP": 1881,
-  "endHP": 12830,
-  "grailATK": 12398,
-  "grailHP": 14056,
-  "illustrator": "ワダアルコ",
-  "cv": "高乃丽",
-  "gender": 1,
-  "attribute": 3,
-  "alignment": "22",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    4,
-    2,
-    6,
-    4
-  ],
-  "charge": [
-    0.0042,
-    0.0042,
-    0.0042,
-    0.0042
-  ],
-  "starAbsorption": 208,
-  "starGeneration": 0.09,
-  "npChargeATK": 0.0042,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.5,
-  "traits": [],
   "skill1": [
     {
       "name": "暴风航海者",
@@ -271,6 +223,84 @@
       "img": 29
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "黄金鹿与暴风夜（Golden Wild Hunt）",
@@ -361,84 +391,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

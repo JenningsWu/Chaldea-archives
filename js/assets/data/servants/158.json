@@ -1,54 +1,6 @@
 {
   "id": "158",
-  "name": "海森・罗伯",
-  "nameJP": "ヘシアン・ロボ",
-  "nameEN": "",
-  "fuzzyKeywords": [
-    "海森・罗伯",
-    "ヘシアン・ロボ",
-    "大狗",
-    "狗子",
-    "狼王",
-    "无头骑士",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 9,
-  "startATK": 1771,
-  "endATK": 10628,
-  "startHP": 1591,
-  "endHP": 9949,
-  "grailATK": 12868,
-  "grailHP": 12063,
-  "illustrator": "下越",
-  "cv": "竹内良太",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    2,
-    3,
-    5
-  ],
-  "charge": [
-    0.0079,
-    0.0079,
-    0.0079,
-    0.0079
-  ],
-  "starAbsorption": 29,
-  "starGeneration": 0.06,
-  "npChargeATK": 0.0079,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.1,
-  "traits": [],
   "skill1": [
     {
       "name": "堕天之魔",
@@ -271,80 +223,6 @@
       "img": 60
     }
   ],
-  "np": [
-    {
-      "name": "无远弗届的斩罪（Frieren Scharfrichter）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "C",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005003",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000024012",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            60,
-            70,
-            80,
-            90,
-            100,
-            110,
-            120,
-            130,
-            140,
-            160
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 8
-    }
-  ],
   "classSkill": [
     {
       "name": "复仇者",
@@ -490,6 +368,80 @@
         }
       ],
       "img": 48
+    }
+  ],
+  "np": [
+    {
+      "name": "无远弗届的斩罪（Frieren Scharfrichter）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "C",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            130,
+            140,
+            160
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
     }
   ],
   "skillResource": [

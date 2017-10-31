@@ -1,57 +1,6 @@
 {
   "id": "049",
-  "name": "吕布奉先",
-  "nameJP": "呂布奉先",
-  "nameEN": "Lu Bu Feng Xian",
-  "fuzzyKeywords": [
-    "吕布奉先",
-    "Lu Bu Feng Xian",
-    "呂布奉先",
-    "拖拉机",
-    "高达",
-    "三星战神",
-    "发动机",
-    "马中吕布",
-    "赤兔",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 7,
-  "startATK": 1507,
-  "endATK": 8119,
-  "startHP": 1494,
-  "endHP": 8302,
-  "grailATK": 10988,
-  "grailHP": 11256,
-  "illustrator": "ワダアルコ",
-  "cv": "安井邦彦",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0104,
-    0.0104,
-    0.0104,
-    0.0104
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.05,
-  "npChargeATK": 0.0104,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.503,
-  "traits": [],
   "skill1": [
     {
       "name": "勇猛",
@@ -305,6 +254,46 @@
       "img": 15
     }
   ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
+    }
+  ],
   "np": [
     {
       "name": "军神五兵（God Force）",
@@ -350,46 +339,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "skillResource": [

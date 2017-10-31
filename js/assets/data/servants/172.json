@@ -1,52 +1,6 @@
 {
   "id": "172",
-  "name": "克里斯托弗·哥伦布",
-  "nameJP": "クリストファー・コロンブス",
-  "nameEN": "Cristoforo Colombo",
-  "fuzzyKeywords": [
-    "克里斯托弗·哥伦布",
-    "Cristoforo Colombo",
-    "クリストファー・コロンブス",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1.5部第二章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 4,
-  "startATK": 1216,
-  "endATK": 6552,
-  "startHP": 1728,
-  "endHP": 9600,
-  "grailATK": 8867,
-  "grailHP": 13016,
-  "illustrator": "元村人",
-  "cv": "大塚芳忠",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "12",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    4,
-    3,
-    5
-  ],
-  "charge": [
-    0.0055,
-    0.0055,
-    0.0055,
-    0.0055
-  ],
-  "starAbsorption": 208,
-  "starGeneration": 0.089,
-  "npChargeATK": 0.0055,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.5,
-  "traits": [],
   "skill1": [
     {
       "name": "暴风航海者",
@@ -269,53 +223,6 @@
       "img": 7
     }
   ],
-  "np": [
-    {
-      "name": "新天地探索航（Santa Maria·Drop Anchor）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000024005",
-          "value": [
-            20,
-            30,
-            40,
-            50,
-            60
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 5
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -392,6 +299,53 @@
         }
       ],
       "img": 5
+    }
+  ],
+  "np": [
+    {
+      "name": "新天地探索航（Santa Maria·Drop Anchor）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000024005",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 5
     }
   ],
   "skillResource": [

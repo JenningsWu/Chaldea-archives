@@ -1,56 +1,6 @@
 {
   "id": "055",
-  "name": "大流士三世",
-  "nameJP": "ダレイオス三世",
-  "nameEN": "Darius III",
-  "fuzzyKeywords": [
-    "大流士三世",
-    "Darius III",
-    "ダレイオス三世",
-    "酋长",
-    "黑无毛（真）",
-    "酒精灯",
-    "大流士三岁",
-    "coser",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 7,
-  "startATK": 1412,
-  "endATK": 7608,
-  "startHP": 1577,
-  "endHP": 8763,
-  "grailATK": 10297,
-  "grailHP": 11881,
-  "illustrator": "PFALZ",
-  "cv": "安井邦彦",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "01",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0067,
-    0.0067,
-    0.0067,
-    0.0067
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.05,
-  "npChargeATK": 0.0067,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.65,
-  "traits": [],
   "skill1": [
     {
       "name": "黄金律",
@@ -211,6 +161,46 @@
       "img": 12
     }
   ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
+    }
+  ],
   "np": [
     {
       "name": "不死的一万骑兵（Athánatoi Ten Thousand）",
@@ -355,46 +345,6 @@
         }
       ],
       "hits": 10
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "skillResource": [

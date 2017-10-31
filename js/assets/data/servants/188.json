@@ -1,52 +1,6 @@
 {
   "id": "188",
-  "name": "加藤段藏",
-  "nameJP": "加藤段蔵",
-  "nameEN": "Katou Danzou",
-  "fuzzyKeywords": [
-    "加藤段藏",
-    "Katou Danzou",
-    "加藤段蔵",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1.5部第三章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1489,
-  "endATK": 8935,
-  "startHP": 1768,
-  "endHP": 11055,
-  "grailATK": 10818,
-  "grailHP": 13404,
-  "illustrator": "曽我誠",
-  "cv": "明坂聪美",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "11",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    3,
-    2,
-    4,
-    5
-  ],
-  "charge": [
-    0.0071,
-    0.0071,
-    0.0071,
-    0.0071
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.255,
-  "npChargeATK": 0.0071,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.44,
-  "traits": [],
   "skill1": [
     {
       "name": "人造四肢（络缲）",
@@ -269,6 +223,46 @@
       "img": 2
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "絡繰幻法・呑牛",
@@ -314,46 +308,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [

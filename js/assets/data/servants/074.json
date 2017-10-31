@@ -1,53 +1,6 @@
 {
   "id": "074",
-  "name": "童谣",
-  "nameJP": "ナーサリー・ライム",
-  "nameEN": "Nursery Rhyme",
-  "fuzzyKeywords": [
-    "童谣",
-    "Nursery Rhyme",
-    "ナーサリー・ライム",
-    "砖头",
-    "魔导书（白）",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 5,
-  "startATK": 1438,
-  "endATK": 8629,
-  "startHP": 1901,
-  "endHP": 11882,
-  "grailATK": 10448,
-  "grailHP": 14407,
-  "illustrator": "ワダアルコ",
-  "cv": "野中蓝",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "11",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    3,
-    3
-  ],
-  "charge": [
-    0.0054,
-    0.0054,
-    0.0054,
-    0.0054
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0054,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "自我改造",
@@ -332,6 +285,46 @@
       "img": 29
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    }
+  ],
   "np": [
     {
       "name": "为某人写的故事（Nursery Rhyme）",
@@ -476,46 +469,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
     }
   ],
   "skillResource": [

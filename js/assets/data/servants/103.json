@@ -1,57 +1,6 @@
 {
   "id": "103",
-  "name": "托马斯・爱迪生",
-  "nameJP": "トーマス・エジソン",
-  "nameEN": "Thomas Edison",
-  "fuzzyKeywords": [
-    "托马斯・爱迪生",
-    "Thomas Edison",
-    "トーマス・エジソン",
-    "托马狮",
-    "艾迪牲",
-    "狮子王",
-    "大总统",
-    "发明王",
-    "圣晶石召唤（Story卡池）",
-    "剧情第1部第五章通关后加入"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 5,
-  "startATK": 1325,
-  "endATK": 7952,
-  "startHP": 1901,
-  "endHP": 11882,
-  "grailATK": 9628,
-  "grailHP": 14407,
-  "illustrator": "pako",
-  "cv": "寺岛拓笃",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "01",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    3,
-    3,
-    3,
-    5
-  ],
-  "charge": [
-    0.0051,
-    0.0051,
-    0.0051,
-    0.0051
-  ],
-  "starAbsorption": 51,
-  "starGeneration": 0.106,
-  "npChargeATK": 0.0051,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.6,
-  "traits": [],
   "skill1": [
     {
       "name": "变化",
@@ -241,6 +190,84 @@
       "initialCD": 8,
       "requirement": "00000",
       "img": 49
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "EX（相当于D)",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "EX（相当于D)",
+      "effect": [
+        {
+          "id": "000000000000",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
     }
   ],
   "np": [
@@ -468,84 +495,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "EX（相当于D)",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "EX（相当于D)",
-      "effect": [
-        {
-          "id": "000000000000",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

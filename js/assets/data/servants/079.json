@@ -1,52 +1,6 @@
 {
   "id": "079",
-  "name": "冯・霍恩海姆・帕拉塞尔苏斯",
-  "nameJP": "ヴァン・ホーエンハイム・パラケルスス",
-  "nameEN": "Von Hohenheim Paracelsus",
-  "fuzzyKeywords": [
-    "冯・霍恩海姆・帕拉塞尔苏斯",
-    "Von Hohenheim Paracelsus",
-    "ヴァン・ホーエンハイム・パラケルスス",
-    "豆爸",
-    "圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 5,
-  "startATK": 1246,
-  "endATK": 6711,
-  "startHP": 1711,
-  "endHP": 9506,
-  "grailATK": 9082,
-  "grailHP": 12889,
-  "illustrator": "中原",
-  "cv": "三木真一郎",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "20",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0055,
-    0.0055,
-    0.0055,
-    0.0055
-  ],
-  "starAbsorption": 50,
-  "starGeneration": 0.108,
-  "npChargeATK": 0.0055,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "高速咏唱",
@@ -176,6 +130,84 @@
       "img": 12
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "np": [
     {
       "name": "元素使的魔剑（Sword of Paracelsus）",
@@ -266,84 +298,6 @@
         }
       ],
       "hits": 3
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
     }
   ],
   "skillResource": [

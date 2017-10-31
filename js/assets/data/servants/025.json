@@ -1,53 +1,6 @@
 {
   "id": "025",
-  "name": "爱德华・蒂奇",
-  "nameJP": "エドワード･ティーチ",
-  "nameEN": "Edward Teach",
-  "fuzzyKeywords": [
-    "爱德华・蒂奇",
-    "Edward Teach",
-    "エドワード･ティーチ",
-    "黑胡子",
-    "死宅",
-    "友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 2,
-  "class": 4,
-  "startATK": 1097,
-  "endATK": 6188,
-  "startHP": 1488,
-  "endHP": 7907,
-  "grailATK": 8967,
-  "grailHP": 11411,
-  "illustrator": "Bすけ",
-  "cv": "西前忠久",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0056,
-    0.0056,
-    0.0056,
-    0.0056
-  ],
-  "starAbsorption": 198,
-  "starGeneration": 0.088,
-  "npChargeATK": 0.0056,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.45,
-  "traits": [],
   "skill1": [
     {
       "name": "暴风航海者",
@@ -301,6 +254,46 @@
       "img": 11
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    }
+  ],
   "np": [
     {
       "name": "安妮女王的复仇（Queen Anne's Revenge）",
@@ -373,46 +366,6 @@
         }
       ],
       "hits": 5
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "E",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
     }
   ],
   "skillResource": [

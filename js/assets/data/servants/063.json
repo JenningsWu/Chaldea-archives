@@ -1,54 +1,6 @@
 {
   "id": "063",
-  "name": "大卫",
-  "nameJP": "ダビデ",
-  "nameEN": "David",
-  "fuzzyKeywords": [
-    "大卫",
-    "David",
-    "ダビデ",
-    "所罗门他爸",
-    "制杖弓兵",
-    "卫日天",
-    "剧情第1部第三章通关报酬＆圣晶石召唤＆友情点召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 3,
-  "class": 2,
-  "startATK": 1436,
-  "endATK": 7736,
-  "startHP": 1555,
-  "endHP": 8643,
-  "grailATK": 10470,
-  "grailHP": 11719,
-  "illustrator": "ギンカ",
-  "cv": "中村悠一",
-  "gender": 0,
-  "attribute": 1,
-  "alignment": "01",
-  "cards": [
-    3,
-    1,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0076,
-    0.0076,
-    0.0076,
-    0.0076
-  ],
-  "starAbsorption": 153,
-  "starGeneration": 0.08,
-  "npChargeATK": 0.0076,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.36,
-  "traits": [],
   "skill1": [
     {
       "name": "神之加护",
@@ -271,80 +223,6 @@
       "img": 6
     }
   ],
-  "np": [
-    {
-      "name": "五块石头（Hamesh Avanim）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "C-",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005003",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000020015",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            125,
-            150,
-            175,
-            200,
-            225,
-            250,
-            275,
-            300,
-            350
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -421,6 +299,80 @@
         }
       ],
       "img": 22
+    }
+  ],
+  "np": [
+    {
+      "name": "五块石头（Hamesh Avanim）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "C-",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000020015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            125,
+            150,
+            175,
+            200,
+            225,
+            250,
+            275,
+            300,
+            350
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

@@ -1,54 +1,6 @@
 {
   "id": "052",
-  "name": "弗拉德三世",
-  "nameJP": "ヴラド三世",
-  "nameEN": "Vlad III",
-  "fuzzyKeywords": [
-    "弗拉德三世",
-    "Vlad III",
-    "ヴラド三世",
-    "大公",
-    "穿刺公",
-    "刺绣公",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 7,
-  "startATK": 1777,
-  "endATK": 11499,
-  "startHP": 2019,
-  "endHP": 13770,
-  "grailATK": 12587,
-  "grailHP": 15086,
-  "illustrator": "前田浩孝",
-  "cv": "置鲇龙太郎",
-  "gender": 0,
-  "attribute": 2,
-  "alignment": "22",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.005,
-    0.005,
-    0.005,
-    0.005
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.049,
-  "npChargeATK": 0.005,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.455,
-  "traits": [],
   "skill1": [
     {
       "name": "吸血",
@@ -281,6 +233,46 @@
       "img": 12
     }
   ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
+    }
+  ],
   "np": [
     {
       "name": "血染的王鬼（Kazikli Bey）",
@@ -371,46 +363,6 @@
         }
       ],
       "hits": 10
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "skillResource": [

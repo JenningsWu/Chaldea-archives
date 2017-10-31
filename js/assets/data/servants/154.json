@@ -1,54 +1,6 @@
 {
   "id": "154",
-  "name": "“山之翁”",
-  "nameJP": "“山の翁”",
-  "nameEN": "Yama no okina",
-  "fuzzyKeywords": [
-    "“山之翁”",
-    "Yama no okina",
-    "“山の翁”",
-    "王哈桑",
-    "狂战信条",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 6,
-  "startATK": 1831,
-  "endATK": 11848,
-  "startHP": 1956,
-  "endHP": 13338,
-  "grailATK": 12969,
-  "grailHP": 14612,
-  "illustrator": "Ryota-H",
-  "cv": "中田让治",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "02",
-  "cards": [
-    1,
-    3,
-    1
-  ],
-  "hits": [
-    3,
-    1,
-    5,
-    6
-  ],
-  "charge": [
-    0.01,
-    0.01,
-    0.01,
-    0.01
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.255,
-  "npChargeATK": 0.01,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.495,
-  "traits": [],
   "skill1": [
     {
       "name": "战斗续行",
@@ -302,53 +254,6 @@
       "img": 60
     }
   ],
-  "np": [
-    {
-      "name": "死告天使（Azrael）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "C",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024012",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            125,
-            150,
-            175,
-            200,
-            225,
-            250,
-            275,
-            300,
-            350
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -563,6 +468,53 @@
         }
       ],
       "img": 61
+    }
+  ],
+  "np": [
+    {
+      "name": "死告天使（Azrael）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            125,
+            150,
+            175,
+            200,
+            225,
+            250,
+            275,
+            300,
+            350
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
     }
   ],
   "skillResource": [

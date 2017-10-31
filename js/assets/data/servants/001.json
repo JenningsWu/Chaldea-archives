@@ -1,55 +1,6 @@
 {
   "id": "001",
-  "name": "玛修・基列莱特",
-  "nameJP": "マシュ・キリエライト",
-  "nameEN": "Matthew Kyrielite",
-  "fuzzyKeywords": [
-    "玛修・基列莱特",
-    "Matthew Kyrielite",
-    "マシュ・キリエライト",
-    "女主",
-    "盾娘",
-    "学妹",
-    "盾子",
-    "初始获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 0,
-  "startATK": 1455,
-  "endATK": 8730,
-  "startHP": 2060,
-  "endHP": 12877,
-  "grailATK": 10575,
-  "grailHP": 15619,
-  "illustrator": "武内崇",
-  "cv": "种田梨沙（变更前)&高桥李依（变更后)",
-  "gender": 1,
-  "attribute": 2,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0084,
-    0.0084,
-    0.0084,
-    0.0084
-  ],
-  "starAbsorption": 99,
-  "starGeneration": 0.099,
-  "npChargeATK": 0.0084,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.245,
-  "traits": [],
   "skill1": [
     {
       "name": "今は脆き雪花の壁",
@@ -313,6 +264,84 @@
       "img": 3
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "？？？",
@@ -501,84 +530,6 @@
         }
       ],
       "hits": 0
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

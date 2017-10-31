@@ -1,55 +1,6 @@
 {
   "id": "073",
-  "name": "阿尔托莉雅・潘德拉贡〔Santa Alter〕",
-  "nameJP": "アルトリア・ペンドラゴン〔サンタオルタ〕",
-  "nameEN": "Altria Pendragon （Santa Alter)",
-  "fuzzyKeywords": [
-    "阿尔托莉雅・潘德拉贡〔Santa Alter〕",
-    "Altria Pendragon （Santa Alter)",
-    "アルトリア・ペンドラゴン〔サンタオルタ〕",
-    "骑毛",
-    "R无毛",
-    "saber",
-    "限时活动免费获取",
-    "活动结束后无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 4,
-  "startATK": 1543,
-  "endATK": 9258,
-  "startHP": 1805,
-  "endHP": 11286,
-  "grailATK": 11209,
-  "grailHP": 13684,
-  "illustrator": "武内崇",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    3
-  ],
-  "charge": [
-    0.0087,
-    0.0087,
-    0.0087,
-    0.0087
-  ],
-  "starAbsorption": 204,
-  "starGeneration": 0.089,
-  "npChargeATK": 0.0087,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.35,
-  "traits": [],
   "skill1": [
     {
       "name": "圣者的礼物",
@@ -210,53 +161,6 @@
       "img": 7
     }
   ],
-  "np": [
-    {
-      "name": "誓约胜利之剑（Excalibur・Morgan）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        450,
-        550,
-        600,
-        625,
-        650
-      ],
-      "card": 1,
-      "lv": "A++",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000004000",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 3
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -333,6 +237,53 @@
         }
       ],
       "img": 5
+    }
+  ],
+  "np": [
+    {
+      "name": "誓约胜利之剑（Excalibur・Morgan）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        450,
+        550,
+        600,
+        625,
+        650
+      ],
+      "card": 1,
+      "lv": "A++",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000004000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 3
     }
   ],
   "skillResource": [

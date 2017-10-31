@@ -1,63 +1,6 @@
 {
   "id": "012",
-  "name": "吉尔伽美什",
-  "nameJP": "ギルガメッシュ",
-  "nameEN": "Gilgamesh",
-  "fuzzyKeywords": [
-    "吉尔伽美什",
-    "Gilgamesh",
-    "ギルガメッシュ",
-    "二闪",
-    "金闪闪",
-    "闪闪",
-    "金皮卡",
-    "水枪王",
-    "路灯王",
-    "撒币弓兵",
-    "中二闪",
-    "肘子",
-    "杂修",
-    "auo",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 2,
-  "startATK": 1897,
-  "endATK": 12280,
-  "startHP": 1920,
-  "endHP": 13097,
-  "grailATK": 13442,
-  "grailHP": 14348,
-  "illustrator": "武内崇",
-  "cv": "关智一",
-  "gender": 0,
-  "attribute": 1,
-  "alignment": "20",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    5,
-    5,
-    5,
-    8
-  ],
-  "charge": [
-    0.0034000000000000002,
-    0.0034000000000000002,
-    0.0034000000000000002,
-    0.0034000000000000002
-  ],
-  "starAbsorption": 153,
-  "starGeneration": 0.079,
-  "npChargeATK": 0.0034000000000000002,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.315,
-  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -259,6 +202,122 @@
       "img": 23
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "A+",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "np": [
     {
       "name": "天地乖离开辟之星（Enuma Elish）",
@@ -376,122 +435,6 @@
         }
       ],
       "hits": 1
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "E",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "A+",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            11,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    },
-    {
-      "name": "神性",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            175,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
     }
   ],
   "skillResource": [

@@ -1,51 +1,6 @@
 {
   "id": "165",
-  "name": "铃鹿御前",
-  "nameJP": "鈴鹿御前",
-  "nameEN": "Suzuka Gozen",
-  "fuzzyKeywords": [
-    "铃鹿御前",
-    "Suzuka Gozen",
-    "鈴鹿御前",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1590,
-  "endATK": 9544,
-  "startHP": 1880,
-  "endHP": 11753,
-  "grailATK": 11556,
-  "grailHP": 14250,
-  "illustrator": "たけのこ星人 ",
-  "cv": "东山奈央",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "12",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    3,
-    3,
-    3,
-    4
-  ],
-  "charge": [
-    0.0057,
-    0.0057,
-    0.0057,
-    0.0057
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.102,
-  "npChargeATK": 0.0057,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.21,
-  "traits": [],
   "skill1": [
     {
       "name": "神通力",
@@ -299,53 +254,6 @@
       "img": 45
     }
   ],
-  "np": [
-    {
-      "name": "天鬼雨",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "B+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            40,
-            50,
-            60,
-            70,
-            80
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -460,6 +368,53 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "天鬼雨",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            40,
+            50,
+            60,
+            70,
+            80
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
     }
   ],
   "skillResource": [

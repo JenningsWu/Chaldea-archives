@@ -1,56 +1,6 @@
 {
   "id": "128",
-  "name": "玉藻前",
-  "nameJP": "玉藻の前",
-  "nameEN": "Tamamo no Mae",
-  "fuzzyKeywords": [
-    "玉藻前",
-    "Tamamo no Mae",
-    "玉藻の前",
-    "l狐",
-    "水狐",
-    "水壶",
-    "红狐",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 3,
-  "startATK": 1657,
-  "endATK": 10726,
-  "startHP": 2221,
-  "endHP": 15147,
-  "grailATK": 11741,
-  "grailHP": 16594,
-  "illustrator": "ワダアルコ",
-  "cv": "斋藤千和",
-  "gender": 1,
-  "attribute": 1,
-  "alignment": "15",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    3,
-    4,
-    4
-  ],
-  "charge": [
-    0.0105,
-    0.0105,
-    0.0105,
-    0.0105
-  ],
-  "starAbsorption": 91,
-  "starGeneration": 0.122,
-  "npChargeATK": 0.0105,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.4,
-  "traits": [],
   "skill1": [
     {
       "name": "海滨之花",
@@ -490,53 +440,6 @@
       "img": 2
     }
   ],
-  "np": [
-    {
-      "name": "常夏日光・日除伞宠爱一神",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "C",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000007011",
-          "value": [
-            150,
-            162.5,
-            175,
-            187.5,
-            200
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 4
-    }
-  ],
   "classSkill": [
     {
       "name": "骑乘",
@@ -651,6 +554,53 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "常夏日光・日除伞宠爱一神",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007011",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 4
     }
   ],
   "skillResource": [

@@ -1,55 +1,6 @@
 {
   "id": "155",
-  "name": "谜之女主角X〔Alter〕",
-  "nameJP": "謎のヒロインX〔オルタ〕",
-  "nameEN": "Mysterious Heroine X 〔Alter〕",
-  "fuzzyKeywords": [
-    "谜之女主角X〔Alter〕",
-    "Mysterious Heroine X 〔Alter〕",
-    "謎のヒロインX〔オルタ〕",
-    "黑x毛",
-    "bx毛",
-    "黑框眼镜",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 7,
-  "startATK": 1717,
-  "endATK": 11113,
-  "startHP": 2079,
-  "endHP": 14175,
-  "grailATK": 12165,
-  "grailHP": 15529,
-  "illustrator": " BUNBUN",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 3,
-  "alignment": "12",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    4,
-    3,
-    5
-  ],
-  "charge": [
-    0.0107,
-    0.0107,
-    0.0107,
-    0.0107
-  ],
-  "starAbsorption": 9,
-  "starGeneration": 0.05,
-  "npChargeATK": 0.0107,
-  "npChargeDEF": 0.05,
-  "deathResist": 0.373,
-  "traits": [],
   "skill1": [
     {
       "name": "∞黑豆沙",
@@ -313,53 +264,6 @@
       "img": 62
     }
   ],
-  "np": [
-    {
-      "name": "黑龙双克胜利剑",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000007001",
-          "value": [
-            150,
-            162.5,
-            175,
-            187.5,
-            200
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 9
-    }
-  ],
   "classSkill": [
     {
       "name": "狂化",
@@ -436,6 +340,53 @@
         }
       ],
       "img": 4
+    }
+  ],
+  "np": [
+    {
+      "name": "黑龙双克胜利剑",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007001",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 9
     }
   ],
   "skillResource": [

@@ -1,58 +1,6 @@
 {
   "id": "086",
-  "name": "谜之女主角X",
-  "nameJP": "謎のヒロインX",
-  "nameEN": "Mysterious Heroine X",
-  "fuzzyKeywords": [
-    "谜之女主角X",
-    "Mysterious Heroine X",
-    "謎のヒロインX",
-    "X毛",
-    "蜜汁女主角",
-    "saber",
-    "真正的saber",
-    "插拔",
-    "星战呆毛",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 6,
-  "startATK": 1817,
-  "endATK": 11761,
-  "startHP": 1862,
-  "endHP": 12696,
-  "grailATK": 12874,
-  "grailHP": 13909,
-  "illustrator": "BUNBUN",
-  "cv": "川澄绫子",
-  "gender": 1,
-  "attribute": 3,
-  "alignment": "20",
-  "cards": [
-    2,
-    1,
-    2
-  ],
-  "hits": [
-    2,
-    1,
-    4,
-    4
-  ],
-  "charge": [
-    0.0081,
-    0.0081,
-    0.0081,
-    0.0081
-  ],
-  "starAbsorption": 98,
-  "starGeneration": 0.256,
-  "npChargeATK": 0.0081,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.385,
-  "traits": [],
   "skill1": [
     {
       "name": "支援炮击",
@@ -285,6 +233,84 @@
       "img": 20
     }
   ],
+  "classSkill": [
+    {
+      "name": "宇宙反应堆",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 20
+    },
+    {
+      "name": "骑乘",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "np": [
     {
       "name": "无铭胜利剑",
@@ -375,84 +401,6 @@
         }
       ],
       "hits": 12
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "宇宙反应堆",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 20
-    },
-    {
-      "name": "骑乘",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "skillResource": [

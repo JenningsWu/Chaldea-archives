@@ -1,55 +1,6 @@
 {
   "id": "096",
-  "name": "岩窟王 爱德蒙・唐泰斯",
-  "nameJP": "巌窟王 エドモン・ダンテス",
-  "nameEN": "Edmond Dantes",
-  "fuzzyKeywords": [
-    "岩窟王 爱德蒙・唐泰斯",
-    "Edmond Dantes",
-    "巌窟王 エドモン・ダンテス",
-    "伯爵",
-    "狛枝",
-    "岩窟王",
-    "圣晶石召唤（期间限定）",
-    "非限定UP时无法获得"
-  ],
-  "exactKeywords": [],
   "rarity": 5,
-  "class": 9,
-  "startATK": 1953,
-  "endATK": 12641,
-  "startHP": 1785,
-  "endHP": 12177,
-  "grailATK": 13838,
-  "grailHP": 13340,
-  "illustrator": "小松崎類",
-  "cv": "岛崎信长",
-  "gender": 0,
-  "attribute": 0,
-  "alignment": "22",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    2,
-    3,
-    4,
-    5
-  ],
-  "charge": [
-    0.0062,
-    0.0062,
-    0.0062,
-    0.0062
-  ],
-  "starAbsorption": 30,
-  "starGeneration": 0.059,
-  "npChargeATK": 0.0062,
-  "npChargeDEF": 0.06,
-  "deathResist": 0.07,
-  "traits": [],
   "skill1": [
     {
       "name": "钢铁的决意",
@@ -303,80 +254,6 @@
       "img": 26
     }
   ],
-  "np": [
-    {
-      "name": "虎呀，燃烧着煌煌火光（Enfer Château d'If）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 2,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "120000030008",
-          "value": [
-            500,
-            750,
-            1000,
-            1250,
-            1500
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 8
-    }
-  ],
   "classSkill": [
     {
       "name": "复仇者",
@@ -522,6 +399,80 @@
         }
       ],
       "img": 48
+    }
+  ],
+  "np": [
+    {
+      "name": "虎呀，燃烧着煌煌火光（Enfer Château d'If）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 2,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000030008",
+          "value": [
+            500,
+            750,
+            1000,
+            1250,
+            1500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
     }
   ],
   "skillResource": [

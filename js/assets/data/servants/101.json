@@ -1,52 +1,6 @@
 {
   "id": "101",
-  "name": "罗摩",
-  "nameJP": "ラーマ",
-  "nameEN": "Rama",
-  "fuzzyKeywords": [
-    "罗摩",
-    "Rama",
-    "ラーマ",
-    "红阿塔",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 1,
-  "startATK": 1642,
-  "endATK": 9854,
-  "startHP": 1919,
-  "endHP": 11993,
-  "grailATK": 11931,
-  "grailHP": 14541,
-  "illustrator": "輪くすさが",
-  "cv": "泽城美雪",
-  "gender": 0,
-  "attribute": 1,
-  "alignment": "00",
-  "cards": [
-    2,
-    2,
-    1
-  ],
-  "hits": [
-    2,
-    1,
-    2,
-    4
-  ],
-  "charge": [
-    0.0084,
-    0.0084,
-    0.0084,
-    0.0084
-  ],
-  "starAbsorption": 100,
-  "starGeneration": 0.102,
-  "npChargeATK": 0.0084,
-  "npChargeDEF": 0.03,
-  "deathResist": 0.245,
-  "traits": [],
   "skill1": [
     {
       "name": "武之祝福",
@@ -238,53 +192,6 @@
       "img": 12
     }
   ],
-  "np": [
-    {
-      "name": "破穿罗刹而不灭（Brahmastra）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000007034",
-          "value": [
-            150,
-            162.5,
-            175,
-            187.5,
-            200
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 5
-    }
-  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -399,6 +306,53 @@
         }
       ],
       "img": 14
+    }
+  ],
+  "np": [
+    {
+      "name": "破穿罗刹而不灭（Brahmastra）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000007034",
+          "value": [
+            150,
+            162.5,
+            175,
+            187.5,
+            200
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 5
     }
   ],
   "skillResource": [

@@ -1,51 +1,6 @@
 {
   "id": "170",
-  "name": "武则天",
-  "nameJP": "武則天",
-  "nameEN": "Wu Ze Tian",
-  "fuzzyKeywords": [
-    "武则天",
-    "Wu Ze Tian",
-    "武則天",
-    "圣晶石召唤"
-  ],
-  "exactKeywords": [],
   "rarity": 4,
-  "class": 6,
-  "startATK": 1496,
-  "endATK": 8981,
-  "startHP": 1750,
-  "endHP": 10942,
-  "grailATK": 10874,
-  "grailHP": 13267,
-  "illustrator": "原田たけひと",
-  "cv": "井泽诗织",
-  "gender": 1,
-  "attribute": 0,
-  "alignment": "02",
-  "cards": [
-    1,
-    2,
-    2
-  ],
-  "hits": [
-    3,
-    3,
-    3,
-    3
-  ],
-  "charge": [
-    0.0087,
-    0.0087,
-    0.0087,
-    0.0087
-  ],
-  "starAbsorption": 102,
-  "starGeneration": 0.255,
-  "npChargeATK": 0.0087,
-  "npChargeDEF": 0.04,
-  "deathResist": 0.385,
-  "traits": [],
   "skill1": [
     {
       "name": "拷问技术",
@@ -268,6 +223,46 @@
       "img": 6
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "np": [
     {
       "name": "告密罗织经",
@@ -340,46 +335,6 @@
         }
       ],
       "hits": 4
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
     }
   ],
   "skillResource": [
