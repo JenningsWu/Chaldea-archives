@@ -5,14 +5,14 @@
 import React from 'react'
 import { TabNavigator } from 'react-navigation'
 
-// import FgoIndex from './fgoIndex'
+import FgoIndex from './fgoIndex'
 import FutureSight from './futureSight'
 import About from './about'
 
 const App = TabNavigator({
-  // FgoIndex: {
-  //   screen: FgoIndex,
-  // },
+  FgoIndex: {
+    screen: FgoIndex,
+  },
   FutureSight: {
     screen: FutureSight,
   },

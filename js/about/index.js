@@ -96,8 +96,8 @@ const About = ({ navigation }) => (
         title="数据来源："
         subtitle={<View>
           <ListItem
-            title="FGO WIKI"
-            onPress={() => Linking.openURL('http://fgowiki.com/')}
+            title="Fate/Grand Order Wikia（英）"
+            onPress={() => Linking.openURL('http://fategrandorder.wikia.com/wiki/Fate/Grand_Order_Wikia/')}
             hideChevron
           />
           <ListItem
@@ -115,8 +115,8 @@ const About = ({ navigation }) => (
             hideChevron
           />
           <ListItem
-            title="Fate/Grand Order Wikia（英）"
-            onPress={() => Linking.openURL('http://fategrandorder.wikia.com/wiki/Fate/Grand_Order_Wikia/')}
+            title="FGO WIKI"
+            onPress={() => Linking.openURL('http://fgowiki.com/')}
             hideChevron
             containerStyle={{ borderBottomWidth: 0 }}
           />

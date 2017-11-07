@@ -155,33 +155,35 @@ function getQPOnLevel(rarity, level) {
 export default class ClassName {
   constructor(obj) {
     this.id = obj.id
-    // this.name = obj.name
-    // this.nameJP = obj.nameJP
-    // this.nameEN = obj.nameEN
-    // this.fuzzyKeywords = obj.fuzzyKeywords
-    // this.exactKeywords = obj.exactKeywords
+    this.name = obj.name
+    this.nameJP = obj.nameJP
+    this.nameEN = obj.nameEN
+    this.fuzzyKeywords = obj.fuzzyKeywords
+    this.exactKeywords = obj.exactKeywords
     this.rarity = obj.rarity
-    // this.class = obj.class
-    // this.startATK = obj.startATK
-    // this.endATK = obj.endATK
-    // this.startHP = obj.startHP
-    // this.endHP = obj.endHP
-    // this.grailATK = obj.grailATK
-    // this.grailHP = obj.grailHP
-    // this.illustrator = obj.illustrator
-    // this.cv = obj.cv
-    // this.gender = obj.gender
-    // this.attribute = obj.attribute
-    // this.alignment = obj.alignment
-    // this.cards = obj.cards
-    // this.hits = obj.hits
-    // this.charge = obj.charge
-    // this.starAbsorption = obj.starAbsorption
-    // this.starGeneration = obj.starGeneration
-    // this.npChargeATK = obj.npChargeATK
-    // this.npChargeDEF = obj.npChargeDEF
-    // this.deathResist = obj.deathResist
-    // this.traits = obj.traits
+    this.class = obj.class
+    this.startATK = obj.startATK
+    this.endATK = obj.endATK
+    this.startHP = obj.startHP
+    this.endHP = obj.endHP
+    this.grailATK = obj.grailATK
+    this.grailHP = obj.grailHP
+    this.illustrator = obj.illustrator
+    this.illustratorEn = obj.illustrator
+    this.cv = obj.cv
+    this.cvEn = obj.cv
+    this.gender = obj.gender
+    this.attribute = obj.attribute
+    this.alignment = obj.alignment
+    this.cards = obj.cards
+    this.hits = obj.hits
+    this.charge = obj.charge
+    this.starAbsorption = obj.starAbsorption
+    this.starGeneration = obj.starGeneration
+    this.npChargeATK = obj.npChargeATK
+    this.npChargeDEF = obj.npChargeDEF
+    this.deathResist = obj.deathResist
+    this.traits = obj.traits
 
     // advance
     this.skill1 = obj.skill1
@@ -194,14 +196,22 @@ export default class ClassName {
     this.skillResource = obj.skillResource
     this.ascensionResource = obj.ascensionResource
 
-    // this.fuzzyKeywords = [
-    //   ...this.fuzzyKeywords,
-    //   this.rarityDesc,
-    //   // this.classDesc,
-    //   this.genderDesc,
-    //   this.attributeDesc,
-    //   this.alignmentDesc,
-    // ].map(v => v.toLowerCase())
+    this.fuzzyKeywords = [
+      ...this.fuzzyKeywords,
+      this.name,
+      this.nameJP,
+      this.nameEN,
+      this.rarityDesc,
+      // this.classDesc,
+      this.genderDesc,
+      this.attributeDesc,
+      this.alignmentDesc,
+
+      this.illustrator,
+      this.illustratorEn,
+      this.cv,
+      this.cvEn,
+    ].map(v => v.toLowerCase())
   }
 
   get rarityDesc() {
