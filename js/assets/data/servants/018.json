@@ -1,6 +1,46 @@
 {
   "id": "018",
+  "name": "伊丽莎白・巴托里",
+  "nameJP": "エリザベート・バートリー",
+  "nameEN": "Elizabeth Bathory",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 3,
+  "startATK": 1520,
+  "endATK": 9122,
+  "startHP": 1899,
+  "endHP": 11870,
+  "grailATK": 11045,
+  "grailHP": 14392,
+  "illustrator": "ワダアルコ",
+  "cv": "大久保 瑠美",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.011,
+    0.011,
+    0.011,
+    0.011
+  ],
+  "starAbsorption": 90,
+  "starGeneration": 0.118,
+  "npChargeATK": 0.011,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.118,
+  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -202,6 +242,53 @@
       "img": 12
     }
   ],
+  "np": [
+    {
+      "name": "鲜血魔娘（Báthory Erzsébet）",
+      "type": 3,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "E-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000030008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 5
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -278,53 +365,6 @@
         }
       ],
       "img": 31
-    }
-  ],
-  "np": [
-    {
-      "name": "鲜血魔娘（Báthory Erzsébet）",
-      "type": 3,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "E-",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000030008",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 5
     }
   ],
   "skillResource": [
@@ -448,5 +488,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Ookubo Rumi"
 }

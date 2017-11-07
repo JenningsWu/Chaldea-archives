@@ -1,6 +1,46 @@
 {
   "id": "120",
+  "name": "尼托克丽斯",
+  "nameJP": "ニトクリス",
+  "nameEN": "Nitocris",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 5,
+  "startATK": 1510,
+  "endATK": 9060,
+  "startHP": 1806,
+  "endHP": 11288,
+  "grailATK": 10970,
+  "grailHP": 13686,
+  "illustrator": "縞うどん",
+  "cv": "田中 美海",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.0054,
+    0.0054,
+    0.0054,
+    0.0054
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0054,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "埃及魔术",
@@ -192,122 +232,6 @@
       "img": 12
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B+",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            9,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
-    },
-    {
-      "name": "神性",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            175,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
-    }
-  ],
   "np": [
     {
       "name": "冥镜宝典（Anpu Neb-Ta-）",
@@ -425,6 +349,122 @@
         }
       ],
       "hits": 3
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B+",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
     }
   ],
   "skillResource": [
@@ -548,5 +588,7 @@
         "num": 6
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimaudon",
+  "cvEn": "Tanaka Minami"
 }

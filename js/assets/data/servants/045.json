@@ -1,6 +1,46 @@
 {
   "id": "045",
+  "name": "玛塔・哈丽",
+  "nameJP": "マタ・ハリ",
+  "nameEN": "Mata Hari",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 1,
+  "class": 6,
+  "startATK": 977,
+  "endATK": 5377,
+  "startHP": 1313,
+  "endHP": 6565,
+  "grailATK": 8355,
+  "grailHP": 10120,
+  "illustrator": "こやま ひろかず",
+  "cv": "種田 梨沙",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "21",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.021,
+    0.021,
+    0.021,
+    0.021
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.246,
+  "npChargeATK": 0.021,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.55,
+  "traits": [],
   "skill1": [
     {
       "name": "谍报",
@@ -192,7 +232,6 @@
       "img": 32
     }
   ],
-  "classSkill": [],
   "np": [
     {
       "name": "有着白昼之眼的女子（Mata Hari）",
@@ -294,6 +333,7 @@
       "hits": 0
     }
   ],
+  "classSkill": [],
   "skillResource": [
     [
       {
@@ -415,5 +455,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Koyama Hirokazu",
+  "cvEn": "Taneda Risa"
 }

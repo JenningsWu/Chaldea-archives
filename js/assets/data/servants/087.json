@@ -1,6 +1,46 @@
 {
   "id": "087",
+  "name": "芬恩・麦克库尔",
+  "nameJP": "フィン・マックール",
+  "nameEN": "Fionn mac Cumhaill",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 3,
+  "startATK": 1488,
+  "endATK": 8930,
+  "startHP": 2040,
+  "endHP": 12750,
+  "grailATK": 10812,
+  "grailHP": 15459,
+  "illustrator": "森山 大輔",
+  "cv": "三木 眞一郎",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "11",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    4
+  ],
+  "charge": [
+    0.0055,
+    0.0055,
+    0.0055,
+    0.0055
+  ],
+  "starAbsorption": 89,
+  "starGeneration": 0.123,
+  "npChargeATK": 0.0055,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.32,
+  "traits": [],
   "skill1": [
     {
       "name": "千里眼",
@@ -192,84 +232,6 @@
       "img": 28
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "神性",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            125,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
-    }
-  ],
   "np": [
     {
       "name": "无败的紫靫草（Mac-a-Luin）",
@@ -416,6 +378,84 @@
       "hits": 3
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "神性",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            125,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "skillResource": [
     [
       {
@@ -537,5 +577,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Moriyama Daisuke",
+  "cvEn": "Miki Shinichirō"
 }

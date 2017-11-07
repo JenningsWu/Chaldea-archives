@@ -1,6 +1,46 @@
 {
   "id": "115",
+  "name": "坂田金时 [Rider]",
+  "nameJP": "坂田金時〔ライダー〕",
+  "nameEN": "Sakata Kintoki (Rider)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 4,
+  "startATK": 1636,
+  "endATK": 9819,
+  "startHP": 1728,
+  "endHP": 10800,
+  "grailATK": 11889,
+  "grailHP": 13095,
+  "illustrator": "本庄雷太",
+  "cv": "遊佐 浩二",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    4,
+    5
+  ],
+  "charge": [
+    0.0115,
+    0.0115,
+    0.0115,
+    0.0115
+  ],
+  "starAbsorption": 198,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0115,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.4,
+  "traits": [],
   "skill1": [
     {
       "name": "千里疾走",
@@ -192,46 +232,6 @@
       "img": 10
     }
   ],
-  "classSkill": [
-    {
-      "name": "神性",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            150,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
-    }
-  ],
   "np": [
     {
       "name": "夜狼死九・黄金疾走",
@@ -277,6 +277,46 @@
         }
       ],
       "hits": 4
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "神性",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
     }
   ],
   "skillResource": [
@@ -380,5 +420,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Honjou Raita",
+  "cvEn": "Yusa Kouji"
 }

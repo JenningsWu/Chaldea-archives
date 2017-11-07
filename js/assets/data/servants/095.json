@@ -1,6 +1,46 @@
 {
   "id": "095",
+  "name": "幼吉尔",
+  "nameJP": "子ギル",
+  "nameEN": "Kid Gil",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 2,
+  "startATK": 1429,
+  "endATK": 7696,
+  "startHP": 1571,
+  "endHP": 8731,
+  "grailATK": 10415,
+  "grailHP": 11838,
+  "illustrator": "天空 すふぃあ",
+  "cv": "遠藤 綾",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "20",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "charge": [
+    0.0062,
+    0.0062,
+    0.0062,
+    0.0062
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.079,
+  "npChargeATK": 0.0062,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -128,122 +168,6 @@
       "initialCD": 8,
       "requirement": "00000",
       "img": 9
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "E",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    },
-    {
-      "name": "神性",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            175,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
     }
   ],
   "np": [
@@ -446,6 +370,122 @@
       "hits": 10
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "skillResource": [
     [
       {
@@ -567,5 +607,7 @@
         "num": 24
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Sky Sphere",
+  "cvEn": "Endou Aya"
 }

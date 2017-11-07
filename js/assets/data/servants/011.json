@@ -1,6 +1,46 @@
 {
   "id": "011",
+  "name": "卫宫",
+  "nameJP": "エミヤ",
+  "nameEN": "EMIYA",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 2,
+  "startATK": 1566,
+  "endATK": 9398,
+  "startHP": 1843,
+  "endHP": 11521,
+  "grailATK": 11379,
+  "grailHP": 13969,
+  "illustrator": "武内 崇",
+  "cv": "諏訪部 順一",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    5
+  ],
+  "charge": [
+    0.0051,
+    0.0051,
+    0.0051,
+    0.0051
+  ],
+  "starAbsorption": 145,
+  "starGeneration": 0.079,
+  "npChargeATK": 0.0051,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.315,
+  "traits": [],
   "skill1": [
     {
       "name": "心眼（真）",
@@ -336,84 +376,6 @@
       "img": 21
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    }
-  ],
   "np": [
     {
       "name": "无限剑制（Unlimited Blade Works）",
@@ -504,6 +466,84 @@
         }
       ],
       "hits": 10
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
     }
   ],
   "skillResource": [
@@ -627,5 +667,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Suwabe Junichi"
 }

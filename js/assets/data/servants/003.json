@@ -1,6 +1,46 @@
 {
   "id": "003",
+  "name": "阿尔托莉雅・潘德拉贡 [Alter]",
+  "nameJP": "アルトリア・ペンドラゴン［オルタ］",
+  "nameEN": "Artoria Pendragon (Alter)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 1,
+  "startATK": 1708,
+  "endATK": 10248,
+  "startHP": 1854,
+  "endHP": 11589,
+  "grailATK": 12408,
+  "grailHP": 14051,
+  "illustrator": "武内 崇",
+  "cv": "川澄 綾子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "02",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0086,
+    0.0086,
+    0.0086,
+    0.0086
+  ],
+  "starAbsorption": 99,
+  "starGeneration": 0.099,
+  "npChargeATK": 0.0086,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.192,
+  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -130,46 +170,6 @@
       "img": 6
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "誓约胜利之剑（Excalibur・Morgan）",
@@ -215,6 +215,46 @@
         }
       ],
       "hits": 3
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -338,5 +378,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Kawasumi Ayako"
 }

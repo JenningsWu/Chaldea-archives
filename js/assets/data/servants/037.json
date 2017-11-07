@@ -1,6 +1,46 @@
 {
   "id": "037",
+  "name": "诸葛孔明 [埃尔梅罗二世]",
+  "nameJP": "諸葛孔明［エルメロイⅡ世］",
+  "nameEN": "Zhuge Liang (Lord El-Melloi II)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 5,
+  "startATK": 1637,
+  "endATK": 10598,
+  "startHP": 2091,
+  "endHP": 14259,
+  "grailATK": 11601,
+  "grailHP": 15621,
+  "illustrator": "武内 崇",
+  "cv": "浪川 大輔",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0164,
+    0.0164,
+    0.0164,
+    0.0164
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0164,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.345,
+  "traits": [],
   "skill1": [
     {
       "name": "鉴识眼",
@@ -285,84 +325,6 @@
       "img": 6
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
-    }
-  ],
   "np": [
     {
       "name": "石兵八阵",
@@ -617,6 +579,84 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "skillResource": [
     [
       {
@@ -738,5 +778,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Namikawa Daisuke"
 }

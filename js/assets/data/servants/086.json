@@ -1,6 +1,46 @@
 {
   "id": "086",
+  "name": "迷之女主角 X",
+  "nameJP": "謎のヒロインX",
+  "nameEN": "Mysterious Heroine X",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 6,
+  "startATK": 1817,
+  "endATK": 11761,
+  "startHP": 1862,
+  "endHP": 12696,
+  "grailATK": 12874,
+  "grailHP": 13909,
+  "illustrator": "BUNBUN",
+  "cv": "川澄 綾子",
+  "gender": 1,
+  "attribute": 3,
+  "alignment": "21",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    4,
+    4
+  ],
+  "charge": [
+    0.0081,
+    0.0081,
+    0.0081,
+    0.0081
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.0081,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.385,
+  "traits": [],
   "skill1": [
     {
       "name": "支援炮击",
@@ -233,84 +273,6 @@
       "img": 20
     }
   ],
-  "classSkill": [
-    {
-      "name": "宇宙反应堆",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 20
-    },
-    {
-      "name": "骑乘",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "无铭胜利剑",
@@ -401,6 +363,84 @@
         }
       ],
       "hits": 12
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "宇宙反应堆",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 20
+    },
+    {
+      "name": "骑乘",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
     }
   ],
   "skillResource": [
@@ -524,5 +564,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "BUNBUN",
+  "cvEn": "Kawasumi Ayako"
 }

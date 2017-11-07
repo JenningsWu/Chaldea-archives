@@ -1,6 +1,46 @@
 {
   "id": "084",
+  "name": "阿周那",
+  "nameJP": "アルジュナ",
+  "nameEN": "Arjuna",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 2,
+  "startATK": 1907,
+  "endATK": 12342,
+  "startHP": 1940,
+  "endHP": 13230,
+  "grailATK": 13510,
+  "grailHP": 14494,
+  "illustrator": "ぱこ",
+  "cv": "島﨑 信長",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "01",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    3,
+    2,
+    5
+  ],
+  "charge": [
+    0.0051,
+    0.0051,
+    0.0051,
+    0.0051
+  ],
+  "starAbsorption": 154,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0051,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.315,
+  "traits": [],
   "skill1": [
     {
       "name": "千里眼",
@@ -295,122 +335,6 @@
       "img": 7
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    },
-    {
-      "name": "神性",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            175,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
-    }
-  ],
   "np": [
     {
       "name": "破坏神的手影（Pāśupata）",
@@ -611,6 +535,122 @@
       "hits": 1
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    },
+    {
+      "name": "神性",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            175,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "skillResource": [
     [
       {
@@ -732,5 +772,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "pako",
+  "cvEn": "Shimazaki Nobunaga"
 }

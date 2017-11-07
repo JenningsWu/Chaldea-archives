@@ -1,6 +1,46 @@
 {
   "id": "078",
+  "name": "阿尔托莉雅・潘德拉贡 [Alter]",
+  "nameJP": "アルトリア・ペンドラゴン〔オルタ〕",
+  "nameEN": "Artoria Pendragon (Lancer Alter)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 3,
+  "startATK": 1661,
+  "endATK": 9968,
+  "startHP": 1881,
+  "endHP": 11761,
+  "grailATK": 12069,
+  "grailHP": 14260,
+  "illustrator": "石田 あきら",
+  "cv": "川澄 綾子",
+  "gender": 1,
+  "attribute": 1,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    4
+  ],
+  "charge": [
+    0.0074,
+    0.0074,
+    0.0074,
+    0.0074
+  ],
+  "starAbsorption": 88,
+  "starGeneration": 0.118,
+  "npChargeATK": 0.0074,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.23,
+  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -192,84 +232,6 @@
       "img": 6
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "耀于至远之枪（Rhongomyniad）",
@@ -416,6 +378,84 @@
       "hits": 4
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "skillResource": [
     [
       {
@@ -537,5 +577,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Ishida Akira",
+  "cvEn": "Kawasumi Ayako"
 }

@@ -1,6 +1,46 @@
 {
   "id": "026",
+  "name": "布狄卡",
+  "nameJP": "ブーディカ",
+  "nameEN": "Boudica",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 4,
+  "startATK": 1168,
+  "endATK": 6289,
+  "startHP": 1823,
+  "endHP": 10130,
+  "grailATK": 8511,
+  "grailHP": 13735,
+  "illustrator": "蒼月タカオ",
+  "cv": "斎藤 千和",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0085,
+    0.0085,
+    0.0085,
+    0.0085
+  ],
+  "starAbsorption": 196,
+  "starGeneration": 0.089,
+  "npChargeATK": 0.0085,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.45,
+  "traits": [],
   "skill1": [
     {
       "name": "对女神的誓约",
@@ -128,84 +168,6 @@
       "initialCD": 7,
       "requirement": "00000",
       "img": 28
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
     }
   ],
   "np": [
@@ -381,6 +343,84 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "skillResource": [
     [
       {
@@ -502,5 +542,7 @@
         "num": 7
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Aotsuki Takao",
+  "cvEn": "Saito Chiwa"
 }

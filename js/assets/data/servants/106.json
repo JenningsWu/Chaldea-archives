@@ -1,6 +1,46 @@
 {
   "id": "106",
+  "name": "贞德 [Alter]",
+  "nameJP": "ジャンヌ・ダルク [オルタ]",
+  "nameEN": "Jeanne d%27Arc (Alter)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 9,
+  "startATK": 2046,
+  "endATK": 13244,
+  "startHP": 1724,
+  "endHP": 11761,
+  "grailATK": 14498,
+  "grailHP": 12885,
+  "illustrator": "武内 崇",
+  "cv": "坂本 真綾",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    4,
+    3,
+    7
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 29,
+  "starGeneration": 0.06,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.057,
+  "traits": [],
   "skill1": [
     {
       "name": "自我改造",
@@ -254,6 +294,80 @@
       "img": 7
     }
   ],
+  "np": [
+    {
+      "name": "咆哮吧，我的愤怒（La Grondement Du Haine）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000020018",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
+    }
+  ],
   "classSkill": [
     {
       "name": "复仇者",
@@ -401,80 +515,6 @@
       "img": 48
     }
   ],
-  "np": [
-    {
-      "name": "咆哮吧，我的愤怒（La Grondement Du Haine）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000020018",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000030008",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
-    }
-  ],
   "skillResource": [
     [
       {
@@ -572,5 +612,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Sakamoto Maaya"
 }

@@ -1,6 +1,46 @@
 {
   "id": "164",
+  "name": "Passionlip",
+  "nameJP": "パッションリップ",
+  "nameEN": "Passionlip",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 10,
+  "startATK": 1716,
+  "endATK": 10299,
+  "startHP": 1744,
+  "endHP": 10901,
+  "grailATK": 12470,
+  "grailHP": 13217,
+  "illustrator": "ワダアルコ",
+  "cv": "小倉 唯",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "01",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    4,
+    5
+  ],
+  "charge": [
+    0.0077,
+    0.0077,
+    0.0077,
+    0.0077
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.099,
+  "npChargeATK": 0.0077,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.35,
+  "traits": [],
   "skill1": [
     {
       "name": "Breast Valley",
@@ -316,6 +356,53 @@
       "img": 6
     }
   ],
+  "np": [
+    {
+      "name": "直至死亡将两人别离（Brynhild Romantia）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "C",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014008",
+          "value": [
+            2000,
+            2500,
+            3000,
+            3500,
+            4000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 12
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -501,53 +588,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "直至死亡将两人别离（Brynhild Romantia）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "C",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014008",
-          "value": [
-            2000,
-            2500,
-            3000,
-            3500,
-            4000
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 12
-    }
-  ],
   "skillResource": [
     [
       {
@@ -677,5 +717,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Ogura Yui"
 }

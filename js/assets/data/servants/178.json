@@ -1,6 +1,46 @@
 {
   "id": "178",
+  "name": "织田信长",
+  "nameJP": "織田信長 (バーサーカー)",
+  "nameEN": "Oda Nobunaga (Berserker)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 7,
+  "startATK": 1691,
+  "endATK": 10146,
+  "startHP": 1603,
+  "endHP": 10023,
+  "grailATK": 12285,
+  "grailHP": 12153,
+  "illustrator": "ぱこ",
+  "cv": "釘宮 理恵",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "25",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    2,
+    6,
+    3,
+    5
+  ],
+  "charge": [
+    0.0093,
+    0.0093,
+    0.0093,
+    0.0093
+  ],
+  "starAbsorption": 10,
+  "starGeneration": 0.05,
+  "npChargeATK": 0.0093,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.52,
+  "traits": [],
   "skill1": [
     {
       "name": "傻瓜杀法",
@@ -285,46 +325,6 @@
       "img": 23
     }
   ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
-    }
-  ],
   "np": [
     {
       "name": "第六天魔王波旬~夏盛~（Nobunaga·THE·RockRoll）",
@@ -370,6 +370,46 @@
         }
       ],
       "hits": 12
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
     }
   ],
   "skillResource": [
@@ -493,5 +533,7 @@
         "num": 6
       }
     ]
-  ]
+  ],
+  "illustratorEn": "pako",
+  "cvEn": "Kugimiya Rie"
 }

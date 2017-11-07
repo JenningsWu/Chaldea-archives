@@ -1,6 +1,46 @@
 {
   "id": "085",
+  "name": "迦尔纳",
+  "nameJP": "カルナ",
+  "nameEN": "Karna",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 3,
+  "startATK": 1850,
+  "endATK": 11976,
+  "startHP": 1999,
+  "endHP": 13632,
+  "grailATK": 13110,
+  "grailHP": 14934,
+  "illustrator": "ぱこ",
+  "cv": "遊佐 浩二",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    3,
+    4
+  ],
+  "charge": [
+    0.0072,
+    0.0072,
+    0.0072,
+    0.0072
+  ],
+  "starAbsorption": 88,
+  "starGeneration": 0.122,
+  "npChargeATK": 0.0072,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.28,
+  "traits": [],
   "skill1": [
     {
       "name": "贫者之见识",
@@ -254,122 +294,6 @@
       "img": 29
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    },
-    {
-      "name": "神性",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            200,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
-    }
-  ],
   "np": [
     {
       "name": "日轮呀，顺从死亡（Vasavi Shakti）",
@@ -487,6 +411,122 @@
         }
       ],
       "hits": 5
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    },
+    {
+      "name": "神性",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
     }
   ],
   "skillResource": [
@@ -610,5 +650,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "pako",
+  "cvEn": "Yusa Kouji"
 }

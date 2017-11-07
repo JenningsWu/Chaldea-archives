@@ -1,6 +1,46 @@
 {
   "id": "091",
+  "name": "两仪式",
+  "nameJP": "両儀式〔セイバー〕",
+  "nameEN": "Ryougi Shiki (Saber)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 1,
+  "startATK": 1656,
+  "endATK": 10721,
+  "startHP": 2266,
+  "endHP": 15453,
+  "grailATK": 11736,
+  "grailHP": 16929,
+  "illustrator": "武内 崇",
+  "cv": "坂本 真綾",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    4,
+    4
+  ],
+  "charge": [
+    0.0084,
+    0.0084,
+    0.0084,
+    0.0084
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.099,
+  "npChargeATK": 0.0084,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.245,
+  "traits": [],
   "skill1": [
     {
       "name": "直死之魔眼",
@@ -254,6 +294,80 @@
       "img": 44
     }
   ],
+  "np": [
+    {
+      "name": "无垢识・空之境界",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        450,
+        600,
+        675,
+        712,
+        750
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "120000024012",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120,
+            130,
+            140,
+            160
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -494,80 +608,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "无垢识・空之境界",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        450,
-        600,
-        675,
-        712,
-        750
-      ],
-      "card": 0,
-      "lv": "EX",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "120000024012",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            60,
-            70,
-            80,
-            90,
-            100,
-            110,
-            120,
-            130,
-            140,
-            160
-          ],
-          "type": 2
-        },
-        {
-          "id": "020000005008",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "skillResource": [
     [
       {
@@ -689,5 +729,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Sakamoto Maaya"
 }

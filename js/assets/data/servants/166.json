@@ -1,6 +1,46 @@
 {
   "id": "166",
+  "name": "BB",
+  "nameJP": "ビィビィ",
+  "nameEN": "B B",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 11,
+  "startATK": 1366,
+  "endATK": 8197,
+  "startHP": 2182,
+  "endHP": 13643,
+  "grailATK": 9925,
+  "grailHP": 16542,
+  "illustrator": "ワダアルコ",
+  "cv": "下屋 則子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    4,
+    4
+  ],
+  "charge": [
+    0.0061,
+    0.0061,
+    0.0061,
+    0.0061
+  ],
+  "starAbsorption": 52,
+  "starGeneration": 0.147,
+  "npChargeATK": 0.0061,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.006,
+  "traits": [],
   "skill1": [
     {
       "name": "十之王冠",
@@ -254,6 +294,80 @@
       "img": 16
     }
   ],
+  "np": [
+    {
+      "name": "C.C.C.（Cursed·Cupid· Cleanser）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000020001",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000004000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 5
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -370,80 +484,6 @@
       "img": 31
     }
   ],
-  "np": [
-    {
-      "name": "C.C.C.（Cursed·Cupid· Cleanser）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000020001",
-          "value": [
-            10,
-            20,
-            30,
-            40,
-            50
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "020000004000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 5
-    }
-  ],
   "skillResource": [
     [
       {
@@ -557,5 +597,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Shitaya Noriko"
 }

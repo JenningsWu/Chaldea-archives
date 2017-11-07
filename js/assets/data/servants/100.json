@@ -1,6 +1,46 @@
 {
   "id": "100",
+  "name": "海伦娜・布瓦尔茨基",
+  "nameJP": "エレナ・ブラヴァツキー",
+  "nameEN": "Helena Blavatsky",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 5,
+  "startATK": 1438,
+  "endATK": 8629,
+  "startHP": 1901,
+  "endHP": 11882,
+  "grailATK": 10448,
+  "grailHP": 14407,
+  "illustrator": "松竜",
+  "cv": "金元 寿子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    6,
+    3
+  ],
+  "charge": [
+    0.0045,
+    0.0045,
+    0.0045,
+    0.0045
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.107,
+  "npChargeATK": 0.0045,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "魔力同调",
@@ -223,84 +263,6 @@
       "img": 21
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
-    }
-  ],
   "np": [
     {
       "name": "金星神・火炎天主（Sanat Kumāra）",
@@ -501,6 +463,84 @@
       "hits": 3
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "skillResource": [
     [
       {
@@ -622,5 +662,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "MatsuRyuu",
+  "cvEn": "Kanemoto Hisako"
 }

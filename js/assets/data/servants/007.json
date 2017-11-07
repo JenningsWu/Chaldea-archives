@@ -1,6 +1,46 @@
 {
   "id": "007",
+  "name": "盖乌斯・尤利乌斯・恺撒",
+  "nameJP": "ガイウス・ユリウス・カエサル",
+  "nameEN": "Gaius Julius Caesar",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 1,
+  "startATK": 1392,
+  "endATK": 7497,
+  "startHP": 1727,
+  "endHP": 9595,
+  "grailATK": 10146,
+  "grailHP": 13009,
+  "illustrator": "しまどりる",
+  "cv": "置鮎 龍太郎",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.011,
+    0.011,
+    0.011,
+    0.011
+  ],
+  "starAbsorption": 99,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.011,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.315,
+  "traits": [],
   "skill1": [
     {
       "name": "军略",
@@ -264,6 +304,53 @@
       "img": 16
     }
   ],
+  "np": [
+    {
+      "name": "黄之死（Crocea Mors）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "B+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014005",
+          "value": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -378,53 +465,6 @@
         }
       ],
       "img": 14
-    }
-  ],
-  "np": [
-    {
-      "name": "黄之死（Crocea Mors）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "B+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014005",
-          "value": [
-            5,
-            10,
-            15,
-            20,
-            25
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
     }
   ],
   "skillResource": [
@@ -548,5 +588,7 @@
         "num": 7
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimadoriru",
+  "cvEn": "Okiayu Ryōtarō"
 }

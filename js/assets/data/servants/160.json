@@ -1,6 +1,46 @@
 {
   "id": "160",
+  "name": "亚瑟・潘德拉贡 [Prototype]",
+  "nameJP": "アーサー・ペンドラゴン〔プロトタイプ〕",
+  "nameEN": "Arthur Pendragon (Prototype)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 1,
+  "startATK": 1926,
+  "endATK": 12465,
+  "startHP": 2049,
+  "endHP": 13975,
+  "grailATK": 13645,
+  "grailHP": 15310,
+  "illustrator": "中原",
+  "cv": "櫻井 孝宏",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    5
+  ],
+  "charge": [
+    0.0084,
+    0.0084,
+    0.0084,
+    0.0084
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0084,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.245,
+  "traits": [],
   "skill1": [
     {
       "name": "魔力放出",
@@ -161,6 +201,53 @@
       "img": 14
     }
   ],
+  "np": [
+    {
+      "name": "誓约胜利之剑（Excalibur）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "EX",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001005",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 3
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -237,53 +324,6 @@
         }
       ],
       "img": 5
-    }
-  ],
-  "np": [
-    {
-      "name": "誓约胜利之剑（Excalibur）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "EX",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001005",
-          "value": [
-            10,
-            20,
-            30,
-            40,
-            50
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 3
     }
   ],
   "skillResource": [
@@ -407,5 +447,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Nakahara",
+  "cvEn": "Sakurai Takahiro"
 }

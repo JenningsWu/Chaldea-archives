@@ -1,6 +1,46 @@
 {
   "id": "129",
+  "name": "阿尔托莉雅・潘德拉贡",
+  "nameJP": "アルトリア・ペンドラゴン〔アーチャー〕",
+  "nameEN": "Artoria Pendragon (Archer)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 2,
+  "startATK": 1742,
+  "endATK": 11276,
+  "startHP": 2134,
+  "endHP": 14553,
+  "grailATK": 12343,
+  "grailHP": 15943,
+  "illustrator": "武内 崇",
+  "cv": "川澄 綾子",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.0059,
+    0.0059,
+    0.0059,
+    0.0059
+  ],
+  "starAbsorption": 153,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0059,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.258,
+  "traits": [],
   "skill1": [
     {
       "name": "夏日溅射！",
@@ -223,6 +263,80 @@
       "img": 6
     }
   ],
+  "np": [
+    {
+      "name": "阳光璀璨胜利之剑（Excalibur・Vivian）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000004000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 10
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -337,80 +451,6 @@
         }
       ],
       "img": 31
-    }
-  ],
-  "np": [
-    {
-      "name": "阳光璀璨胜利之剑（Excalibur・Vivian）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            70,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "000000004000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 10
     }
   ],
   "skillResource": [
@@ -534,5 +574,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Kawasumi Ayako"
 }

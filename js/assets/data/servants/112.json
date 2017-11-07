@@ -1,6 +1,46 @@
 {
   "id": "112",
+  "name": "酒吞童子",
+  "nameJP": "酒呑童子",
+  "nameEN": "Shuten Douji",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 6,
+  "startATK": 1853,
+  "endATK": 11993,
+  "startHP": 1881,
+  "endHP": 12825,
+  "grailATK": 13128,
+  "grailHP": 14050,
+  "illustrator": "本庄雷太",
+  "cv": "悠木 碧",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    4,
+    6
+  ],
+  "charge": [
+    0.0055,
+    0.0055,
+    0.0055,
+    0.0055
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.25,
+  "npChargeATK": 0.0055,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.316,
+  "traits": [],
   "skill1": [
     {
       "name": "果实的酒气",
@@ -190,84 +230,6 @@
       "initialCD": 9,
       "requirement": "00000",
       "img": 12
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
-    },
-    {
-      "name": "神性",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000011000",
-          "value": [
-            150,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 14
     }
   ],
   "np": [
@@ -479,6 +441,84 @@
       "hits": 1
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    },
+    {
+      "name": "神性",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000011000",
+          "value": [
+            150,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 14
+    }
+  ],
   "skillResource": [
     [
       {
@@ -600,5 +640,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Honjou Raita",
+  "cvEn": "Yuuki Aoi"
 }

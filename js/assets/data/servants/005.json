@@ -1,6 +1,46 @@
 {
   "id": "005",
+  "name": "尼禄・克劳狄乌斯",
+  "nameJP": "ネロ・クラウディウス",
+  "nameEN": "Nero Claudius",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 1,
+  "startATK": 1574,
+  "endATK": 9449,
+  "startHP": 1880,
+  "endHP": 11753,
+  "grailATK": 11441,
+  "grailHP": 14250,
+  "illustrator": "ワダアルコ",
+  "cv": "丹下 桜",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    5
+  ],
+  "charge": [
+    0.0084,
+    0.0084,
+    0.0084,
+    0.0084
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.101,
+  "npChargeATK": 0.0084,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.245,
+  "traits": [],
   "skill1": [
     {
       "name": "头痛",
@@ -223,84 +263,6 @@
       "img": 12
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "童女讴歌如花帝政（Los Saint Claudius）",
@@ -391,6 +353,84 @@
         }
       ],
       "hits": 1
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
     }
   ],
   "skillResource": [
@@ -514,5 +554,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Tange Sakura"
 }

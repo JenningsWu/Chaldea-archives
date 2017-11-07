@@ -1,6 +1,46 @@
 {
   "id": "137",
+  "name": "克洛伊・冯・爱因兹贝伦",
+  "nameJP": "クロエ･フォン・アインツベルン",
+  "nameEN": "Chloe von Einzbern",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 2,
+  "startATK": 1640,
+  "endATK": 9845,
+  "startHP": 1746,
+  "endHP": 10914,
+  "grailATK": 11920,
+  "grailHP": 13239,
+  "illustrator": "ひろやまひろし",
+  "cv": "斎藤 千和",
+  "gender": 1,
+  "attribute": 1,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    6,
+    2,
+    3,
+    4
+  ],
+  "charge": [
+    0.0038,
+    0.0038,
+    0.0038,
+    0.0038
+  ],
+  "starAbsorption": 148,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0038,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "心眼（伪）",
@@ -357,6 +397,80 @@
       "img": 29
     }
   ],
+  "np": [
+    {
+      "name": "鹤翼三连",
+      "type": 2,
+      "condition": 1,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "C",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000024005",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 6
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -433,80 +547,6 @@
         }
       ],
       "img": 22
-    }
-  ],
-  "np": [
-    {
-      "name": "鹤翼三连",
-      "type": 2,
-      "condition": 1,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "C",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005003",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000024005",
-          "value": [
-            20,
-            30,
-            40,
-            50,
-            60
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 6
     }
   ],
   "skillResource": [
@@ -610,5 +650,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Hiroyama Hiroshi",
+  "cvEn": "Saito Chiwa"
 }

@@ -1,6 +1,46 @@
 {
   "id": "092",
+  "name": "两仪式",
+  "nameJP": "両儀式〔アサシン〕",
+  "nameEN": "Ryougi Shiki (Assassin)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 6,
+  "startATK": 1477,
+  "endATK": 8867,
+  "startHP": 1768,
+  "endHP": 11055,
+  "grailATK": 10736,
+  "grailHP": 13404,
+  "illustrator": "武内 崇",
+  "cv": "坂本 真綾",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    4,
+    5
+  ],
+  "charge": [
+    0.008,
+    0.008,
+    0.008,
+    0.008
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.008,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.44,
+  "traits": [],
   "skill1": [
     {
       "name": "直死之魔眼",
@@ -254,6 +294,53 @@
       "img": 44
     }
   ],
+  "np": [
+    {
+      "name": "唯识・直死之魔眼",
+      "type": 4,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000024012",
+          "value": [
+            100,
+            110,
+            120,
+            130,
+            140
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 3
+    }
+  ],
   "classSkill": [
     {
       "name": "气息遮断",
@@ -330,53 +417,6 @@
         }
       ],
       "img": 22
-    }
-  ],
-  "np": [
-    {
-      "name": "唯识・直死之魔眼",
-      "type": 4,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "EX",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000024012",
-          "value": [
-            100,
-            110,
-            120,
-            130,
-            140
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 3
     }
   ],
   "skillResource": [
@@ -480,5 +520,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Sakamoto Maaya"
 }

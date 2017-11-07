@@ -1,6 +1,46 @@
 {
   "id": "173",
+  "name": "夏洛克・福尔摩斯",
+  "nameJP": "シャーロック・ホームズ",
+  "nameEN": "Sherlock Holmes",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 8,
+  "startATK": 1776,
+  "endATK": 11495,
+  "startHP": 1960,
+  "endHP": 13365,
+  "grailATK": 12583,
+  "grailHP": 14642,
+  "illustrator": "山中虎鉄",
+  "cv": "水島 大宙",
+  "gender": 0,
+  "attribute": 3,
+  "alignment": "10",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    4,
+    3,
+    5
+  ],
+  "charge": [
+    0.0076,
+    0.0076,
+    0.0076,
+    0.0076
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0076,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.245,
+  "traits": [],
   "skill1": [
     {
       "name": "天赋的见识",
@@ -223,46 +263,6 @@
       "img": 28
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    }
-  ],
   "np": [
     {
       "name": "这是基本的推测，我的朋友（Elementary My Dear）",
@@ -389,6 +389,46 @@
         }
       ],
       "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
     }
   ],
   "skillResource": [
@@ -572,5 +612,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Yamanaka Kotetsu",
+  "cvEn": "Mizushima Takahiro"
 }

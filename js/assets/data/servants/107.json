@@ -1,6 +1,46 @@
 {
   "id": "107",
+  "name": "安哥拉曼纽",
+  "nameJP": "アンリマユ",
+  "nameEN": "Angra Mainyu",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 0,
+  "class": 9,
+  "startATK": 1008,
+  "endATK": 5683,
+  "startHP": 1502,
+  "endHP": 7981,
+  "grailATK": 8235,
+  "grailHP": 11518,
+  "illustrator": "福丸もち",
+  "cv": "寺島 拓篤",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    4
+  ],
+  "charge": [
+    0.0079,
+    0.0079,
+    0.0079,
+    0.0079
+  ],
+  "starAbsorption": 29,
+  "starGeneration": 0.06,
+  "npChargeATK": 0.0079,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.09,
+  "traits": [],
   "skill1": [
     {
       "name": "右齿啮咬",
@@ -192,6 +232,107 @@
       "img": 25
     }
   ],
+  "np": [
+    {
+      "name": "伪写记载之万象（Verg Avesta）",
+      "type": 0,
+      "condition": 0,
+      "value": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "card": 0,
+      "lv": "C-",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "000000025006",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "000000014008",
+          "value": [
+            1000,
+            2000,
+            3000,
+            4000,
+            5000
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000004015",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 0
+    }
+  ],
   "classSkill": [
     {
       "name": "复仇者",
@@ -339,107 +480,6 @@
       "img": 48
     }
   ],
-  "np": [
-    {
-      "name": "伪写记载之万象（Verg Avesta）",
-      "type": 0,
-      "condition": 0,
-      "value": [
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "card": 0,
-      "lv": "C-",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "000000025006",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "000000014008",
-          "value": [
-            1000,
-            2000,
-            3000,
-            4000,
-            5000
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "000000004015",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 0
-    }
-  ],
   "skillResource": [
     [
       {
@@ -537,5 +577,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Nekotawawa",
+  "cvEn": "Terashima Takuma"
 }

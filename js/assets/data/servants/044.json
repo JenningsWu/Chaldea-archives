@@ -1,6 +1,46 @@
 {
   "id": "044",
+  "name": "剧院魅影",
+  "nameJP": "ファントム・オブ・ジ・オペラ",
+  "nameEN": "The Phantom of the Opera",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 2,
+  "class": 6,
+  "startATK": 1003,
+  "endATK": 5654,
+  "startHP": 1580,
+  "endHP": 8393,
+  "grailATK": 8193,
+  "grailHP": 12112,
+  "illustrator": "縞うどん",
+  "cv": "置鮎 龍太郎",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    3,
+    2,
+    2,
+    3
+  ],
+  "charge": [
+    0.0071,
+    0.0071,
+    0.0071,
+    0.0071
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.252,
+  "npChargeATK": 0.0071,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.495,
+  "traits": [],
   "skill1": [
     {
       "name": "无辜的怪物",
@@ -192,46 +232,6 @@
       "img": 34
     }
   ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
-    }
-  ],
   "np": [
     {
       "name": "吾爱之歌恰为地狱奏响（Christine Christine）",
@@ -322,6 +322,46 @@
         }
       ],
       "hits": 1
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
     }
   ],
   "skillResource": [
@@ -445,5 +485,7 @@
         "num": 18
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimaudon",
+  "cvEn": "Okiayu Ryōtarō"
 }

@@ -1,6 +1,46 @@
 {
   "id": "105",
+  "name": "比利小子",
+  "nameJP": "ビリー・ザ・キッド",
+  "nameEN": "Billy The Kid",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 2,
+  "startATK": 1279,
+  "endATK": 6890,
+  "startHP": 1711,
+  "endHP": 9506,
+  "grailATK": 9325,
+  "grailHP": 12889,
+  "illustrator": "縞うどん",
+  "cv": "高乃 麗",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "21",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    4,
+    2,
+    4
+  ],
+  "charge": [
+    0.0056,
+    0.0056,
+    0.0056,
+    0.0056
+  ],
+  "starAbsorption": 150,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.0056,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.45,
+  "traits": [],
   "skill1": [
     {
       "name": "射击",
@@ -161,84 +201,6 @@
       "img": 18
     }
   ],
-  "classSkill": [
-    {
-      "name": "单独行动",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    },
-    {
-      "name": "骑乘",
-      "lv": "C+",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            7,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "坏音之霹雳（Thunderer）",
@@ -385,6 +347,84 @@
       "hits": 3
     }
   ],
+  "classSkill": [
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
+    },
+    {
+      "name": "骑乘",
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "skillResource": [
     [
       {
@@ -506,5 +546,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimaudon",
+  "cvEn": "Takano Urara"
 }

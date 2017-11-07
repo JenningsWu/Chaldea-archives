@@ -1,6 +1,46 @@
 {
   "id": "148",
+  "name": "豹人",
+  "nameJP": "ジャガーマン",
+  "nameEN": "Jaguar Man",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 3,
+  "startATK": 1304,
+  "endATK": 7022,
+  "startHP": 1726,
+  "endHP": 9593,
+  "grailATK": 9503,
+  "grailHP": 13007,
+  "illustrator": "蒼月タカオ",
+  "cv": "伊藤 美紀",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "21",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    4,
+    2,
+    6
+  ],
+  "charge": [
+    0.0105,
+    0.0105,
+    0.0105,
+    0.0105
+  ],
+  "starAbsorption": 90,
+  "starGeneration": 0.12,
+  "npChargeATK": 0.0105,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.4,
+  "traits": [],
   "skill1": [
     {
       "name": "美洲豹·拳",
@@ -285,6 +325,80 @@
       "img": 16
     }
   ],
+  "np": [
+    {
+      "name": "无法逃脱死之钩爪",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000020001",
+          "value": [
+            10,
+            20,
+            30,
+            40,
+            50
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 2
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -361,80 +475,6 @@
         }
       ],
       "img": 17
-    }
-  ],
-  "np": [
-    {
-      "name": "无法逃脱死之钩爪",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005003",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000020001",
-          "value": [
-            10,
-            20,
-            30,
-            40,
-            50
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 2
     }
   ],
   "skillResource": [
@@ -558,5 +598,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Aotsuki Takao",
+  "cvEn": "Itō‏‎ Miki"
 }

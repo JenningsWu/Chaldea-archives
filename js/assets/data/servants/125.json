@@ -1,6 +1,46 @@
 {
   "id": "125",
+  "name": "表藤太",
+  "nameJP": "俵藤太",
+  "nameEN": "Tawara Touta",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 2,
+  "startATK": 1306,
+  "endATK": 7032,
+  "startHP": 1764,
+  "endHP": 9800,
+  "grailATK": 9517,
+  "grailHP": 13287,
+  "illustrator": "シモシ",
+  "cv": "鈴村 健一",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "10",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    5
+  ],
+  "charge": [
+    0.0057,
+    0.0057,
+    0.0057,
+    0.0057
+  ],
+  "starAbsorption": 150,
+  "starGeneration": 0.078,
+  "npChargeATK": 0.0057,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "龙神的加护",
@@ -192,6 +232,53 @@
       "img": 54
     }
   ],
+  "np": [
+    {
+      "name": "八幡祈愿・大妖射贯",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000007034",
+          "value": [
+            50,
+            62.5,
+            75,
+            87.5,
+            100
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 3
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -268,53 +355,6 @@
         }
       ],
       "img": 22
-    }
-  ],
-  "np": [
-    {
-      "name": "八幡祈愿・大妖射贯",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000007034",
-          "value": [
-            50,
-            62.5,
-            75,
-            87.5,
-            100
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 3
     }
   ],
   "skillResource": [
@@ -438,5 +478,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Simosi",
+  "cvEn": "Suzumura Kenichi"
 }

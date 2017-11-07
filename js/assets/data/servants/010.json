@@ -1,6 +1,46 @@
 {
   "id": "010",
+  "name": "骑士迪昂",
+  "nameJP": "シュヴァリエ・デオン",
+  "nameEN": "Chevalier d'Eon",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 1,
+  "startATK": 1734,
+  "endATK": 8765,
+  "startHP": 2121,
+  "endHP": 13256,
+  "grailATK": 10613,
+  "grailHP": 16073,
+  "illustrator": "森山 大輔",
+  "cv": "斎藤 千和",
+  "gender": 4,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 102,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.28,
+  "traits": [],
   "skill1": [
     {
       "name": "心眼（真）C",
@@ -223,84 +263,6 @@
       "img": 19
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "绚烂绽放的百合花（Fleur de Lys）",
@@ -501,6 +463,84 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "skillResource": [
     [
       {
@@ -622,5 +662,7 @@
         "num": 8
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Moriyama Daisuke",
+  "cvEn": "Saito Chiwa"
 }

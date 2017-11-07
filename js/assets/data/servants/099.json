@@ -1,6 +1,46 @@
 {
   "id": "099",
+  "name": "女王梅芙",
+  "nameJP": "女王メイヴ",
+  "nameEN": "Medb",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 4,
+  "startATK": 1591,
+  "endATK": 10296,
+  "startHP": 2048,
+  "endHP": 13968,
+  "grailATK": 11270,
+  "grailHP": 15303,
+  "illustrator": "高山 箕犀",
+  "cv": "佐倉 綾音",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    7
+  ],
+  "charge": [
+    0.0086,
+    0.0086,
+    0.0086,
+    0.0086
+  ],
+  "starAbsorption": 208,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0086,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.4,
+  "traits": [],
   "skill1": [
     {
       "name": "黄金律（体）",
@@ -295,84 +335,6 @@
       "img": 27
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            17.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "骑乘",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001003",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 5
-    }
-  ],
   "np": [
     {
       "name": "我所心爱的铁战车（Chariot My Love）",
@@ -519,6 +481,84 @@
       "hits": 5
     }
   ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            17.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "骑乘",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001003",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 5
+    }
+  ],
   "skillResource": [
     [
       {
@@ -640,5 +680,7 @@
         "num": 8
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Kisai Takayama",
+  "cvEn": "Sakura Ayane"
 }

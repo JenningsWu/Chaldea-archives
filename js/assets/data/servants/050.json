@@ -1,6 +1,46 @@
 {
   "id": "050",
+  "name": "斯巴达克斯",
+  "nameJP": "スパルタクス",
+  "nameEN": "Spartacus",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 1,
+  "class": 7,
+  "startATK": 922,
+  "endATK": 5073,
+  "startHP": 1544,
+  "endHP": 7722,
+  "grailATK": 7883,
+  "grailHP": 11904,
+  "illustrator": "近衛 乙嗣",
+  "cv": "鶴岡 聡",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0101,
+    0.0101,
+    0.0101,
+    0.0101
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.049,
+  "npChargeATK": 0.0101,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.65,
+  "traits": [],
   "skill1": [
     {
       "name": "被虐的荣誉",
@@ -233,46 +273,6 @@
       "img": 7
     }
   ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "EX",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            12,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
-    }
-  ],
   "np": [
     {
       "name": "疵兽的咆吼（Crying Warmonger）",
@@ -318,6 +318,46 @@
         }
       ],
       "hits": 1
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "EX",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
     }
   ],
   "skillResource": [
@@ -441,5 +481,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Konoe Ototsugu",
+  "cvEn": "Tsuruoka Satoshi"
 }

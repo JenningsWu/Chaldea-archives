@@ -1,6 +1,46 @@
 {
   "id": "053",
+  "name": "阿斯忒里俄斯",
+  "nameJP": "アステリオス",
+  "nameEN": "Asterios",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 1,
+  "class": 7,
+  "startATK": 1097,
+  "endATK": 6037,
+  "startHP": 1320,
+  "endHP": 6604,
+  "grailATK": 9381,
+  "grailHP": 10181,
+  "illustrator": "しまどりる",
+  "cv": "鳥海 浩輔",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "22",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0068,
+    0.0068,
+    0.0068,
+    0.0068
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.049,
+  "npChargeATK": 0.0068,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.585,
+  "traits": [],
   "skill1": [
     {
       "name": "怪力",
@@ -190,46 +230,6 @@
       "initialCD": 7,
       "requirement": "00000",
       "img": 23
-    }
-  ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
     }
   ],
   "np": [
@@ -432,6 +432,46 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
+    }
+  ],
   "skillResource": [
     [
       {
@@ -553,5 +593,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimadoriru",
+  "cvEn": "Kosuke Toriumi"
 }

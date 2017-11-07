@@ -1,6 +1,46 @@
 {
   "id": "036",
+  "name": "沃尔夫冈・阿马德乌斯・莫扎特",
+  "nameJP": "ヴォルフガング・アマデウス・モーツァルト",
+  "nameEN": "Wolfgang Amadeus Mozart",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 1,
+  "class": 5,
+  "startATK": 944,
+  "endATK": 5195,
+  "startHP": 1425,
+  "endHP": 7129,
+  "grailATK": 8072,
+  "grailHP": 10990,
+  "illustrator": "PFALZ",
+  "cv": "関 智一",
+  "gender": 0,
+  "attribute": 3,
+  "alignment": "10",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.016,
+    0.016,
+    0.016,
+    0.016
+  ],
+  "starAbsorption": 49,
+  "starGeneration": 0.11,
+  "npChargeATK": 0.016,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.405,
+  "traits": [],
   "skill1": [
     {
       "name": "音乐神的加护（伪）",
@@ -130,46 +170,6 @@
       "img": 8
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    }
-  ],
   "np": [
     {
       "name": "为死神奏响的葬送曲（Requiem for Death）",
@@ -269,6 +269,46 @@
         }
       ],
       "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
     }
   ],
   "skillResource": [
@@ -392,5 +432,7 @@
         "num": 2
       }
     ]
-  ]
+  ],
+  "illustratorEn": "PFALZ",
+  "cvEn": "Seki Tomokazu"
 }

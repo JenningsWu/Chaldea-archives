@@ -1,6 +1,46 @@
 {
   "id": "133",
+  "name": "斯卡哈",
+  "nameJP": "スカサハ〔アサシン〕",
+  "nameEN": "Scathach (Assassin)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 6,
+  "startATK": 1851,
+  "endATK": 9049,
+  "startHP": 1786,
+  "endHP": 11168,
+  "grailATK": 10956,
+  "grailHP": 13541,
+  "illustrator": "こやま ひろかず",
+  "cv": "能登 麻美子",
+  "gender": 1,
+  "attribute": 3,
+  "alignment": "10",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    3,
+    3,
+    3,
+    5
+  ],
+  "charge": [
+    0.0071,
+    0.0071,
+    0.0071,
+    0.0071
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.0071,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.44,
+  "traits": [],
   "skill1": [
     {
       "name": "海滨危机",
@@ -223,46 +263,6 @@
       "img": 55
     }
   ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "E",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            2,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
-    }
-  ],
   "np": [
     {
       "name": "蹴穿死翔之枪（Gae Bolg Alternative）",
@@ -308,6 +308,46 @@
         }
       ],
       "hits": 5
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "E",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
     }
   ],
   "skillResource": [
@@ -411,5 +451,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Hirokazu Koyama",
+  "cvEn": "Mamiko Noto"
 }

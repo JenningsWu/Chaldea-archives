@@ -1,6 +1,46 @@
 {
   "id": "145",
+  "name": "吉尔伽美什 [Caster]",
+  "nameJP": "ギルガメッシュ〔キャスター〕",
+  "nameEN": "Gilgamesh (Caster)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 5,
+  "startATK": 1410,
+  "endATK": 8460,
+  "startHP": 1920,
+  "endHP": 12005,
+  "grailATK": 10243,
+  "grailHP": 14556,
+  "illustrator": "ギンカ",
+  "cv": "関 智一",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    5,
+    6,
+    2,
+    5
+  ],
+  "charge": [
+    0.0032,
+    0.0032,
+    0.0032,
+    0.0032
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.109,
+  "npChargeATK": 0.0032,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.42,
+  "traits": [],
   "skill1": [
     {
       "name": "王的回归",
@@ -161,6 +201,80 @@
       "img": 28
     }
   ],
+  "np": [
+    {
+      "name": "王之号炮（Melammu·Dingir）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        450,
+        600,
+        675,
+        712,
+        750
+      ],
+      "card": 0,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "020000002000",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 10
+    }
+  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -275,80 +389,6 @@
         }
       ],
       "img": 14
-    }
-  ],
-  "np": [
-    {
-      "name": "王之号炮（Melammu·Dingir）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        450,
-        600,
-        675,
-        712,
-        750
-      ],
-      "card": 0,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "020000002000",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 10
     }
   ],
   "skillResource": [
@@ -472,5 +512,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Ginka",
+  "cvEn": "Tomokazu Seki"
 }

@@ -1,6 +1,46 @@
 {
   "id": "153",
+  "name": "宫本武藏",
+  "nameJP": "宮本武蔵",
+  "nameEN": "Miyamoto Musashi",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 1,
+  "startATK": 1860,
+  "endATK": 12037,
+  "startHP": 1999,
+  "endHP": 13635,
+  "grailATK": 13176,
+  "grailHP": 14938,
+  "illustrator": "こやま ひろかず",
+  "cv": "佐倉 綾音",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    2,
+    3,
+    4
+  ],
+  "charge": [
+    0.0087,
+    0.0087,
+    0.0087,
+    0.0087
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0087,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.35,
+  "traits": [],
   "skill1": [
     {
       "name": "第五势",
@@ -223,46 +263,6 @@
       "img": 2
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "六道五轮・俱利伽罗天象",
@@ -335,6 +335,46 @@
         }
       ],
       "hits": 7
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -458,5 +498,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Koyama Hirokazu",
+  "cvEn": "Sakura Ayane"
 }

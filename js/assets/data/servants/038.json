@@ -1,6 +1,46 @@
 {
   "id": "038",
+  "name": "库・丘林",
+  "nameJP": "クー・フーリン",
+  "nameEN": "Cu Chulainn (Caster)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 5,
+  "startATK": 1222,
+  "endATK": 6580,
+  "startHP": 1728,
+  "endHP": 9604,
+  "grailATK": 8905,
+  "grailHP": 13022,
+  "illustrator": "また",
+  "cv": "林 延年",
+  "gender": 0,
+  "attribute": 1,
+  "alignment": "01",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.016,
+    0.016,
+    0.016,
+    0.016
+  ],
+  "starAbsorption": 49,
+  "starGeneration": 0.109,
+  "npChargeATK": 0.016,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.42,
+  "traits": [],
   "skill1": [
     {
       "name": "卢恩魔术",
@@ -326,6 +366,80 @@
       "img": 13
     }
   ],
+  "np": [
+    {
+      "name": "燃烧殆尽的炎之牢（Wicker Man）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "120000022000",
+          "value": [
+            10,
+            15,
+            20,
+            25,
+            30
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000030009",
+          "value": [
+            300,
+            600,
+            900,
+            1200,
+            1500
+          ],
+          "duration": 10,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -402,80 +516,6 @@
         }
       ],
       "img": 14
-    }
-  ],
-  "np": [
-    {
-      "name": "燃烧殆尽的炎之牢（Wicker Man）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "120000022000",
-          "value": [
-            10,
-            15,
-            20,
-            25,
-            30
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "120000030009",
-          "value": [
-            300,
-            600,
-            900,
-            1200,
-            1500
-          ],
-          "duration": 10,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
     }
   ],
   "skillResource": [
@@ -599,5 +639,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Mata",
+  "cvEn": "Kanna Nobutoshi"
 }

@@ -1,6 +1,46 @@
 {
   "id": "019",
+  "name": "武藏坊弁庆",
+  "nameJP": "武蔵坊弁慶",
+  "nameEN": "Musashibou Benkei",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 2,
+  "class": 3,
+  "startATK": 1029,
+  "endATK": 5801,
+  "startHP": 1722,
+  "endHP": 9149,
+  "grailATK": 8406,
+  "grailHP": 13204,
+  "illustrator": "真じろう",
+  "cv": "稲田 徹",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0079,
+    0.0079,
+    0.0079,
+    0.0079
+  ],
+  "starAbsorption": 89,
+  "starGeneration": 0.119,
+  "npChargeATK": 0.0079,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "怨灵调伏",
@@ -161,46 +201,6 @@
       "img": 32
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C+",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            16.25,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "五百罗汉补陀落渡海",
@@ -273,6 +273,46 @@
         }
       ],
       "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C+",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            16.25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -392,5 +432,7 @@
         "num": 6
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shinjirō‏‎",
+  "cvEn": "Inada Tetsu"
 }

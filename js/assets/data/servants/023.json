@@ -1,6 +1,46 @@
 {
   "id": "023",
+  "name": "美杜莎",
+  "nameJP": "メドゥーサ",
+  "nameEN": "Medusa",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 4,
+  "startATK": 1337,
+  "endATK": 7200,
+  "startHP": 1608,
+  "endHP": 8937,
+  "grailATK": 9744,
+  "grailHP": 12117,
+  "illustrator": "武内 崇",
+  "cv": "浅川 悠",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "20",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0058,
+    0.0058,
+    0.0058,
+    0.0058
+  ],
+  "starAbsorption": 194,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.0058,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.35,
+  "traits": [],
   "skill1": [
     {
       "name": "魔眼",
@@ -161,6 +201,53 @@
       "img": 29
     }
   ],
+  "np": [
+    {
+      "name": "骑英之缰绳（Bellerophon）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 2,
+      "lv": "A+",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000000017",
+          "value": [
+            20,
+            30,
+            40,
+            50,
+            60
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -315,53 +402,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "骑英之缰绳（Bellerophon）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 2,
-      "lv": "A+",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000000017",
-          "value": [
-            20,
-            30,
-            40,
-            50,
-            60
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "skillResource": [
     [
       {
@@ -483,5 +523,7 @@
         "num": 7
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Takeuchi Takashi",
+  "cvEn": "Asakawa Yū‏‎"
 }

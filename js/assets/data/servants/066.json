@@ -1,6 +1,46 @@
 {
   "id": "066",
+  "name": "安妮・伯妮 & 玛莉・瑞德",
+  "nameJP": "アン・ボニー&メアリー・リード",
+  "nameEN": "Anne Bonny %26 Mary Read",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 4,
+  "startATK": 1504,
+  "endATK": 9029,
+  "startHP": 1805,
+  "endHP": 11286,
+  "grailATK": 10932,
+  "grailHP": 13684,
+  "illustrator": "I-IV",
+  "cv": "野中 藍 & 川澄 綾子",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "21",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    1
+  ],
+  "charge": [
+    0.0084,
+    0.0084,
+    0.0084,
+    0.0084
+  ],
+  "starAbsorption": 200,
+  "starGeneration": 0.091,
+  "npChargeATK": 0.0084,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.5,
+  "traits": [],
   "skill1": [
     {
       "name": "航海",
@@ -161,46 +201,6 @@
       "img": 23
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "比翼连理（Caribbean Freebird）",
@@ -291,6 +291,46 @@
         }
       ],
       "hits": 6
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -414,5 +454,7 @@
         "num": 24
       }
     ]
-  ]
+  ],
+  "illustratorEn": "I-IV",
+  "cvEn": "Nonaka Ai (Mary) & Kawasumi Ayako (Anne)"
 }

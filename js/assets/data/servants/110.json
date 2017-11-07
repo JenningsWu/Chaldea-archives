@@ -1,6 +1,46 @@
 {
   "id": "110",
+  "name": "百貌哈桑",
+  "nameJP": "百貌のハサン",
+  "nameEN": "Hundred-Faced Hassan",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 6,
+  "startATK": 1241,
+  "endATK": 6686,
+  "startHP": 1675,
+  "endHP": 9310,
+  "grailATK": 9049,
+  "grailHP": 12623,
+  "illustrator": "タスクオーナ",
+  "cv": "阿部 彬名",
+  "gender": 2,
+  "attribute": 0,
+  "alignment": "02",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    1,
+    3,
+    6
+  ],
+  "charge": [
+    0.0048,
+    0.0048,
+    0.0048,
+    0.0048
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.255,
+  "npChargeATK": 0.0038,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.44,
+  "traits": [],
   "skill1": [
     {
       "name": "藏知之司书",
@@ -285,46 +325,6 @@
       "img": 11
     }
   ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
-    }
-  ],
   "np": [
     {
       "name": "妄想幻象（Zabaniya）",
@@ -442,6 +442,46 @@
         }
       ],
       "hits": 13
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
     }
   ],
   "skillResource": [
@@ -565,5 +605,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Task Ohna",
+  "cvEn": "Abe Akina"
 }

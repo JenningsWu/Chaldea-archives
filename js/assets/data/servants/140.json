@@ -1,6 +1,46 @@
 {
   "id": "140",
+  "name": "弗拉德三世〔Extra〕",
+  "nameJP": "ヴラド三世 (EXTRA)",
+  "nameEN": "Vlad III (EXTRA)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 3,
+  "startATK": 1462,
+  "endATK": 8775,
+  "startHP": 2080,
+  "endHP": 13005,
+  "grailATK": 10625,
+  "grailHP": 15769,
+  "illustrator": "ワダアルコ",
+  "cv": "江川 央生",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    3,
+    3,
+    5
+  ],
+  "charge": [
+    0.011,
+    0.011,
+    0.011,
+    0.011
+  ],
+  "starAbsorption": 88,
+  "starGeneration": 0.116,
+  "npChargeATK": 0.011,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.24,
+  "traits": [],
   "skill1": [
     {
       "name": "信仰的加护",
@@ -254,46 +294,6 @@
       "img": 37
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "穿刺城塞（Kazikli Bey）",
@@ -366,6 +366,46 @@
         }
       ],
       "hits": 6
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -489,5 +529,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Egawa Hisao"
 }

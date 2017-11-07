@@ -1,6 +1,46 @@
 {
   "id": "081",
+  "name": "亨利・杰基尔 & 海德",
+  "nameJP": "ヘンリー・ジキル＆ハイド",
+  "nameEN": "Henry Jekyll %26 Hyde",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 6,
+  "startATK": 1173,
+  "endATK": 6320,
+  "startHP": 1741,
+  "endHP": 9675,
+  "grailATK": 8553,
+  "grailHP": 13118,
+  "illustrator": "中原",
+  "cv": "宮野 真守",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00,22",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0105,
+    0.0105,
+    0.0105,
+    0.0105
+  ],
+  "starAbsorption": 99,
+  "starGeneration": 0.256,
+  "npChargeATK": 0.0105,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.55,
+  "traits": [],
   "skill1": [
     {
       "name": "怪力",
@@ -254,46 +294,6 @@
       "img": 16
     }
   ],
-  "classSkill": [
-    {
-      "name": "气息遮断",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000017",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 40
-    }
-  ],
   "np": [
     {
       "name": "暗中的罪孽游戏（Dangerous Game）",
@@ -494,6 +494,46 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "气息遮断",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000017",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 40
+    }
+  ],
   "skillResource": [
     [
       {
@@ -615,5 +655,7 @@
         "num": 8
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Nakahara",
+  "cvEn": "Miyano Mamoru"
 }

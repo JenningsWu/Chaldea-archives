@@ -48,6 +48,7 @@
   },
 
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "id",
     "name",
@@ -63,7 +64,9 @@
     "grailATK",
     "grailHP",
     "illustrator",
+    "illustratorEn",
     "cv",
+    "cvEn",
     "gender",
     "attribute",
     "alignment",
@@ -113,7 +116,9 @@
     "grailATK": { "type": "integer" },
     "grailHP": { "type": "integer" },
     "illustrator": { "type": "string" },
+    "illustratorEn": { "type": "string" },
     "cv": { "type": "string" },
+    "cvEn": { "type": "string" },
     "gender": { "type": "integer" },
     "attribute": { "type": "integer" },
     "alignment": { "type": "string" },

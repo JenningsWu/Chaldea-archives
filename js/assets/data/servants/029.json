@@ -1,6 +1,46 @@
 {
   "id": "029",
+  "name": "玛丽・安托瓦内特",
+  "nameJP": "マリー・アントワネット",
+  "nameEN": "Marie Antoinette",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 4,
+  "startATK": 1382,
+  "endATK": 8293,
+  "startHP": 1975,
+  "endHP": 12348,
+  "grailATK": 10041,
+  "grailHP": 14972,
+  "illustrator": "ギンカ",
+  "cv": "種田 梨沙",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.01,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "starAbsorption": 201,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.01,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.35,
+  "traits": [],
   "skill1": [
     {
       "name": "魅惑的美声",
@@ -192,6 +232,80 @@
       "img": 34
     }
   ],
+  "np": [
+    {
+      "name": "存于百合王冠之中的荣光（Guillotine Breaker）",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 2,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "020000014008",
+          "value": [
+            500,
+            1000,
+            1500,
+            2000,
+            2500
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000005008",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 5
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -268,80 +382,6 @@
         }
       ],
       "img": 5
-    }
-  ],
-  "np": [
-    {
-      "name": "存于百合王冠之中的荣光（Guillotine Breaker）",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 2,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "020000014008",
-          "value": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "000000005008",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 5
     }
   ],
   "skillResource": [
@@ -465,5 +505,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Ginka",
+  "cvEn": "Taneda Risa"
 }

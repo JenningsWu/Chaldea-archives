@@ -1,6 +1,46 @@
 {
   "id": "032",
+  "name": "吉尔・德・雷",
+  "nameJP": "ジル・ド・レェ",
+  "nameEN": "Gilles de Rais",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 5,
+  "startATK": 1209,
+  "endATK": 6514,
+  "startHP": 1711,
+  "endHP": 9506,
+  "grailATK": 8816,
+  "grailHP": 12889,
+  "illustrator": "Azusa",
+  "cv": "鶴岡 聡",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "22",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0158,
+    0.0158,
+    0.0158,
+    0.0158
+  ],
+  "starAbsorption": 48,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0158,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.48,
+  "traits": [],
   "skill1": [
     {
       "name": "精神污染",
@@ -161,46 +201,6 @@
       "img": 33
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    }
-  ],
   "np": [
     {
       "name": "螺湮城教本（Prelati's・spellbook）",
@@ -246,6 +246,46 @@
         }
       ],
       "hits": 3
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
     }
   ],
   "skillResource": [
@@ -369,5 +409,7 @@
         "num": 7
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Azusa",
+  "cvEn": "Tsuruoka Satoshi"
 }

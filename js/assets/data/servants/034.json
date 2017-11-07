@@ -1,6 +1,46 @@
 {
   "id": "034",
+  "name": "威廉・莎士比亚",
+  "nameJP": "ウィリアム・シェイクスピア",
+  "nameEN": "William Shakespeare",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 2,
+  "class": 5,
+  "startATK": 1028,
+  "endATK": 5798,
+  "startHP": 1520,
+  "endHP": 8080,
+  "grailATK": 8402,
+  "grailHP": 11661,
+  "illustrator": "近衛 乙嗣",
+  "cv": "稲田徹",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "11",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0159,
+    0.0159,
+    0.0159,
+    0.0159
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0159,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.45,
+  "traits": [],
   "skill1": [
     {
       "name": "附魔",
@@ -192,46 +232,6 @@
       "img": 29
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            6,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    }
-  ],
   "np": [
     {
       "name": "开演之时已到，献上如雷的喝彩（First Folio）",
@@ -318,6 +318,46 @@
         }
       ],
       "hits": 4
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
     }
   ],
   "skillResource": [
@@ -441,5 +481,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Konoe Ototsugu",
+  "cvEn": "Toru Inada"
 }

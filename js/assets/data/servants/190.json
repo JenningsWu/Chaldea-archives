@@ -1,6 +1,46 @@
 {
   "id": "190",
+  "name": "机械伊丽酱",
+  "nameJP": "メカエリチャン",
+  "nameEN": "Mecha Eli-chan",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 10,
+  "startATK": 1666,
+  "endATK": 9997,
+  "startHP": 1744,
+  "endHP": 10901,
+  "grailATK": 12104,
+  "grailHP": 13217,
+  "illustrator": "ワダアルコ",
+  "cv": "大久保 瑠美",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    1,
+    3,
+    1
+  ],
+  "hits": [
+    3,
+    2,
+    4,
+    4
+  ],
+  "charge": [
+    0.009,
+    0.009,
+    0.009,
+    0.009
+  ],
+  "starAbsorption": 97,
+  "starGeneration": 0.097,
+  "npChargeATK": 0.009,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.5,
+  "traits": [],
   "skill1": [
     {
       "name": "无辜的怪兽",
@@ -254,6 +294,80 @@
       "img": 15
     }
   ],
+  "np": [
+    {
+      "name": "鋼鉄天空魔嬢",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "B",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000025039",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 1,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000022000",
+          "value": [
+            20,
+            25,
+            30,
+            35,
+            40
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 8
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -330,80 +444,6 @@
         }
       ],
       "img": 35
-    }
-  ],
-  "np": [
-    {
-      "name": "鋼鉄天空魔嬢",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "B",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000025039",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 1,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000022000",
-          "value": [
-            20,
-            25,
-            30,
-            35,
-            40
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 8
     }
   ],
   "skillResource": [
@@ -519,5 +559,7 @@
         "num": 1
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Wada Arco",
+  "cvEn": "Ookubo Rumi"
 }

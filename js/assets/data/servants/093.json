@@ -1,6 +1,46 @@
 {
   "id": "093",
+  "name": "天草四郎",
+  "nameJP": "天草四郎",
+  "nameEN": "Amakusa Shirou",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 8,
+  "startATK": 1695,
+  "endATK": 10972,
+  "startHP": 2069,
+  "endHP": 14107,
+  "grailATK": 12011,
+  "grailHP": 15455,
+  "illustrator": "近衛 乙嗣",
+  "cv": "内山 昂輝",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    6
+  ],
+  "charge": [
+    0.0086,
+    0.0086,
+    0.0086,
+    0.0086
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0086,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.21,
+  "traits": [],
   "skill1": [
     {
       "name": "启示",
@@ -233,46 +273,6 @@
       "img": 33
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "双腕・零次集束（Twin Arm Big Crunch）",
@@ -417,6 +417,46 @@
         }
       ],
       "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -600,5 +640,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Konoe Ototsugu",
+  "cvEn": "Uchiyama Kouki"
 }

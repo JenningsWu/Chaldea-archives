@@ -1,6 +1,46 @@
 {
   "id": "139",
+  "name": "克利奥帕特拉",
+  "nameJP": "クレオパトラ",
+  "nameEN": "Cleopatra",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 6,
+  "startATK": 1713,
+  "endATK": 11088,
+  "startHP": 1965,
+  "endHP": 13402,
+  "grailATK": 12138,
+  "grailHP": 14682,
+  "illustrator": "小松崎類",
+  "cv": "釘宮 理恵",
+  "gender": 1,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "charge": [
+    0.0106,
+    0.0106,
+    0.0106,
+    0.0106
+  ],
+  "starAbsorption": 98,
+  "starGeneration": 0.255,
+  "npChargeATK": 0.0106,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.495,
+  "traits": [],
   "skill1": [
     {
       "name": "皇帝特权",
@@ -316,6 +356,80 @@
       "img": 2
     }
   ],
+  "np": [
+    {
+      "name": "终结黎明之蛇啊，降临此处",
+      "type": 1,
+      "condition": 0,
+      "value": [
+        300,
+        400,
+        450,
+        475,
+        500
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "000000034008",
+          "value": [
+            1000,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 0,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 5
+    }
+  ],
   "classSkill": [
     {
       "name": "气息遮断",
@@ -392,80 +506,6 @@
         }
       ],
       "img": 14
-    }
-  ],
-  "np": [
-    {
-      "name": "终结黎明之蛇啊，降临此处",
-      "type": 1,
-      "condition": 0,
-      "value": [
-        300,
-        400,
-        450,
-        475,
-        500
-      ],
-      "card": 1,
-      "lv": "A",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            30,
-            40,
-            50,
-            60,
-            70
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "000000034008",
-          "value": [
-            1000,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 0,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 5
     }
   ],
   "skillResource": [
@@ -589,5 +629,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Komatsuzaki Rui",
+  "cvEn": "Kugimiya Rie"
 }

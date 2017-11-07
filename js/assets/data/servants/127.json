@@ -1,6 +1,46 @@
 {
   "id": "127",
+  "name": "莱昂纳多・达・芬奇",
+  "nameJP": "ダ・ヴィンチちゃん",
+  "nameEN": "Leonardo Da Vinci",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 5,
+  "startATK": 1637,
+  "endATK": 10598,
+  "startHP": 2091,
+  "endHP": 14259,
+  "grailATK": 11601,
+  "grailHP": 15621,
+  "illustrator": "シモシ",
+  "cv": "坂本 真綾",
+  "gender": 1,
+  "attribute": 3,
+  "alignment": "20",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    3,
+    1,
+    4,
+    4
+  ],
+  "charge": [
+    0.0054,
+    0.0054,
+    0.0054,
+    0.0054
+  ],
+  "starAbsorption": 50,
+  "starGeneration": 0.108,
+  "npChargeATK": 0.0054,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.345,
+  "traits": [],
   "skill1": [
     {
       "name": "天赋的睿智",
@@ -316,6 +356,80 @@
       "img": 29
     }
   ],
+  "np": [
+    {
+      "name": "万能之人（Uomo Universale）",
+      "type": 3,
+      "condition": 0,
+      "value": [
+        450,
+        600,
+        675,
+        712,
+        750
+      ],
+      "card": 0,
+      "lv": "EX",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001005",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        },
+        {
+          "id": "120000024005",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "阵地作成",
@@ -392,80 +506,6 @@
         }
       ],
       "img": 35
-    }
-  ],
-  "np": [
-    {
-      "name": "万能之人（Uomo Universale）",
-      "type": 3,
-      "condition": 0,
-      "value": [
-        450,
-        600,
-        675,
-        712,
-        750
-      ],
-      "card": 0,
-      "lv": "EX",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001005",
-          "value": [
-            30,
-            40,
-            50,
-            60,
-            70
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        },
-        {
-          "id": "120000024005",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        }
-      ],
-      "hits": 1
     }
   ],
   "skillResource": [
@@ -589,5 +629,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Simosi",
+  "cvEn": "Sakamoto Maaya"
 }

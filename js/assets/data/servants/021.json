@@ -1,6 +1,46 @@
 {
   "id": "021",
+  "name": "列奥尼达一世",
+  "nameJP": "レオニダス一世",
+  "nameEN": "Leonidas",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 2,
+  "class": 3,
+  "startATK": 1168,
+  "endATK": 6583,
+  "startHP": 1498,
+  "endHP": 7959,
+  "grailATK": 9539,
+  "grailHP": 11486,
+  "illustrator": "縞うどん",
+  "cv": "三木 眞一郎",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "01",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "charge": [
+    0.0107,
+    0.0107,
+    0.0107,
+    0.0107
+  ],
+  "starAbsorption": 89,
+  "starGeneration": 0.118,
+  "npChargeATK": 0.0107,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.32,
+  "traits": [],
   "skill1": [
     {
       "name": "殿军的矜持",
@@ -161,46 +201,6 @@
       "img": 7
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "C",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "炎门的守护者（Θερμοπύλαι ἐνωμοτίαι/Thermopylōn Enōmotiai）",
@@ -300,6 +300,46 @@
         }
       ],
       "hits": 0
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "C",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -423,5 +463,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimaudon",
+  "cvEn": "Miki Shinichirō"
 }

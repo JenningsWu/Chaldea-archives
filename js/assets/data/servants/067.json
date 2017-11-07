@@ -1,6 +1,46 @@
 {
   "id": "067",
+  "name": "美狄亚 [Lily]",
+  "nameJP": "メディア［リリィ］",
+  "nameEN": "Medea (Lily)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 5,
+  "startATK": 1294,
+  "endATK": 7766,
+  "startHP": 2091,
+  "endHP": 13070,
+  "grailATK": 9403,
+  "grailHP": 15847,
+  "illustrator": "こやま ひろかず",
+  "cv": "野中 藍",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    3,
+    1,
+    1
+  ],
+  "hits": [
+    4,
+    3,
+    4,
+    5
+  ],
+  "charge": [
+    0.004,
+    0.004,
+    0.004,
+    0.004
+  ],
+  "starAbsorption": 51,
+  "starGeneration": 0.107,
+  "npChargeATK": 0.004,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.36,
+  "traits": [],
   "skill1": [
     {
       "name": "高速神言",
@@ -233,84 +273,6 @@
       "img": 11
     }
   ],
-  "classSkill": [
-    {
-      "name": "阵地作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 31
-    },
-    {
-      "name": "道具作成",
-      "lv": "B",
-      "effect": [
-        {
-          "id": "000000000021",
-          "value": [
-            8,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 35
-    }
-  ],
   "np": [
     {
       "name": "万疵必行修补（Pain Breaker）",
@@ -511,6 +473,84 @@
       "hits": 0
     }
   ],
+  "classSkill": [
+    {
+      "name": "阵地作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 31
+    },
+    {
+      "name": "道具作成",
+      "lv": "B",
+      "effect": [
+        {
+          "id": "000000000021",
+          "value": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 35
+    }
+  ],
   "skillResource": [
     [
       {
@@ -632,5 +672,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Hirokazu Koyama",
+  "cvEn": "Nonaka Ai"
 }

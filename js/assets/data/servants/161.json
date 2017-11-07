@@ -1,6 +1,46 @@
 {
   "id": "161",
+  "name": "土方岁三",
+  "nameJP": "土方歳三",
+  "nameEN": "Hijikata Toshizou",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 7,
+  "startATK": 1868,
+  "endATK": 12089,
+  "startHP": 1764,
+  "endHP": 12028,
+  "grailATK": 13234,
+  "grailHP": 13178,
+  "illustrator": "余湖 裕輝",
+  "cv": "星野貴紀",
+  "gender": 0,
+  "attribute": 0,
+  "alignment": "02",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    2,
+    3,
+    3
+  ],
+  "charge": [
+    0.0108,
+    0.0108,
+    0.0108,
+    0.0108
+  ],
+  "starAbsorption": 9,
+  "starGeneration": 0.049,
+  "npChargeATK": 0.0108,
+  "npChargeDEF": 0.05,
+  "deathResist": 0.65,
+  "traits": [],
   "skill1": [
     {
       "name": "战场之鬼",
@@ -254,46 +294,6 @@
       "img": 23
     }
   ],
-  "classSkill": [
-    {
-      "name": "狂化",
-      "lv": "D+",
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 17
-    }
-  ],
   "np": [
     {
       "name": "不灭之诚",
@@ -339,6 +339,46 @@
         }
       ],
       "hits": 5
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "狂化",
+      "lv": "D+",
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 17
     }
   ],
   "skillResource": [
@@ -462,5 +502,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Yogo Yū‏‎ki",
+  "cvEn": "Takanori Hoshino"
 }

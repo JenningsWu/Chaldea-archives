@@ -1,6 +1,46 @@
 {
   "id": "121",
+  "name": "兰斯洛特",
+  "nameJP": "ランスロット",
+  "nameEN": "Lancelot (Saber)",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 1,
+  "startATK": 1658,
+  "endATK": 9949,
+  "startHP": 1854,
+  "endHP": 11589,
+  "grailATK": 12046,
+  "grailHP": 14051,
+  "illustrator": "しまどりる",
+  "cv": "置鮎 龍太郎",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "01",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    4,
+    3,
+    5
+  ],
+  "charge": [
+    0.0083,
+    0.0083,
+    0.0083,
+    0.0083
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.1,
+  "npChargeATK": 0.0083,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.28,
+  "traits": [],
   "skill1": [
     {
       "name": "湖之骑士",
@@ -192,6 +232,80 @@
       "img": 37
     }
   ],
+  "np": [
+    {
+      "name": "缚锁全断・过重湖光（Aroundight Overload）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        900,
+        1200,
+        1350,
+        1425,
+        1500
+      ],
+      "card": 0,
+      "lv": "A++",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001002",
+          "value": [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000032000",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -268,80 +382,6 @@
         }
       ],
       "img": 5
-    }
-  ],
-  "np": [
-    {
-      "name": "缚锁全断・过重湖光（Aroundight Overload）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        900,
-        1200,
-        1350,
-        1425,
-        1500
-      ],
-      "card": 0,
-      "lv": "A++",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001002",
-          "value": [
-            30,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000032000",
-          "value": [
-            1000,
-            1500,
-            2000,
-            2500,
-            3000
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
     }
   ],
   "skillResource": [
@@ -465,5 +505,7 @@
         "num": 4
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Shimadoriru",
+  "cvEn": "Okiayu Ryōtarō"
 }

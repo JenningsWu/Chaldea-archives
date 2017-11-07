@@ -1,6 +1,46 @@
 {
   "id": "122",
+  "name": "崔斯坦",
+  "nameJP": "トリスタン",
+  "nameEN": "Tristan",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 2,
+  "startATK": 1622,
+  "endATK": 9735,
+  "startHP": 1862,
+  "endHP": 11637,
+  "grailATK": 11787,
+  "grailHP": 14110,
+  "illustrator": "森井 しづき",
+  "cv": "内山 昂輝",
+  "gender": 0,
+  "attribute": 2,
+  "alignment": "00",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    3,
+    5,
+    4,
+    6
+  ],
+  "charge": [
+    0.0058,
+    0.0058,
+    0.0058,
+    0.0058
+  ],
+  "starAbsorption": 145,
+  "starGeneration": 0.081,
+  "npChargeATK": 0.0058,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.315,
+  "traits": [],
   "skill1": [
     {
       "name": "治愈的竖琴",
@@ -254,6 +294,80 @@
       "img": 32
     }
   ],
+  "np": [
+    {
+      "name": "痛哭的幻奏（Failnaught）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        1200,
+        1600,
+        1800,
+        1900,
+        2000
+      ],
+      "card": 2,
+      "lv": "A",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000005003",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000020001",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 3,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 2,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 7
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -330,80 +444,6 @@
         }
       ],
       "img": 22
-    }
-  ],
-  "np": [
-    {
-      "name": "痛哭的幻奏（Failnaught）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        1200,
-        1600,
-        1800,
-        1900,
-        2000
-      ],
-      "card": 2,
-      "lv": "A",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000005003",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000020001",
-          "value": [
-            30,
-            40,
-            50,
-            60,
-            70
-          ],
-          "duration": 3,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 2,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 7
     }
   ],
   "skillResource": [
@@ -527,5 +567,7 @@
         "num": 6
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Morii Shizuki",
+  "cvEn": "Uchiyama Kouki"
 }

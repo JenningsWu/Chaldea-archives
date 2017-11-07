@@ -1,6 +1,46 @@
 {
   "id": "126",
+  "name": "贝德维尔",
+  "nameJP": "ベディヴィエール",
+  "nameEN": "Bedivere",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 3,
+  "class": 1,
+  "startATK": 1416,
+  "endATK": 7627,
+  "startHP": 1727,
+  "endHP": 9595,
+  "grailATK": 10322,
+  "grailHP": 13009,
+  "illustrator": "天空 すふぃあ",
+  "cv": "宮野 真守",
+  "gender": 0,
+  "attribute": 3,
+  "alignment": "00",
+  "cards": [
+    1,
+    2,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    2,
+    5
+  ],
+  "charge": [
+    0.0111,
+    0.0111,
+    0.0111,
+    0.0111
+  ],
+  "starAbsorption": 100,
+  "starGeneration": 0.102,
+  "npChargeATK": 0.0111,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.28,
+  "traits": [],
   "skill1": [
     {
       "name": "军略",
@@ -192,6 +232,53 @@
       "img": 1
     }
   ],
+  "np": [
+    {
+      "name": "手握圣剑吧，银色之腕（Switch-on Agateram）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "C",
+      "attackPhaseID": 1,
+      "effect": [
+        {
+          "id": "000000001001",
+          "value": [
+            30,
+            40,
+            50,
+            60,
+            70
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 2
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -268,53 +355,6 @@
         }
       ],
       "img": 5
-    }
-  ],
-  "np": [
-    {
-      "name": "手握圣剑吧，银色之腕（Switch-on Agateram）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "C",
-      "attackPhaseID": 1,
-      "effect": [
-        {
-          "id": "000000001001",
-          "value": [
-            30,
-            40,
-            50,
-            60,
-            70
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 2
     }
   ],
   "skillResource": [
@@ -438,5 +478,7 @@
         "num": 16
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Sky Sphere",
+  "cvEn": "Miyano Mamoru"
 }

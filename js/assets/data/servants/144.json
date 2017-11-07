@@ -1,6 +1,46 @@
 {
   "id": "144",
+  "name": "魁札尔・科亚特尔",
+  "nameJP": "ケツァル・コアトル",
+  "nameEN": "Quetzalcoatl",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 4,
+  "startATK": 1854,
+  "endATK": 12001,
+  "startHP": 1900,
+  "endHP": 12960,
+  "grailATK": 13137,
+  "grailHP": 14198,
+  "illustrator": "広江 礼威",
+  "cv": "遠藤 綾",
+  "gender": 1,
+  "attribute": 1,
+  "alignment": "00",
+  "cards": [
+    2,
+    2,
+    1
+  ],
+  "hits": [
+    2,
+    3,
+    3,
+    5
+  ],
+  "charge": [
+    0.009,
+    0.009,
+    0.009,
+    0.009
+  ],
+  "starAbsorption": 205,
+  "starGeneration": 0.09,
+  "npChargeATK": 0.009,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.25,
+  "traits": [],
   "skill1": [
     {
       "name": "领导力",
@@ -223,6 +263,80 @@
       "img": 23
     }
   ],
+  "np": [
+    {
+      "name": "炎蛇，连神一同烧灼殆尽（Xiuhcoatl）",
+      "type": 2,
+      "condition": 0,
+      "value": [
+        600,
+        800,
+        900,
+        950,
+        1000
+      ],
+      "card": 1,
+      "lv": "A",
+      "attackPhaseID": 0,
+      "effect": [
+        {
+          "id": "110000020016",
+          "value": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 1,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 0
+        },
+        {
+          "id": "110000030009",
+          "value": [
+            1000,
+            1500,
+            2000,
+            2500,
+            3000
+          ],
+          "duration": 5,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 1,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "type": 2
+        }
+      ],
+      "hits": 1
+    }
+  ],
   "classSkill": [
     {
       "name": "对魔力",
@@ -370,80 +484,6 @@
       "img": 14
     }
   ],
-  "np": [
-    {
-      "name": "炎蛇，连神一同烧灼殆尽（Xiuhcoatl）",
-      "type": 2,
-      "condition": 0,
-      "value": [
-        600,
-        800,
-        900,
-        950,
-        1000
-      ],
-      "card": 1,
-      "lv": "A",
-      "attackPhaseID": 0,
-      "effect": [
-        {
-          "id": "110000020016",
-          "value": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 1,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 0
-        },
-        {
-          "id": "110000030009",
-          "value": [
-            1000,
-            1500,
-            2000,
-            2500,
-            3000
-          ],
-          "duration": 5,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 1,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "type": 2
-        }
-      ],
-      "hits": 1
-    }
-  ],
   "skillResource": [
     [
       {
@@ -565,5 +605,7 @@
         "num": 10
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Hiroe Rei",
+  "cvEn": "Endou Aya"
 }

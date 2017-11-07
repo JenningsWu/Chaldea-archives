@@ -1,6 +1,46 @@
 {
   "id": "014",
+  "name": "阿塔兰忒",
+  "nameJP": "アタランテ",
+  "nameEN": "Atalanta",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 4,
+  "class": 2,
+  "startATK": 1438,
+  "endATK": 8633,
+  "startHP": 1996,
+  "endHP": 12476,
+  "grailATK": 10453,
+  "grailHP": 15127,
+  "illustrator": "輪くすさが",
+  "cv": "早見 沙織",
+  "gender": 1,
+  "attribute": 2,
+  "alignment": "12",
+  "cards": [
+    2,
+    1,
+    2
+  ],
+  "hits": [
+    2,
+    1,
+    3,
+    3
+  ],
+  "charge": [
+    0.005,
+    0.005,
+    0.005,
+    0.005
+  ],
+  "starAbsorption": 148,
+  "starGeneration": 0.08,
+  "npChargeATK": 0.005,
+  "npChargeDEF": 0.03,
+  "deathResist": 0.315,
+  "traits": [],
   "skill1": [
     {
       "name": "跨越阿卡迪亚",
@@ -202,84 +242,6 @@
       "img": 18
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "D",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            12.5,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    },
-    {
-      "name": "单独行动",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000001004",
-          "value": [
-            10,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 22
-    }
-  ],
   "np": [
     {
       "name": "诉状的箭书（Phoibos Catastrophe）",
@@ -370,6 +332,84 @@
         }
       ],
       "hits": 10
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "D",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            12.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
+    },
+    {
+      "name": "单独行动",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000001004",
+          "value": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 22
     }
   ],
   "skillResource": [
@@ -493,5 +533,7 @@
         "num": 12
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Rin Kususaga",
+  "cvEn": "Hayami Saori"
 }

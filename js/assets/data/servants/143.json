@@ -1,6 +1,46 @@
 {
   "id": "143",
+  "name": "恩奇都",
+  "nameJP": "エルキドゥ",
+  "nameEN": "Enkidu",
+  "fuzzyKeywords": [],
+  "exactKeywords": [],
   "rarity": 5,
+  "class": 3,
+  "startATK": 1666,
+  "endATK": 10780,
+  "startHP": 2244,
+  "endHP": 15300,
+  "grailATK": 11800,
+  "grailHP": 16762,
+  "illustrator": "森井 しづき",
+  "cv": "小林 ゆう",
+  "gender": 4,
+  "attribute": 1,
+  "alignment": "11",
+  "cards": [
+    1,
+    1,
+    3
+  ],
+  "hits": [
+    5,
+    1,
+    4,
+    6
+  ],
+  "charge": [
+    0.0053,
+    0.0053,
+    0.0053,
+    0.0053
+  ],
+  "starAbsorption": 90,
+  "starGeneration": 0.12,
+  "npChargeATK": 0.0053,
+  "npChargeDEF": 0.04,
+  "deathResist": 0.28,
+  "traits": [],
   "skill1": [
     {
       "name": "变容",
@@ -388,46 +428,6 @@
       "img": 11
     }
   ],
-  "classSkill": [
-    {
-      "name": "对魔力",
-      "lv": "A",
-      "effect": [
-        {
-          "id": "000000000001",
-          "value": [
-            20,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "duration": 99999,
-          "durationTime": 0,
-          "effectiveTime": -1,
-          "phaseID": 0,
-          "probability": [
-            100,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ]
-        }
-      ],
-      "img": 4
-    }
-  ],
   "np": [
     {
       "name": "人子啊，紧系神明吧（Enuma Elish）",
@@ -500,6 +500,46 @@
         }
       ],
       "hits": 5
+    }
+  ],
+  "classSkill": [
+    {
+      "name": "对魔力",
+      "lv": "A",
+      "effect": [
+        {
+          "id": "000000000001",
+          "value": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "duration": 99999,
+          "durationTime": 0,
+          "effectiveTime": -1,
+          "phaseID": 0,
+          "probability": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "img": 4
     }
   ],
   "skillResource": [
@@ -623,5 +663,7 @@
         "num": 5
       }
     ]
-  ]
+  ],
+  "illustratorEn": "Morii Shizuki",
+  "cvEn": "Kobayashi Yuu"
 }
